@@ -4,7 +4,7 @@ description: "All key container dimensions at a glance: 20 ft and 40 ft shipping
 lang: "en"
 category: "Basics"
 icon: "ruler"
-readingTime: 9
+readingTime: 13
 published: 2026-08-01
 updated: 2026-08-01
 lead: "From 20 ft to high cube: here are the exact external and internal dimensions, weights and volumes of common containers – clearly laid out in tables."
@@ -22,14 +22,66 @@ Shipping containers are standardised internationally. The ISO standard fixes ext
 
 The table below summarises the main standard types. The internal dimensions, door openings and weights are approximate values, as they vary slightly depending on manufacturer, build year and condition.
 
-| Type | External L × W × H | Internal (approx.) L × W × H | Door opening (approx.) W × H | Tare weight (approx.) | Payload (approx.) | Volume (approx.) |
+| Type | External L × W × H | Internal approx. L × W × H | Door opening approx. W × H | Tare weight approx. | Payload approx. | Volume approx. |
 |---|---|---|---|---|---|---|
 | 10 ft | 2.991 × 2.438 × 2.591 m | 2.83 × 2.35 × 2.39 m | 2.34 × 2.28 m | 1,300 kg | 8,000 kg | 16 m³ |
 | 20 ft standard | 6.058 × 2.438 × 2.591 m | 5.90 × 2.35 × 2.39 m | 2.34 × 2.28 m | 2,200–2,300 kg | 28,000 kg | 33 m³ |
+| 20 ft high cube | 6.058 × 2.438 × 2.896 m | 5.90 × 2.35 × 2.70 m | 2.34 × 2.58 m | approx. 2,400 kg | 28,000 kg | 37 m³ |
+| 30 ft (rare) | 9.125 × 2.438 × 2.591 m | approx. 8.93 × 2.35 × 2.39 m | 2.34 × 2.28 m | approx. 3,000 kg | approx. 27,000 kg | 50 m³ |
 | 40 ft standard | 12.192 × 2.438 × 2.591 m | 12.03 × 2.35 × 2.39 m | 2.34 × 2.28 m | 3,700–3,800 kg | 26,500 kg | 67 m³ |
 | 40 ft high cube | 12.192 × 2.438 × 2.896 m | 12.03 × 2.35 × 2.70 m | 2.34 × 2.58 m | 3,900–4,000 kg | 26,500 kg | 76 m³ |
+| 45 ft high cube | 13.716 × 2.438 × 2.896 m | 13.56 × 2.35 × 2.70 m | 2.34 × 2.58 m | 4,800–5,000 kg | approx. 25,500 kg | 86 m³ |
 
-All height figures refer to the standard or high cube variants. Beyond these basic types there are numerous special designs such as open-top, flat rack, refrigerated or tank containers, which deviate from the internal dimensions listed here.
+The **external dimensions are fixed exactly by the ISO standard** and are identical worldwide. All internal dimensions, door openings, weights and volume figures, by contrast, are approximate values: they depend on manufacturer, build year, floor construction and condition, and can deviate by a few centimetres or several hundred kilograms. Beyond these basic types there are numerous special designs such as open-top, flat rack, refrigerated or tank containers, which deviate from the internal dimensions listed here.
+
+### 10 ft: the small one for tight plots
+
+At just under 3 m external length, the 10 ft container is the smallest common ISO size. It fits onto **small plots, into backyards and front gardens** and can still be moved by many standard skip-loader trucks. Typical uses: garden tools, hand tools, tyres, club equipment or a compact building-site store.
+
+**Advantages:** small footprint, easy handling, low tare weight (approx. 1,300 kg), cheap transport. **Disadvantages:** comparatively expensive per cubic metre, low payload of only approx. 8,000 kg, rarer on the used market than 20 ft containers. **What to watch:** the price per m³ is well above that of a 20 ft container – if the available space allows it, the bigger brother is often the more economical choice.
+
+### 20 ft standard: the standard size
+
+The 20 ft container is the **global reference size** (one TEU) and the best compromise between volume, weight and handling. It is available everywhere, in every condition and at every price – new, used or as a one-trip container.
+
+**Advantages:** high payload of approx. 28,000 kg, best availability, lowest price per unit, easy to deliver by truck and set down with a loading crane. **Disadvantages:** internal height of only approx. 2.39 m – after an insulated fit-out, little headroom remains. **What to watch:** delivery by skip loader needs roughly 12–15 m of straight approach plus manoeuvring space.
+
+### 20 ft high cube: more headroom on a small footprint
+
+The 20 ft high cube is 2.896 m tall externally instead of 2.591 m and offers **around 2.70 m internally instead of 2.39 m**. It is the first choice when **headroom for a fit-out** is needed on a small footprint – for a hobby room, workshop, sauna, tiny office or server room.
+
+**Advantages:** around 4 m³ more volume on an identical footprint; after insulating floor and ceiling, roughly 2.40 m of room height remains. **Disadvantages:** slightly poorer availability than the standard, marginally more expensive, higher centre of gravity during transport. **What to watch:** the total height on the vehicle – check gateways, bridges and trees on the property beforehand.
+
+### 30 ft: the special size
+
+The 30 ft container is a **genuine rarity**. It was never built in large numbers and plays practically no role in sea freight. It is most likely to be found inland as a storage or special-purpose container.
+
+**Advantages:** closes the gap between 20 and 40 ft when exactly that length is required. **Disadvantages:** **hard to obtain**, high prices, hardly any choice of condition or equipment, spare parts and door seals less readily available. **What to watch:** clarify availability and lead time before planning – two 20 ft containers are often the faster and cheaper solution.
+
+### 40 ft standard: volume for light, bulky goods
+
+At a good 12 m in length and around 67 m³, the 40 ft container offers twice the volume of a 20 ft container – but **hardly any more payload**. It is therefore the format for **light, bulky and long goods**: furniture, insulation materials, packaging, empties, long profiles or pipes.
+
+**Advantages:** best price per cubic metre, a continuous length of over 12 m with no partition. **Disadvantages:** payload of only approx. 26,500 kg, large space requirement when siting, more demanding transport. **What to watch:** delivery needs approx. 25 m of straight approach and a load-bearing, level standing area; a skip loader can reach its limits in narrow residential streets.
+
+### 40 ft high cube: the standard for fit-outs and living space
+
+The 40 ft high cube is the **de facto standard for container conversions and residential use**. Its internal height of approx. 2.70 m leaves a room-suitable height of around 2.35–2.45 m after floor, wall and ceiling insulation have been fitted.
+
+**Advantages:** around 76 m³ of volume, ideal proportions for living, office and studio conversions, very good availability, many off-the-shelf solutions available (windows, doors, insulation systems). **Disadvantages:** limited payload as with the 40 ft standard, large footprint, transport height to be considered. **What to watch:** for residential use, choose a container with an untreated or tested wooden floor, or replace the floor.
+
+### 45 ft high cube: maximum length
+
+At 13.716 m external length, the 45 ft high cube is the **longest common shipping container** and holds around 86 m³. In sea freight it is used mainly for voluminous consumer goods; on land as an especially large store or as the basis for long fit-out concepts.
+
+**Advantages:** maximum volume per unit, greatest continuous internal length. **Disadvantages:** **restricted road transportability** – not every vehicle and not every access route is suitable, and special permits are sometimes required; lower availability and higher prices. **What to watch:** check the transport route, turning circle and standing area carefully in advance, and have the supplier confirm deliverability in writing.
+
+### Special sizes: pallet wide and mini containers
+
+Alongside the classic ISO lengths there are two special forms that matter in practice:
+
+- **Pallet-wide containers:** this design has an **internal width of approx. 2.44 m** instead of 2.35 m. That allows **Euro pallets (1.20 × 0.80 m) to be placed side by side crosswise** without wasting space – a 20 ft pallet wide holds 15 instead of 11 Euro pallets. The trade-off is thinner side walls; the external dimensions remain ISO-compliant. Common above all in European short-sea traffic.
+- **Mini containers of 6 and 8 ft:** these very small formats are **not ISO-standardised** and are built in module form. Their dimensions are therefore **manufacturer-dependent** and come in at around 1.98 m and 2.44 m external length respectively. They are light enough to be moved with small crane vehicles and work well as a garden store, tool box or bicycle garage. Important: always ask the specific supplier about dimensions, door width and stackability.
 
 ## High cube vs. standard
 
