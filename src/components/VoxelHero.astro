@@ -1,0 +1,44 @@
+---
+/** Große isometrische Voxel-Container-Grafik für den Hero (dekorativ). */
+interface Props { class?: string }
+const { class: cls = '' } = Astro.props;
+---
+<div class={`voxel ${cls}`} aria-hidden="true">
+  <svg viewBox="0 0 220 210" width="100%" height="100%">
+    <defs>
+      <linearGradient id="vx-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#5b8cff"/></linearGradient>
+      <linearGradient id="vx-right" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#12a8c4"/></linearGradient>
+    </defs>
+    <!-- Schatten -->
+    <ellipse cx="110" cy="188" rx="78" ry="14" fill="#000" opacity="0.28"/>
+    <g class="voxel__body">
+      <!-- großer Container -->
+      <polygon points="110,20 190,66 110,112 30,66" fill="url(#vx-top)"/>
+      <polygon points="30,66 110,112 110,196 30,150" fill="#2f4fd0"/>
+      <polygon points="190,66 110,112 110,196 190,150" fill="url(#vx-right)"/>
+      <!-- Raster -->
+      <g stroke="#0b1220" stroke-opacity="0.15" stroke-width="1.4">
+        <line x1="70" y1="43" x2="150" y2="89"/><line x1="150" y1="43" x2="70" y2="89"/>
+        <line x1="70" y1="89" x2="70" y2="173"/><line x1="110" y1="112" x2="110" y2="196"/><line x1="150" y1="89" x2="150" y2="173"/>
+        <line x1="30" y1="108" x2="110" y2="154"/><line x1="190" y1="108" x2="110" y2="154"/>
+      </g>
+      <!-- Eck-Beschläge -->
+      <g fill="#eef2fb" opacity="0.9"><rect x="26" y="62" width="10" height="8"/><rect x="184" y="62" width="10" height="8"/></g>
+    </g>
+    <!-- abhebende Pixel -->
+    <g class="voxel__px">
+      <rect x="176" y="10" width="16" height="16" rx="4" fill="#22d3ee"/>
+      <rect x="198" y="34" width="9" height="9" rx="2" fill="#5b8cff"/>
+      <rect x="170" y="-2" width="8" height="8" rx="2" fill="#7fe3f2"/>
+    </g>
+  </svg>
+</div>
+
+<style>
+  .voxel { width: 100%; max-width: 30rem; margin-inline: auto; }
+  .voxel__body { animation: vx-float 6s var(--ease) infinite; transform-origin: 110px 108px; }
+  .voxel__px { animation: vx-drift 5s ease-in-out infinite; }
+  @keyframes vx-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  @keyframes vx-drift { 0%,100% { transform: translate(0,0); opacity: 1; } 50% { transform: translate(6px,-8px); opacity: .8; } }
+  @media (prefers-reduced-motion: reduce) { .voxel__body, .voxel__px { animation: none; } }
+</style>

@@ -1,0 +1,71 @@
+---
+/**
+ * Cookie-Consent-Banner (Google Consent Mode v2).
+ * Gleichwertige Wahl zwischen "Nur notwendige" und "Alle akzeptieren"
+ * (beide ein Klick), Entscheidung wird in localStorage gespeichert.
+ * Über einen Link mit data-consent-reopen (z. B. im Footer) wieder aufrufbar.
+ */
+---
+<div id="cr-cookie" class="cb" role="dialog" aria-modal="false" aria-labelledby="cr-cookie-t" aria-describedby="cr-cookie-d" hidden>
+  <div class="cb__inner">
+    <div class="cb__copy">
+      <h2 id="cr-cookie-t" class="cb__title">Datenschutz-Einstellungen</h2>
+      <p id="cr-cookie-d" class="cb__text">
+        Wir nutzen Cookies und ähnliche Technologien, um Inhalte auszuspielen,
+        Werbung zu finanzieren (z.&nbsp;B. Google&nbsp;AdSense) und die Nutzung zu
+        analysieren. Nicht notwendige Cookies werden nur mit Ihrer Einwilligung
+        gesetzt. Sie können Ihre Auswahl jederzeit im Footer widerrufen. Details in der
+        <a href="/datenschutz">Datenschutzerklärung</a>.
+      </p>
+    </div>
+    <div class="cb__actions">
+      <button type="button" class="cb__btn cb__btn--ghost" data-consent="reject">Nur notwendige</button>
+      <button type="button" class="cb__btn cb__btn--primary" data-consent="accept">Alle akzeptieren</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'cr-consent';
+    var banner = document.getElementById('cr-cookie');
+    if (!banner) return;
+    function gtag() { window.dataLayer = window.dataLayer || []; if (window.gtag) return window.gtag.apply(window, arguments); window.dataLayer.push(arguments); }
+    function save(s) { try { localStorage.setItem(KEY, JSON.stringify({ status: s, ts: Date.now() })); } catch (e) {} }
+    function hasChoice() { try { return !!JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { return false; } }
+    function show() { banner.hidden = false; }
+    function hide() { banner.hidden = true; }
+    function accept() {
+      gtag('consent', 'update', { ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted', analytics_storage:'granted', personalization_storage:'granted', functionality_storage:'granted' });
+      save('granted'); window.dispatchEvent(new CustomEvent('cr-consent-changed', { detail: 'granted' })); hide();
+    }
+    function reject() {
+      gtag('consent', 'update', { ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', analytics_storage:'denied', personalization_storage:'denied', functionality_storage:'denied' });
+      save('denied'); hide();
+    }
+    banner.querySelector('[data-consent="accept"]').addEventListener('click', accept);
+    banner.querySelector('[data-consent="reject"]').addEventListener('click', reject);
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest && e.target.closest('[data-consent-reopen]');
+      if (t) { e.preventDefault(); show(); }
+    });
+    if (!hasChoice()) show();
+  })();
+</script>
+
+<style>
+  .cb { position: fixed; inset-inline: 0; bottom: 0; z-index: 10000; background: var(--color-bg); border-top: 1px solid var(--color-border); box-shadow: 0 -4px 24px rgba(20,28,38,0.12); padding: var(--gap); animation: cb-in var(--dur) var(--ease); }
+  @keyframes cb-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+  @media (prefers-reduced-motion: reduce) { .cb { animation: none; } }
+  .cb__inner { max-width: var(--wrap); margin-inline: auto; display: flex; align-items: center; gap: var(--gap); flex-wrap: wrap; }
+  .cb__copy { flex: 1 1 24rem; }
+  .cb__title { font-family: var(--font-body); font-size: var(--text-base); font-weight: 700; margin-bottom: 0.25rem; }
+  .cb__text { font-size: var(--text-sm); color: var(--color-ink-soft); line-height: 1.5; }
+  .cb__actions { display: flex; gap: 0.75rem; flex-shrink: 0; flex-wrap: wrap; }
+  .cb__btn { font: inherit; font-weight: 700; font-size: var(--text-sm); padding: 0.65rem 1.4rem; border-radius: var(--radius-md); cursor: pointer; border: 1.5px solid transparent; }
+  .cb__btn--primary { background: var(--color-signal); color: #fff; }
+  .cb__btn--primary:hover { background: var(--color-signal-dark); }
+  .cb__btn--ghost { background: transparent; color: var(--color-ink); border-color: var(--color-border-strong); }
+  .cb__btn--ghost:hover { background: var(--color-bg-alt); }
+  @media (max-width: 640px) { .cb__actions { width: 100%; } .cb__btn { flex: 1; } }
+</style>

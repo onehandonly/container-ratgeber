@@ -1,0 +1,84 @@
+/* =========================================================================
+   Design-Tokens – Container-Ratgeber.de
+   Konzept „Pixel-Twin": moderner, hochwertiger Tech-/Digital-Twin-Look.
+   Nachtblauer Grund, Indigo als Marke, Cyan als Akzent.
+   ========================================================================= */
+:root {
+  /* --- Marke & Akzente --------------------------------------------------- */
+  --brand-indigo:      #5b8cff;   /* leuchtendes Marken-Indigo (auf Dunkel)  */
+  --brand-indigo-2:    #2f4fd0;   /* tiefes Indigo, tragfähig auf Weiß        */
+  --brand-cyan:        #22d3ee;   /* Cyan-Akzent (Pixel/Twin)                 */
+  --brand-cyan-2:      #0e93a8;   /* tiefes Cyan für Text auf Weiß            */
+
+  /* Semantische Akzent-Tokens (von Komponenten genutzt) */
+  --color-signal:      #2f4fd0;   /* Primär-Akzent: Links, CTAs auf Weiß      */
+  --color-signal-dark: #223bab;   /* Hover                                    */
+  --color-accent:      #0e93a8;   /* Cyan-Akzent, texttauglich                */
+
+  /* --- Text & Tinte (leicht blaustichig) --------------------------------- */
+  --color-ink:         #0e1626;
+  --color-ink-soft:    #37435c;
+  --color-muted:       #6b7793;
+
+  /* --- Flächen (blau-neutral) -------------------------------------------- */
+  --color-bg:          #ffffff;
+  --color-bg-alt:      #f4f6fb;
+  --color-bg-sunken:   #e9edf7;
+  --color-border:      #dbe1ee;
+  --color-border-strong:#c2cbdf;
+
+  /* --- Dunkle Sektionen (Hero, Footer, Bänder) --------------------------- */
+  --color-night:       #0b1220;
+  --color-night-2:     #0e1830;
+  --color-panel-dark:  #13203a;
+  --color-line-dark:   #24314d;
+  --color-on-dark:     #eef2fb;
+  --color-on-dark-soft:#aab6ce;
+
+  /* --- Verläufe ---------------------------------------------------------- */
+  --grad-brand:      linear-gradient(135deg, #5b8cff 0%, #22d3ee 100%);
+  --grad-brand-deep: linear-gradient(135deg, #2f4fd0 0%, #0e93a8 100%);
+  --grad-night:      radial-gradient(1100px 560px at 82% -10%, rgba(91,140,255,.20), transparent 60%),
+                     radial-gradient(820px 480px at -5% 4%, rgba(34,211,238,.12), transparent 55%),
+                     var(--color-night);
+
+  /* --- Statusfarben (Info-Boxen, Bewertungen) ---------------------------- */
+  --info-blue:    #2f6fe0;  --info-blue-bg:  #eaf1fd;
+  --tip-green:    #147a52;  --tip-green-bg:  #e7f5ee;
+  --warn-amber:   #a9720a;  --warn-amber-bg: #fbf3e2;
+  --good:  #147a52;  --mid: #a9720a;  --bad: #c23a2f;
+
+  /* --- Typografie -------------------------------------------------------- */
+  --font-head: 'Sora', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --text-xs:   0.8125rem;
+  --text-sm:   0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg:   1.1875rem;
+  --text-xl:   clamp(1.35rem, 1.1rem + 1vw, 1.7rem);
+  --text-2xl:  clamp(1.7rem, 1.3rem + 1.6vw, 2.4rem);
+  --text-3xl:  clamp(2.1rem, 1.5rem + 2.6vw, 3.3rem);
+  --text-hero: clamp(2.4rem, 1.6rem + 3.6vw, 4.2rem);
+
+  /* --- Layout ------------------------------------------------------------ */
+  --wrap:          74rem;
+  --wrap-narrow:   46rem;
+  --space-section: clamp(3.5rem, 2.4rem + 4vw, 6rem);
+  --gap:           clamp(1rem, 0.7rem + 1vw, 1.75rem);
+
+  /* --- Radius & Schatten ------------------------------------------------- */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --shadow-sm: 0 1px 2px rgba(14,22,38,.06), 0 1px 3px rgba(14,22,38,.09);
+  --shadow-md: 0 6px 20px rgba(14,22,38,.08), 0 2px 8px rgba(14,22,38,.06);
+  --shadow-lg: 0 20px 50px -24px rgba(14,22,38,.35);
+  --shadow-brand: 0 14px 40px -16px rgba(47,79,208,.55);
+
+  /* --- Motion ------------------------------------------------------------ */
+  --dur-fast: 140ms;
+  --dur:      280ms;
+  --ease:     cubic-bezier(0.16, 1, 0.3, 1);
+}

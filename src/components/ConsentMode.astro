@@ -1,0 +1,42 @@
+---
+/**
+ * Google Consent Mode v2 – Standardzustand (alles abgelehnt).
+ * Muss im <head> VOR dem Laden von AdSense/GTM stehen, damit für Nutzer aus
+ * dem EWR ein gültiges Consent-Signal vorliegt. Der Banner in <CookieBanner />
+ * schaltet auf "granted", sobald der Nutzer zustimmt.
+ */
+---
+<script is:inline>
+  (function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    window.gtag = window.gtag || gtag;
+
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied',
+      functionality_storage: 'denied',
+      personalization_storage: 'denied',
+      security_storage: 'granted',
+      wait_for_update: 500,
+    });
+    gtag('set', 'ads_data_redaction', true);
+    gtag('set', 'url_passthrough', true);
+
+    try {
+      var stored = JSON.parse(localStorage.getItem('cr-consent') || 'null');
+      if (stored && stored.status === 'granted') {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted',
+          analytics_storage: 'granted',
+          personalization_storage: 'granted',
+          functionality_storage: 'granted',
+        });
+      }
+    } catch (e) {}
+  })();
+</script>

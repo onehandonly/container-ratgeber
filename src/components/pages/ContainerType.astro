@@ -1,0 +1,175 @@
+---
+import Breadcrumbs from '../Breadcrumbs.astro';
+import ContainerIcon from '../ContainerIcon.astro';
+import AdSlot from '../AdSlot.astro';
+import { containerTypes, typeName, typeTeaser, type ContainerType } from '../../lib/site';
+import { typeDetails } from '../../lib/typeDetails';
+import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { type: ContainerType; lang: Lang }
+const { type, lang } = Astro.props;
+const t = useTranslations(lang);
+const L = (p: string) => localizePath(p, lang);
+const d = typeDetails[type.slug][lang];
+const name = typeName(type, lang);
+
+const others = containerTypes.filter((c) => c.slug !== type.slug).slice(0, 4);
+const relatedTitles: Record<string, { de: string; en: string }> = {
+  'container-groessen-und-masse': { de: 'Größen & Maße', en: 'Sizes & dimensions' },
+  'was-kostet-ein-container': { de: 'Was kostet ein Container?', en: 'What does a container cost?' },
+  'container-baugenehmigung': { de: 'Baugenehmigung', en: 'Building permit' },
+  'container-kaufen-oder-mieten': { de: 'Kaufen oder mieten?', en: 'Buy or rent?' },
+  'gebrauchten-container-kaufen': { de: 'Gebrauchtkauf-Checkliste', en: 'Used-buying checklist' },
+  'wohncontainer-ausbauen': { de: 'Wohncontainer ausbauen', en: 'Container fit-out' },
+};
+const tx = {
+  useCases: lang === 'en' ? 'Typical uses' : 'Typische Einsätze',
+  pros: lang === 'en' ? 'Advantages' : 'Vorteile',
+  cons: lang === 'en' ? 'Points to consider' : 'Zu bedenken',
+  facts: lang === 'en' ? 'At a glance' : 'Auf einen Blick',
+  related: lang === 'en' ? 'Related guides' : 'Passende Ratgeber',
+  more: lang === 'en' ? 'More container types' : 'Weitere Container-Typen',
+  ctaTitle: lang === 'en' ? `Planning with ${name.toLowerCase()}?` : `${name} im Blick?`,
+  ctaLead: lang === 'en' ? 'Compare sizes, costs and buying vs. renting in our guides.' : 'Vergleichen Sie Größen, Kosten und Kauf vs. Miete in unseren Ratgebern.',
+  ctaBtn: lang === 'en' ? 'To the guides' : 'Zu den Ratgebern',
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: name,
+  description: typeTeaser(type, lang),
+  inLanguage: lang === 'en' ? 'en' : 'de-DE',
+};
+---
+<Breadcrumbs items={[{ label: t('nav.types'), href: L('/container') }, { label: name }]} />
+
+<article class="ct">
+  <header class="ct__hero">
+    <div class="wrap ct__hero-inner">
+      <div class="ct__hero-copy">
+        <span class="pill">{t('nav.types')}</span>
+        <h1>{name}</h1>
+        <p class="ct__teaser">{typeTeaser(type, lang)}</p>
+      </div>
+      <div class="ct__hero-icon"><ContainerIcon name={type.icon} title={name} /></div>
+    </div>
+  </header>
+
+  <div class="wrap ct__grid">
+    <div class="ct__main">
+      <p class="ct__intro">{d.intro}</p>
+
+      <section class="ct__block">
+        <h2>{tx.useCases}</h2>
+        <ul class="ct__uses">
+          {d.useCases.map((u) => <li>{u}</li>)}
+        </ul>
+      </section>
+
+      <AdSlot lang={lang} minHeight="120px" />
+
+      <section class="ct__block ct__proscons">
+        <div class="ct__pros">
+          <h3>✓ {tx.pros}</h3>
+          <ul>{d.pros.map((p) => <li>{p}</li>)}</ul>
+        </div>
+        <div class="ct__cons">
+          <h3>! {tx.cons}</h3>
+          <ul>{d.cons.map((c) => <li>{c}</li>)}</ul>
+        </div>
+      </section>
+
+      <section class="ct__block">
+        <h2>{tx.related}</h2>
+        <div class="ct__related">
+          {d.related.map((slug) => (
+            <a href={L(`/ratgeber/${slug}`)} class="ct__related-link">
+              {relatedTitles[slug]?.[lang] ?? slug} →
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <div class="ct__cta">
+        <div><h2>{tx.ctaTitle}</h2><p>{tx.ctaLead}</p></div>
+        <a href={L('/ratgeber')} class="btn btn--primary">{tx.ctaBtn}</a>
+      </div>
+    </div>
+
+    <aside class="ct__side">
+      <div class="ct__facts">
+        <p class="ct__facts-title">{tx.facts}</p>
+        <dl>
+          {d.facts.map((f) => (<div><dt>{f.label}</dt><dd>{f.value}</dd></div>))}
+        </dl>
+      </div>
+      <AdSlot lang={lang} minHeight="500px" class="ct__ad-side" />
+    </aside>
+  </div>
+
+  <section class="wrap ct__more">
+    <h2>{tx.more}</h2>
+    <div class="ct__more-grid">
+      {others.map((o) => (
+        <a href={L(`/container/${o.slug}`)} class="card card--link ct__more-card">
+          <span class="ct__more-icon"><ContainerIcon name={o.icon} title={typeName(o, lang)} /></span>
+          <span>{typeName(o, lang)}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</article>
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
+
+<style>
+  .ct__hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2rem, 1.5rem + 2vw, 3.5rem); }
+  .ct__hero-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+  .ct__hero-copy h1 { font-size: var(--text-3xl); margin-top: 0.7rem; letter-spacing: -0.02em; }
+  .ct__teaser { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 0.7rem; max-width: 46ch; }
+  .ct__hero-icon { width: 12rem; flex-shrink: 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
+  @media (max-width: 720px) { .ct__hero-icon { display: none; } }
+
+  .ct__grid { display: grid; grid-template-columns: minmax(0,1fr) 17rem; gap: clamp(1.5rem,1rem+3vw,3rem); align-items: start; padding-block: var(--space-section) 0; }
+  .ct__main { min-width: 0; max-width: 44rem; }
+  .ct__intro { font-size: var(--text-lg); color: var(--color-ink-soft); }
+  .ct__block { margin-top: 2.4rem; }
+  .ct__block h2 { font-size: var(--text-xl); padding-bottom: 0.4rem; border-bottom: 2px solid var(--color-bg-sunken); margin-bottom: 1rem; }
+  .ct__uses { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 1.5rem; list-style: none; }
+  .ct__uses li { padding-left: 1.4rem; position: relative; color: var(--color-ink-soft); }
+  .ct__uses li::before { content: "▸"; position: absolute; left: 0; color: var(--color-signal); }
+  @media (max-width: 540px) { .ct__uses { grid-template-columns: 1fr; } }
+
+  .ct__proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  .ct__pros, .ct__cons { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1.1rem 1.2rem; }
+  .ct__pros { background: var(--tip-green-bg); }
+  .ct__cons { background: var(--warn-amber-bg); }
+  .ct__pros h3 { color: var(--tip-green); font-size: var(--text-base); }
+  .ct__cons h3 { color: var(--warn-amber); font-size: var(--text-base); }
+  .ct__proscons ul { list-style: none; margin-top: 0.6rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .ct__proscons li { font-size: var(--text-sm); color: var(--color-ink-soft); }
+  @media (max-width: 540px) { .ct__proscons { grid-template-columns: 1fr; } }
+
+  .ct__related { display: flex; flex-direction: column; gap: 0.5rem; }
+  .ct__related-link { font-weight: 600; text-decoration: none; }
+
+  .ct__cta { display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; flex-wrap: wrap; margin-top: 2.6rem; background: var(--color-bg-alt); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.4rem 1.5rem; }
+  .ct__cta h2 { font-size: var(--text-lg); border: 0; padding: 0; margin: 0; }
+  .ct__cta p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.25rem; }
+
+  .ct__side { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 5.5rem; }
+  .ct__facts { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1.1rem 1.2rem; background: var(--color-bg); }
+  .ct__facts-title { font-family: var(--font-head); font-weight: 700; font-size: var(--text-sm); margin-bottom: 0.6rem; }
+  .ct__facts dl { display: flex; flex-direction: column; }
+  .ct__facts dl div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0; border-top: 1px solid var(--color-border); font-size: var(--text-sm); }
+  .ct__facts dt { color: var(--color-muted); }
+  .ct__facts dd { font-weight: 600; text-align: right; }
+  @media (max-width: 900px) { .ct__grid { grid-template-columns: 1fr; } .ct__side { position: static; } .ct__ad-side { display: none; } }
+
+  .ct__more { margin-top: var(--space-section); }
+  .ct__more h2 { font-size: var(--text-xl); margin-bottom: 1.2rem; }
+  .ct__more-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%,12rem),1fr)); gap: var(--gap); }
+  .ct__more-card { display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; text-decoration: none; color: inherit; font-weight: 600; }
+  .ct__more-icon { width: 3.5rem; flex-shrink: 0; border-radius: var(--radius-sm); overflow: hidden; }
+</style>

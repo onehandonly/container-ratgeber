@@ -1,0 +1,70 @@
+---
+import { site, operatorEmail } from '../../lib/site';
+import { localizePath, type Lang } from '../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const o = site.operator;
+const email = operatorEmail();
+const L = (p: string) => localizePath(p, lang);
+---
+<div class="wrap-narrow legal">
+  {lang === 'en' ? (
+    <div class="prose">
+      <h1>Imprint</h1>
+      <p>Information according to § 5 of the German Digital Services Act (DDG).</p>
+      <h2>Operator</h2>
+      <p>
+        {o.name}<br />
+        {o.street}<br />
+        {o.zip} {o.city}<br />
+        {o.country}
+      </p>
+      <p><em>Private individual (non-commercial operator in terms of company form).</em></p>
+      <h2>Contact</h2>
+      <p>Email: <a href={`mailto:${email}`}>{email}</a></p>
+      <h2>Responsible for the content</h2>
+      <p>According to § 18 (2) of the German Interstate Media Treaty (MStV): {o.name}, address as above.</p>
+      <h2>Liability for content</h2>
+      <p>As a service provider we are responsible for our own content on these pages under general law. However, we are not obliged to monitor transmitted or stored third-party information. Obligations to remove or block the use of information under general law remain unaffected.</p>
+      <h2>Liability for links</h2>
+      <p>Our site contains links to external websites over whose content we have no control. We therefore cannot accept any liability for this third-party content. The respective provider or operator of the linked pages is always responsible for their content.</p>
+      <h2>Copyright</h2>
+      <p>The content and works created by the operator on these pages are subject to German copyright law. All illustrations, icons and the logo were created by the operator.</p>
+      <h2>EU dispute resolution</h2>
+      <p>The European Commission provides a platform for online dispute resolution (ODR): <a href="https://ec.europa.eu/consumers/odr/" rel="noopener" target="_blank">https://ec.europa.eu/consumers/odr/</a>. We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+      <p><a href={L('/datenschutz')}>Privacy policy →</a></p>
+    </div>
+  ) : (
+    <div class="prose">
+      <h1>Impressum</h1>
+      <p>Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).</p>
+      <h2>Betreiber</h2>
+      <p>
+        {o.name}<br />
+        {o.street}<br />
+        {o.zip} {o.city}<br />
+        {o.country}
+      </p>
+      <p><em>Privatperson (nichtgewerblicher Betreiber im Sinne der Rechtsform).</em></p>
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href={`mailto:${email}`}>{email}</a></p>
+      <h2>Verantwortlich für den Inhalt</h2>
+      <p>Gemäß § 18 Abs. 2 Medienstaatsvertrag (MStV): {o.name}, Anschrift wie oben.</p>
+      <h2>Haftung für Inhalte</h2>
+      <p>Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.</p>
+      <h2>Haftung für Links</h2>
+      <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+      <h2>Urheberrecht</h2>
+      <p>Die durch den Betreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Sämtliche Illustrationen, Icons und das Logo wurden vom Betreiber selbst erstellt.</p>
+      <h2>Hinweis zur Online-Streitbeilegung</h2>
+      <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" rel="noopener" target="_blank">https://ec.europa.eu/consumers/odr/</a>. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.</p>
+      <p><a href={L('/datenschutz')}>Zur Datenschutzerklärung →</a></p>
+    </div>
+  )}
+</div>
+
+<style>
+  .legal { padding-block: clamp(2rem, 1.5rem + 2vw, 3.5rem) var(--space-section); }
+  .legal .prose h1 { font-size: var(--text-3xl); }
+  .legal .prose h2 { font-size: var(--text-lg); }
+</style>

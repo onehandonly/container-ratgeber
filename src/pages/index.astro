@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Home from '../components/pages/Home.astro';
+import { site } from '../lib/site';
+---
+<BaseLayout
+  title={`${site.name} – Unabhängiger Ratgeber rund um Container`}
+  description={site.description}
+>
+  <Home lang="de" />
+</BaseLayout>

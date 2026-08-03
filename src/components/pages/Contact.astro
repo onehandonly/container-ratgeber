@@ -1,0 +1,48 @@
+---
+import { site, operatorEmail } from '../../lib/site';
+import { localizePath, type Lang } from '../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const email = operatorEmail();
+---
+<section class="lead-band">
+  <div class="wrap-narrow">
+    <span class="eyebrow">{lang === 'en' ? 'Contact' : 'Kontakt'}</span>
+    <h1>{lang === 'en' ? 'Get in touch' : 'Schreiben Sie uns'}</h1>
+  </div>
+</section>
+
+<div class="wrap-narrow legal">
+  <div class="prose">
+    {lang === 'en' ? (
+      <>
+        <p>Questions about the site, feedback on a guide, or interested in a cooperation? We are happy to hear from you by email.</p>
+        <div class="contact-card">
+          <p class="contact-card__label">Email</p>
+          <p class="contact-card__value"><a href={`mailto:${email}`}>{email}</a></p>
+        </div>
+        <p>Please note: Container-Ratgeber.de is an independent information site. We do not sell or rent out containers ourselves and cannot provide binding individual advice. For our contact details see the <a href={L('/impressum')}>imprint</a>.</p>
+      </>
+    ) : (
+      <>
+        <p>Fragen zur Seite, Feedback zu einem Ratgeber oder Interesse an einer Kooperation? Wir freuen uns über Ihre Nachricht per E-Mail.</p>
+        <div class="contact-card">
+          <p class="contact-card__label">E-Mail</p>
+          <p class="contact-card__value"><a href={`mailto:${email}`}>{email}</a></p>
+        </div>
+        <p>Hinweis: Container-Ratgeber.de ist ein unabhängiges Informationsangebot. Wir verkaufen oder vermieten selbst keine Container und können keine verbindliche Einzelberatung leisten. Unsere vollständigen Angaben finden Sie im <a href={L('/impressum')}>Impressum</a>.</p>
+      </>
+    )}
+  </div>
+</div>
+
+<style>
+  .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.7rem; letter-spacing: -0.02em; }
+  .legal { padding-block: clamp(1.6rem, 1.2rem + 2vw, 2.6rem) var(--space-section); }
+  .contact-card { background: var(--color-bg-alt); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 1.3rem 1.5rem; margin: 1.4rem 0; }
+  .contact-card__label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-muted); font-weight: 700; }
+  .contact-card__value { font-size: var(--text-xl); font-weight: 700; margin-top: 0.2rem; }
+  .contact-card__value a { text-decoration: none; }
+</style>

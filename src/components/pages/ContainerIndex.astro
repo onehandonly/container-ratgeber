@@ -1,0 +1,45 @@
+---
+import ContainerIcon from '../ContainerIcon.astro';
+import AdSlot from '../AdSlot.astro';
+import { containerTypes, typeName, typeTeaser } from '../../lib/site';
+import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const L = (p: string) => localizePath(p, lang);
+---
+<section class="lead-band">
+  <div class="wrap">
+    <span class="eyebrow">{t('types.eyebrow')}</span>
+    <h1>{t('types.title')}</h1>
+    <p>{lang === 'en'
+      ? 'From site and office containers to shipping and refrigerated units – an overview of every common container type, what it is for and what to watch out for.'
+      : 'Von Bau- und Bürocontainern bis zu See- und Kühlcontainern – ein Überblick über alle gängigen Container-Typen, wofür sie taugen und worauf Sie achten sollten.'}</p>
+  </div>
+</section>
+
+<div class="wrap section--tight">
+  <div class="grid-auto">
+    {containerTypes.map((ct) => (
+      <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
+        <div class="type-card__icon"><ContainerIcon name={ct.icon} title={typeName(ct, lang)} /></div>
+        <h2>{typeName(ct, lang)}</h2>
+        <p>{typeTeaser(ct, lang)}</p>
+        <span class="type-card__more">{t('type.more')} →</span>
+      </a>
+    ))}
+  </div>
+  <AdSlot lang={lang} minHeight="120px" />
+</div>
+
+<style>
+  .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .lead-band p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 62ch; }
+  .type-card { display: flex; flex-direction: column; padding: 1.1rem; text-decoration: none; color: inherit; }
+  .type-card__icon { border-radius: var(--radius-md); overflow: hidden; margin-bottom: 0.9rem; }
+  .type-card h2 { font-size: var(--text-lg); }
+  .type-card p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; flex: 1; }
+  .type-card__more { color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); margin-top: 0.9rem; }
+</style>

@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ContainerType from '../../../components/pages/ContainerType.astro';
+import { containerTypes, typeName, typeTeaser } from '../../../lib/site';
+
+export async function getStaticPaths() {
+  return containerTypes.map((type) => ({ params: { slug: type.slug }, props: { type } }));
+}
+const { type } = Astro.props;
+---
+<BaseLayout title={`${typeName(type, 'en')} – Guide & overview`} description={typeTeaser(type, 'en')}>
+  <ContainerType type={type} lang="en" />
+</BaseLayout>

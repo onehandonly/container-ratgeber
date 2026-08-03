@@ -1,0 +1,32 @@
+---
+/**
+ * Hervorgehobene Hinweisbox für den Fließtext.
+ * Varianten: info (blau), tipp (grün), achtung (amber).
+ */
+interface Props {
+  variant?: 'info' | 'tipp' | 'achtung';
+  title?: string;
+}
+const { variant = 'info', title } = Astro.props;
+const meta = {
+  info:    { color: 'var(--info-blue)',  bg: 'var(--info-blue-bg)',  label: 'Gut zu wissen', icon: 'i' },
+  tipp:    { color: 'var(--tip-green)',   bg: 'var(--tip-green-bg)',  label: 'Praxistipp',    icon: '✓' },
+  achtung: { color: 'var(--warn-amber)',  bg: 'var(--warn-amber-bg)', label: 'Achtung',       icon: '!' },
+}[variant];
+---
+<aside class="infobox" style={`--ib:${meta.color};--ib-bg:${meta.bg}`}>
+  <span class="infobox__icon" aria-hidden="true">{meta.icon}</span>
+  <div class="infobox__body">
+    <p class="infobox__title">{title ?? meta.label}</p>
+    <div class="infobox__content"><slot /></div>
+  </div>
+</aside>
+
+<style>
+  .infobox { display: flex; gap: 0.9rem; background: var(--ib-bg); border-left: 4px solid var(--ib); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 1rem 1.15rem; margin-block: 1.5rem; }
+  .infobox__icon { flex-shrink: 0; width: 1.6rem; height: 1.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--ib); color: #fff; font-weight: 800; font-size: 0.95rem; }
+  .infobox__title { font-weight: 700; color: var(--color-ink); margin-bottom: 0.15rem; }
+  .infobox__content { font-size: var(--text-sm); color: var(--color-ink-soft); }
+  .infobox__content :global(p + p) { margin-top: 0.6rem; }
+  .infobox__content :global(a) { font-weight: 600; }
+</style>

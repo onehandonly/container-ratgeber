@@ -1,0 +1,23 @@
+# build output
+dist/
+.output/
+
+# dependencies
+node_modules/
+
+# generated types
+.astro/
+
+# environment
+.env
+.env.production
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# macOS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json

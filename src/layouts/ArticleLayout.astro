@@ -1,0 +1,129 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { site } from '../lib/site';
+import { useTranslations, localizePath, type Lang } from '../lib/i18n';
+import type { Guide } from '../lib/guides';
+import { guideSlug } from '../lib/guides';
+
+interface Heading { depth: number; slug: string; text: string; }
+interface Props { entry: Guide; lang: Lang; headings: Heading[]; }
+const { entry, lang, headings } = Astro.props;
+const t = useTranslations(lang);
+const L = (p: string) => localizePath(p, lang);
+const slug = guideSlug(entry);
+
+const toc = headings.filter((h) => h.depth === 2);
+const url = new URL(Astro.url.pathname, Astro.site).href;
+
+const dateFmt = new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'de-DE', { day: '2-digit', month: 'long', year: 'numeric' });
+const updated = entry.data.updated ?? entry.data.published;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description: entry.data.description,
+  inLanguage: lang === 'en' ? 'en' : 'de-DE',
+  datePublished: entry.data.published.toISOString().slice(0, 10),
+  dateModified: updated.toISOString().slice(0, 10),
+  author: { '@type': 'Organization', name: site.name, url: site.url },
+  publisher: { '@type': 'Organization', name: site.name, url: site.url },
+  mainEntityOfPage: url,
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t('breadcrumb.home'), item: new URL(L('/'), site.url).href },
+    { '@type': 'ListItem', position: 2, name: t('nav.guide'), item: new URL(L('/ratgeber'), site.url).href },
+    { '@type': 'ListItem', position: 3, name: entry.data.title, item: url },
+  ],
+};
+---
+<BaseLayout title={entry.data.title} description={entry.data.description} index={!entry.data.draft} jsonLd={[articleSchema, breadcrumbSchema]}>
+  <Breadcrumbs items={[
+    { label: t('nav.guide'), href: L('/ratgeber') },
+    { label: entry.data.title },
+  ]} />
+
+  <article class="article">
+    <div class="wrap article__grid">
+      <div class="article__main">
+        <header class="article__head">
+          <a class="pill" href={L('/ratgeber')}>{entry.data.category}</a>
+          <h1>{entry.data.title}</h1>
+          {entry.data.lead && <p class="article__lead">{entry.data.lead}</p>}
+          <div class="article__meta">
+            <span>{entry.data.readingTime}&nbsp;{t('meta.readingTime')}</span>
+            <span aria-hidden="true">·</span>
+            <span>{t('meta.updated')}: {dateFmt.format(updated)}</span>
+          </div>
+        </header>
+
+        {toc.length > 2 && (
+          <nav class="toc toc--inline" aria-label={t('toc.title')}>
+            <p class="toc__title">{t('toc.title')}</p>
+            <ol>
+              {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+            </ol>
+          </nav>
+        )}
+
+        <div class="prose article__body">
+          <slot />
+        </div>
+
+        <AdSlot lang={lang} minHeight="120px" class="article__ad-end" />
+
+        <a href={L('/ratgeber')} class="article__back">← {t('article.back')}</a>
+      </div>
+
+      <aside class="article__side">
+        {toc.length > 2 && (
+          <nav class="toc toc--sticky" aria-label={t('toc.title')}>
+            <p class="toc__title">{t('toc.title')}</p>
+            <ol>
+              {toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}
+            </ol>
+          </nav>
+        )}
+        <AdSlot lang={lang} minHeight="600px" class="article__ad-side" />
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article { padding-block: clamp(1.8rem, 1.2rem + 2vw, 3rem) var(--space-section); }
+  .article__grid { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: clamp(1.5rem, 1rem + 3vw, 3.5rem); align-items: start; }
+  .article__main { min-width: 0; max-width: 44rem; }
+  .article__head { margin-bottom: 1.8rem; }
+  .article__head h1 { font-size: var(--text-3xl); margin-top: 0.9rem; letter-spacing: -0.02em; text-wrap: balance; }
+  .article__lead { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 1rem; line-height: 1.55; }
+  .article__meta { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 1.1rem; font-size: var(--text-xs); color: var(--color-muted); }
+  a.pill { text-decoration: none; }
+
+  .toc { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem 1.2rem; background: var(--color-bg-alt); }
+  .toc__title { font-family: var(--font-head); font-weight: 700; font-size: var(--text-sm); margin-bottom: 0.5rem; color: var(--color-ink); }
+  .toc ol { list-style: none; counter-reset: toc; display: flex; flex-direction: column; gap: 0.35rem; }
+  .toc li { counter-increment: toc; }
+  .toc a { display: flex; gap: 0.5rem; text-decoration: none; color: var(--color-ink-soft); font-size: var(--text-sm); }
+  .toc a::before { content: counter(toc, decimal-leading-zero); color: var(--color-signal); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .toc a:hover { color: var(--color-signal); }
+  .toc--inline { margin-bottom: 2rem; }
+  .toc--sticky { position: sticky; top: 5.5rem; }
+
+  .article__side { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 5.5rem; }
+  .article__ad-side { margin: 0; }
+  .article__back { display: inline-block; margin-top: 2rem; font-weight: 600; text-decoration: none; }
+
+  @media (max-width: 900px) {
+    .article__grid { grid-template-columns: 1fr; }
+    .article__side { position: static; }
+    .toc--sticky { display: none; }
+    .article__ad-side { display: none; }
+  }
+  @media (min-width: 901px) { .toc--inline { display: none; } }
+</style>

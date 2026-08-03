@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Seite nicht gefunden – Page not found" index={false}>
+  <section class="nf">
+    <div class="wrap-narrow nf__inner">
+      <div class="nf__code" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="76" height="76"><polygon points="32,7 57,21 32,35 7,21" fill="#5b8cff"/><polygon points="7,21 32,35 32,60 7,46" fill="#2f4fd0"/><polygon points="57,21 32,35 32,60 57,46" fill="#22d3ee"/><rect x="55" y="3" width="7" height="7" rx="1.6" fill="#22d3ee"/></svg>
+        <span>404</span>
+      </div>
+      <h1>Seite nicht gefunden</h1>
+      <p>Diese Seite existiert nicht (mehr). Vielleicht hilft einer dieser Wege weiter:</p>
+      <div class="nf__links">
+        <a href="/" class="btn btn--primary">Zur Startseite</a>
+        <a href="/ratgeber" class="btn btn--ghost">Zu den Ratgebern</a>
+        <a href="/container" class="btn btn--ghost">Container-Typen</a>
+      </div>
+      <hr />
+      <h2>Page not found</h2>
+      <p>This page doesn’t exist (anymore). Try one of these instead:</p>
+      <div class="nf__links">
+        <a href="/en/" class="btn btn--ghost">Home</a>
+        <a href="/en/ratgeber" class="btn btn--ghost">Guides</a>
+        <a href="/en/container" class="btn btn--ghost">Container types</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .nf { padding-block: clamp(3rem, 2rem + 5vw, 6rem); text-align: center; }
+  .nf__code { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+  .nf__code span { font-family: var(--font-head); font-weight: 800; font-size: 3.5rem; color: var(--color-ink); letter-spacing: -0.02em; }
+  .nf h1 { font-size: var(--text-2xl); margin-top: 0.5rem; }
+  .nf h2 { font-size: var(--text-lg); margin-top: 0.5rem; color: var(--color-ink-soft); }
+  .nf p { color: var(--color-ink-soft); margin-top: 0.6rem; }
+  .nf__links { display: flex; gap: 0.7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.2rem; }
+  .nf hr { border: 0; border-top: 1px solid var(--color-border); max-width: 20rem; margin: 2.5rem auto 0; }
+</style>

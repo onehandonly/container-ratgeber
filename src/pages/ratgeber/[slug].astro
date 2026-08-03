@@ -1,0 +1,16 @@
+---
+import { render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getGuides, guideSlug } from '../../lib/guides';
+
+export async function getStaticPaths() {
+  const guides = await getGuides('de');
+  return guides.map((entry) => ({ params: { slug: guideSlug(entry) }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+---
+<ArticleLayout entry={entry} lang="de" headings={headings}>
+  <Content />
+</ArticleLayout>

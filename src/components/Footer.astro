@@ -1,0 +1,91 @@
+---
+import Logo from './Logo.astro';
+import { site, containerTypes, typeName } from '../lib/site';
+import { getLangFromUrl, useTranslations, localizePath, type Lang } from '../lib/i18n';
+
+const lang: Lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+const L = (p: string) => localizePath(p, lang);
+
+const guideLinks = lang === 'en'
+  ? [
+      { label: 'All guides', href: '/ratgeber' },
+      { label: 'Buy or rent?', href: '/ratgeber/container-kaufen-oder-mieten' },
+      { label: 'Sizes & dimensions', href: '/ratgeber/container-groessen-und-masse' },
+      { label: 'What does a container cost?', href: '/ratgeber/was-kostet-ein-container' },
+      { label: 'Used-container checklist', href: '/ratgeber/gebrauchten-container-kaufen' },
+    ]
+  : [
+      { label: 'Alle Ratgeber', href: '/ratgeber' },
+      { label: 'Kaufen oder mieten?', href: '/ratgeber/container-kaufen-oder-mieten' },
+      { label: 'Größen & Maße', href: '/ratgeber/container-groessen-und-masse' },
+      { label: 'Was kostet ein Container?', href: '/ratgeber/was-kostet-ein-container' },
+      { label: 'Gebrauchtkauf-Checkliste', href: '/ratgeber/gebrauchten-container-kaufen' },
+    ];
+
+const serviceLinks = lang === 'en'
+  ? [
+      { label: 'About', href: '/ueber-uns' },
+      { label: 'Contact', href: '/kontakt' },
+      { label: 'Imprint', href: '/impressum' },
+      { label: 'Privacy', href: '/datenschutz' },
+    ]
+  : [
+      { label: 'Über uns', href: '/ueber-uns' },
+      { label: 'Kontakt', href: '/kontakt' },
+      { label: 'Impressum', href: '/impressum' },
+      { label: 'Datenschutz', href: '/datenschutz' },
+    ];
+
+const typeLinks = containerTypes.slice(0, 5);
+---
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <Logo variant="light" />
+      <p class="site-footer__about">{t('footer.about')}</p>
+      <p class="site-footer__disclaimer">{t('footer.disclaimer')}</p>
+    </div>
+
+    <nav class="site-footer__col" aria-label={t('footer.col.guide')}>
+      <h3>{t('footer.col.guide')}</h3>
+      {guideLinks.map((l) => <a href={L(l.href)}>{l.label}</a>)}
+    </nav>
+    <nav class="site-footer__col" aria-label={t('footer.col.types')}>
+      <h3>{t('footer.col.types')}</h3>
+      {typeLinks.map((ct) => <a href={L(`/container/${ct.slug}`)}>{typeName(ct, lang)}</a>)}
+    </nav>
+    <nav class="site-footer__col" aria-label={t('footer.col.service')}>
+      <h3>{t('footer.col.service')}</h3>
+      {serviceLinks.map((l) => <a href={L(l.href)}>{l.label}</a>)}
+      <a href="#" data-consent-reopen>{t('footer.cookie')}</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__bar">
+    <div class="wrap site-footer__bar-inner">
+      <p>&copy; {year} {site.name} · {site.operator.name}, {site.operator.city}</p>
+      <p class="site-footer__legal">
+        <a href={L('/impressum')}>{lang === 'en' ? 'Imprint' : 'Impressum'}</a><span aria-hidden="true">·</span><a href={L('/datenschutz')}>{lang === 'en' ? 'Privacy' : 'Datenschutz'}</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer { background: var(--color-night); color: var(--color-on-dark-soft); margin-top: var(--space-section); border-top: 1px solid var(--color-line-dark); }
+  .site-footer__grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2.5rem; padding-block: 3.25rem 2.5rem; }
+  .site-footer__about { font-size: var(--text-sm); line-height: 1.6; margin-top: 1rem; max-width: 36ch; color: var(--color-on-dark-soft); }
+  .site-footer__disclaimer { font-size: var(--text-xs); color: #7f8aa1; margin-top: 0.9rem; max-width: 42ch; }
+  .site-footer__col h3 { font-family: var(--font-body); color: #fff; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.9rem; }
+  .site-footer__col a { display: block; color: var(--color-on-dark-soft); text-decoration: none; font-size: var(--text-sm); padding: 0.3rem 0; transition: color var(--dur-fast); }
+  .site-footer__col a:hover { color: #7fb0ff; }
+  .site-footer__bar { border-top: 1px solid var(--color-line-dark); }
+  .site-footer__bar-inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; padding-block: 1.1rem; font-size: var(--text-xs); color: #7f8aa1; }
+  .site-footer__legal { display: flex; gap: 0.6rem; }
+  .site-footer__legal a { color: var(--color-on-dark-soft); text-decoration: none; }
+  .site-footer__legal a:hover { color: #fff; }
+  @media (max-width: 900px) { .site-footer__grid { grid-template-columns: 1fr 1fr; gap: 1.8rem; } .site-footer__brand { grid-column: 1 / -1; } }
+  @media (max-width: 520px) { .site-footer__grid { grid-template-columns: 1fr; } .site-footer__bar-inner { flex-direction: column; align-items: flex-start; } }
+</style>

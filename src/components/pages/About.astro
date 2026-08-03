@@ -1,0 +1,51 @@
+---
+import { site, operatorEmail } from '../../lib/site';
+import { localizePath, type Lang } from '../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const email = operatorEmail();
+---
+<section class="lead-band">
+  <div class="wrap-narrow">
+    <span class="eyebrow">{lang === 'en' ? 'About us' : 'Über uns'}</span>
+    <h1>{lang === 'en' ? 'Independent guidance around containers' : 'Unabhängige Orientierung rund um Container'}</h1>
+  </div>
+</section>
+
+<div class="wrap-narrow legal">
+  {lang === 'en' ? (
+    <div class="prose">
+      <p>Container-Ratgeber.de is an independent information project. Our goal is simple: to explain the world of containers – types, sizes, costs, permits and buying criteria – so clearly that you can make a confident decision, without sales pressure.</p>
+      <h2>What we do</h2>
+      <p>We research the essentials and present them in a structured, easy-to-read way: comparison tables, checklists and plain-language explanations instead of marketing. We are not tied to a single manufacturer or dealer.</p>
+      <h2>How we finance this</h2>
+      <p>This offer is free for you. We finance it through advertising (e.g. Google AdSense) and – where useful – cooperations with providers from the container sector. Editorial content and advertising are kept clearly separate; ads are always labelled as such.</p>
+      <h2>Who is behind it</h2>
+      <p>The site is operated by {site.operator.name} from {site.operator.city}. You can reach us at <a href={`mailto:${email}`}>{email}</a>.</p>
+      <h2>Please note</h2>
+      <p>Our articles are carefully researched but represent general information, not individual legal, structural or purchasing advice. For binding questions – for example on building permits – please consult the relevant authority or a specialist.</p>
+      <p><a href={L('/ratgeber')}>Browse our guides →</a></p>
+    </div>
+  ) : (
+    <div class="prose">
+      <p>Container-Ratgeber.de ist ein unabhängiges Informationsangebot. Unser Ziel ist einfach: die Welt der Container – Typen, Größen, Kosten, Genehmigungen und Kaufkriterien – so klar zu erklären, dass Sie sicher entscheiden können, ganz ohne Verkaufsdruck.</p>
+      <h2>Was wir tun</h2>
+      <p>Wir recherchieren das Wesentliche und bereiten es strukturiert und gut lesbar auf: Vergleichstabellen, Checklisten und verständliche Erklärungen statt Werbesprache. Dabei sind wir nicht an einen einzelnen Hersteller oder Händler gebunden.</p>
+      <h2>Wie wir uns finanzieren</h2>
+      <p>Dieses Angebot ist für Sie kostenlos. Wir finanzieren es über Werbung (z. B. Google AdSense) und – wo sinnvoll – über Kooperationen mit Anbietern aus dem Containerbereich. Redaktionelle Inhalte und Werbung halten wir klar getrennt; Anzeigen sind stets als solche gekennzeichnet.</p>
+      <h2>Wer dahintersteht</h2>
+      <p>Betrieben wird die Seite von {site.operator.name} aus {site.operator.city}. Sie erreichen uns unter <a href={`mailto:${email}`}>{email}</a>.</p>
+      <h2>Bitte beachten</h2>
+      <p>Unsere Artikel sind sorgfältig recherchiert, stellen aber allgemeine Informationen dar und keine individuelle Rechts-, Statik- oder Kaufberatung. Für verbindliche Fragen – etwa zur Baugenehmigung – wenden Sie sich bitte an die zuständige Behörde oder eine Fachperson.</p>
+      <p><a href={L('/ratgeber')}>Zu unseren Ratgebern →</a></p>
+    </div>
+  )}
+</div>
+
+<style>
+  .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.7rem; letter-spacing: -0.02em; }
+  .legal { padding-block: clamp(1.6rem, 1.2rem + 2vw, 2.6rem) var(--space-section); }
+  .legal .prose h2 { font-size: var(--text-lg); }
+</style>

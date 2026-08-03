@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="80%" cy="12%" r="70%">
+      <stop offset="0" stop-color="#1b2b52"/><stop offset="1" stop-color="#0b1220"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <!-- Punktraster -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="0" cy="0" r="0"/>
+  </g>
+  <!-- Bildmarke Voxel -->
+  <g transform="translate(96 232)">
+    <polygon points="90,0 175,48 90,96 5,48" fill="#5b8cff"/>
+    <polygon points="5,48 90,96 90,182 5,134" fill="#2f4fd0"/>
+    <polygon points="175,48 90,96 90,182 175,134" fill="#22d3ee"/>
+    <g stroke="#0b1220" stroke-opacity=".22" stroke-width="2">
+      <line x1="47" y1="24" x2="132" y2="72"/><line x1="132" y1="24" x2="47" y2="72"/>
+      <line x1="47" y1="72" x2="47" y2="158"/><line x1="132" y1="72" x2="132" y2="158"/>
+    </g>
+    <rect x="170" y="-14" width="22" height="22" rx="5" fill="#22d3ee"/>
+    <rect x="198" y="18" width="13" height="13" rx="3" fill="#5b8cff"/>
+  </g>
+  <!-- Text -->
+  <text x="330" y="288" font-family="'Segoe UI', Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-2" fill="#ffffff">Container<tspan fill="#6ea8ff">Ratgeber</tspan></text>
+  <text x="334" y="344" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="2" fill="#8fa2c4">UNABHÄNGIG INFORMIEREN &amp; RICHTIG ENTSCHEIDEN</text>
+  <text x="334" y="410" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#c2ccdf">Typen · Größen &amp; Maße · Kosten · Kaufen oder mieten</text>
+  <rect x="334" y="440" width="150" height="6" rx="3" fill="#22d3ee"/>
+  <rect width="1200" height="10" fill="#5b8cff"/>
+</svg>

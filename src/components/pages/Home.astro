@@ -1,0 +1,182 @@
+---
+import VoxelHero from '../VoxelHero.astro';
+import ContainerIcon from '../ContainerIcon.astro';
+import AdSlot from '../AdSlot.astro';
+import { containerTypes, typeName, typeTeaser } from '../../lib/site';
+import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const L = (p: string) => localizePath(p, lang);
+
+const featured = lang === 'en'
+  ? [
+      { icon: 'euro', title: 'Buy or rent a container?', teaser: 'When purchase pays off – and when renting is smarter.', href: '/ratgeber/container-kaufen-oder-mieten' },
+      { icon: 'ruler', title: 'Sizes & dimensions', teaser: '20 ft, 40 ft and module sizes with clear measurement tables.', href: '/ratgeber/container-groessen-und-masse' },
+      { icon: 'euro', title: 'What does a container cost?', teaser: 'Price ranges for buying and renting by type and condition.', href: '/ratgeber/was-kostet-ein-container' },
+      { icon: 'checklist', title: 'Buying a used container', teaser: 'The inspection checklist so you avoid rust and nasty surprises.', href: '/ratgeber/gebrauchten-container-kaufen' },
+      { icon: 'permit', title: 'Do you need a permit?', teaser: 'When containers require building permission in Germany.', href: '/ratgeber/container-baugenehmigung' },
+      { icon: 'wohn', title: 'Living in a container', teaser: 'From tiny house to office – insulation, law and fit-out.', href: '/ratgeber/wohncontainer-ausbauen' },
+    ]
+  : [
+      { icon: 'euro', title: 'Container kaufen oder mieten?', teaser: 'Wann sich der Kauf lohnt – und wann Mieten die klügere Wahl ist.', href: '/ratgeber/container-kaufen-oder-mieten' },
+      { icon: 'ruler', title: 'Größen & Maße', teaser: '20 Fuß, 40 Fuß und Modulgrößen mit übersichtlichen Maßtabellen.', href: '/ratgeber/container-groessen-und-masse' },
+      { icon: 'euro', title: 'Was kostet ein Container?', teaser: 'Preisspannen für Kauf und Miete nach Typ und Zustand.', href: '/ratgeber/was-kostet-ein-container' },
+      { icon: 'checklist', title: 'Gebrauchten Container kaufen', teaser: 'Die Prüf-Checkliste gegen Rost und böse Überraschungen.', href: '/ratgeber/gebrauchten-container-kaufen' },
+      { icon: 'permit', title: 'Baugenehmigung nötig?', teaser: 'Wann Container in Deutschland genehmigungspflichtig sind.', href: '/ratgeber/container-baugenehmigung' },
+      { icon: 'wohn', title: 'Im Container wohnen', teaser: 'Vom Tiny House bis zum Büro – Dämmung, Recht und Ausbau.', href: '/ratgeber/wohncontainer-ausbauen' },
+    ];
+---
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <span class="pill">◆ {t('hero.badge')}</span>
+      <h1 class="hero__title">
+        <span>{t('hero.title.1')}</span>
+        <span class="hero__title-accent">{t('hero.title.2')}</span>
+      </h1>
+      <p class="hero__lead">{t('hero.lead')}</p>
+      <div class="hero__actions">
+        <a href={L('/ratgeber')} class="btn btn--bright btn--lg">{t('hero.cta.primary')}</a>
+        <a href={L('/container')} class="btn btn--ghost btn--lg">{t('hero.cta.secondary')}</a>
+      </div>
+      <dl class="hero__stats">
+        <div><dt>8</dt><dd>{t('hero.stat.types')}</dd></div>
+        <div><dt>12+</dt><dd>{t('hero.stat.guides')}</dd></div>
+        <div><dt>✓</dt><dd>{t('hero.stat.free')}</dd></div>
+      </dl>
+    </div>
+    <div class="hero__art"><VoxelHero /></div>
+  </div>
+</section>
+
+<!-- ============ CONTAINER-TYPEN ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{t('types.eyebrow')}</span>
+      <h2>{t('types.title')}</h2>
+      <p>{t('types.lead')}</p>
+    </div>
+    <div class="grid-auto">
+      {containerTypes.map((ct) => (
+        <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
+          <div class="type-card__icon"><ContainerIcon name={ct.icon} title={typeName(ct, lang)} /></div>
+          <h3>{typeName(ct, lang)}</h3>
+          <p>{typeTeaser(ct, lang)}</p>
+          <span class="type-card__more">{t('type.more')} →</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ WERBUNG ============ -->
+<div class="wrap"><AdSlot lang={lang} /></div>
+
+<!-- ============ BELIEBTE RATGEBER ============ -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{t('topics.eyebrow')}</span>
+      <h2>{t('topics.title')}</h2>
+    </div>
+    <div class="topics">
+      {featured.map((f) => (
+        <a href={L(f.href)} class="card card--link topic">
+          <span class="topic__icon"><ContainerIcon name={f.icon} title={f.title} /></span>
+          <div>
+            <h3>{f.title}</h3>
+            <p>{f.teaser}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+    <div class="section-cta"><a href={L('/ratgeber')} class="btn btn--ghost">{t('topics.all')} →</a></div>
+  </div>
+</section>
+
+<!-- ============ WARUM WIR ============ -->
+<section class="section why-section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{t('why.eyebrow')}</span>
+      <h2>{t('why.title')}</h2>
+    </div>
+    <div class="why">
+      <div class="why__item"><span class="why__n">01</span><h3>{t('why.1.t')}</h3><p>{t('why.1.d')}</p></div>
+      <div class="why__item"><span class="why__n">02</span><h3>{t('why.2.t')}</h3><p>{t('why.2.d')}</p></div>
+      <div class="why__item"><span class="why__n">03</span><h3>{t('why.3.t')}</h3><p>{t('why.3.d')}</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABSCHLUSS-CTA ============ -->
+<section class="section--tight">
+  <div class="wrap">
+    <div class="endcta">
+      <div>
+        <h2>{t('cta.title')}</h2>
+        <p>{t('cta.lead')}</p>
+      </div>
+      <a href={L('/ratgeber')} class="btn btn--primary btn--lg">{t('cta.button')}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Hero – hell, brand-getönt */
+  .hero {
+    background:
+      radial-gradient(760px 460px at 92% -12%, rgba(34,211,238,.16), transparent 58%),
+      radial-gradient(680px 440px at -4% 2%, rgba(91,140,255,.16), transparent 55%),
+      linear-gradient(180deg, #ffffff 0%, var(--color-bg-alt) 100%);
+    color: var(--color-ink); overflow: hidden; border-bottom: 1px solid var(--color-border);
+  }
+  .hero__inner { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: var(--gap); align-items: center; padding-block: clamp(3rem, 2rem + 5vw, 6rem); }
+  .hero__title { font-size: var(--text-hero); line-height: 1.03; letter-spacing: -0.03em; margin: 1.25rem 0 0; color: var(--color-ink); text-wrap: balance; }
+  .hero__title span { display: block; }
+  .hero__title-accent { background: var(--grad-brand-deep); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero__lead { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 1.25rem; max-width: 40ch; }
+  .hero__actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.9rem; }
+  .hero__stats { display: flex; gap: 2rem; margin-top: 2.6rem; flex-wrap: wrap; }
+  .hero__stats div { display: flex; flex-direction: column; }
+  .hero__stats dt { font-family: var(--font-head); font-size: 1.8rem; font-weight: 800; color: var(--color-signal); }
+  .hero__stats dd { font-size: var(--text-xs); color: var(--color-muted); max-width: 12ch; }
+  .hero__art { padding: 1rem; }
+  @media (max-width: 860px) { .hero__inner { grid-template-columns: 1fr; } .hero__art { order: -1; max-width: 20rem; } }
+
+  /* Container-Typ-Karten */
+  .type-card { display: flex; flex-direction: column; padding: 1.1rem; text-decoration: none; color: inherit; }
+  .type-card__icon { border-radius: var(--radius-md); overflow: hidden; margin-bottom: 0.9rem; }
+  .type-card h3 { font-size: var(--text-lg); }
+  .type-card p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; flex: 1; }
+  .type-card__more { color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); margin-top: 0.9rem; }
+
+  /* Beliebte Ratgeber */
+  .topics { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: var(--gap); }
+  .topic { display: flex; gap: 1rem; padding: 1.1rem; text-decoration: none; color: inherit; align-items: flex-start; }
+  .topic__icon { width: 4.5rem; flex-shrink: 0; border-radius: var(--radius-md); overflow: hidden; }
+  .topic h3 { font-size: var(--text-base); }
+  .topic p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.25rem; }
+  .section-cta { margin-top: 2rem; }
+
+  /* Warum wir – hell */
+  .why-section { background: var(--color-bg-alt); }
+  .why { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+  .why__item { border-top: 3px solid var(--color-signal); padding-top: 1.2rem; }
+  .why__n { font-family: var(--font-head); font-weight: 800; color: var(--color-signal); font-size: 0.9rem; letter-spacing: 0.1em; }
+  .why__item h3 { color: var(--color-ink); font-size: var(--text-lg); margin-top: 0.5rem; }
+  .why__item p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.5rem; }
+  @media (max-width: 760px) { .why { grid-template-columns: 1fr; gap: 1.2rem; } }
+
+  /* End-CTA */
+  .endcta { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
+    background: var(--grad-brand-deep); color: #fff; border-radius: var(--radius-xl); padding: clamp(1.6rem, 1.2rem + 2vw, 2.8rem); box-shadow: var(--shadow-lg); }
+  .endcta h2 { color: #fff; font-size: var(--text-xl); }
+  .endcta p { color: rgba(255,255,255,0.85); margin-top: 0.4rem; }
+  .endcta .btn--primary { background: #fff; color: var(--color-signal); box-shadow: none; }
+  .endcta .btn--primary:hover { background: #eef2fb; color: var(--color-signal-dark); }
+</style>

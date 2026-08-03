@@ -1,0 +1,81 @@
+---
+/**
+ * Werbeplatz.
+ *
+ * Solange keine AdSense-Kundennummer gesetzt ist (Umgebungsvariable
+ * PUBLIC_ADSENSE_CLIENT, Format "ca-pub-XXXXXXXXXXXXXXXX"), wird ein sauber
+ * gekennzeichneter Platzhalter angezeigt. Ist die Nummer gesetzt und wird eine
+ * Slot-ID übergeben, rendert die Komponente einen echten AdSense-Anzeigenblock.
+ * Das Laden des AdSense-Skripts geschieht consent-gesteuert im BaseLayout.
+ *
+ * In Deutschland müssen Anzeigen als solche erkennbar sein – daher immer das
+ * Label "Anzeige".
+ */
+interface Props {
+  /** AdSense-Slot-ID (data-ad-slot). Ohne ID bleibt es ein Platzhalter. */
+  slot?: string;
+  /** AdSense-Format, z. B. "auto", "fluid", "horizontal". */
+  format?: string;
+  /** Sichtbares Label. */
+  label?: string;
+  /** Mindesthöhe der Fläche (CSS-Wert). */
+  minHeight?: string;
+  /** Sprache für die Platzhalter-Texte. */
+  lang?: 'de' | 'en';
+  class?: string;
+}
+const {
+  slot,
+  format = 'auto',
+  label,
+  minHeight = '280px',
+  lang = 'de',
+  class: cls = '',
+} = Astro.props;
+
+const txt = lang === 'en'
+  ? { label: 'Advertisement', title: 'Ad space', note: 'Filled automatically once Google AdSense is approved.' }
+  : { label: 'Anzeige', title: 'Werbefläche', note: 'Wird nach Freigabe von Google AdSense automatisch befüllt.' };
+const shownLabel = label ?? txt.label;
+
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
+const live = Boolean(client && slot);
+---
+<aside class={`ad ${cls}`} aria-label={txt.label} data-ad-zone>
+  <span class="ad__label">{shownLabel}</span>
+  {live ? (
+    <ins
+      class="adsbygoogle"
+      style={`display:block;min-height:${minHeight}`}
+      data-ad-client={client}
+      data-ad-slot={slot}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    />
+    <script is:inline>
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  ) : (
+    <div class="ad__ph" style={`min-height:${minHeight}`}>
+      <svg viewBox="0 0 48 48" width="30" height="30" aria-hidden="true"><rect x="6" y="12" width="36" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 30l10-8 8 6 6-5 12 9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="31" cy="20" r="3" fill="currentColor"/></svg>
+      <span>{txt.title}</span>
+      <small>{txt.note}</small>
+    </div>
+  )}
+</aside>
+
+<style>
+  .ad { margin-block: 1.75rem; text-align: center; }
+  .ad__label {
+    display: block; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--color-muted); margin-bottom: 0.35rem; text-align: left;
+  }
+  .ad__ph {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.4rem;
+    border: 1.5px dashed var(--color-border-strong); border-radius: var(--radius-md);
+    background: repeating-linear-gradient(135deg, var(--color-bg-alt), var(--color-bg-alt) 12px, #fff 12px, #fff 24px);
+    color: var(--color-muted); padding: 1.5rem;
+  }
+  .ad__ph span { font-weight: 700; color: var(--color-ink-soft); }
+  .ad__ph small { font-size: var(--text-xs); max-width: 24rem; }
+</style>

@@ -1,0 +1,63 @@
+---
+import ContainerIcon from '../ContainerIcon.astro';
+import AdSlot from '../AdSlot.astro';
+import { getGuides, groupByCategory, guideSlug } from '../../lib/guides';
+import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const L = (p: string) => localizePath(p, lang);
+const guides = await getGuides(lang);
+const groups = groupByCategory(guides);
+---
+<section class="lead-band">
+  <div class="wrap">
+    <span class="eyebrow">{t('topics.eyebrow')}</span>
+    <h1>{lang === 'en' ? 'Container guides' : 'Container-Ratgeber'}</h1>
+    <p>{lang === 'en'
+      ? 'Independent, clearly structured articles on types, sizes, costs, buying and permits – everything you need for a confident decision.'
+      : 'Unabhängige, klar strukturierte Artikel zu Typen, Größen, Kosten, Kauf und Genehmigung – alles für eine sichere Entscheidung.'}</p>
+  </div>
+</section>
+
+<div class="wrap section--tight">
+  {guides.length === 0 ? (
+    <p class="empty">{lang === 'en' ? 'Guides are being prepared.' : 'Die Ratgeber werden gerade vorbereitet.'}</p>
+  ) : (
+    groups.map((group, gi) => (
+      <section class="guide-group">
+        <h2 class="guide-group__title">{group.category}</h2>
+        <div class="guide-cards">
+          {group.items.map((g) => (
+            <a href={L(`/ratgeber/${guideSlug(g)}`)} class="card card--link guide-card">
+              <span class="guide-card__icon"><ContainerIcon name={g.data.icon} title={g.data.title} /></span>
+              <div class="guide-card__body">
+                <h3>{g.data.title}</h3>
+                <p>{g.data.description}</p>
+                <span class="guide-card__meta">{g.data.readingTime}&nbsp;{t('meta.readingTime')} →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+        {gi === 0 && <AdSlot lang={lang} minHeight="120px" />}
+      </section>
+    ))
+  )}
+</div>
+
+<style>
+  .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .lead-band p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 60ch; }
+  .empty { color: var(--color-muted); }
+  .guide-group { margin-top: 2.5rem; }
+  .guide-group__title { font-size: var(--text-xl); padding-bottom: 0.5rem; border-bottom: 2px solid var(--color-bg-sunken); margin-bottom: 1.4rem; }
+  .guide-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr)); gap: var(--gap); }
+  .guide-card { display: flex; gap: 1rem; padding: 1.1rem; text-decoration: none; color: inherit; align-items: flex-start; }
+  .guide-card__icon { width: 5rem; flex-shrink: 0; border-radius: var(--radius-md); overflow: hidden; }
+  .guide-card__body { min-width: 0; }
+  .guide-card h3 { font-size: var(--text-lg); }
+  .guide-card p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; }
+  .guide-card__meta { display: inline-block; margin-top: 0.7rem; color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); }
+</style>
