@@ -57,10 +57,10 @@ const homeHref = localizePath('/', lang);
   .site-header__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 5.25rem; }
   .site-header__logo { text-decoration: none; }
 
-  .site-nav { display: flex; align-items: center; gap: 1.25rem; }
+  .site-nav { display: flex; align-items: center; gap: 1.05rem; }
   .site-nav__link {
     font-size: var(--text-sm); font-weight: 600; color: var(--color-ink-soft);
-    text-decoration: none; padding: 0.35rem 0; border-bottom: 2px solid transparent;
+    text-decoration: none; padding: 0.35rem 0; border-bottom: 2px solid transparent; white-space: nowrap;
     transition: color var(--dur-fast), border-color var(--dur-fast);
   }
   .site-nav__link:hover { color: var(--color-signal); }
@@ -84,7 +84,7 @@ const homeHref = localizePath('/', lang);
   .nav-burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; }
   .nav-burger span { width: 26px; height: 3px; background: var(--color-ink); border-radius: 2px; transition: transform var(--dur), opacity var(--dur); }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .nav-burger { display: flex; }
     .site-nav {
       position: absolute; inset-inline: 0; top: 100%;
