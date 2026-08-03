@@ -42,6 +42,8 @@ The shortest commute in the world runs across twenty metres of lawn. A single 20
 - **Special feature:** sliding glass door, acoustic ceiling, power via buried cable from the house
 - **Cost range approx.:** €18,000–35,000
 
+![Bright interior of a container tiny house](/img/inspiration/innen-hell.webp)
+
 ### 3. The lake house – 40-foot high cube with a waterside deck
 
 A high cube brings almost 30 centimetres of extra height, and that is what turns a long tube into a generous room. The container sits across the shoreline, the deck in front nearly as large as the interior and connected through a wide bi-fold door. When the evening light comes in low across the water, the line between inside and outside dissolves.

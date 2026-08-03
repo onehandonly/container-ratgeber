@@ -42,6 +42,8 @@ Der kürzeste Arbeitsweg der Welt führt über zwanzig Meter Rasen. Ein einzelne
 - **Besonderheit:** Glasschiebetür, Akustikdecke, Strom per Erdkabel vom Haus
 - **Kostenrahmen ca.:** 18.000–35.000 €
 
+![Heller Innenraum eines Container-Tiny-Houses](/img/inspiration/innen-hell.webp)
+
 ### 3. Das Seehaus – 40-Fuß High Cube mit Terrasse am Wasser
 
 Ein High Cube bringt knapp 30 Zentimeter mehr Innenhöhe mit, und genau die machen aus einem langen Schlauch einen großzügigen Raum. Der Container steht quer zum Ufer, die Terrasse davor ist fast so groß wie die Innenfläche und wird über eine breite Faltschiebetür angebunden. Wenn abends das Licht flach über das Wasser kommt, verschwimmt die Grenze zwischen drinnen und draußen. Innen: eine schmale Küchenzeile an der Rückwand, ein Bad mit Dusche, ein Schlafbereich hinter einer Regalwand.
