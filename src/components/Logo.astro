@@ -9,31 +9,32 @@ const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
 const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
 ---
 <span class={`logo logo--${variant} ${cls}`} aria-label="Container-Ratgeber.de">
-  {/* Vollständiges Logo (Container-Skizze inkl. Schriftzug) aus public/img/logo.png.
-      Lädt es, wird der Text-Fallback ausgeblendet; fehlt die Datei, bleibt der Text. */}
-  <img
-    src="/img/logo.png"
-    alt="Container-Ratgeber.de"
-    class="logo__img"
-    width="180" height="180" loading="eager" decoding="async"
-    onload="this.closest('.logo').classList.add('has-img')"
-    onerror="this.remove()"
-  />
+  {/* Bildmarke: /img/logo.png ist quadratisch und enthält unten auch den
+      Schriftzug. Für den Header zeigen wir nur den oberen Bildteil (Container)
+      und setzen den Namen daneben als echten, gut lesbaren Text. */}
+  <span class="logo__mark">
+    <img
+      src="/img/logo.png"
+      alt=""
+      width="512" height="512" loading="eager" decoding="async"
+      onerror="this.closest('.logo__mark').remove()"
+    />
+  </span>
   <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
 </span>
 
 <style>
-  .logo { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; line-height: 1; }
-  /* Das Logo-Bild ist quadratisch mit viel Weißraum – etwas größer skalieren und
-     seitlich negativ ausgleichen, damit es im Header kompakt sitzt. */
-  .logo__img { display: block; height: 3.6rem; width: auto; margin-inline: -0.35rem; }
-  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
-  /* Bild enthält den Schriftzug bereits -> Text-Fallback ausblenden. */
-  .logo.has-img .logo__word { display: none; }
-  /* Auf dunklem Grund: weißes Kärtchen, damit die dunklen Linien sichtbar bleiben. */
-  .logo--light.has-img .logo__img { background: #fff; padding: 0.25rem 0.4rem; border-radius: 0.6rem; }
+  .logo { display: inline-flex; align-items: center; gap: 0.55rem; text-decoration: none; line-height: 1; }
+  /* Ausschnitt: zeigt nur den Container (oberer Bildbereich), nicht den
+     eingebrannten Schriftzug. */
+  .logo__mark { display: block; width: 4.2rem; height: 2.35rem; overflow: hidden; flex-shrink: 0; }
+  .logo__mark img { display: block; width: 100%; height: auto; margin-top: -0.55rem; }
+  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.02em; white-space: nowrap; }
+  /* Auf dunklem Grund: helles Kärtchen, damit die Graphitlinien sichtbar bleiben. */
+  .logo--light .logo__mark { background: #fff; border-radius: 0.5rem; width: 4.4rem; height: 2.55rem; }
   @media (max-width: 520px) {
-    .logo__img { height: 3rem; }
-    .logo__word { font-size: 1.05rem; }
+    .logo__mark { width: 3.5rem; height: 1.95rem; }
+    .logo__mark img { margin-top: -0.45rem; }
+    .logo__word { font-size: 1.1rem; }
   }
 </style>
