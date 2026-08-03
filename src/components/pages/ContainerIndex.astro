@@ -9,7 +9,7 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
 ---
-<section class="lead-band">
+<section class="lead-band lead-band--photo" style="background-image: linear-gradient(180deg, rgba(11,18,32,.74), rgba(11,18,32,.85)), url('/img/photos/hero-home.png')">
   <div class="wrap">
     <span class="eyebrow">{t('types.eyebrow')}</span>
     <h1>{t('types.title')}</h1>
@@ -37,6 +37,11 @@ const L = (p: string) => localizePath(p, lang);
   .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
   .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
   .lead-band p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 62ch; }
+  /* Foto-Variante: dunkler Verlauf über Foto, heller Text (Fallback = Nachtblau). */
+  .lead-band--photo { background-color: var(--color-night); background-size: cover; background-position: center; border-bottom-color: var(--color-line-dark); padding-block: clamp(3rem, 2.2rem + 4vw, 5rem); }
+  .lead-band--photo .eyebrow { color: #7fe3f2; }
+  .lead-band--photo h1 { color: #fff; }
+  .lead-band--photo p { color: rgba(255,255,255,0.85); }
   .type-card { display: flex; flex-direction: column; padding: 1.1rem; text-decoration: none; color: inherit; }
   .type-card__icon { border-radius: var(--radius-md); overflow: hidden; margin-bottom: 0.9rem; }
   .type-card h2 { font-size: var(--text-lg); }

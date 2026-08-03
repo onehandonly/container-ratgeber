@@ -12,6 +12,8 @@ const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
 const d = typeDetails[type.slug][lang];
 const name = typeName(type, lang);
+// Foto-Kopfbild (selbst gehostet). Fehlt die Datei, greift der Verlauf-Fallback.
+const photo = `/img/photos/type-${type.slug}.png`;
 
 const others = containerTypes.filter((c) => c.slug !== type.slug).slice(0, 4);
 const relatedTitles: Record<string, { de: string; en: string }> = {
@@ -45,14 +47,14 @@ const jsonLd = {
 <Breadcrumbs items={[{ label: t('nav.types'), href: L('/container') }, { label: name }]} />
 
 <article class="ct">
-  <header class="ct__hero">
+  <header class="ct__hero" style={`background-image: linear-gradient(180deg, rgba(11,18,32,.72), rgba(11,18,32,.82)), url('${photo}')`}>
     <div class="wrap ct__hero-inner">
       <div class="ct__hero-copy">
-        <span class="pill">{t('nav.types')}</span>
+        <span class="ct__hero-badge"><ContainerIcon name={type.icon} title={name} /></span>
+        <span class="pill pill--on-dark">{t('nav.types')}</span>
         <h1>{name}</h1>
         <p class="ct__teaser">{typeTeaser(type, lang)}</p>
       </div>
-      <div class="ct__hero-icon"><ContainerIcon name={type.icon} title={name} /></div>
     </div>
   </header>
 
@@ -124,12 +126,18 @@ const jsonLd = {
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
 
 <style>
-  .ct__hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2rem, 1.5rem + 2vw, 3.5rem); }
-  .ct__hero-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-  .ct__hero-copy h1 { font-size: var(--text-3xl); margin-top: 0.7rem; letter-spacing: -0.02em; }
-  .ct__teaser { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 0.7rem; max-width: 46ch; }
-  .ct__hero-icon { width: 12rem; flex-shrink: 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
-  @media (max-width: 720px) { .ct__hero-icon { display: none; } }
+  .ct__hero {
+    background-color: var(--color-night);
+    background-size: cover; background-position: center; background-repeat: no-repeat;
+    border-bottom: 1px solid var(--color-line-dark);
+    padding-block: clamp(3rem, 2.2rem + 4vw, 5.5rem);
+    color: #fff;
+  }
+  .ct__hero-inner { display: flex; }
+  .ct__hero-copy { max-width: 48rem; }
+  .ct__hero-badge { display: inline-block; width: 4.25rem; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); margin-bottom: 0.9rem; }
+  .ct__hero-copy h1 { font-size: var(--text-3xl); margin-top: 0.7rem; letter-spacing: -0.02em; color: #fff; }
+  .ct__teaser { font-size: var(--text-lg); color: rgba(255,255,255,0.84); margin-top: 0.7rem; max-width: 48ch; }
 
   .ct__grid { display: grid; grid-template-columns: minmax(0,1fr) 17rem; gap: clamp(1.5rem,1rem+3vw,3rem); align-items: start; padding-block: var(--space-section) 0; }
   .ct__main { min-width: 0; max-width: 44rem; }
