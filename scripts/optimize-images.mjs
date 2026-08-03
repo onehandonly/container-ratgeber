@@ -33,6 +33,7 @@ const ROOT = path.resolve(process.cwd(), 'public/img');
 /** Zielbreiten: Fotos werden als Hintergrundbilder nie größer als ~1600px gebraucht. */
 const TARGETS = [
   { dir: path.join(ROOT, 'photos'), width: 1600, quality: 72 },
+  { dir: path.join(ROOT, 'inspiration'), width: 1400, quality: 74 },
   { dir: ROOT, width: 512, quality: 82, only: ['logo.png'] },
 ];
 
