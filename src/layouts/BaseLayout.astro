@@ -40,7 +40,8 @@ const ogImageUrl = new URL(ogImage, Astro.site).href;
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 
 // AdSense/Analytics werden erst aktiv, wenn die IDs als Umgebungsvariablen gesetzt sind.
-const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
+// AdSense Publisher-ID – fest hinterlegt, per Umgebungsvariable überschreibbar.
+const adsenseClient = (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined) || 'ca-pub-8546048688712353';
 const gtmId = import.meta.env.PUBLIC_GTM_ID as string | undefined;
 const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined; // GA4, Format "G-XXXXXXX"
 const consentNeeded = Boolean(adsenseClient || gtmId || gaId);
@@ -134,25 +135,11 @@ const schemas = [orgSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [json
       </script>
     )}
 
-    {/* AdSense-Skript – lädt erst nach erteilter Einwilligung. */}
+    {/* Google AdSense – Verifizierungs-/Auto-Ads-Code auf jeder Seite.
+        Zusammen mit Consent Mode v2 (oben) bleiben Anzeigen-Cookies bis zur
+        Einwilligung eingeschränkt. */}
     {adsenseClient && (
-      <script is:inline define:vars={{ adsenseClient }}>
-        (function () {
-          function loadAds() {
-            if (window.__adsLoaded) return; window.__adsLoaded = true;
-            var s = document.createElement('script');
-            s.async = true;
-            s.crossOrigin = 'anonymous';
-            s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsenseClient;
-            document.head.appendChild(s);
-          }
-          try {
-            var c = JSON.parse(localStorage.getItem('cr-consent') || 'null');
-            if (c && c.status === 'granted') loadAds();
-          } catch (e) {}
-          window.addEventListener('cr-consent-changed', function (e) { if (e.detail === 'granted') loadAds(); });
-        })();
-      </script>
+      <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`} crossorigin="anonymous"></script>
     )}
   </head>
   <body>
