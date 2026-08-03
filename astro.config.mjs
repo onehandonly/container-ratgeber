@@ -24,6 +24,11 @@ export default defineConfig({
       // Rechtsseiten und die 404 gehören nicht in die Sitemap.
       filter: (page) =>
         !/\/(impressum|datenschutz|404)\/?$/.test(page),
+      // hreflang-Verknüpfung der deutschen und englischen Fassungen.
+      i18n: {
+        defaultLocale: 'de',
+        locales: { de: 'de-DE', en: 'en' },
+      },
     }),
   ],
   vite: {
