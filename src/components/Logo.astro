@@ -9,27 +9,31 @@ const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
 const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
 ---
 <span class={`logo logo--${variant} ${cls}`} aria-label="Container-Ratgeber.de">
-  {/* Container-Bildmarke (public/img/logo.png). Fehlt die Datei, wird das <img>
-      per onerror entfernt und nur der Schriftzug bleibt sichtbar. */}
+  {/* Vollständiges Logo (Container-Skizze inkl. Schriftzug) aus public/img/logo.png.
+      Lädt es, wird der Text-Fallback ausgeblendet; fehlt die Datei, bleibt der Text. */}
   <img
     src="/img/logo.png"
-    alt=""
+    alt="Container-Ratgeber.de"
     class="logo__img"
-    width="120" height="80" loading="eager" decoding="async"
+    width="180" height="180" loading="eager" decoding="async"
+    onload="this.closest('.logo').classList.add('has-img')"
     onerror="this.remove()"
   />
   <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
 </span>
 
 <style>
-  .logo { display: inline-flex; flex-direction: column; align-items: center; gap: 0.3rem; text-decoration: none; line-height: 1; }
-  .logo__img { display: block; height: 2.6rem; width: auto; }
-  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.02em; }
-  /* Auf dunklem Grund (Footer): die freigestellte Skizze in ein helles Kärtchen
-     fassen, damit die dunklen Graphitlinien sichtbar bleiben. */
-  .logo--light .logo__img { background: #fff; padding: 0.3rem 0.5rem; border-radius: 0.6rem; height: 2.6rem; }
+  .logo { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; line-height: 1; }
+  /* Das Logo-Bild ist quadratisch mit viel Weißraum – etwas größer skalieren und
+     seitlich negativ ausgleichen, damit es im Header kompakt sitzt. */
+  .logo__img { display: block; height: 3.6rem; width: auto; margin-inline: -0.35rem; }
+  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
+  /* Bild enthält den Schriftzug bereits -> Text-Fallback ausblenden. */
+  .logo.has-img .logo__word { display: none; }
+  /* Auf dunklem Grund: weißes Kärtchen, damit die dunklen Linien sichtbar bleiben. */
+  .logo--light.has-img .logo__img { background: #fff; padding: 0.25rem 0.4rem; border-radius: 0.6rem; }
   @media (max-width: 520px) {
-    .logo__img { height: 2.2rem; }
-    .logo__word { font-size: 1rem; }
+    .logo__img { height: 3rem; }
+    .logo__word { font-size: 1.05rem; }
   }
 </style>
