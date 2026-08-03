@@ -3,12 +3,17 @@ import ContainerIcon from '../ContainerIcon.astro';
 import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
 import { containerTypes, typeName, typeTeaser } from '../../lib/site';
+import { getGuides } from '../../lib/guides';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
+
+// Kennzahlen automatisch aus den Inhalten ableiten, damit sie mit jedem
+// neuen Artikel mitwachsen.
+const guideCount = (await getGuides(lang)).length;
 
 const featured = lang === 'en'
   ? [
@@ -39,12 +44,12 @@ const featured = lang === 'en'
       </h1>
       <p class="hero__lead">{t('hero.lead')}</p>
       <div class="hero__actions">
-        <a href={L('/ratgeber')} class="btn btn--bright btn--lg">{t('hero.cta.primary')}</a>
+        <a href={L('/ratgeber')} class="btn btn--primary btn--lg">{t('hero.cta.primary')}</a>
         <a href={L('/container')} class="btn btn--ghost btn--lg">{t('hero.cta.secondary')}</a>
       </div>
       <dl class="hero__stats">
-        <div><dt>8</dt><dd>{t('hero.stat.types')}</dd></div>
-        <div><dt>12+</dt><dd>{t('hero.stat.guides')}</dd></div>
+        <div><dt>{containerTypes.length}</dt><dd>{t('hero.stat.types')}</dd></div>
+        <div><dt>{guideCount}</dt><dd>{t('hero.stat.guides')}</dd></div>
         <div><dt>✓</dt><dd>{t('hero.stat.free')}</dd></div>
       </dl>
     </div>
@@ -132,8 +137,8 @@ const featured = lang === 'en'
   /* Hero – hell, brand-getönt */
   .hero {
     background:
-      radial-gradient(760px 460px at 92% -12%, rgba(34,211,238,.16), transparent 58%),
-      radial-gradient(680px 440px at -4% 2%, rgba(91,140,255,.16), transparent 55%),
+      radial-gradient(760px 460px at 92% -12%, rgba(92,242,242,.22), transparent 58%),
+      radial-gradient(680px 440px at -4% 2%, rgba(36,42,94,.10), transparent 55%),
       linear-gradient(180deg, #ffffff 0%, var(--color-bg-alt) 100%);
     color: var(--color-ink); overflow: hidden; border-bottom: 1px solid var(--color-border);
   }

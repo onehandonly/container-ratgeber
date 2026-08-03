@@ -1,49 +1,55 @@
 /* =========================================================================
    Design-Tokens – Container-Ratgeber.de
-   Konzept „Pixel-Twin": moderner, hochwertiger Tech-/Digital-Twin-Look.
-   Nachtblauer Grund, Indigo als Marke, Cyan als Akzent.
+   Farbwelt direkt aus dem Logo abgeleitet: tiefes Navy des Schriftzugs,
+   leuchtendes Türkis des Aquarell-Washs, Mittelblau der Schattierung.
    ========================================================================= */
 :root {
-  /* --- Marke & Akzente --------------------------------------------------- */
-  --brand-indigo:      #5b8cff;   /* leuchtendes Marken-Indigo (auf Dunkel)  */
-  --brand-indigo-2:    #2f4fd0;   /* tiefes Indigo, tragfähig auf Weiß        */
-  --brand-cyan:        #22d3ee;   /* Cyan-Akzent (Pixel/Twin)                 */
-  --brand-cyan-2:      #0e93a8;   /* tiefes Cyan für Text auf Weiß            */
+  /* --- Marke (aus dem Logo entnommen) ------------------------------------ */
+  --brand-navy:        #242a5e;   /* Navy des handgeschriebenen Schriftzugs   */
+  --brand-navy-deep:   #171c42;   /* dunkelste Logo-Töne, für Verläufe        */
+  --brand-blue:        #1860a8;   /* Mittelblau aus der Container-Schattierung*/
+  --brand-cyan:        #5cf2f2;   /* leuchtendes Türkis des Wash              */
+  --brand-cyan-deep:   #0d8ba1;   /* abgedunkeltes Türkis, texttauglich       */
+
+  /* Kompatibilitäts-Aliasse (werden von einzelnen Komponenten genutzt) */
+  --brand-indigo:      #6d8fe0;   /* aufgehelltes Navy für dunkle Flächen     */
+  --brand-indigo-2:    #242a5e;
+  --brand-cyan-2:      #0d8ba1;
 
   /* Semantische Akzent-Tokens (von Komponenten genutzt) */
-  --color-signal:      #2f4fd0;   /* Primär-Akzent: Links, CTAs auf Weiß      */
-  --color-signal-dark: #223bab;   /* Hover                                    */
-  --color-accent:      #0e93a8;   /* Cyan-Akzent, texttauglich                */
+  --color-signal:      #242a5e;   /* Primär: Links, CTAs, Aktivzustände       */
+  --color-signal-dark: #171c42;   /* Hover                                    */
+  --color-accent:      #0d8ba1;   /* Türkis-Akzent, texttauglich              */
 
-  /* --- Text & Tinte (leicht blaustichig) --------------------------------- */
-  --color-ink:         #0e1626;
-  --color-ink-soft:    #37435c;
-  --color-muted:       #6b7793;
+  /* --- Text & Tinte (navy-stichig, passend zum Logo) --------------------- */
+  --color-ink:         #131832;
+  --color-ink-soft:    #3b4262;
+  --color-muted:       #6d7495;
 
-  /* --- Flächen (blau-neutral) -------------------------------------------- */
+  /* --- Flächen (kühl, leicht navy-getönt) -------------------------------- */
   --color-bg:          #ffffff;
-  --color-bg-alt:      #f4f6fb;
-  --color-bg-sunken:   #e9edf7;
-  --color-border:      #dbe1ee;
-  --color-border-strong:#c2cbdf;
+  --color-bg-alt:      #f4f6fc;
+  --color-bg-sunken:   #e8ecf8;
+  --color-border:      #dcdff0;
+  --color-border-strong:#c3c8e1;
 
-  /* --- Dunkle Sektionen (Hero, Footer, Bänder) --------------------------- */
-  --color-night:       #0b1220;
-  --color-night-2:     #0e1830;
-  --color-panel-dark:  #13203a;
-  --color-line-dark:   #24314d;
-  --color-on-dark:     #eef2fb;
-  --color-on-dark-soft:#aab6ce;
+  /* --- Dunkle Sektionen (Footer, Bänder) --------------------------------- */
+  --color-night:       #0f1330;
+  --color-night-2:     #151a3c;
+  --color-panel-dark:  #1b2150;
+  --color-line-dark:   #2b3164;
+  --color-on-dark:     #eef0fb;
+  --color-on-dark-soft:#aeb4d4;
 
   /* --- Verläufe ---------------------------------------------------------- */
-  --grad-brand:      linear-gradient(135deg, #5b8cff 0%, #22d3ee 100%);
-  --grad-brand-deep: linear-gradient(135deg, #2f4fd0 0%, #0e93a8 100%);
-  --grad-night:      radial-gradient(1100px 560px at 82% -10%, rgba(91,140,255,.20), transparent 60%),
-                     radial-gradient(820px 480px at -5% 4%, rgba(34,211,238,.12), transparent 55%),
+  --grad-brand:      linear-gradient(135deg, #3a4590 0%, #5cf2f2 100%);
+  --grad-brand-deep: linear-gradient(135deg, #242a5e 0%, #0d8ba1 100%);
+  --grad-night:      radial-gradient(1100px 560px at 82% -10%, rgba(92,242,242,.16), transparent 60%),
+                     radial-gradient(820px 480px at -5% 4%, rgba(36,42,94,.35), transparent 55%),
                      var(--color-night);
 
   /* --- Statusfarben (Info-Boxen, Bewertungen) ---------------------------- */
-  --info-blue:    #2f6fe0;  --info-blue-bg:  #eaf1fd;
+  --info-blue:    #1860a8;  --info-blue-bg:  #e9f2fb;
   --tip-green:    #147a52;  --tip-green-bg:  #e7f5ee;
   --warn-amber:   #a9720a;  --warn-amber-bg: #fbf3e2;
   --good:  #147a52;  --mid: #a9720a;  --bad: #c23a2f;
@@ -75,7 +81,7 @@
   --shadow-sm: 0 1px 2px rgba(14,22,38,.06), 0 1px 3px rgba(14,22,38,.09);
   --shadow-md: 0 6px 20px rgba(14,22,38,.08), 0 2px 8px rgba(14,22,38,.06);
   --shadow-lg: 0 20px 50px -24px rgba(14,22,38,.35);
-  --shadow-brand: 0 14px 40px -16px rgba(47,79,208,.55);
+  --shadow-brand: 0 14px 40px -16px rgba(36,42,94,.55);
 
   /* --- Motion ------------------------------------------------------------ */
   --dur-fast: 140ms;

@@ -9,9 +9,9 @@ const other: Lang = lang === 'de' ? 'en' : 'de';
 const nav = [
   { key: 'nav.types', href: '/container' },
   { key: 'nav.guide', href: '/ratgeber' },
+  { key: 'nav.tiny', href: '/ratgeber/tiny-house-aus-container' },
   { key: 'nav.sizes', href: '/ratgeber/container-groessen-und-masse' },
   { key: 'nav.costs', href: '/ratgeber/was-kostet-ein-container' },
-  { key: 'nav.about', href: '/ueber-uns' },
 ] as const;
 
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
@@ -77,7 +77,7 @@ const homeHref = localizePath('/', lang);
   .site-nav__cta {
     background: var(--color-signal); color: #fff; font-weight: 600; font-size: var(--text-sm);
     padding: 0.55rem 1.1rem; border-radius: var(--radius-md); text-decoration: none;
-    box-shadow: var(--shadow-brand); transition: background var(--dur-fast);
+    box-shadow: var(--shadow-brand); transition: background var(--dur-fast); white-space: nowrap;
   }
   .site-nav__cta:hover { background: var(--color-signal-dark); color: #fff; }
 
