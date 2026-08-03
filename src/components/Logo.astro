@@ -1,6 +1,6 @@
 ---
 interface Props {
-  /** "light" für dunkle Hintergründe (Footer), sonst helle Umgebung. */
+  /** "light" für dunkle Hintergründe (Footer), sonst helle Umgebung (Header). */
   variant?: 'dark' | 'light';
   class?: string;
 }
@@ -8,30 +8,40 @@ const { variant = 'dark', class: cls = '' } = Astro.props;
 const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
 const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
 ---
-<span class={`logo logo--${variant} ${cls}`} aria-label="Container-Ratgeber.de">
-  {/* Bildmarke: /img/logo.png ist quadratisch und enthält unten auch den
-      Schriftzug. Für den Header zeigen wir nur den oberen Bildteil (Container)
-      und setzen den Namen daneben als echten, gut lesbaren Text. */}
-  <span class="logo__mark">
+{variant === 'light' ? (
+  /* Footer: Die Schrift des Bildlogos ist dunkelblau und wäre auf dem dunklen
+     Grund kaum lesbar – dort daher Bildmarke + heller Schriftzug als Text. */
+  <span class={`logo logo--light ${cls}`} aria-label="Container-Ratgeber.de">
+    <span class="logo__mark">
+      <img src="/img/logo.webp" alt="" width="512" height="512" loading="lazy" decoding="async"
+        onerror="this.closest('.logo__mark').remove()" />
+    </span>
+    <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
+  </span>
+) : (
+  /* Header: vollständiges Querformat-Logo (Container + Schriftzug, transparent). */
+  <span class={`logo logo--dark ${cls}`}>
     <img
-      src="/img/logo.webp"
-      alt=""
-      width="512" height="512" loading="eager" decoding="async"
-      onerror="this.closest('.logo__mark').remove()"
+      class="logo__full"
+      src="/img/logo-header.webp"
+      alt="Container-Ratgeber.de"
+      width="900" height="216"
+      loading="eager" decoding="async" fetchpriority="high"
     />
   </span>
-  <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
-</span>
+)}
 
 <style>
   .logo { display: inline-flex; align-items: center; gap: 0.55rem; text-decoration: none; line-height: 1; }
-  /* Ausschnitt: zeigt nur den Container (oberer Bildbereich), nicht den
-     eingebrannten Schriftzug. */
-  .logo__mark { display: block; width: 4.2rem; height: 2.35rem; overflow: hidden; flex-shrink: 0; }
+  /* Querformat-Logo im Header */
+  .logo__full { display: block; height: 3.25rem; width: auto; }
+  /* Footer-Variante: Ausschnitt des quadratischen Logos + Text */
+  .logo__mark { display: block; width: 4.4rem; height: 2.55rem; overflow: hidden; flex-shrink: 0; background: #fff; border-radius: 0.5rem; }
   .logo__mark img { display: block; width: 100%; height: auto; margin-top: -0.55rem; }
   .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.02em; white-space: nowrap; }
-  /* Auf dunklem Grund: helles Kärtchen, damit die Graphitlinien sichtbar bleiben. */
-  .logo--light .logo__mark { background: #fff; border-radius: 0.5rem; width: 4.4rem; height: 2.55rem; }
+  @media (max-width: 640px) {
+    .logo__full { height: 2.35rem; }
+  }
   @media (max-width: 520px) {
     .logo__mark { width: 3.5rem; height: 1.95rem; }
     .logo__mark img { margin-top: -0.45rem; }
