@@ -40,13 +40,13 @@ The common sizes follow the ISO standard. Usable floor area figures are rounded 
 | **20 ft** | 6.06 × 2.44 m | 13.5 m² | 33 m³ | The standard size: contents of a three-room flat, machinery storage |
 | **40 ft** | 12.19 × 2.44 m | 28 m² | 67 m³ | Bulk storage, furniture, exhibition kit, production buffer |
 
-The 20-foot container is the standard for good reason: it can be moved with ordinary transport equipment, fits most pitches and covers the needs of most private and commercial users. Forty-foot containers are cheaper per cubic metre but need far more manoeuvring space – as a rule of thumb, roughly twice the container length in clear approach.
+The 20-foot container is the standard for good reason: it moves with ordinary transport equipment, fits most pitches and covers the needs of most users. Forty-foot units are cheaper per cubic metre but need far more manoeuvring space – roughly twice the container length in clear approach.
 
-Alongside the standard height of around 2.59 metres there is the high-cube variant at about 2.90 metres external height. The extra 30 centimetres of internal height pay off as soon as goods are stacked high or a later fit-out with insulation is planned. All dimensions are covered in [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
+Alongside the standard height of around 2.59 metres there is the high-cube variant at about 2.90 metres. The extra 30 centimetres of internal height pay off as soon as goods are stacked high or a later fit-out with insulation is planned. All dimensions are covered in [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## Designs compared
 
-Not every storage container is a shipping container. Several construction principles compete in the market, differing in price, handling and fit-out potential.
+Not every storage container is a shipping container. Several construction principles compete, differing in price, handling and fit-out potential.
 
 | Design | Construction | Strengths | Weaknesses |
 | --- | --- | --- | --- |
@@ -71,9 +71,7 @@ What to check on inspection: the floor panel for soft spots, door seals for crac
 
 ## Ventilation and condensation
 
-Warm, humid air cools overnight against the steel ceiling, drops below the dew point and settles as water. This "container rain" is the most common cause of damage to stored goods and has nothing to do with leaks.
-
-Four measures work reliably: store only dry goods, fit additional vents diagonally offset, use desiccant bags and – for sensitive goods – insulate the ceiling. The physics and the suitability of individual goods are explained in [Using a storage container properly](/en/ratgeber/lagercontainer-richtig-nutzen).
+Warm, humid air cools overnight against the steel ceiling, drops below the dew point and settles as water. This "container rain" is the most common cause of damage to stored goods and has nothing to do with leaks. Four measures work reliably: store only dry goods, fit additional vents diagonally offset, use desiccant bags and – for sensitive goods – insulate the ceiling. The physics and the suitability of individual goods are explained in [Using a storage container properly](/en/ratgeber/lagercontainer-richtig-nutzen).
 
 ## Accessories and fit-out
 
@@ -102,13 +100,13 @@ The weak point of a container is the padlock: an ordinary one is off in seconds 
 | **20 ft** | €1,800 – 3,200 | €3,000 – 5,000 | €70 – 150 |
 | **40 ft** | €2,800 – 5,000 | €4,800 – 7,500 | €110 – 230 |
 
-On top come ancillary costs that are easy to overlook: delivery and collection at roughly €250 to €700 per trip depending on distance, crane hire where needed, and with rental agreements a deposit and cleaning charges. As a rough rule, renting pays off for use up to around twelve to eighteen months; beyond that, buying is usually cheaper, not least because the container retains residual value. A detailed comparison is available under [Buy or rent?](/en/ratgeber/container-kaufen-oder-mieten).
+On top come ancillary costs that are easy to overlook: delivery and collection at roughly €250 to €700 per trip, crane hire where needed, and with rentals a deposit and cleaning charges. As a rough rule, renting pays off up to around twelve to eighteen months; beyond that buying is usually cheaper, not least because the container retains residual value. See [Buy or rent?](/en/ratgeber/container-kaufen-oder-mieten).
 
 ## Site and installation
 
-The ground determines service life. A container must not sit flat on soil: waterlogging beneath the floor cross members causes rust-through within a few years. Four to six point supports of concrete slabs or strip footings under the corner castings have proven themselves, with additional intermediate points for 40-foot units.
+The ground determines service life. A container must not sit flat on soil: waterlogging beneath the floor cross members causes rust-through within a few years. Four to six point supports of concrete slabs under the corner castings have proven themselves, with intermediate points for 40-foot units.
 
-Precise levelling in both axes is essential. If the container stands crooked, the frame twists and the doors no longer lock cleanly – an error that can only be fixed by realigning it. A slight fall of a few millimetres towards the door end is desirable, however, so that rainwater drains away. Guidance on load-bearing bases is available under [Container foundation](/en/ratgeber/container-fundament). Whether a permit is needed depends on the region, duration and use – see [Container building permit](/en/ratgeber/container-baugenehmigung).
+Precise levelling in both axes is essential. If the container stands crooked, the frame twists and the doors no longer lock cleanly – an error only fixable by realigning it. A slight fall of a few millimetres towards the door end is desirable, so that rainwater drains away. See [Container foundation](/en/ratgeber/container-fundament); whether a permit is needed depends on region, duration and use – see [Container building permit](/en/ratgeber/container-baugenehmigung).
 
 ## Selection checklist
 
@@ -123,4 +121,4 @@ Precise levelling in both axes is essential. If the container stands crooked, th
 
 ## Conclusion
 
-Storage containers are the cheapest form of extra space available immediately. Choosing one is less a question of supplier than of honest needs analysis: anyone who realistically assesses volume, access frequency and the sensitivity of the goods almost automatically arrives at the right size and design. A used, wind- and watertight 20-foot container on clean point supports, with additional vents and a welded lockbox, covers the vast majority of use cases – and with a little rust maintenance lasts two decades without trouble.
+Storage containers are the cheapest form of immediately available extra space. Choosing one is less a question of supplier than of honest needs analysis: assess volume, access frequency and the sensitivity of the goods realistically, and the right size and design follow almost automatically. A used, wind- and watertight 20-foot container on clean point supports, with additional vents and a welded lockbox, covers the vast majority of use cases – and with a little rust maintenance lasts two decades.

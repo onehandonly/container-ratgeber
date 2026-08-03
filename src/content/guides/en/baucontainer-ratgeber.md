@@ -36,11 +36,11 @@ Site containers are distinguished by use. The basic structure is almost always i
 | Variant | Typical use | Typical equipment |
 | --- | --- | --- |
 | Crew/break container | Breaks, meals, small meetings | Windows with shutters, electric heating, sink, seating, coat rack |
-| Office container | Site management, foremen, plan reviews | Double-glazed windows, multiple sockets, network outlets, heating, optional air conditioning |
-| Sanitary container | WC, washing, showering | WC cubicles, urinals, wash trough or basins, showers, instant water heater, frost protection |
+| Office container | Site management, foremen, plan reviews | Double glazing, sockets, network outlets, heating, optional air conditioning |
+| Sanitary container | WC, washing, showering | WC cubicles, urinals, wash basins, showers, water heater, frost protection |
 | Changing container | Changing and drying work clothing | Lockers, benches, heating, reinforced ventilation |
 | Material/tool container | Tools, small parts, machines | Shelving, workbench, bar lock, usually uninsulated |
-| Storage container | Building materials, large equipment, packaging | Robust timber floor, double-leaf door, ventilation slots |
+| Storage container | Building materials, equipment, packaging | Timber floor, double-leaf door, ventilation slots |
 
 **Crew containers** are the standard for break rooms. Plan one seating place per person present; in practice a 20-foot module covers around 8 to 10 people. Larger gangs need two coupled modules.
 
@@ -57,8 +57,8 @@ Room containers follow a grid based on standard transport widths. The exterior w
 | 10 foot | 3.00 m | 2.44 m | 2.60 m | 6.5 – 7 m² | Gatehouse, small office, tools |
 | 15 foot | 4.50 m | 2.44 m | 2.60 m | 10 – 11 m² | Single office, small break room |
 | 20 foot | 6.06 m | 2.44 m | 2.60 – 2.80 m | 13.5 – 14.5 m² | Standard office, crew room, sanitary |
-| 2 × 20 foot coupled | 6.06 m | 4.88 m | 2.60 – 2.80 m | 27 – 29 m² | Site management with meeting area |
-| 4 × 20 foot coupled | 6.06 m | 9.76 m | 2.60 – 2.80 m | 55 – 58 m² | Site office for larger projects |
+| 2 × 20 foot coupled | 6.06 m | 4.88 m | 2.60 – 2.80 m | 27 – 29 m² | Site management, meetings |
+| 4 × 20 foot coupled | 6.06 m | 9.76 m | 2.60 – 2.80 m | 55 – 58 m² | Site office, larger projects |
 
 Because of the floor build-up and ceiling panel, the clear internal height is usually 2.30 to 2.50 m. Anyone planning shelving or tall cabinets should work from that figure, not the exterior height. Further data: [Container sizes & dimensions](/en/ratgeber/container-groessen-und-masse).
 
@@ -66,17 +66,17 @@ Because of the floor build-up and ceiling panel, the clear internal height is us
 
 Equipment determines comfort, running costs and suitability for year-round use. Ask about these points when comparing quotes:
 
-- **Electrical installation:** number and layout of sockets, distribution board with residual current device, CEE external connection, option to loop through several modules.
-- **Heating:** usually electric convectors or wall heaters with a thermostat. The output must match the insulation quality – an undersized heater drives electricity costs.
+- **Electrical installation:** number and layout of sockets, distribution board with residual current device, CEE external connection, option to loop through modules.
+- **Heating:** usually electric convectors or wall heaters with a thermostat. Output must match the insulation quality – an undersized heater drives electricity costs.
 - **Windows:** double glazing as standard, plus shutters or grilles for privacy and burglary protection. A tilt function matters more than it first appears.
-- **Doors:** steel exterior doors with multi-point locking, cylinders keyed alike across modules (which avoids key chaos).
-- **Floor covering:** PVC or linoleum on a wood-based panel; in sanitary and changing containers slip-resistant with a coved skirting.
-- **Insulation:** mineral wool or rigid PU foam in walls, roof and floor. For year-round use, insulation thickness is the single most important criterion – details in the guide [Insulating a container](/en/ratgeber/container-daemmen).
-- **Fittings:** lifting eyes at all four corners, forklift pockets, connecting fittings for coupling, lashing points.
+- **Doors:** steel exterior doors with multi-point locking, cylinders keyed alike across modules.
+- **Floor covering:** PVC or linoleum on a wood-based panel; slip-resistant with a coved skirting in sanitary and changing containers.
+- **Insulation:** mineral wool or rigid PU foam in walls, roof and floor. For year-round use, insulation thickness is the single most important criterion – see [Insulating a container](/en/ratgeber/container-daemmen).
+- **Fittings:** lifting eyes at all four corners, forklift pockets, connecting fittings, lashing points.
 
 ## Buying or renting for the site
 
-On construction sites, renting is the norm because project duration and requirements change. Buying pays off with permanent demand, a stable workforce size and your own storage and transport capability. Rule of thumb: from around 24 to 36 months of continuous use, the total rent approaches the purchase price.
+On sites, renting is the norm because project duration and requirements change. Buying pays off with permanent demand, a stable workforce size and your own storage and transport capability. Rule of thumb: from around 24 to 36 months of continuous use, the total rent approaches the purchase price.
 
 | Variant | New purchase approx. | Used purchase approx. | Monthly rent approx. |
 | --- | --- | --- | --- |
