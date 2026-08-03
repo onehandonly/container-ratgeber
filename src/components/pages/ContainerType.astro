@@ -114,7 +114,7 @@ const jsonLd = {
     <div class="ct__more-grid">
       {others.map((o) => (
         <a href={L(`/container/${o.slug}`)} class="card card--link ct__more-card">
-          <TypeThumb slug={o.slug} shape="chip" class="ct__more-icon" />
+          <TypeThumb slug={o.slug} alt={typeName(o, lang)} class="ct__more-icon" />
           <span>{typeName(o, lang)}</span>
         </a>
       ))}
@@ -176,7 +176,11 @@ const jsonLd = {
 
   .ct__more { margin-top: var(--space-section); }
   .ct__more h2 { font-size: var(--text-xl); margin-bottom: 1.2rem; }
-  .ct__more-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%,12rem),1fr)); gap: var(--gap); }
-  .ct__more-card { display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem; text-decoration: none; color: inherit; font-weight: 600; }
-  .ct__more-icon { width: 3.5rem; flex-shrink: 0; border-radius: var(--radius-sm); overflow: hidden; }
+  /* Gleichmäßige Karten: Foto oben, Name darunter. */
+  .ct__more-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
+  .ct__more-card { display: flex; flex-direction: column; padding: 0.75rem; text-decoration: none; color: inherit; font-weight: 600; }
+  .ct__more-card > span:last-child { margin-top: 0.7rem; font-size: var(--text-sm); }
+  .ct__more-icon { width: 100%; }
+  @media (max-width: 860px) { .ct__more-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 420px) { .ct__more-grid { grid-template-columns: 1fr; } }
 </style>

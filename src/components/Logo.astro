@@ -5,46 +5,29 @@ interface Props {
   class?: string;
 }
 const { variant = 'dark', class: cls = '' } = Astro.props;
-const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
-const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
 ---
-{variant === 'light' ? (
-  /* Footer: Die Schrift des Bildlogos ist dunkelblau und wäre auf dem dunklen
-     Grund kaum lesbar – dort daher Bildmarke + heller Schriftzug als Text. */
-  <span class={`logo logo--light ${cls}`} aria-label="Container-Ratgeber.de">
-    <span class="logo__mark">
-      <img src="/img/logo.webp" alt="" width="512" height="512" loading="lazy" decoding="async"
-        onerror="this.closest('.logo__mark').remove()" />
-    </span>
-    <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
-  </span>
-) : (
-  /* Header: vollständiges Querformat-Logo (Container + Schriftzug, transparent). */
-  <span class={`logo logo--dark ${cls}`}>
-    <img
-      class="logo__full"
-      src="/img/logo-header.webp"
-      alt="Container-Ratgeber.de"
-      width="900" height="216"
-      loading="eager" decoding="async" fetchpriority="high"
-    />
-  </span>
-)}
+<span class={`logo logo--${variant} ${cls}`}>
+  {/* Querformat-Logo (Container + Schriftzug, transparent). Im Footer liegt es
+      auf einem hellen Feld, da die dunkelblaue Schrift sonst kaum lesbar wäre. */}
+  <img
+    class="logo__full"
+    src="/img/logo-header.webp"
+    alt="Container-Ratgeber.de"
+    width="900" height="216"
+    loading={variant === 'light' ? 'lazy' : 'eager'}
+    decoding="async"
+    fetchpriority={variant === 'light' ? undefined : 'high'}
+  />
+</span>
 
 <style>
-  .logo { display: inline-flex; align-items: center; gap: 0.55rem; text-decoration: none; line-height: 1; }
-  /* Querformat-Logo im Header */
-  .logo__full { display: block; height: 3.25rem; width: auto; }
-  /* Footer-Variante: Ausschnitt des quadratischen Logos + Text */
-  .logo__mark { display: block; width: 4.4rem; height: 2.55rem; overflow: hidden; flex-shrink: 0; background: #fff; border-radius: 0.5rem; }
-  .logo__mark img { display: block; width: 100%; height: auto; margin-top: -0.55rem; }
-  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.02em; white-space: nowrap; }
+  .logo { display: inline-flex; align-items: center; text-decoration: none; line-height: 1; }
+  .logo__full { display: block; height: 4.05rem; width: auto; }
+  /* Footer: helles Feld, damit die dunkle Schrift lesbar bleibt. */
+  .logo--light { background: #fff; border-radius: 0.7rem; padding: 0.45rem 0.8rem; }
+  .logo--light .logo__full { height: 3.4rem; }
   @media (max-width: 640px) {
-    .logo__full { height: 2.35rem; }
-  }
-  @media (max-width: 520px) {
-    .logo__mark { width: 3.5rem; height: 1.95rem; }
-    .logo__mark img { margin-top: -0.45rem; }
-    .logo__word { font-size: 1.1rem; }
+    .logo__full { height: 2.9rem; }
+    .logo--light .logo__full { height: 2.9rem; }
   }
 </style>
