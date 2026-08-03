@@ -16,17 +16,17 @@ A tiny house built from a shipping container is one of the most interesting buil
 
 ## Why container tiny houses are in demand
 
-Several independent drivers reinforce each other here.
+Several independent drivers reinforce each other.
 
 **Cost.** The building envelope already exists and costs a fraction of what the shell, roof and facade of a conventional house consume. Even a high-quality container tiny house stays well below the square-metre price of a masonry home – although part of that saving simply comes from building less floor area.
 
-**Build time.** Much of the fit-out happens independently of the weather, with professional suppliers even in a workshop. Turnkey solutions often take only a few months from order to move-in, rather than a year and a half.
+**Build time.** Much of the fit-out happens independently of the weather, with professional suppliers even in a workshop. Turnkey solutions often take only a few months from order to move-in.
 
 **Mobility.** A container is built to be transported, and a 20-foot module can be relocated with an ordinary truck and crane – though "mobile" does not mean towing the house behind your car.
 
-**Sustainability and upcycling.** A used container gets a second life instead of being melted down. To be honest, though: the environmental balance is decided mainly by insulation and later heating energy, not by the reused steel alone. A poorly insulated container house is not a sustainable house.
+**Sustainability and upcycling.** A used container gets a second life instead of being melted down. To be honest, though: the environmental balance is decided mainly by insulation and heating energy, not by the reused steel. A poorly insulated container house is not a sustainable house.
 
-**Housing shortage and flexibility.** Container modules suit infill development, a garden building with real living quality, an added storey, or a separate unit on a family plot. Few other building types serve these niches so easily.
+**Housing shortage and flexibility.** Container modules suit infill development, a garden building with real living quality, an added storey, or a separate unit on a family plot – niches few other building types serve so easily.
 
 ## Which containers are suitable
 
@@ -34,7 +34,7 @@ Not every container is a good candidate. Height, condition and history are what 
 
 **20 feet** offers roughly 15 m² and is the smallest sensible module for a one-person tiny house or garden office. **40 feet** comes to around 28 m² and allows a real separation of living, sleeping and bathroom.
 
-The single most important tip: **choose a high cube container.** A standard container is about 2.39 m high internally; after the floor build-up and an insulated ceiling, only around 2.10 m may be left – tight, but workable. A high cube starts at roughly 2.69 m and leaves a comfortable 2.35 to 2.45 m once fitted out. The price premium is small compared with the gain in comfort.
+The single most important tip: **choose a high cube container.** A standard container is about 2.39 m high internally; after the floor build-up and an insulated ceiling, only around 2.10 m may be left – tight, but workable. A high cube starts at roughly 2.69 m and leaves a comfortable 2.35 to 2.45 m once fitted out, for a small premium.
 
 **Combining several containers** is the usual route to larger floor plans. Two 40-foot high cubes side by side give around 56 m² – but the dividing wall must then be partly removed and structurally replaced, because the long walls are load-bearing. That is engineering work, not an angle-grinder project. Staggered layouts, L-shapes or a stacked second module with roof terrace are rewarding, but raise planning and waterproofing effort.
 
@@ -53,7 +53,7 @@ The single most important tip: **choose a high cube container.** A standard cont
 
 The living area is always smaller than the external footprint, because insulation and lining cost several centimetres per side – with internal insulation, roughly 8 to 12 per cent of the floor area. To keep the full area, insulate externally, the better solution in building-physics terms anyway, though the characteristic corrugated walls then disappear.
 
-A proven floor plan logic in a 40-foot module: bathroom and services at one end wall, where the pipework can be bundled; kitchen along one long wall; living area facing the glazing; sleeping at the far end. Large openings belong in the long wall – and every opening in a load-bearing wall needs a steel frame.
+Proven floor plan logic in a 40-foot module: bathroom and services at one end wall, where the pipework bundles; kitchen along one long wall; living area facing the glazing; sleeping at the far end. Large openings belong in the long wall – and each one needs a steel frame.
 
 ## The route to your tiny house
 
@@ -78,7 +78,7 @@ A proven floor plan logic in a 40-foot module: bathroom and services at one end 
 | Partial fit-out by supplier, interior self-built | approx. €30,000–55,000 |
 | Turnkey tiny house | approx. €55,000–110,000 |
 
-On top of that come the additional costs that are so often underestimated:
+On top of that come the extras that are so often underestimated:
 
 | Item | Approx. range |
 | --- | --- |
@@ -88,17 +88,17 @@ On top of that come the additional costs that are so often underestimated:
 | Design, structural engineering, permit | approx. €1,500–6,000 |
 | Outdoor works, terrace, access | approx. €1,000–10,000 |
 
-Self-building genuinely saves 30 to 50 per cent of the fit-out cost – but typically takes 500 to 1,000 hours and demands real skill in insulation, electrics and waterproofing. Electrical and gas work belongs in professional hands regardless. A realistic middle path: buy an insulated, weathertight module and do floors, surfaces and built-in furniture yourself.
+Self-building saves 30 to 50 per cent of the fit-out cost – but typically takes 500 to 1,000 hours and demands real skill in insulation, electrics and waterproofing. Electrical and gas work belongs in professional hands regardless. A realistic middle path: buy an insulated, weathertight module and do floors, surfaces and furniture yourself.
 
 ## Permits and siting in brief
 
-A container tiny house counts as a building as soon as it serves the permanent occupation of people – regardless of whether it could theoretically be transported. Building regulations, the local development plan and, as a rule, a permit requirement therefore apply. Three questions decide the outcome: is residential use permitted on the plot? Will the house be a permanent residence or only seasonal? And does the construction meet energy requirements? On campsites or in weekend-home zones, permanent residence is almost never allowed. Details in the guide [Container building permit](/en/ratgeber/container-baugenehmigung).
+A container tiny house counts as a building as soon as it serves the permanent occupation of people – regardless of whether it could theoretically be transported. Building regulations, the local development plan and, as a rule, a permit requirement apply. Three questions decide the outcome: is residential use permitted on the plot? Permanent residence or seasonal use? And does the construction meet energy requirements? On campsites or in weekend-home zones, permanent residence is almost never allowed. Details in the guide [Container building permit](/en/ratgeber/container-baugenehmigung).
 
 ## Insulation, heating and moisture
 
-Steel is an excellent thermal conductor – exactly what you do not want in a building envelope. Every metal connection running from inside to outside becomes a thermal bridge and a potential condensation point. The decisive rule: the insulation layer must run continuously around the steel on the outside, or – internally – be executed over the full area, vapour-tight and without continuous metal profiles.
+Steel is an excellent thermal conductor – exactly what you do not want in a building envelope. Every metal connection running from inside to outside becomes a thermal bridge and a potential condensation point. The rule: the insulation layer must run continuously around the steel outside, or – internally – be full-area, vapour-tight and free of continuous metal profiles.
 
-Two approaches have proven themselves: external insulation with a ventilated cavity and cladding, and internal solutions using sprayed PU foam or bonded rigid foam boards, each with a properly sealed vapour barrier. Mineral wool against cold steel without a functioning vapour control layer is the classic route to mould. Because a tiny house has a small air volume and high moisture input from showering and cooking, mechanical ventilation with heat recovery is effectively basic specification. For heating, infrared panels, small air-to-water heat pumps or split air conditioners work well – the latter heat in winter and cool in summer, no luxury given the low thermal mass of steel. Details in the guide [Insulating a container](/en/ratgeber/container-daemmen).
+Two approaches work: external insulation with a ventilated cavity and cladding, and internal solutions using sprayed PU foam or bonded rigid foam boards, each with a sealed vapour barrier. Mineral wool against cold steel without a vapour control layer is the classic route to mould. Because a tiny house has a small air volume and high moisture input from showering and cooking, mechanical ventilation with heat recovery is effectively basic specification. For heating, infrared panels, small air-to-water heat pumps or split air conditioners work well – the latter heat in winter and cool in summer, no luxury given the low thermal mass of steel. Details in the guide [Insulating a container](/en/ratgeber/container-daemmen).
 
 ## Common mistakes and practical tips
 
@@ -106,11 +106,11 @@ Two approaches have proven themselves: external insulation with a ventilated cav
 - **Standard height instead of high cube.** After fit-out you are missing ten centimetres you can never get back.
 - **Too many openings in load-bearing long walls.** Each needs structural replacement; eventually the steelwork costs more than the container.
 - **Underestimating insulation.** Not a side item – it determines comfort, running costs and service life.
-- **No strategy for summer overheating.** Plan shading, roof overhangs and light colours.
+- **No strategy for summer overheating.** Plan shading, overhangs and light colours.
 - **Forgetting access.** A 40-foot module needs a driveable approach and space for the crane truck.
 - **Not budgeting the extras.** Utilities and foundations can be a quarter of the total budget.
-- **Start small.** A single high cube as a garden office is excellent practice before you tackle the house.
+- **Start small.** A single high cube as a garden office is excellent practice first.
 
 ## Conclusion
 
-A tiny house built from a container is not a cheap solution, but a remarkably predictable one. The envelope already exists, the build time is short, the geometry forces clear decisions – and the result can be architecturally convincing. Success is not decided by the container itself but by three things around it: a legally sound site, genuinely well-thought-out insulation, and a budget that includes foundations, transport and utilities from day one. Clarify those early and honestly, and you get a home for comparatively little money that is robust, low-maintenance and, in its clarity, simply good-looking.
+A container tiny house is not a cheap solution, but a remarkably predictable one. The envelope already exists, build time is short, the geometry forces clear decisions – and the result can be architecturally convincing. Success is decided not by the container but by three things around it: a legally sound site, well-thought-out insulation, and a budget that includes foundations, transport and utilities from day one. Clarify those early and honestly, and you get a robust, low-maintenance home that is, in its clarity, simply good-looking.

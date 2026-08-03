@@ -1,5 +1,4 @@
 ---
-import VoxelHero from '../VoxelHero.astro';
 import ContainerIcon from '../ContainerIcon.astro';
 import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
@@ -49,7 +48,9 @@ const featured = lang === 'en'
         <div><dt>✓</dt><dd>{t('hero.stat.free')}</dd></div>
       </dl>
     </div>
-    <div class="hero__art"><VoxelHero /></div>
+    <div class="hero__art">
+      <img src="/img/container-sketch.webp" alt="" width="1100" height="751" fetchpriority="high" decoding="async" />
+    </div>
   </div>
 </section>
 
@@ -147,6 +148,7 @@ const featured = lang === 'en'
   .hero__stats dt { font-family: var(--font-head); font-size: 1.8rem; font-weight: 800; color: var(--color-signal); }
   .hero__stats dd { font-size: var(--text-xs); color: var(--color-muted); max-width: 12ch; }
   .hero__art { padding: 1rem; }
+  .hero__art img { width: 100%; max-width: 32rem; height: auto; margin-inline: auto; }
   @media (max-width: 860px) { .hero__inner { grid-template-columns: 1fr; } .hero__art { order: -1; max-width: 20rem; } }
 
   /* Container-Typ-Karten */
