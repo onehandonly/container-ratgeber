@@ -126,73 +126,114 @@ Auffällig: Ein 40-Fuß-Container kann trotz doppelter Länge kaum mehr Gewicht 
 
 Beachten Sie außerdem, dass die im Straßenverkehr zulässigen Gesamtgewichte des Transportfahrzeugs die theoretische Zuladung in der Praxis oft weiter begrenzen.
 
-## Allround- und Materialcontainer: alle Größen
+## Allroundcontainer: alle Größen
 
-**Allroundcontainer** – auch Material-, Universal- oder Lagercontainer genannt – sind in **Modulbauweise** gefertigt und **nicht ISO-genormt**. Die Maße variieren deshalb je nach Hersteller, teils um mehrere Zentimeter. Gegenüber Seecontainern sind sie **deutlich leichter**, besitzen häufig eine **Doppelflügeltür an der Stirnseite** (statt der schweren Containertüren) und sind in vielen Zwischengrößen erhältlich. Genau das macht sie interessant, wenn nur **wenig Stellfläche** vorhanden ist: Zwischen 6 und 20 Fuß findet sich fast für jede Lücke ein passendes Format.
+**Allroundcontainer** sind im deutschen Markt die gängige Bezeichnung für den **isolierten Raum-, Modul- oder Bürocontainer**. Sie sind damit das Gegenstück zum unisolierten Lager- oder Materialcontainer: Wo dieser nur eine Stahlhülle ist, hat der Allroundcontainer einen **gedämmten Sandwich-Wandaufbau** und ist als Aufenthaltsraum für Menschen gebaut.
 
-Die folgenden Angaben sind **typische Werte und herstellerabhängig**. Verbindlich sind immer die Maßblätter des jeweiligen Anbieters.
+Der typische Aufbau besteht aus **Stahlblech außen, einer Dämmschicht aus PU-Schaum oder Mineralwolle und einer Innenverkleidung**, meist aus beschichteter Melamin- oder Spanplatte. Übliche Dämmstärken – **alle Werte ca. und herstellerabhängig**:
 
-| Größe | Außenmaß ca. L × B × H | Nutzfläche ca. | Volumen ca. | Typische Nutzung |
+- **Wand:** ca. 60–80 mm
+- **Dach:** ca. 80–100 mm
+- **Boden:** ca. 60–100 mm
+
+Dadurch ist der Allroundcontainer **ganzjährig nutzbar** – als Büro, Aufenthalts-, Schulungs-, Wach- oder Verkaufsraum. Auch Sanitär- und Wohnvarianten bauen auf demselben Grundkörper auf und ergänzen ihn um Installationen und Ausstattung.
+
+Serienmäßig gehören dazu in der Regel:
+
+- **Fenster**, meist isolierverglast und mit Rollladen
+- **Außentür** mit Zylinderschloss
+- **Elektroinstallation** mit Verteiler, Steckdosen und Beleuchtung
+- **Heizung** (häufig ein elektrischer Konvektor); **Klimatisierung** meist optional
+
+Allroundcontainer sind **nicht ISO-genormt**: Die Maße variieren je Hersteller. Sie sind aber bewusst **transportkompatibel zu den Rastermaßen von Seecontainern** ausgelegt und besitzen **Eckbeschläge zum Kranen und Stapeln**. Wichtig für die Planung: Durch Dämmung und Innenverkleidung ist das **Innenmaß deutlich kleiner** als beim gleich langen Seecontainer – pro Wand gehen schnell 8 bis 12 cm verloren.
+
+Die folgenden Angaben sind **ca.-Werte und herstellerabhängig**; verbindlich sind immer die Maßblätter des jeweiligen Anbieters. Die Außenbreite liegt meist bei 2,44 m, die Außenhöhe bei 2,60–2,80 m.
+
+| Größe | Außenmaß ca. L × B × H | Innenmaß ca. L × B × H | Nutzfläche ca. | Typische Nutzung |
 |---|---|---|---|---|
-| 6 Fuß | 1,98 × 2,20 × 2,26 m | 4,0 m² | 9 m³ | Gartengeräte, kleine Werkzeuglager |
-| 7 Fuß | 2,20 × 2,20 × 2,26 m | 4,4 m² | 10 m³ | Vereins- und Hobbylager |
-| 8 Fuß | 2,44 × 2,20 × 2,26 m | 5,0 m² | 11 m³ | Baustellen-Werkzeuglager |
-| 9 Fuß | 2,75 × 2,20 × 2,26 m | 5,7 m² | 12 m³ | Material auf engem Raum |
-| 10 Fuß | 2,99 × 2,44 × 2,59 m | 6,5 m² | 16 m³ | Kleines Lager, Gartenhaus |
-| 12 Fuß | 3,65 × 2,20 × 2,26 m | 7,5 m² | 16 m³ | Handwerksbetriebe |
-| 15 Fuß | 4,55 × 2,20 × 2,26 m | 9,4 m² | 20 m³ | Umzugs- und Zwischenlager |
-| 16 Fuß | 4,88 × 2,20 × 2,26 m | 10,1 m² | 21 m³ | Größeres Materiallager |
-| 20 Fuß | 6,06 × 2,44 × 2,59 m | 13,9 m² | 33 m³ | Standard für Lager und Ausbau |
+| 8 Fuß | 2,44 × 2,20 × 2,60 m | 2,25 × 2,00 × 2,30 m | 4,5 m² | Wach-/Pförtnercontainer, Kassenhäuschen |
+| 10 Fuß | 3,00 × 2,44 × 2,60 m | 2,80 × 2,23 × 2,34 m | 6,2 m² | Einzelbüro, kleiner Aufenthaltsraum |
+| 12 Fuß | 3,65 × 2,44 × 2,60 m | 3,45 × 2,23 × 2,34 m | 7,7 m² | Büro mit zwei Arbeitsplätzen |
+| 15 Fuß | 4,55 × 2,44 × 2,60 m | 4,35 × 2,23 × 2,34 m | 9,7 m² | Büro, Umkleide, Sanitäreinheit |
+| 16 Fuß | 4,88 × 2,44 × 2,60 m | 4,68 × 2,23 × 2,34 m | 10,4 m² | Aufenthaltsraum kleiner Teams |
+| 20 Fuß | 6,06 × 2,44 × 2,60 m | 5,85 × 2,23 × 2,34 m | 13,0 m² | Standardgröße: Büro, Mannschaftsraum |
+| 24 Fuß | 7,32 × 2,44 × 2,60 m | 7,10 × 2,23 × 2,34 m | 15,8 m² | Großraumbüro, Schulungsraum |
+| 25 Fuß | 7,60 × 2,44 × 2,60 m | 7,40 × 2,23 × 2,34 m | 16,5 m² | Großraumbüro, Schulungs- oder Sozialraum |
+| 30 Fuß | 9,15 × 2,44 × 2,60 m | 8,95 × 2,23 × 2,34 m | 20,0 m² | Klassenraum, große Einheiten |
 
-Auffällig ist der Sprung bei den Breiten: Die Zwischengrößen von 6 bis 16 Fuß sind mit ca. 2,20 m Außenbreite **schmaler** als die 10- und 20-Fuß-Formate mit ca. 2,44 m. Dadurch passen sie durch engere Zufahrten, bieten aber auch weniger Nutzfläche pro Meter Länge. Wer Europaletten (1,20 × 0,80 m) einlagern will, sollte die lichte Innenbreite prüfen – bei 2,20 m Außenbreite bleiben innen nur rund 2,05 m, was für zwei Paletten nebeneinander knapp wird.
+Gut ablesbar ist der Effekt der Dämmung: Ein 20-Fuß-Allroundcontainer hat außen praktisch dasselbe Maß wie ein 20-Fuß-Seecontainer, innen aber nur ca. 2,23 m statt 2,35 m Breite und ca. 2,34 m statt 2,39 m Höhe.
 
-### Allroundcontainer vs. Seecontainer im Vergleich
+Grundsätzlich lassen sich Raumcontainer in **nahezu jeder Länge** fertigen – Sondermaße und projektbezogene Anfertigungen sind im Modulbau durchaus üblich. Eine vollständige Auflistung wäre daher wenig hilfreich. Die Tabelle zeigt deshalb die **regulär gebauten Standardgrößen**, die praktisch überall verfügbar sind und für die es Zubehör, Kopplungsteile und kurzfristige Mietangebote gibt.
 
-| Kriterium | Allround-/Materialcontainer | Seecontainer |
+### XL-Container: 3 Meter Breite
+
+Viele Allroundcontainer gibt es je nach Länge zusätzlich als **XL-Ausführung mit 3,00 m Außenbreite** statt der üblichen ca. 2,44 m (genau 2,435 m). Das sind gut ein halber Meter mehr Breite – und damit spürbar mehr Nutzfläche: Innen stehen rund **2,80 m statt 2,23 m** zur Verfügung. Erst damit werden Räume möglich, in denen sich **Schreibtische gegenüberstellen** oder Besprechungstische sinnvoll platzieren lassen. In der Standardbreite bleibt dagegen meist nur eine einreihige Möblierung entlang einer Wand.
+
+Auch hier gilt: Alle Werte sind ca.-Angaben und herstellerabhängig.
+
+| Größe XL | Außenmaß ca. L × B × H | Innenmaß ca. L × B × H | Nutzfläche ca. |
+|---|---|---|---|
+| 20 Fuß XL | 6,06 × 3,00 × 2,60 m | 5,85 × 2,79 × 2,34 m | 16,3 m² |
+| 25 Fuß XL | 7,60 × 3,00 × 2,60 m | 7,40 × 2,79 × 2,34 m | 20,6 m² |
+| 30 Fuß XL | 9,15 × 3,00 × 2,60 m | 8,95 × 2,79 × 2,34 m | 25,0 m² |
+
+> **Praxishinweis zum Transport:** Mit 3,00 m Breite liegt der Container über der im Straßenverkehr genehmigungsfrei zulässigen Fahrzeugbreite. Die Anlieferung ist damit ein **Großraumtransport und benötigt in der Regel eine Genehmigung**, je nach Strecke auch ein Begleitfahrzeug. Das verteuert den Transport und verlängert die Vorlaufzeit spürbar – planen Sie die Lieferung entsprechend früh und lassen Sie sich die Transportkosten vorab konkret ausweisen.
+
+Fazit: **XL lohnt sich, wenn dauerhaft mehrere Personen im Container arbeiten** – etwa im Bauleitungsbüro über viele Monate, im Schulungsraum oder in der Vereinsunterkunft. Für kurze Baustelleneinsätze und einzelne Arbeitsplätze ist die Standardbreite meist die wirtschaftlichere Wahl, weil Anlieferung und Umsetzung deutlich einfacher bleiben.
+
+### Dämmwerte zur Orientierung
+
+Je nach Aufbau, Dämmstoff und Dicke liegen die **U-Werte grob im Bereich 0,3–0,6 W/(m²K)**. Diese Spanne ist ausdrücklich nur eine **Orientierung und stark herstellerabhängig** – sie ist keine Zusage einer bestimmten Norm oder eines bestimmten energetischen Standards. Wer den Container dauerhaft beheizen oder genehmigungspflichtig aufstellen will, sollte sich die konkreten U-Werte und Nachweise vom Hersteller schriftlich geben lassen.
+
+### Kopplung zu größeren Anlagen
+
+Der große Vorteil der Modulbauweise ist die **Kopplung**: Mehrere Allroundcontainer lassen sich **nebeneinander und übereinander** zu zusammenhängenden Anlagen verbinden. Trennwände zwischen gekoppelten Modulen sind entfernbar, sodass durchgehende Großräume entstehen. Ergänzt wird das durch **Flure, Außentreppen, Podeste und Geländer** aus dem gleichen System. So entstehen aus Standardmodulen mehrgeschossige Büro-, Schul- oder Unterkunftsanlagen – und sie lassen sich später ebenso wieder demontieren und an anderer Stelle aufbauen.
+
+### Allroundcontainer (isoliert) vs. Seecontainer (unisoliert)
+
+| Kriterium | Allroundcontainer (isoliert) | Seecontainer (unisoliert) |
 |---|---|---|
-| Norm | Nicht genormt, Modulbauweise, herstellerabhängig | ISO-genormt, weltweit einheitliche Außenmaße |
-| Wandstärke / Stabilität | Dünneres Blech, teils Sandwichelemente; für stationäre Nutzung ausgelegt | Profilierter Corten-Stahl, seetauglich, sehr robust |
-| Gewicht | Leicht: je nach Größe ca. 500–1.500 kg | Schwer: ca. 1.300 kg (10 Fuß) bis ca. 5.000 kg (45 Fuß HC) |
-| Stapelbarkeit | Meist gar nicht oder nur begrenzt (Herstellerangabe beachten) | Mehrfach stapelbar über genormte Eckbeschläge |
-| Türen | Meist Doppelflügeltür an der Stirnseite, oft mit Bodenschwelle | Zweiflügelige Containertüren mit Verriegelungsstangen und Dichtungen |
-| Transport | Leicht, oft mit kleinem Kranfahrzeug oder Anhänger möglich | Absetzkipper, Tieflader oder Ladekran nötig |
-| Preisniveau | Günstiger in der Anschaffung, besonders bei Kleinformaten | Höher, dafür sehr guter Wiederverkaufswert |
-| Typische Nutzung | Material-, Werkzeug- und Gartenlager, Vereine, Handwerk | Transport, Langzeitlagerung, Ausbau zu Wohn-/Bürocontainern |
+| Wandaufbau / Dämmung | Sandwich: Stahlblech, PU-/Mineralwolldämmung (Wand ca. 60–80 mm), Innenverkleidung | Einschaliges profiliertes Corten-Stahlblech, keine Dämmung |
+| Norm | Nicht ISO-genormt, Maße herstellerabhängig, aber transportkompatibel | ISO-genormt, Außenmaße weltweit exakt gleich |
+| Innenmaß bei gleicher Außenlänge | Kleiner: bei 20 Fuß ca. 5,85 × 2,23 × 2,34 m | Größer: bei 20 Fuß ca. 5,90 × 2,35 × 2,39 m |
+| Gewicht | Leichter, da dünnere Bleche und Dämmstoff | Schwerer: ca. 2.200–2.300 kg beim 20-Füßer |
+| Fenster / Tür serienmäßig | Ja: isolierverglastes Fenster mit Rollladen, Außentür, Elektrik | Nein: nur die zweiflügelige Stahl-Containertür |
+| Ganzjährige Nutzung | Ja, als Aufenthaltsraum ausgelegt (mit Heizung, Klima optional) | Nein: im Sommer Hitze, im Winter Kälte und Kondenswasser |
+| Stapelbarkeit | Über Eckbeschläge möglich, Anzahl der Lagen herstellerabhängig | Mehrfach stapelbar, seetauglich verzurrbar |
+| Typische Nutzung | Büro, Aufenthalts-, Schulungs-, Wach-, Verkaufs-, Sanitärraum | Transport, Lagerung, Ausbauprojekte |
+| Preisniveau | Höher durch Dämmung und Ausstattung | Günstiger pro Kubikmeter, guter Wiederverkaufswert |
 
-> Kurz gesagt: Wer **lagern** will, fährt mit einem Allroundcontainer oft günstiger. Wer **transportieren, stapeln oder ausbauen** will, sollte zum Seecontainer greifen.
+> Kurz gesagt: **Sollen sich Menschen darin aufhalten, führt kein Weg am isolierten Allroundcontainer vorbei.** Geht es nur um Material, ist der unisolierte Lager- oder Seecontainer die günstigere Wahl.
 
 ### Welche Größe passt wann?
 
 Ein paar praktische Faustregeln für die Auswahl:
 
-- **Gartengeräte, Rasenmäher, Fahrräder:** 6 bis 8 Fuß reichen aus. Rund 4–5 m² Nutzfläche entsprechen einem soliden Gartenhaus – mit dem Vorteil, dass der Container einbruchhemmender ist und keine Fundamente braucht.
-- **Werkzeug eines Handwerkers:** 8 bis 12 Fuß. Für Maschinen, Kleinteilregale und Verbrauchsmaterial eines Ein-Mann-Betriebs genügen ca. 5–7,5 m²; ab zwei Mitarbeitern oder mit Gerüstmaterial sollten es 15 oder 16 Fuß sein.
-- **Umzug einer 2-Zimmer-Wohnung (ca. 50–60 m²):** Rechnen Sie mit ca. 25–30 m³ Packvolumen – ein **15- oder 16-Fuß-Container** oder ein 20-Fuß-Seecontainer (33 m³) passt. Für eine 3- bis 4-Zimmer-Wohnung ist der 20-Füßer das Minimum, oft wird ein 40-Fuß-Container gebraucht.
-- **Vereins- und Hobbylager:** 7 bis 9 Fuß für Trikots, Bälle, Zelte und Sportgerät.
-- **Zwischenlager bei Renovierung:** 12 bis 16 Fuß, je nach Wohnungsgröße; steht der Container auf dem eigenen Grundstück, spart das gegenüber einem angemieteten Lagerraum meist deutlich.
-- **Lager plus späterer Ausbau:** Immer zum **20-Fuß-Seecontainer oder größer** greifen – Allroundcontainer sind für Dämmung, Fenstereinbau und Stapelung nur eingeschränkt geeignet.
+- **Ein Arbeitsplatz, Pförtner oder Kassenhäuschen:** 8 bis 10 Fuß. Ca. 4,5–6,2 m² reichen für Schreibtisch, Stuhl und Schrank.
+- **Zwei bis drei Arbeitsplätze:** 12 bis 16 Fuß. Rechnen Sie in der Praxis mit **ca. 5–6 m² Nutzfläche pro dauerhaftem Arbeitsplatz** plus Fläche für Schränke und Verkehrsweg.
+- **Bauleitung, Mannschafts- oder Aufenthaltsraum:** 20 Fuß als Standardgröße mit ca. 13 m² – genug für einen Tisch mit sechs bis acht Plätzen.
+- **Schulung, Besprechung, Klassenraum:** 24, 25 oder 30 Fuß, gern in XL-Breite, oder zwei gekoppelte 20-Füßer mit entfernter Trennwand.
+- **Sanitär und Umkleide:** meist 15 Fuß, da die Installationen zusätzlich Platz beanspruchen.
+- **Reines Materiallager:** kein Allroundcontainer – hier genügt ein unisolierter Lager- oder Seecontainer, der deutlich günstiger ist.
 
-Als grobe Umrechnung gilt: **1 m² Wohnfläche entspricht etwa 0,5 m³ Packvolumen** beim Umzug. Bei sperrigen Möbeln oder viel Hausrat sollte man großzügig aufrunden – ein zu kleiner Container kostet am Ende mehr als eine Nummer größer.
+Faustregel bei der Auswahl: Lieber eine Nummer größer planen. Nach Abzug von Dämmung, Innenverkleidung und Möblierung bleibt von der Außenlänge spürbar weniger nutzbare Fläche übrig, als das Etikett „20 Fuß" vermuten lässt.
 
-## Bau- und Raumcontainer & Modulmaße
+Details zu Ausstattung, Varianten und Preisen finden Sie im Beitrag [Bürocontainer: Ausstattung, Größen & Kosten](/ratgeber/buerocontainer-ratgeber).
 
-Neben den genormten Seecontainern gibt es **Bau- und Raumcontainer** in Modulbauweise. Sie dienen als Büro, Aufenthaltsraum, Sanitäreinheit oder Lager und folgen keiner so strengen ISO-Norm. Ihre Maße orientieren sich stattdessen an praktischen Raumgrößen und der Transportierbarkeit.
+## Modullängen in Metern statt Fuß
 
-Typische Eckwerte:
+Manche Hersteller geben die Länge ihrer Raumcontainer nicht in Fuß, sondern in **glatten Metern** an. Gemeint ist dieselbe Bauweise wie beim Allroundcontainer – nur die Bezeichnung unterscheidet sich. Diese Übersicht hilft beim Umrechnen:
 
-- **Breite:** meist ca. 2,44 m, als Sondermaß auch bis 3,00 m.
-- **Höhe:** ca. 2,60–2,80 m außen, was innen eine wohnraumtaugliche Höhe ergibt.
-- **Länge:** in festen Modulschritten, die sich koppeln lassen.
-
-| Modullänge (ca.) | Breite (ca.) | Höhe (ca.) | Typische Nutzung |
+| Modullänge (ca.) | entspricht etwa | Breite (ca.) | Typische Nutzung |
 |---|---|---|---|
-| 3 m | 2,44 m | 2,60–2,80 m | Kleines Büro, Lager, WC-Einheit |
-| 4 m | 2,44 m | 2,60–2,80 m | Einzelbüro, Wachcontainer |
-| 5 m | 2,44 m | 2,60–2,80 m | Büro, Aufenthaltsraum |
-| 6 m | 2,44 m | 2,60–2,80 m | Größeres Büro, Mannschaftsraum |
-| 7 m | 2,44 m | 2,60–2,80 m | Großraum, Klassenraum |
+| 3 m | 10 Fuß | 2,44 m | Kleines Büro, WC-Einheit |
+| 4 m | 13 Fuß | 2,44 m | Einzelbüro, Wachcontainer |
+| 5 m | 16 Fuß | 2,44 m | Büro, Aufenthaltsraum |
+| 6 m | 20 Fuß | 2,44 m | Größeres Büro, Mannschaftsraum |
+| 7 m | 23 Fuß | 2,44 m | Großraum, Besprechung |
+| 9 m | 30 Fuß | 2,44 m | Klassenraum, große Einheiten |
 
-Der große Vorteil des Modulbaus ist die **Kopplung**: Mehrere Container lassen sich nebeneinander und übereinander zu größeren, zusammenhängenden Einheiten verbinden – von der zweigeschossigen Bürolandschaft bis zur temporären Schule. Trennwände werden dabei entfernt, sodass ein durchgehender Raum entsteht.
+Die Außenhöhe liegt jeweils bei ca. 2,60–2,80 m. Auch diese Längen sind in der XL-Ausführung mit 3,00 m Breite erhältlich.
 
 ## Welche Größe wofür?
 
@@ -203,7 +244,7 @@ Der große Vorteil des Modulbaus ist die **Kopplung**: Mehrere Container lassen 
 - **40 Fuß:** Für große, voluminöse Mengen und lange Güter; das Maximum an Volumen pro Container.
 - **40 Fuß High Cube:** Wenn zusätzlich Höhe gefragt ist – etwa beim Umbau zu Wohn- oder Büroraum.
 - **45 Fuß High Cube:** Maximales Volumen – aber nur mit geprüftem Transportweg und ausreichend Stellfläche.
-- **Allround-/Materialcontainer (6–16 Fuß):** Für kleine Lagerbedarfe und enge Grundstücke; leicht, günstig, nicht genormt.
+- **Allroundcontainer (isoliert, 8–30 Fuß):** Für alles, was ganzjährig als Raum genutzt wird – Büro, Aufenthalt, Schulung, Wachdienst; auf Wunsch in XL-Breite mit 3,00 m.
 - **Baucontainer-Module:** Für alles, wo Menschen sich aufhalten: Büro, Pausenraum, Sanitär, Unterricht.
 
 Wie sich die verschiedenen Größen preislich unterscheiden, lesen Sie im Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container).

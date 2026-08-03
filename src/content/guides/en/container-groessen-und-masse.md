@@ -126,32 +126,125 @@ Notably, despite its double length a 40 ft container can carry hardly more weigh
 
 Note as well that the permitted total weights of the transport vehicle on public roads often further limit the theoretical payload in practice.
 
-## Site and modular containers & module dimensions
+## All-round containers: all sizes
 
-Alongside the standardised shipping containers, there are **site and modular containers** built in module form. They serve as offices, break rooms, sanitary units or storage and do not follow such a strict ISO standard. Their dimensions are instead guided by practical room sizes and transportability.
+**All-round containers** are the common German-market term for the **insulated room, module or office container**. They are the counterpart to the uninsulated storage or material container: where the latter is just a steel shell, the all-round container has an **insulated sandwich wall structure** and is built as a room for people to spend time in.
 
-Typical benchmark figures:
+The typical build-up consists of **steel sheet on the outside, a layer of PU foam or mineral wool insulation and an internal lining**, usually of coated melamine or chipboard. Common insulation thicknesses – **all values approximate and manufacturer-dependent**:
 
-- **Width:** usually approx. 2.44 m, with special sizes up to 3.00 m.
-- **Height:** approx. 2.60–2.80 m externally, giving a room-suitable height inside.
-- **Length:** in fixed module steps that can be coupled together.
+- **Wall:** approx. 60–80 mm
+- **Roof:** approx. 80–100 mm
+- **Floor:** approx. 60–100 mm
 
-| Module length (approx.) | Width (approx.) | Height (approx.) | Typical use |
+This makes the all-round container **usable all year round** – as an office, break room, training room, guard post or sales unit. Sanitary and residential variants are built on the same basic body and add installations and fittings.
+
+As standard, they normally include:
+
+- **Windows**, usually with insulating glazing and roller shutters
+- **External door** with a cylinder lock
+- **Electrical installation** with distribution board, sockets and lighting
+- **Heating** (often an electric convector); **air conditioning** usually optional
+
+All-round containers are **not ISO-standardised**: dimensions vary by manufacturer. They are, however, deliberately designed to be **transport-compatible with shipping container grid dimensions** and have **corner castings for craning and stacking**. Important for planning: because of the insulation and internal lining, the **internal size is considerably smaller** than in a shipping container of the same length – 8 to 12 cm per wall are quickly lost.
+
+The figures below are **approximate and manufacturer-dependent**; the supplier's own dimension sheets are always binding. External width is usually 2.44 m, external height 2.60–2.80 m.
+
+| Size | External approx. L × W × H | Internal approx. L × W × H | Usable floor area approx. | Typical use |
+|---|---|---|---|---|
+| 8 ft | 2.44 × 2.20 × 2.60 m | 2.25 × 2.00 × 2.30 m | 4.5 m² | Guard/gatehouse container, ticket booth |
+| 10 ft | 3.00 × 2.44 × 2.60 m | 2.80 × 2.23 × 2.34 m | 6.2 m² | Single office, small break room |
+| 12 ft | 3.65 × 2.44 × 2.60 m | 3.45 × 2.23 × 2.34 m | 7.7 m² | Office with two workstations |
+| 15 ft | 4.55 × 2.44 × 2.60 m | 4.35 × 2.23 × 2.34 m | 9.7 m² | Office, changing room, sanitary unit |
+| 16 ft | 4.88 × 2.44 × 2.60 m | 4.68 × 2.23 × 2.34 m | 10.4 m² | Break room for small teams |
+| 20 ft | 6.06 × 2.44 × 2.60 m | 5.85 × 2.23 × 2.34 m | 13.0 m² | Standard size: office, crew room |
+| 24 ft | 7.32 × 2.44 × 2.60 m | 7.10 × 2.23 × 2.34 m | 15.8 m² | Open-plan office, training room |
+| 25 ft | 7.60 × 2.44 × 2.60 m | 7.40 × 2.23 × 2.34 m | 16.5 m² | Open-plan office, training or social room |
+| 30 ft | 9.15 × 2.44 × 2.60 m | 8.95 × 2.23 × 2.34 m | 20.0 m² | Classroom, large units |
+
+The effect of the insulation is easy to read off: a 20 ft all-round container is externally almost identical to a 20 ft shipping container, but internally offers only approx. 2.23 m instead of 2.35 m in width and approx. 2.34 m instead of 2.39 m in height.
+
+In principle, room containers can be manufactured in **almost any length** – special sizes and project-specific builds are entirely common in modular construction. A complete listing would therefore be of little help. The table above shows the **regularly built standard sizes**, which are available practically everywhere and for which accessories, coupling parts and short-notice rental offers exist.
+
+### XL containers: 3 metres wide
+
+Depending on the length, many all-round containers are additionally available in an **XL version with an external width of 3.00 m** instead of the usual approx. 2.44 m (2.435 m to be precise). That is a good half metre more width – and noticeably more usable floor area: internally, around **2.80 m instead of 2.23 m** is available. Only this makes rooms possible in which **desks can face each other** or meeting tables can be placed sensibly. In the standard width, by contrast, furniture usually has to be arranged in a single row along one wall.
+
+Here too, all values are approximate and manufacturer-dependent.
+
+| XL size | External approx. L × W × H | Internal approx. L × W × H | Usable floor area approx. |
 |---|---|---|---|
-| 3 m | 2.44 m | 2.60–2.80 m | Small office, storage, WC unit |
-| 4 m | 2.44 m | 2.60–2.80 m | Single office, guard container |
-| 5 m | 2.44 m | 2.60–2.80 m | Office, break room |
-| 6 m | 2.44 m | 2.60–2.80 m | Larger office, crew room |
-| 7 m | 2.44 m | 2.60–2.80 m | Open-plan room, classroom |
+| 20 ft XL | 6.06 × 3.00 × 2.60 m | 5.85 × 2.79 × 2.34 m | 16.3 m² |
+| 25 ft XL | 7.60 × 3.00 × 2.60 m | 7.40 × 2.79 × 2.34 m | 20.6 m² |
+| 30 ft XL | 9.15 × 3.00 × 2.60 m | 8.95 × 2.79 × 2.34 m | 25.0 m² |
 
-The big advantage of modular construction is **coupling**: several containers can be joined side by side and on top of one another into larger, connected units – from a two-storey office landscape to a temporary school. Partition walls are removed so that a continuous room is created.
+> **Practical note on transport:** at 3.00 m wide, the container exceeds the vehicle width permitted on public roads without a permit. Delivery therefore counts as an **oversize transport and normally requires a permit**, and depending on the route an escort vehicle as well. That makes transport more expensive and noticeably lengthens the lead time – plan the delivery early and have the transport costs itemised in advance.
+
+Conclusion: **XL pays off when several people work in the container permanently** – for instance in a site management office over many months, in a training room or in a club facility. For short site deployments and single workstations, the standard width is usually the more economical choice, because delivery and relocation stay far simpler.
+
+### Insulation values for orientation
+
+Depending on the build-up, insulation material and thickness, **U-values lie roughly in the range of 0.3–0.6 W/(m²K)**. This range is explicitly only an **orientation and strongly manufacturer-dependent** – it is not a commitment to any particular standard or energy performance level. Anyone intending to heat the container permanently or to site it in a way that requires a building permit should obtain the specific U-values and certificates from the manufacturer in writing.
+
+### Coupling into larger complexes
+
+The big advantage of modular construction is **coupling**: several all-round containers can be joined **side by side and on top of one another** into connected complexes. Partition walls between coupled modules can be removed, creating continuous open-plan rooms. This is complemented by **corridors, external stairs, landings and railings** from the same system. Standard modules thus grow into multi-storey office, school or accommodation complexes – and can just as easily be dismantled later and rebuilt elsewhere.
+
+### All-round containers (insulated) vs. shipping containers (uninsulated)
+
+| Criterion | All-round container (insulated) | Shipping container (uninsulated) |
+|---|---|---|
+| Wall build-up / insulation | Sandwich: steel sheet, PU or mineral wool insulation (wall approx. 60–80 mm), internal lining | Single-skin profiled Corten steel sheet, no insulation |
+| Standard | Not ISO-standardised, dimensions manufacturer-dependent, but transport-compatible | ISO-standardised, external dimensions exactly the same worldwide |
+| Internal size at same external length | Smaller: at 20 ft approx. 5.85 × 2.23 × 2.34 m | Larger: at 20 ft approx. 5.90 × 2.35 × 2.39 m |
+| Weight | Lighter, thanks to thinner sheet and insulation material | Heavier: approx. 2,200–2,300 kg for a 20 ft unit |
+| Window / door as standard | Yes: insulating-glazed window with roller shutter, external door, electrics | No: only the two-leaf steel container door |
+| Year-round use | Yes, designed as an occupied room (with heating, air conditioning optional) | No: heat in summer, cold and condensation in winter |
+| Stackability | Possible via corner castings, number of tiers manufacturer-dependent | Multiple tiers, lashable for sea transport |
+| Typical use | Office, break, training, guard, sales and sanitary rooms | Transport, storage, conversion projects |
+| Price level | Higher due to insulation and fittings | Cheaper per cubic metre, good resale value |
+
+> In short: **if people are to spend time inside, there is no way around the insulated all-round container.** If it is only about materials, the uninsulated storage or shipping container is the cheaper choice.
+
+### Which size for which purpose?
+
+A few practical rules of thumb for choosing:
+
+- **One workstation, gatehouse or ticket booth:** 8 to 10 ft. Approx. 4.5–6.2 m² is enough for a desk, chair and cabinet.
+- **Two to three workstations:** 12 to 16 ft. In practice, allow **approx. 5–6 m² of usable floor area per permanent workstation** plus space for cabinets and circulation.
+- **Site management, crew or break room:** 20 ft as the standard size with approx. 13 m² – enough for a table seating six to eight.
+- **Training, meetings, classroom:** 24, 25 or 30 ft, ideally in XL width, or two coupled 20 ft units with the partition wall removed.
+- **Sanitary and changing rooms:** usually 15 ft, since the installations take up additional space.
+- **Pure material storage:** not an all-round container – an uninsulated storage or shipping container is sufficient here and considerably cheaper.
+
+Rule of thumb when choosing: plan one size up. After deducting insulation, internal lining and furniture, noticeably less usable area remains from the external length than the "20 ft" label suggests.
+
+For details on fittings, variants and prices, see the article [Office containers: fittings, sizes & costs](/en/ratgeber/buerocontainer-ratgeber).
+
+## Module lengths in metres instead of feet
+
+Some manufacturers state the length of their room containers in **whole metres** rather than feet. The construction is the same as for all-round containers – only the label differs. This overview helps with converting:
+
+| Module length (approx.) | roughly equals | Width (approx.) | Typical use |
+|---|---|---|---|
+| 3 m | 10 ft | 2.44 m | Small office, WC unit |
+| 4 m | 13 ft | 2.44 m | Single office, guard container |
+| 5 m | 16 ft | 2.44 m | Office, break room |
+| 6 m | 20 ft | 2.44 m | Larger office, crew room |
+| 7 m | 23 ft | 2.44 m | Open-plan room, meetings |
+| 9 m | 30 ft | 2.44 m | Classroom, large units |
+
+External height is around 2.60–2.80 m in each case. These lengths are also available in the XL version with a width of 3.00 m.
 
 ## Which size for what?
 
 - **10 ft:** Ideal where little standing space is available – as a tool, garden or building-site store.
 - **20 ft:** The all-rounder for moves, heavy goods and medium-sized storage tasks; easy to transport and position.
+- **20 ft high cube:** When headroom is needed on a small footprint – workshop, hobby room, compact fit-out.
+- **30 ft:** A special size for in-between lengths – only if actually available.
 - **40 ft:** For large, voluminous quantities and long goods; the maximum volume per container.
 - **40 ft high cube:** When extra height is also needed – for example when converting to living or office space.
+- **45 ft high cube:** Maximum volume – but only with a checked transport route and sufficient standing space.
+- **All-round containers (insulated, 8–30 ft):** For anything used as a room all year round – office, break, training, security; optionally in XL width at 3.00 m.
 - **Site container modules:** For anything where people spend time: office, break room, sanitary facilities, teaching.
 
 You can read how the different sizes differ in price in the article [What does a container cost?](/en/ratgeber/was-kostet-ein-container).
