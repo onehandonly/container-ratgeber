@@ -1,0 +1,166 @@
+---
+import AdSlot from '../AdSlot.astro';
+import { providers, sortProviders, providerRegions, serviceLabels } from '../../lib/providers';
+import { localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+
+const list = sortProviders(providers);
+const regions = providerRegions(list);
+
+const tx = lang === 'en'
+  ? {
+      eyebrow: 'Directory',
+      title: 'Container providers in Germany',
+      lead: 'Dealers, rental companies and modular builders at a glance – with region and services. We are independent: entries are editorial, paid placements are always labelled.',
+      filterAll: 'All regions',
+      filterLabel: 'Region',
+      empty: 'The directory is being compiled. Providers will be listed here shortly.',
+      emptyHint: 'Are you a provider and would like to be listed?',
+      contact: 'Get in touch',
+      sponsored: 'Paid entry',
+      visit: 'Visit website',
+      criteriaTitle: 'How to choose the right provider',
+      criteria: [
+        ['Proximity', 'Transport is charged by distance. A supplier nearby is often cheaper than a marginally lower unit price far away.'],
+        ['Range', 'Some specialise in modular buildings, others in used shipping containers or waste skips. Match this to your project.'],
+        ['Condition & documentation', 'For used units ask for photos of the actual container, its condition grade and, for shipping use, a valid CSC plate.'],
+        ['Delivery', 'Clarify vehicle type, access requirements and whether a crane is needed – these costs are often quoted separately.'],
+        ['Service & warranty', 'Who is responsible for maintenance and repairs during a rental period? What is the response time?'],
+        ['Written quote', 'Insist on a written, itemised quote: unit, delivery, collection, deposit, minimum rental period.'],
+      ],
+      note: 'Note: We do not sell or rent containers ourselves. This directory is a service for readers – we receive no commission on deals made through it.',
+    }
+  : {
+      eyebrow: 'Verzeichnis',
+      title: 'Container-Anbieter in Deutschland',
+      lead: 'Händler, Vermieter und Modulbauer im Überblick – mit Region und Leistungen. Wir sind unabhängig: Einträge sind redaktionell, bezahlte Platzierungen kennzeichnen wir immer.',
+      filterAll: 'Alle Regionen',
+      filterLabel: 'Region',
+      empty: 'Das Verzeichnis wird gerade aufgebaut. Hier erscheinen in Kürze die Anbieter.',
+      emptyHint: 'Sie sind Anbieter und möchten aufgenommen werden?',
+      contact: 'Kontakt aufnehmen',
+      sponsored: 'Bezahlter Eintrag',
+      visit: 'Zur Website',
+      criteriaTitle: 'So finden Sie den passenden Anbieter',
+      criteria: [
+        ['Entfernung', 'Der Transport wird nach Kilometern berechnet. Ein Anbieter in der Nähe ist oft günstiger als ein minimal billigerer weit weg.'],
+        ['Sortiment', 'Manche sind auf Modulbau spezialisiert, andere auf gebrauchte Seecontainer oder Entsorgungsmulden. Das sollte zum Vorhaben passen.'],
+        ['Zustand & Nachweise', 'Bei Gebrauchtware Fotos des konkreten Containers verlangen, dazu Zustandsklasse und – für Seetransport – eine gültige CSC-Plakette.'],
+        ['Anlieferung', 'Fahrzeugtyp, Zufahrt und Kranbedarf vorab klären: Diese Posten werden häufig separat berechnet.'],
+        ['Service & Gewährleistung', 'Wer kümmert sich während der Mietzeit um Wartung und Reparaturen? Welche Reaktionszeit ist zugesagt?'],
+        ['Schriftliches Angebot', 'Auf ein schriftliches Angebot mit Einzelposten bestehen: Container, Anlieferung, Abholung, Kaution, Mindestmietdauer.'],
+      ],
+      note: 'Hinweis: Wir verkaufen und vermieten selbst keine Container. Dieses Verzeichnis ist ein Service für Leserinnen und Leser – wir erhalten keine Provision auf zustande gekommene Geschäfte.',
+    };
+---
+<section class="lead-band">
+  <div class="wrap">
+    <span class="eyebrow">{tx.eyebrow}</span>
+    <h1>{tx.title}</h1>
+    <p>{tx.lead}</p>
+  </div>
+</section>
+
+<div class="wrap section--tight">
+  {list.length === 0 ? (
+    <div class="empty">
+      <p class="empty__text">{tx.empty}</p>
+      <p class="empty__hint">{tx.emptyHint} <a href={L('/kontakt')}>{tx.contact} →</a></p>
+    </div>
+  ) : (
+    <>
+      {regions.length > 1 && (
+        <div class="filter">
+          <label for="region-filter">{tx.filterLabel}:</label>
+          <select id="region-filter" data-region-filter>
+            <option value="">{tx.filterAll}</option>
+            {regions.map((r) => <option value={r}>{r}</option>)}
+          </select>
+        </div>
+      )}
+      <div class="providers">
+        {list.map((p) => (
+          <article class="card provider" data-region={p.region}>
+            <div class="provider__head">
+              <h2>{p.name}</h2>
+              {p.sponsored && <span class="provider__badge">{tx.sponsored}</span>}
+            </div>
+            <p class="provider__desc">{p.description}</p>
+            <p class="provider__meta">
+              <span>{p.region}{p.city ? ` · ${p.city}` : ''}</span>
+            </p>
+            <ul class="provider__services">
+              {p.services.map((s) => <li>{serviceLabels[s][lang]}</li>)}
+            </ul>
+            <a
+              class="provider__link"
+              href={p.url}
+              target="_blank"
+              rel={p.sponsored ? 'sponsored noopener nofollow' : 'noopener'}
+            >{tx.visit} →</a>
+          </article>
+        ))}
+      </div>
+    </>
+  )}
+
+  <AdSlot lang={lang} minHeight="120px" />
+
+  <section class="criteria">
+    <h2>{tx.criteriaTitle}</h2>
+    <div class="criteria__grid">
+      {tx.criteria.map(([t, d]) => (
+        <div class="criteria__item"><h3>{t}</h3><p>{d}</p></div>
+      ))}
+    </div>
+    <p class="criteria__note">{tx.note}</p>
+  </section>
+</div>
+
+<script is:inline>
+  (function () {
+    var sel = document.querySelector('[data-region-filter]');
+    if (!sel) return;
+    sel.addEventListener('change', function () {
+      var v = sel.value;
+      document.querySelectorAll('.provider').forEach(function (el) {
+        el.hidden = Boolean(v) && el.getAttribute('data-region') !== v;
+      });
+    });
+  })();
+</script>
+
+<style>
+  .lead-band { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.5rem, 2rem + 3vw, 4rem); }
+  .lead-band h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .lead-band p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 64ch; }
+
+  .empty { border: 1.5px dashed var(--color-border-strong); border-radius: var(--radius-lg); padding: 2.5rem 1.5rem; text-align: center; background: var(--color-bg-alt); }
+  .empty__text { font-weight: 600; color: var(--color-ink); }
+  .empty__hint { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.6rem; }
+
+  .filter { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1.4rem; font-size: var(--text-sm); }
+  .filter select { font: inherit; padding: 0.45rem 0.7rem; border: 1px solid var(--color-border-strong); border-radius: var(--radius-md); background: #fff; color: var(--color-ink); }
+
+  .providers { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr)); gap: var(--gap); }
+  .provider { padding: 1.2rem; display: flex; flex-direction: column; }
+  .provider__head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .provider h2 { font-size: var(--text-lg); }
+  .provider__badge { font-size: var(--text-xs); font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 100px; background: var(--color-bg-sunken); color: var(--color-muted); }
+  .provider__desc { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.5rem; flex: 1; }
+  .provider__meta { color: var(--color-muted); font-size: var(--text-xs); margin-top: 0.7rem; }
+  .provider__services { display: flex; flex-wrap: wrap; gap: 0.35rem; list-style: none; margin-top: 0.6rem; }
+  .provider__services li { font-size: var(--text-xs); padding: 0.15rem 0.55rem; border: 1px solid var(--color-border); border-radius: 100px; color: var(--color-ink-soft); }
+  .provider__link { margin-top: 1rem; font-weight: 600; text-decoration: none; font-size: var(--text-sm); }
+
+  .criteria { margin-top: var(--space-section); }
+  .criteria h2 { font-size: var(--text-xl); margin-bottom: 1.2rem; }
+  .criteria__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: var(--gap); }
+  .criteria__item { border-top: 3px solid var(--color-signal); padding-top: 0.9rem; }
+  .criteria__item h3 { font-size: var(--text-base); }
+  .criteria__item p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; }
+  .criteria__note { margin-top: 1.6rem; font-size: var(--text-sm); color: var(--color-muted); border-left: 3px solid var(--color-border-strong); padding-left: 0.9rem; }
+</style>

@@ -12,11 +12,11 @@ order: 23
 draft: false
 ---
 
-When space runs out, a storage container is usually the most pragmatic answer. It needs no construction time, no foundation in the classic sense and no utility connections. A low-loader delivers it, a crane or hook-lift truck sets it down, and a few minutes later you have lockable, weatherproof floor space. The real work happens beforehand: deciding which size, which design and which condition suit the purpose. A badly chosen container costs more than money – it creates follow-on problems, from rusted-through floors to doors that no longer close on uneven ground.
+When space runs out, a storage container is usually the most pragmatic answer. It needs no construction time, no foundation in the classic sense and no utility connections. A low-loader delivers it, a crane sets it down, and minutes later you have lockable, weatherproof floor space. The real work happens beforehand: deciding which size, design and condition suit the purpose. A badly chosen container creates follow-on problems, from rusted-through floors to doors that no longer close on uneven ground.
 
 ## What storage containers deliver
 
-A storage container is a self-supporting steel box. Its rigidity comes not from a frame with thin cladding but from the profiled wall panels themselves, which act as the load-bearing structure. That is precisely what sets it apart from sheet-metal garages or garden sheds.
+A storage container is a self-supporting steel box. Its rigidity comes not from a frame with thin cladding but from the profiled wall panels themselves, which act as the load-bearing structure.
 
 Three properties make it attractive for storage:
 
@@ -62,12 +62,12 @@ For pure storage with no later conversion, the classic shipping container is usu
 
 The used market has no official standard, but well-established terms. Understanding them makes offers genuinely comparable.
 
-- **As-new / one-trip.** The container was loaded once and shipped from Asia to Europe, after which it counts as used. Visually it is almost new, seals and paint are intact. It costs clearly less than new stock but clearly more than genuinely used material.
-- **WWT (wind and watertight).** The standard for storage purposes. The container shows wear, dents and surface rust but is tight. Minor repairs and touch-up paint are normal.
-- **Cargo worthy.** Additionally certified as seaworthy. For land-based storage this status is usually unnecessary and only worth paying for if the container is to be shipped later.
+- **As-new / one-trip.** Loaded once and shipped from Asia to Europe, after which it counts as used. Visually almost new, seals and paint intact. Clearly cheaper than new stock, clearly dearer than genuinely used material.
+- **WWT (wind and watertight).** The standard for storage. The container shows wear, dents and surface rust but is tight. Minor repairs and touch-up paint are normal.
+- **Cargo worthy.** Additionally certified as seaworthy. For land-based storage this status is usually unnecessary.
 - **As is / in need of repair.** Cheap, but with rust-through, defective doors or a damaged floor. Only sensible for buyers who can weld and paint themselves.
 
-What to check during an inspection: the floor panel for soft spots, door seals for cracks and brittleness, corners and floor cross members for rust-through, locking bars for smooth operation. Looking from the inside with the doors closed reveals leaks immediately – points of daylight do not belong there. This is covered in detail in [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
+What to check on inspection: the floor panel for soft spots, door seals for cracks, corners and cross members for rust-through, locking bars for smooth operation. Looking from the inside with the doors closed reveals leaks immediately – points of daylight do not belong there. This is covered in [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
 
 ## Ventilation and condensation
 
@@ -79,16 +79,16 @@ Four measures work reliably: store only dry goods, fit additional vents diagonal
 
 A storage container ex works is an empty box. Only accessories turn it into a functioning store.
 
-- **Shelving.** Heavy-duty racks along the long walls double the usable area. Importantly, do not bolt them to the container if it will be transported later – flexing during lifting tears rigid connections apart.
+- **Shelving.** Heavy-duty racks along the long walls double the usable area. Do not bolt them to the container if it will be transported later – flexing during lifting tears rigid connections apart.
 - **Vents.** Retrofit grilles with insect mesh cost little and work immediately. Position them low on one side and high on the opposite side.
-- **Lighting.** Without a power supply, battery LED strips with motion sensors do the job. With a fixed connection, a proper installation including an RCD is part of the package.
-- **Flooring.** An additional layer of OSB or a plastic covering protects the original panel from moisture and abrasion. On older containers with unknown history, sealing is advisable.
-- **Partition wall.** Separates storage from a workshop area, or allows two compartments with separate access to be let out.
-- **Ramp.** Access ramps or a recess in the ground make loading with pallet trucks and sack barrows far easier.
+- **Lighting.** Without a power supply, battery LED strips with motion sensors do the job. With a fixed connection, an installation including an RCD is part of the package.
+- **Flooring.** An extra layer of OSB or a plastic covering protects the original panel from moisture and abrasion.
+- **Partition wall.** Separates storage from a workshop area, or allows two compartments with separate access.
+- **Ramp.** Access ramps make loading with pallet trucks and sack barrows far easier.
 
 ## Security
 
-The weak point of a container is the padlock. An ordinary one is off in seconds with bolt cutters. A welded lockbox that fully encloses the shackle changes the situation fundamentally, because no tool can get purchase. Locking-bar locks, positioning the doors against a wall or a neighbouring container, plus lighting and visibility all add to this. Lock types and site choice are covered in [Securing a container](/en/ratgeber/container-sichern-diebstahlschutz).
+The weak point of a container is the padlock: an ordinary one is off in seconds with bolt cutters. A welded lockbox that fully encloses the shackle changes the situation fundamentally, because no tool can get purchase. Locking-bar locks, positioning the doors against a wall or a neighbouring container, plus lighting and visibility all add to this. Lock types and site choice are covered in [Securing a container](/en/ratgeber/container-sichern-diebstahlschutz).
 
 ## Buying or renting: price overview
 
