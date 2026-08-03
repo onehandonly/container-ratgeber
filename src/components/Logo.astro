@@ -1,8 +1,8 @@
 ---
 interface Props {
-  /** "light" für dunkle Hintergründe (Footer/Hero), sonst dunkle Schrift. */
+  /** "light" für dunkle Hintergründe (Footer), sonst helle Umgebung. */
   variant?: 'dark' | 'light';
-  /** Untertitel/Claim ausblenden (z. B. in kompakter Navigation). */
+  /** Untertitel/Claim im Text-Fallback ausblenden. */
   showClaim?: boolean;
   class?: string;
 }
@@ -11,22 +11,18 @@ const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
 const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
 const claim = variant === 'light' ? 'rgba(255,255,255,0.66)' : 'var(--color-muted)';
 ---
-<span class={`logo ${cls}`} aria-label="Container-Ratgeber.de">
-  <svg class="logo__mark" viewBox="0 0 64 64" width="38" height="38" aria-hidden="true" focusable="false">
-    <!-- Isometrischer „Voxel"-Container -->
-    <polygon points="32,7 57,21 32,35 7,21" fill="#5b8cff"/>
-    <polygon points="7,21 32,35 32,60 7,46" fill="#2f4fd0"/>
-    <polygon points="57,21 32,35 32,60 57,46" fill="#22d3ee"/>
-    <!-- feine Rasterlinien -->
-    <g stroke="#0b1220" stroke-opacity=".16" stroke-width="1">
-      <line x1="19.5" y1="14" x2="44.5" y2="28"/><line x1="44.5" y1="14" x2="19.5" y2="28"/>
-      <line x1="19.5" y1="28" x2="19.5" y2="53"/><line x1="44.5" y1="28" x2="44.5" y2="53"/>
-    </g>
-    <!-- abhebende Pixel (Digital-Twin) -->
-    <rect x="55" y="3" width="7" height="7" rx="1.6" fill="#22d3ee"/>
-    <rect x="60" y="13" width="4" height="4" rx="1" fill="#5b8cff"/>
-  </svg>
-  <span class="logo__text">
+<span class={`logo logo--${variant} ${cls}`} aria-label="Container-Ratgeber.de">
+  {/* Bild-Logo (Emblem). Sobald public/img/logo.png existiert, wird es angezeigt
+      und der Text-Fallback ausgeblendet. Fehlt die Datei, greift der Text. */}
+  <img
+    src="/img/logo.png"
+    alt="Container-Ratgeber.de"
+    class="logo__img"
+    width="140" height="52" loading="eager" decoding="async"
+    onload="this.closest('.logo').classList.add('has-img')"
+    onerror="this.remove()"
+  />
+  <span class="logo__fallback">
     <span class="logo__word" style={`color:${word}`}>Container<span style={`color:${accent}`}>Ratgeber</span></span>
     {showClaim && <span class="logo__claim" style={`color:${claim}`}>Unabhängig informieren &amp; richtig entscheiden</span>}
   </span>
@@ -34,12 +30,19 @@ const claim = variant === 'light' ? 'rgba(255,255,255,0.66)' : 'var(--color-mute
 
 <style>
   .logo { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; }
-  .logo__mark { flex-shrink: 0; }
-  .logo__text { display: flex; flex-direction: column; line-height: 1.02; }
+  .logo__img { display: block; height: 3.1rem; width: auto; }
+  .logo__fallback { display: flex; flex-direction: column; line-height: 1.02; }
+  /* Ist das Bild-Logo geladen, Text-Fallback ausblenden. */
+  .logo.has-img .logo__fallback { display: none; }
+  /* Auf dunklem Grund (Footer): das Emblem hat weißen Hintergrund -> in ein
+     helles, abgerundetes Kärtchen fassen, damit es sauber sitzt. */
+  .logo--light.has-img .logo__img { background: #fff; padding: 0.3rem 0.45rem; border-radius: 0.6rem; height: 3rem; }
+
   .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.03em; }
   .logo__claim { font-family: var(--font-body); font-size: 0.66rem; font-weight: 600; letter-spacing: 0.01em; margin-top: 3px; }
   @media (max-width: 520px) {
     .logo__claim { display: none; }
     .logo__word { font-size: 1.18rem; }
+    .logo__img { height: 2.7rem; }
   }
 </style>
