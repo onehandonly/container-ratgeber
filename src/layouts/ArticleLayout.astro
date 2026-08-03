@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
+import ContainerIcon from '../components/ContainerIcon.astro';
 import { site } from '../lib/site';
 import { useTranslations, localizePath, type Lang } from '../lib/i18n';
 import type { Guide } from '../lib/guides';
@@ -48,19 +49,25 @@ const breadcrumbSchema = {
     { label: entry.data.title },
   ]} />
 
+  <header class="ahero">
+    <div class="wrap ahero__inner">
+      <div class="ahero__copy">
+        <a class="pill" href={L('/ratgeber')}>{entry.data.category}</a>
+        <h1>{entry.data.title}</h1>
+        {entry.data.lead && <p class="ahero__lead">{entry.data.lead}</p>}
+        <div class="ahero__meta">
+          <span>{entry.data.readingTime}&nbsp;{t('meta.readingTime')}</span>
+          <span aria-hidden="true">·</span>
+          <span>{t('meta.updated')}: {dateFmt.format(updated)}</span>
+        </div>
+      </div>
+      <div class="ahero__art"><ContainerIcon name={entry.data.icon} title={entry.data.title} /></div>
+    </div>
+  </header>
+
   <article class="article">
     <div class="wrap article__grid">
       <div class="article__main">
-        <header class="article__head">
-          <a class="pill" href={L('/ratgeber')}>{entry.data.category}</a>
-          <h1>{entry.data.title}</h1>
-          {entry.data.lead && <p class="article__lead">{entry.data.lead}</p>}
-          <div class="article__meta">
-            <span>{entry.data.readingTime}&nbsp;{t('meta.readingTime')}</span>
-            <span aria-hidden="true">·</span>
-            <span>{t('meta.updated')}: {dateFmt.format(updated)}</span>
-          </div>
-        </header>
 
         {toc.length > 2 && (
           <nav class="toc toc--inline" aria-label={t('toc.title')}>
@@ -96,14 +103,27 @@ const breadcrumbSchema = {
 </BaseLayout>
 
 <style>
+  /* Artikel-Hero mit Illustration */
+  .ahero {
+    background:
+      radial-gradient(620px 340px at 92% -20%, rgba(34,211,238,.16), transparent 60%),
+      radial-gradient(560px 320px at -2% 0%, rgba(91,140,255,.14), transparent 58%),
+      linear-gradient(180deg, #ffffff, var(--color-bg-alt));
+    border-bottom: 1px solid var(--color-border);
+    padding-block: clamp(1.6rem, 1.2rem + 2vw, 2.8rem);
+  }
+  .ahero__inner { display: grid; grid-template-columns: minmax(0,1fr) 15rem; gap: 2rem; align-items: center; }
+  .ahero__copy { min-width: 0; max-width: 46rem; }
+  .ahero__copy h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; text-wrap: balance; }
+  .ahero__lead { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 0.9rem; line-height: 1.55; max-width: 52ch; }
+  .ahero__meta { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 1.1rem; font-size: var(--text-xs); color: var(--color-muted); }
+  .ahero__art { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
+  a.pill { text-decoration: none; }
+  @media (max-width: 760px) { .ahero__inner { grid-template-columns: 1fr; } .ahero__art { display: none; } }
+
   .article { padding-block: clamp(1.8rem, 1.2rem + 2vw, 3rem) var(--space-section); }
   .article__grid { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: clamp(1.5rem, 1rem + 3vw, 3.5rem); align-items: start; }
   .article__main { min-width: 0; max-width: 44rem; }
-  .article__head { margin-bottom: 1.8rem; }
-  .article__head h1 { font-size: var(--text-3xl); margin-top: 0.9rem; letter-spacing: -0.02em; text-wrap: balance; }
-  .article__lead { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 1rem; line-height: 1.55; }
-  .article__meta { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 1.1rem; font-size: var(--text-xs); color: var(--color-muted); }
-  a.pill { text-decoration: none; }
 
   .toc { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem 1.2rem; background: var(--color-bg-alt); }
   .toc__title { font-family: var(--font-head); font-weight: 700; font-size: var(--text-sm); margin-bottom: 0.5rem; color: var(--color-ink); }

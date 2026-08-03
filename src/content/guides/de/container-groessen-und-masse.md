@@ -14,6 +14,8 @@ draft: false
 
 Wer einen Container mietet oder kauft, stößt schnell auf Angaben wie „20 Fuß", „40 Fuß HC" oder „5-Meter-Modul". Doch was bedeuten diese Bezeichnungen konkret in Zentimetern und Kilogramm? Dieser Ratgeber stellt die genormten Maße der gängigen See- und Baucontainer übersichtlich zusammen – mit Außenmaßen, nutzbaren Innenmaßen, Türöffnungen, Gewichten und Rauminhalten.
 
+![Bemaßtes Diagramm: 20-Fuß- und 40-Fuß-Container mit Außenmaßen, Höhe und Breite](/img/diagrams/container-masse-de.svg)
+
 ## Seecontainer nach ISO-Norm
 
 Seecontainer sind international standardisiert. Die ISO-Norm legt Außenmaße und Eckbeschläge exakt fest, damit Container weltweit stapelbar, verzurrbar und mit denselben Kränen und Fahrzeugen umschlagbar sind. Die Länge wird traditionell in Fuß angegeben: Ein 20-Fuß-Container ist außen 6,058 m lang, ein 40-Fuß-Container exakt doppelt so lang plus einen kleinen Zwischenraum.

@@ -14,6 +14,8 @@ draft: false
 
 Anyone renting or buying a container quickly runs into labels such as "20 ft", "40 ft HC" or "5-metre module". But what do these terms actually mean in centimetres and kilograms? This guide brings together the standardised dimensions of the most common shipping and site containers – with external sizes, usable internal sizes, door openings, weights and volumes.
 
+![Dimensioned diagram: 20 ft and 40 ft containers with external length, height and width](/img/diagrams/container-masse-en.svg)
+
 ## Shipping containers to ISO standard
 
 Shipping containers are standardised internationally. The ISO standard fixes external dimensions and corner castings precisely, so that containers can be stacked, lashed and handled worldwide with the same cranes and vehicles. Length is traditionally given in feet: a 20 ft container is 6.058 m long on the outside, a 40 ft container exactly twice that plus a small gap.
