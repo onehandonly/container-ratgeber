@@ -2,47 +2,34 @@
 interface Props {
   /** "light" für dunkle Hintergründe (Footer), sonst helle Umgebung. */
   variant?: 'dark' | 'light';
-  /** Untertitel/Claim im Text-Fallback ausblenden. */
-  showClaim?: boolean;
   class?: string;
 }
-const { variant = 'dark', showClaim = true, class: cls = '' } = Astro.props;
+const { variant = 'dark', class: cls = '' } = Astro.props;
 const word = variant === 'light' ? '#ffffff' : 'var(--color-ink)';
 const accent = variant === 'light' ? '#6ea8ff' : 'var(--brand-indigo-2)';
-const claim = variant === 'light' ? 'rgba(255,255,255,0.66)' : 'var(--color-muted)';
 ---
 <span class={`logo logo--${variant} ${cls}`} aria-label="Container-Ratgeber.de">
-  {/* Bild-Logo (Emblem). Sobald public/img/logo.png existiert, wird es angezeigt
-      und der Text-Fallback ausgeblendet. Fehlt die Datei, greift der Text. */}
+  {/* Container-Bildmarke (public/img/logo.png). Fehlt die Datei, wird das <img>
+      per onerror entfernt und nur der Schriftzug bleibt sichtbar. */}
   <img
     src="/img/logo.png"
-    alt="Container-Ratgeber.de"
+    alt=""
     class="logo__img"
-    width="140" height="52" loading="eager" decoding="async"
-    onload="this.closest('.logo').classList.add('has-img')"
+    width="120" height="80" loading="eager" decoding="async"
     onerror="this.remove()"
   />
-  <span class="logo__fallback">
-    <span class="logo__word" style={`color:${word}`}>Container<span style={`color:${accent}`}>Ratgeber</span></span>
-    {showClaim && <span class="logo__claim" style={`color:${claim}`}>Unabhängig informieren &amp; richtig entscheiden</span>}
-  </span>
+  <span class="logo__word" style={`color:${word}`}>container<span style={`color:${accent}`}>-ratgeber</span></span>
 </span>
 
 <style>
-  .logo { display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; }
-  .logo__img { display: block; height: 3.1rem; width: auto; }
-  .logo__fallback { display: flex; flex-direction: column; line-height: 1.02; }
-  /* Ist das Bild-Logo geladen, Text-Fallback ausblenden. */
-  .logo.has-img .logo__fallback { display: none; }
-  /* Auf dunklem Grund (Footer): das Emblem hat weißen Hintergrund -> in ein
-     helles, abgerundetes Kärtchen fassen, damit es sauber sitzt. */
-  .logo--light.has-img .logo__img { background: #fff; padding: 0.3rem 0.45rem; border-radius: 0.6rem; height: 3rem; }
-
-  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.03em; }
-  .logo__claim { font-family: var(--font-body); font-size: 0.66rem; font-weight: 600; letter-spacing: 0.01em; margin-top: 3px; }
+  .logo { display: inline-flex; flex-direction: column; align-items: center; gap: 0.3rem; text-decoration: none; line-height: 1; }
+  .logo__img { display: block; height: 2.6rem; width: auto; }
+  .logo__word { font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.02em; }
+  /* Auf dunklem Grund (Footer): die freigestellte Skizze in ein helles Kärtchen
+     fassen, damit die dunklen Graphitlinien sichtbar bleiben. */
+  .logo--light .logo__img { background: #fff; padding: 0.3rem 0.5rem; border-radius: 0.6rem; height: 2.6rem; }
   @media (max-width: 520px) {
-    .logo__claim { display: none; }
-    .logo__word { font-size: 1.18rem; }
-    .logo__img { height: 2.7rem; }
+    .logo__img { height: 2.2rem; }
+    .logo__word { font-size: 1rem; }
   }
 </style>
