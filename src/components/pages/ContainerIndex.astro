@@ -1,5 +1,5 @@
 ---
-import ContainerIcon from '../ContainerIcon.astro';
+import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
 import { containerTypes, typeName, typeTeaser } from '../../lib/site';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
@@ -9,7 +9,7 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
 ---
-<section class="lead-band lead-band--photo" style="background-image: linear-gradient(180deg, rgba(11,18,32,.74), rgba(11,18,32,.85)), url('/img/photos/hero-home.png')">
+<section class="lead-band lead-band--photo" style="background-image: linear-gradient(180deg, rgba(11,18,32,.74), rgba(11,18,32,.85)), url('/img/photos/hero-home.webp')">
   <div class="wrap">
     <span class="eyebrow">{t('types.eyebrow')}</span>
     <h1>{t('types.title')}</h1>
@@ -23,7 +23,7 @@ const L = (p: string) => localizePath(p, lang);
   <div class="grid-auto">
     {containerTypes.map((ct) => (
       <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
-        <div class="type-card__icon"><ContainerIcon name={ct.icon} title={typeName(ct, lang)} /></div>
+        <TypeThumb slug={ct.slug} alt={typeName(ct, lang)} class="type-card__icon" />
         <h2>{typeName(ct, lang)}</h2>
         <p>{typeTeaser(ct, lang)}</p>
         <span class="type-card__more">{t('type.more')} →</span>

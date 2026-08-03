@@ -1,6 +1,7 @@
 ---
 import VoxelHero from '../VoxelHero.astro';
 import ContainerIcon from '../ContainerIcon.astro';
+import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
 import { containerTypes, typeName, typeTeaser } from '../../lib/site';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
@@ -63,7 +64,7 @@ const featured = lang === 'en'
     <div class="grid-auto">
       {containerTypes.map((ct) => (
         <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
-          <div class="type-card__icon"><ContainerIcon name={ct.icon} title={typeName(ct, lang)} /></div>
+          <TypeThumb slug={ct.slug} alt={typeName(ct, lang)} class="type-card__icon" />
           <h3>{typeName(ct, lang)}</h3>
           <p>{typeTeaser(ct, lang)}</p>
           <span class="type-card__more">{t('type.more')} →</span>

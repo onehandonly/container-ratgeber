@@ -1,6 +1,6 @@
 ---
 import Breadcrumbs from '../Breadcrumbs.astro';
-import ContainerIcon from '../ContainerIcon.astro';
+import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
 import { containerTypes, typeName, typeTeaser, type ContainerType } from '../../lib/site';
 import { typeDetails } from '../../lib/typeDetails';
@@ -13,7 +13,7 @@ const L = (p: string) => localizePath(p, lang);
 const d = typeDetails[type.slug][lang];
 const name = typeName(type, lang);
 // Foto-Kopfbild (selbst gehostet). Fehlt die Datei, greift der Verlauf-Fallback.
-const photo = `/img/photos/type-${type.slug}.png`;
+const photo = `/img/photos/type-${type.slug}.webp`;
 
 const others = containerTypes.filter((c) => c.slug !== type.slug).slice(0, 4);
 const relatedTitles: Record<string, { de: string; en: string }> = {
@@ -50,7 +50,6 @@ const jsonLd = {
   <header class="ct__hero" style={`background-image: linear-gradient(180deg, rgba(11,18,32,.72), rgba(11,18,32,.82)), url('${photo}')`}>
     <div class="wrap ct__hero-inner">
       <div class="ct__hero-copy">
-        <span class="ct__hero-badge"><ContainerIcon name={type.icon} title={name} /></span>
         <span class="pill pill--on-dark">{t('nav.types')}</span>
         <h1>{name}</h1>
         <p class="ct__teaser">{typeTeaser(type, lang)}</p>
@@ -115,7 +114,7 @@ const jsonLd = {
     <div class="ct__more-grid">
       {others.map((o) => (
         <a href={L(`/container/${o.slug}`)} class="card card--link ct__more-card">
-          <span class="ct__more-icon"><ContainerIcon name={o.icon} title={typeName(o, lang)} /></span>
+          <TypeThumb slug={o.slug} shape="chip" class="ct__more-icon" />
           <span>{typeName(o, lang)}</span>
         </a>
       ))}
