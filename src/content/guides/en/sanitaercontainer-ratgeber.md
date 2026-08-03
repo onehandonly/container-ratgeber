@@ -12,19 +12,19 @@ order: 24
 draft: false
 ---
 
-Sanitary containers are the least conspicuous and at the same time most discussed container category. Nobody plans a project around them, but every project fails without them. They are more complex than storage or office containers because they need water, waste water, power and heat simultaneously – and because hygiene, frost protection and cleaning have to be organised during operation. Thinking about this early saves expensive improvisation.
+Sanitary containers are the least conspicuous and at the same time most discussed container category. Nobody plans a project around them, but every project fails without them. They are more complex than storage or office containers because they need water, waste water, power and heat at once – and because hygiene, frost protection and cleaning must be organised during operation. Thinking about this early saves expensive improvisation.
 
 ## What sanitary containers are used for
 
-The classic setting is the **construction site**. As soon as several workers are on site for more than a day, toilets and washing facilities are needed; on shell buildings and earthworks there simply are none. The sanitary container supplies them mobile and within hours.
+The classic setting is the **construction site**. As soon as several workers are on site for more than a day, toilets and washing facilities are needed; on shell buildings and earthworks there simply are none.
 
-At **events** – festivals, sports fixtures, markets – the issue is short-term peak load. Throughput, robustness and fast cleaning matter more than comfort here. Compared with simple cabins, sanitary containers offer more capacity, running water and far better acceptance among visitors.
+At **events** – festivals, sports fixtures, markets – the issue is short-term peak load. Throughput, robustness and fast cleaning matter more than comfort. Compared with simple cabins, sanitary containers offer more capacity, running water and far better acceptance among visitors.
 
-During **refurbishment** of residential or office buildings they bridge the loss of existing bathrooms. If a bathroom is renewed while the building stays occupied, a shower container in the yard replaces the indoor installation for a few weeks. And in **temporary extensions** – emergency accommodation, school annexes, staff housing, clinics – they form the sanitary core of a modular installation, often combined with living and common-room containers.
+During **refurbishment** they bridge the loss of existing bathrooms: a shower container in the yard replaces the indoor installation for a few weeks. And in **temporary extensions** – emergency accommodation, school annexes, staff housing, clinics – they form the sanitary core of a modular installation, often combined with living containers.
 
 ## Variants at a glance
 
-Sanitary containers are highly configurable. In practice a handful of standard layouts have become established, mostly based on 10-, 20- or 30-foot modules.
+Sanitary containers are highly configurable. In practice a handful of standard layouts have become established, mostly on 10-, 20- or 30-foot modules.
 
 | Variant | Typical equipment | Typical application |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Sanitary containers are highly configurable. In practice a handful of standard l
 | **Container with tank** | Integrated fresh and waste water tanks, pump, self-sufficient operation | Sites without connections, events, short deployments |
 | **Container with fixed connection** | Direct link to drinking water and sewer, no tank changes | Longer standing times, modular installations, serviced sites |
 
-There are also special forms: washroom containers without toilets for changing and hygiene areas, sanitary containers with an integrated washing machine and dryer for accommodation, and combined modules uniting a sanitary area and a common room in one container. For combinations with other container types, see [Container application examples](/en/ratgeber/container-anwendungsbeispiele).
+There are also special forms: washroom containers without toilets, units with an integrated washing machine and dryer, and combined modules uniting a sanitary area and a common room. For combinations with other container types, see [Container application examples](/en/ratgeber/container-anwendungsbeispiele).
 
 ## Connections and building services
 
@@ -44,9 +44,9 @@ The technical hook-up drives cost and effort far more strongly than the interior
 
 **Fresh water.** Either via a site or building water connection with a backflow preventer, or via an integrated tank. Tank solutions are flexible but require regular refilling; a 1,000-litre tank often lasts only a few days when ten people use a shower container.
 
-**Waste water.** The ideal case is a connection to the sewer, with a lifting station if the sewer sits higher than the container outlet. Alternatively a waste tank collects the effluent and is emptied by tanker. Disposal intervals and costs are the item most often overlooked in budgeting. Grey water from showers and black water from toilets must not be allowed to soak away uncontrolled.
+**Waste water.** The ideal case is a sewer connection, with a lifting station if the sewer sits higher than the container outlet. Alternatively a waste tank collects the effluent and is emptied by tanker; disposal intervals and costs are the item most often overlooked in budgeting. Grey and black water must not soak away uncontrolled.
 
-**Power.** A CEE connection is standard, usually 16 or 32 amps depending on water heating. An electric instantaneous heater for a shower quickly draws 18 to 27 kilowatts – more than many site distribution boards can deliver. Where power is short, storage solutions are the more practical choice.
+**Power.** A CEE connection is standard, usually 16 or 32 amps depending on water heating. An electric instantaneous heater for a shower quickly draws 18 to 27 kilowatts – more than many site distribution boards deliver. Where power is short, storage solutions are more practical.
 
 **Water heating.** Three principles compete:
 
@@ -58,7 +58,7 @@ The technical hook-up drives cost and effort far more strongly than the interior
 
 **Ventilation.** Damp rooms without windows need mechanical extraction, ideally with run-on. Without it, moisture settles on cold surfaces and the container smells musty within weeks.
 
-**Frost protection and trace heating.** The most critical point in winter operation. Supply lines, traps, cisterns, tanks and external pipework are all at risk. Common measures are self-regulating trace heating tape on the pipes, keeping the container at roughly five to ten degrees, insulated supply lines and a means of draining down for longer shutdowns.
+**Frost protection and trace heating.** The most critical point in winter. Supply lines, traps, cisterns, tanks and external pipework are all at risk. Common measures are self-regulating trace heating tape, keeping the container at roughly five to ten degrees, insulated supply lines and a means of draining down for longer shutdowns.
 
 > **Practical note:** a frozen sanitary container is rarely obvious at once. The damage only shows during the thaw, when burst pipes release water. Frost protection is therefore not a comfort question but a damage-prevention one.
 
@@ -76,15 +76,15 @@ The following orders of magnitude have proven useful as guidance for cleaning in
 | **Accommodation / residential module** | permanent residents | daily to several times a week |
 | **Refurbishment cover** | 1 – 2 households | weekly or self-cleaning |
 
-Responsibilities belong in writing. With rented containers, cleaning is usually a chargeable extra and not included in the base price. If it is handled internally, fixed responsibilities are needed – "everyone tidies up after themselves" does not work in practice.
+Responsibilities belong in writing. With rented containers, cleaning is usually a chargeable extra, not part of the base price. If handled internally, fixed responsibilities are needed – "everyone tidies up after themselves" does not work in practice.
 
-Consumables include toilet paper, soap, paper towels or hand dryers, disinfectant, bin liners and sanitary bins in female areas. Anyone who fails to organise restocking and checks soon has a functional but unusable container.
+Consumables include toilet paper, soap, paper towels or hand dryers, disinfectant, bin liners and sanitary bins. Anyone who fails to organise restocking soon has a functional but unusable container.
 
 ## Requirements on construction sites
 
 For construction sites in Germany, the Workplace Ordinance (ArbStättV) and its associated technical rules – in particular ASR A4.1 on sanitary rooms – provide the framework. They contain guidance values for the number of toilets per employee, for washing and changing facilities, and for equipment and accessibility.
 
-As rough orientation it is often cited that one toilet suffices for up to around nine employees, with further units added as headcount rises; likewise that sanitary facilities must be reachable within a reasonable distance of the workplace and that separate areas are to be provided where women and men are employed at the same time. For longer standing times, requirements for heating, lighting and ventilation are added.
+As rough orientation it is often cited that one toilet suffices for up to around nine employees, with further units added as headcount rises; that facilities must be reachable within a reasonable distance of the workplace; and that separate areas are to be provided where women and men are employed at the same time. For longer standing times, requirements for heating, lighting and ventilation are added.
 
 > **Not legal advice:** these notes serve orientation only and do not replace a legal review. What applies is the current state of the rules, the specific risk assessment and the requirements of the responsible authority or employers' liability insurance association.
 
@@ -112,13 +112,13 @@ Ancillary costs weigh more heavily with sanitary containers than with other type
 | **Winter package / frost protection** | €300 – 1,200 | Trace heating, insulation, tempering |
 | **Final cleaning on return** | €150 – 500 | Often a flat rate in the rental contract |
 
-For short deployments renting is almost always more economical, because maintenance, inspection and repairs sit with the lessor. For standing times beyond two years and permanent demand – in accommodation or at depots, for example – buying can be cheaper, provided the operator duties can be covered internally. The fundamental trade-off is covered in [Buy or rent?](/en/ratgeber/container-kaufen-oder-mieten).
+For short deployments renting is almost always more economical, because maintenance, inspection and repairs sit with the lessor. Beyond about two years and with permanent demand, buying can be cheaper, provided operator duties are covered internally. See [Buy or rent?](/en/ratgeber/container-kaufen-oder-mieten).
 
 ## Installation and winter operation
 
-Sanitary containers need load-bearing, level ground. Being out of level matters more here than with other containers, because floor drains and shower trays depend on a defined fall – if the container sits wrong, water does not run off but pools in the cubicle. Precisely surveyed point foundations under the corner castings are mandatory. The basics are covered under [Container foundation](/en/ratgeber/container-fundament).
+Sanitary containers need load-bearing, level ground. Being out of level matters more here than with other containers, because floor drains and shower trays depend on a defined fall – if the container sits wrong, water pools in the cubicle instead of running off. Precisely surveyed point foundations under the corner castings are mandatory; see [Container foundation](/en/ratgeber/container-fundament).
 
-Access should be safe underfoot: on construction sites a step or short platform is usual, for accessible use a ramp with a shallow gradient and a firm surface. It also makes sense to position the container for short walking distances from the workplaces while keeping it out of traffic and crane areas.
+Access should be safe underfoot: on construction sites a step or short platform is usual, for accessible use a ramp with a shallow gradient and firm surface. Position the container for short walking distances while keeping it out of traffic and crane areas.
 
 For winter operation the rules are: lay supply lines frost-safe or fit trace heating, keep the container tempered continuously rather than only when occupied, insulate external tanks, and drain the whole system down for longer shutdowns such as the Christmas break. An empty container cannot freeze and burst.
 

@@ -20,17 +20,17 @@ A storage container is a self-supporting steel box. Its rigidity comes not from 
 
 Three properties make it attractive for storage:
 
-- **Material thickness.** Wall panels are typically around 1.6 to 2.0 millimetres of Corten-type steel, with the floor cross members considerably heavier. The material is not indestructible, but it withstands impacts, dropped objects and weather for decades as long as rust protection is maintained.
-- **Locking.** The doors are held by several locking bars that engage the frame top and bottom. A door therefore cannot simply be levered open – the weak point is practically always the padlock, not the construction.
-- **Weather resistance.** Continuous rubber seals around the doors and a fully welded roof make the container rainproof. Watertight, however, does not mean breathable: moisture that gets in, stays in.
+- **Material thickness.** Wall panels are typically 1.6 to 2.0 millimetres of Corten-type steel, the floor cross members considerably heavier. The material withstands impacts, dropped objects and weather for decades as long as rust protection is maintained.
+- **Locking.** The doors are held by several locking bars engaging the frame top and bottom. A door cannot simply be levered open – the weak point is practically always the padlock.
+- **Weather resistance.** Continuous rubber seals and a fully welded roof make the container rainproof. Watertight, however, does not mean breathable: moisture that gets in, stays in.
 
 > Rule of thumb: a storage container reliably keeps out water from the outside. Only proper ventilation protects against water from the inside – condensation.
 
-In shipping containers the floor is usually a bonded plywood panel around 28 millimetres thick, resting on steel cross members. It carries forklift loads but reacts badly to standing moisture.
+In shipping containers the floor is usually a bonded plywood panel around 28 millimetres thick on steel cross members. It carries forklift loads but reacts badly to standing moisture.
 
 ## Sizes at a glance
 
-The common sizes follow the ISO standard. Usable floor area figures are rounded and refer to internal dimensions; volume is a rough guide value, since design and floor build-up vary.
+The common sizes follow the ISO standard. Usable area figures are rounded and refer to internal dimensions; volume is a rough guide value.
 
 | Size | Approx. external (L × W) | Approx. usable area | Approx. volume | Typical use |
 | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ Not every storage container is a shipping container. Several construction princi
 | **Side-door container** | Additional hinged door in the long wall | Short routes when loading and unloading, good for shelving | Higher price, lower torsional stiffness |
 | **Open-side / side-opener** | Entire long side opens | Ideal for bulky goods and displays | Considerably more expensive, rare on the used market |
 
-For pure storage with no later conversion, the classic shipping container is usually the most economical choice. As soon as goods move in and out frequently, a side door pays for itself quickly – it saves restacking to reach items at the back.
+For pure storage with no later conversion, the classic shipping container is usually the most economical choice. Where goods move in and out frequently, a side door pays for itself quickly.
 
 ## Condition grades and quality
 
@@ -115,7 +115,7 @@ Precise levelling in both axes is essential. If the container stands crooked, th
 - Are the goods moisture-sensitive? Then plan ventilation and insulation from the start.
 - How long is the container needed – under or over about eighteen months?
 - Is the approach clear for a low-loader, and is there room to manoeuvre?
-- Does the ground bear the load, and are point supports in place or feasible?
+- Does the ground bear the load, and are point supports feasible?
 - Is a lockbox fitted or retrofittable?
 - Has the condition been inspected on site – floor, seals, corners, locking gear?
 

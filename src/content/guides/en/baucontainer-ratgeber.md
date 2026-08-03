@@ -22,12 +22,12 @@ The **distinction from a shipping container** matters. A shipping container is a
 
 | Feature | Room container (site container) | Shipping container |
 | --- | --- | --- |
-| Construction | Steel frame with sandwich panels | Self-supporting corrugated steel walls |
-| Insulation | Integrated as standard | None (can be retrofitted) |
+| Construction | Steel frame, sandwich panels | Corrugated steel walls |
+| Insulation | Integrated as standard | None (retrofittable) |
 | Windows/doors | Factory-fitted | End doors only |
-| Stackability | Usually 2–3 levels (type-tested) | 6–9 levels when loaded |
+| Stackability | 2–3 levels (type-tested) | 6–9 levels when loaded |
 | Typical use | Break rooms, offices, sanitary | Transport, storage |
-| Service life in use | 15–25 years with maintenance | 20–30 years |
+| Service life | 15–25 years with maintenance | 20–30 years |
 
 ## The variants at a glance
 
@@ -54,9 +54,9 @@ Room containers follow a grid based on standard transport widths. The exterior w
 
 | Module size | Exterior length approx. | Exterior width approx. | Exterior height approx. | Usable floor area approx. | Typical use |
 | --- | --- | --- | --- | --- | --- |
-| 10 foot | 3.00 m | 2.44 m | 2.60 m | 6.5 – 7 m² | Gatehouse, small office, tools |
-| 15 foot | 4.50 m | 2.44 m | 2.60 m | 10 – 11 m² | Single office, small break room |
-| 20 foot | 6.06 m | 2.44 m | 2.60 – 2.80 m | 13.5 – 14.5 m² | Standard office, crew room, sanitary |
+| 10 foot | 3.00 m | 2.44 m | 2.60 m | 6.5 – 7 m² | Gatehouse, small office |
+| 15 foot | 4.50 m | 2.44 m | 2.60 m | 10 – 11 m² | Single office, break room |
+| 20 foot | 6.06 m | 2.44 m | 2.60 – 2.80 m | 13.5 – 14.5 m² | Office, crew room, sanitary |
 | 2 × 20 foot coupled | 6.06 m | 4.88 m | 2.60 – 2.80 m | 27 – 29 m² | Site management, meetings |
 | 4 × 20 foot coupled | 6.06 m | 9.76 m | 2.60 – 2.80 m | 55 – 58 m² | Site office, larger projects |
 
@@ -64,7 +64,7 @@ Because of the floor build-up and ceiling panel, the clear internal height is us
 
 ## Equipment in detail
 
-Equipment determines comfort, running costs and suitability for year-round use. Ask about these points when comparing quotes:
+Equipment determines comfort, running costs and year-round suitability. Ask about these points when comparing quotes:
 
 - **Electrical installation:** number and layout of sockets, distribution board with residual current device, CEE external connection, option to loop through modules.
 - **Heating:** usually electric convectors or wall heaters with a thermostat. Output must match the insulation quality – an undersized heater drives electricity costs.
@@ -80,15 +80,15 @@ On sites, renting is the norm because project duration and requirements change. 
 
 | Variant | New purchase approx. | Used purchase approx. | Monthly rent approx. |
 | --- | --- | --- | --- |
-| Crew container 20 foot | €7,000 – €12,000 | €3,000 – €6,500 | €130 – €260 |
-| Office container 20 foot | €8,000 – €15,000 | €3,500 – €8,000 | €150 – €320 |
-| Sanitary container 20 foot | €15,000 – €30,000 | €7,000 – €16,000 | €300 – €700 |
-| Changing container 20 foot | €7,500 – €13,000 | €3,200 – €7,000 | €140 – €280 |
-| Material container 20 foot | €2,500 – €5,500 | €1,400 – €3,200 | €70 – €160 |
+| Crew, 20 foot | €7,000 – €12,000 | €3,000 – €6,500 | €130 – €260 |
+| Office, 20 foot | €8,000 – €15,000 | €3,500 – €8,000 | €150 – €320 |
+| Sanitary, 20 foot | €15,000 – €30,000 | €7,000 – €16,000 | €300 – €700 |
+| Changing, 20 foot | €7,500 – €13,000 | €3,200 – €7,000 | €140 – €280 |
+| Material, 20 foot | €2,500 – €5,500 | €1,400 – €3,200 | €70 – €160 |
 
-> **Note on all prices:** these are guide values, varying by condition, equipment and region (as of 2026). They exclude delivery, crane hire, foundation work and connection costs, and are expressly not binding quotations.
+> **Note on all prices:** these are guide values, varying by condition, equipment and region (as of 2026). They exclude delivery, crane hire, foundations and connection costs, and are not binding quotations.
 
-Also budget for delivery and collection (often around €150 – €600 per trip), crane or hook-lift use, final cleaning and, when renting, a deposit. See also [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten).
+Also budget for delivery and collection (often €150 – €600 per trip), crane or hook-lift use, final cleaning and, when renting, a deposit. See [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten).
 
 ## Siting and logistics
 
@@ -119,4 +119,4 @@ Construction sites are a favoured target for tool and material theft. What works
 
 ## Conclusion
 
-Site containers are not an off-the-shelf product but a construction kit. Anyone who surveys the requirement properly – headcount, duration of use, season, connection situation and access – almost always arrives at a clear configuration and avoids the typical follow-up orders. For short and medium projects, renting is usually more economical; for permanent demand, buying pays off, frequently used as well. What counts in the end is less the purchase price than the sum of transport, siting, connection and running costs – and that should be visible in every comparison of quotes.
+Site containers are not an off-the-shelf product but a construction kit. Anyone who surveys the requirement properly – headcount, duration, season, connections and access – almost always arrives at a clear configuration and avoids follow-up orders. For short and medium projects, renting is usually more economical; for permanent demand, buying pays off, often used. What counts is less the purchase price than the sum of transport, siting, connection and running costs – and that should be visible in every quote comparison.
