@@ -43,7 +43,8 @@ const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 // AdSense Publisher-ID – fest hinterlegt, per Umgebungsvariable überschreibbar.
 const adsenseClient = (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined) || 'ca-pub-8546048688712353';
 const gtmId = import.meta.env.PUBLIC_GTM_ID as string | undefined;
-const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined; // GA4, Format "G-XXXXXXX"
+// GA4 Mess-ID – fest hinterlegt, per Umgebungsvariable überschreibbar.
+const gaId = (import.meta.env.PUBLIC_GA_ID as string | undefined) || 'G-0R6TTCCM4T';
 const consentNeeded = Boolean(adsenseClient || gtmId || gaId);
 
 // Organisation als JSON-LD (Basis für alle Seiten).
