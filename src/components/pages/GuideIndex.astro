@@ -1,7 +1,7 @@
 ---
-import ContainerIcon from '../ContainerIcon.astro';
 import AdSlot from '../AdSlot.astro';
 import { getGuides, groupByCategory, guideSlug } from '../../lib/guides';
+import { guideImage } from '../../lib/guideImages';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
 
 interface Props { lang: Lang }
@@ -31,7 +31,15 @@ const groups = groupByCategory(guides);
         <div class="guide-cards">
           {group.items.map((g) => (
             <a href={L(`/ratgeber/${guideSlug(g)}`)} class="card card--link guide-card">
-              <span class="guide-card__icon"><ContainerIcon name={g.data.icon} title={g.data.title} /></span>
+              <span class="guide-card__media">
+                <img
+                  src={guideImage(guideSlug(g))}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.style.display='none'"
+                />
+              </span>
               <div class="guide-card__body">
                 <h3>{g.data.title}</h3>
                 <p>{g.data.description}</p>
@@ -53,11 +61,25 @@ const groups = groupByCategory(guides);
   .empty { color: var(--color-muted); }
   .guide-group { margin-top: 2.5rem; }
   .guide-group__title { font-size: var(--text-xl); padding-bottom: 0.5rem; border-bottom: 2px solid var(--color-bg-sunken); margin-bottom: 1.4rem; }
-  .guide-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr)); gap: var(--gap); }
-  .guide-card { display: flex; gap: 1rem; padding: 1.1rem; text-decoration: none; color: inherit; align-items: flex-start; }
-  .guide-card__icon { width: 5rem; flex-shrink: 0; border-radius: var(--radius-md); overflow: hidden; }
-  .guide-card__body { min-width: 0; }
+  .guide-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: var(--gap); }
+  .guide-card {
+    display: flex; flex-direction: column; padding: 0; overflow: hidden;
+    text-decoration: none; color: inherit;
+  }
+  .guide-card__media {
+    display: block; aspect-ratio: 16 / 10; overflow: hidden;
+    background: linear-gradient(135deg, var(--color-bg-sunken), var(--color-bg-alt));
+  }
+  .guide-card__media img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform 0.4s ease;
+  }
+  .guide-card:hover .guide-card__media img,
+  .guide-card:focus-visible .guide-card__media img { transform: scale(1.045); }
+  .guide-card__body { min-width: 0; padding: 1.05rem 1.1rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
   .guide-card h3 { font-size: var(--text-lg); }
   .guide-card p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; }
-  .guide-card__meta { display: inline-block; margin-top: 0.7rem; color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); }
+  /* margin-top:auto schiebt die Zeile an den unteren Kartenrand – so fluchten
+     die Meta-Zeilen auch bei unterschiedlich langen Texten. */
+  .guide-card__meta { display: block; margin-top: auto; padding-top: 0.8rem; color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); }
 </style>

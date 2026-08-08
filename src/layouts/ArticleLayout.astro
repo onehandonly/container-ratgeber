@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
-import ContainerIcon from '../components/ContainerIcon.astro';
+import { guideImage } from '../lib/guideImages';
 import { site } from '../lib/site';
 import { useTranslations, localizePath, type Lang } from '../lib/i18n';
 import type { Guide } from '../lib/guides';
@@ -61,7 +61,17 @@ const breadcrumbSchema = {
           <span>{t('meta.updated')}: {dateFmt.format(updated)}</span>
         </div>
       </div>
-      <div class="ahero__art"><ContainerIcon name={entry.data.icon} title={entry.data.title} /></div>
+      <div class="ahero__art">
+        <img
+          src={guideImage(slug)}
+          alt=""
+          width="640"
+          height="400"
+          fetchpriority="high"
+          decoding="async"
+          onerror="this.closest('.ahero__art').style.display='none'"
+        />
+      </div>
     </div>
   </header>
 
@@ -117,7 +127,8 @@ const breadcrumbSchema = {
   .ahero__copy h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; text-wrap: balance; }
   .ahero__lead { font-size: var(--text-lg); color: var(--color-ink-soft); margin-top: 0.9rem; line-height: 1.55; max-width: 52ch; }
   .ahero__meta { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 1.1rem; font-size: var(--text-xs); color: var(--color-muted); }
-  .ahero__art { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
+  .ahero__art { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 16 / 10; background: var(--color-bg-sunken); }
+  .ahero__art img { width: 100%; height: 100%; object-fit: cover; display: block; }
   a.pill { text-decoration: none; }
   @media (max-width: 760px) { .ahero__inner { grid-template-columns: 1fr; } .ahero__art { display: none; } }
 
