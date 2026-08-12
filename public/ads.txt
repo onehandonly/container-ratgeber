@@ -1,0 +1,4 @@
+# ads.txt – Authorized Digital Sellers (IAB Tech Lab)
+# Liegt im Stammverzeichnis: https://container-ratgeber.de/ads.txt
+# Jede Zeile autorisiert einen Vermarkter, Werbeflächen dieser Domain zu verkaufen.
+google.com, pub-8546048688712353, DIRECT, f08c47fec0942fa0
