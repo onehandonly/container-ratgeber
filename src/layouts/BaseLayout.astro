@@ -80,6 +80,8 @@ const schemas = [orgSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [json
     <meta name="robots" content={index ? 'index,follow' : 'noindex,nofollow'} />
     <meta name="theme-color" content="#242a5e" />
     <meta name="generator" content={Astro.generator} />
+    {/* AdSense-Kontoverifizierung – muss auf jeder Seite im <head> stehen. */}
+    {adsenseClient && <meta name="google-adsense-account" content={adsenseClient} />}
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
