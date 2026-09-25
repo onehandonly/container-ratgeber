@@ -33,10 +33,12 @@ const MAP: Record<string, string> = {
   'container-groessen-und-masse': '/img/container-sketch.webp',
   'container-nummer-csc-plakette': PHOTO('type-seecontainer'),
   'geschichte-des-containers': PHOTO('hero-home'),
+  'container-glossar-fachbegriffe': PHOTO('type-buerocontainer'),
 
   // --- Kaufberatung ---
   'gebrauchten-container-kaufen': PHOTO('type-seecontainer'),
   'container-neu-oder-gebraucht': PHOTO('type-lagercontainer'),
+  'container-kaufberatung-haeufige-fehler': PHOTO('type-abrollcontainer'),
 
   // --- Kosten ---
   'was-kostet-ein-container': PHOTO('hero-home'),
