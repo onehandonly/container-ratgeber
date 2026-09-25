@@ -132,7 +132,7 @@ export const typeDetails: Record<string, Bilingual> = {
         { label: 'Genehmigung', value: 'Bei Daueraufstellung nötig' },
         { label: 'Bezug', value: 'Kauf oder Miete' },
       ],
-      related: ['was-kostet-ein-container', 'container-groessen-und-masse', 'container-baugenehmigung'],
+      related: ['buerocontainer-qualitaet-bausatz', 'was-kostet-ein-container', 'container-groessen-und-masse', 'container-baugenehmigung'],
     },
     en: {
       intro:
@@ -167,7 +167,7 @@ export const typeDetails: Record<string, Bilingual> = {
         { label: 'Permit', value: 'Needed for permanent siting' },
         { label: 'Availability', value: 'Buy or rent' },
       ],
-      related: ['was-kostet-ein-container', 'container-groessen-und-masse', 'container-baugenehmigung'],
+      related: ['buerocontainer-qualitaet-bausatz', 'was-kostet-ein-container', 'container-groessen-und-masse', 'container-baugenehmigung'],
     },
   },
   wohncontainer: {

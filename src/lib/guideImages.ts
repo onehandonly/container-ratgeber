@@ -39,6 +39,7 @@ const MAP: Record<string, string> = {
   'gebrauchten-container-kaufen': PHOTO('type-seecontainer'),
   'container-neu-oder-gebraucht': PHOTO('type-lagercontainer'),
   'fake-containerhaendler-vorkasse-betrug': PHOTO('type-high-cube-container'),
+  'buerocontainer-qualitaet-bausatz': PHOTO('type-xl-container'),
   'container-kaufberatung-haeufige-fehler': PHOTO('hero-home'),
 
   // --- Kosten ---
