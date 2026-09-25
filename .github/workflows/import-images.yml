@@ -1,0 +1,50 @@
+# Importiert Bilder aus einem ZIP-Archiv (z. B. von Higgsfield erzeugt) nach public/img/photos.
+# Manuell starten: Actions -> "Bilder importieren" -> Run workflow, ZIP-URL eintragen.
+# Erlaubt sind nur .webp-Dateien mit sicheren Dateinamen; bestehende Dateien werden überschrieben.
+name: Bilder importieren
+
+on:
+  workflow_dispatch:
+    inputs:
+      zip_url:
+        description: 'HTTPS-URL eines ZIP-Archivs mit .webp-Bildern'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Archiv laden und prüfen
+        env:
+          ZIP_URL: ${{ inputs.zip_url }}
+        run: |
+          set -euo pipefail
+          case "$ZIP_URL" in https://*) ;; *) echo "Nur HTTPS-URLs erlaubt"; exit 1;; esac
+          curl -fsSL --max-filesize 52428800 -o /tmp/import.zip "$ZIP_URL"
+          mkdir -p /tmp/import
+          unzip -j -o /tmp/import.zip -d /tmp/import
+          cd /tmp/import
+          shopt -s nullglob
+          files=( * )
+          [ ${#files[@]} -gt 0 ] || { echo "Archiv ist leer"; exit 1; }
+          for f in "${files[@]}"; do
+            [[ "$f" =~ ^[a-z0-9-]+\.webp$ ]] || { echo "Unzulässiger Dateiname: $f"; exit 1; }
+            file --mime-type -b "$f" | grep -q '^image/webp$' || { echo "Keine WebP-Datei: $f"; exit 1; }
+          done
+          mkdir -p "$GITHUB_WORKSPACE/public/img/photos"
+          cp -v "${files[@]}" "$GITHUB_WORKSPACE/public/img/photos/"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/img/photos
+          if git diff --cached --quiet; then echo "Keine Änderungen"; exit 0; fi
+          git commit -m "Bilder importiert aus ZIP-Archiv"
+          git push
