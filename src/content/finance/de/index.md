@@ -44,6 +44,8 @@ Drei Dinge zeigt die Rechnung deutlich:
 2. **Leasing ist kein Sparmodell, sondern ein Liquiditätsmodell.** Es verteilt die Kosten, macht den Container aber nicht billiger.
 3. **Miete lohnt sich bei kurzer Nutzung.** Über drei Jahre ist sie in diesem Beispiel günstiger als Leasing ohne Übernahme, weil der Vermieter das Restwertrisiko trägt. Bei längerer Nutzung kippt das schnell zugunsten des Kaufs.
 
+Mit dem [Leasingrechner](/rechner/leasing) rechnen Sie das Beispiel mit Ihren eigenen Zahlen nach.
+
 ## Entscheidung in vier Fragen
 
 1. **Brauchen Sie den Container weniger als etwa ein bis zwei Jahre?** Dann ist Miete fast immer richtig. Die Break-even-Rechnung steht im Ratgeber [Mietpreise verstehen](/ratgeber/container-mietpreise-kalkulation).

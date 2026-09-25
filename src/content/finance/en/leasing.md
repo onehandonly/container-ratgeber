@@ -16,7 +16,7 @@ With leasing, a leasing company buys the container from the dealer and lets you 
 
 Because the container is often taken over at the end and leasing works like buying in instalments, we treat it here as a variant of buying. Formally it is a right of use.
 
-Leasing is aimed almost exclusively at **businesses and the self-employed**. Container leasing is hardly offered to private individuals.
+Leasing is aimed almost exclusively at **businesses and the self-employed**. Container leasing is hardly offered to private individuals. Leasing is also generally **only available for new containers**, typically with terms of 24 to 60 months. For used containers, [hire purchase](/en/kaufen-mieten/kauf/mietkauf) is usually the suitable alternative.
 
 ## The two basic models
 

@@ -89,6 +89,8 @@ Mit ein paar Überlegungen lässt sich das Budget spürbar entlasten:
 - **Zustand realistisch wählen:** Nicht jeder Einsatz erfordert einen makellosen Container. Wer den Zustand am tatsächlichen Bedarf ausrichtet, vermeidet unnötige Aufpreise.
 - **Angebote vergleichen:** Mehrere aktuelle Angebote einzuholen, ist der einfachste Weg, um die Marktlage einzuschätzen und faire Preise zu erkennen.
 
+> **Rechner:** Wie hoch die monatliche Rate beim Leasing ausfällt und wie sie sich gegen Mietkauf, Barkauf und Miete schlägt, können Sie mit dem [Leasingrechner](/rechner/leasing) für Ihre eigenen Zahlen ausrechnen.
+
 ## Fazit
 
 Was ein Container kostet, hängt vor allem von Typ, Zustand und Nutzungsart ab. Ein gebrauchter 20-Fuß-Lagercontainer liegt bei ca. 1.500 – 3.000 €, ausgestattete Büro- und Sanitärcontainer erreichen schnell fünfstellige Beträge. Bei der Miete sollten neben der Monatsrate immer Lieferung, Kran und Nebenkosten mitgedacht werden.

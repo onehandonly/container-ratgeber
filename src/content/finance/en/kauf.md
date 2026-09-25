@@ -36,7 +36,7 @@ For the purchase decision, condition matters at least as much as the form of pay
 
 The full decision aid is in [New, one-way or used?](/en/ratgeber/container-neu-oder-gebraucht), the inspection checklist in [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
 
-Note for leasing and hire purchase: financiers often accept used containers only to a limited extent or for shorter terms, because their value is harder to assess. Financing new and one-way containers is easier.
+Note on financing: leasing is generally only available for new containers. For used containers, hire purchase is the more likely option, because their value is harder for leasing companies to assess.
 
 ## What matters in the purchase contract
 

@@ -44,6 +44,8 @@ The calculation shows three things clearly:
 2. **Leasing is not a way to save money but a way to manage liquidity.** It spreads the cost but does not make the container cheaper.
 3. **Rental pays off for short use.** Over three years it is cheaper in this example than leasing without takeover, because the owner carries the residual value risk. With longer use the picture quickly tips in favour of buying.
 
+Use the [leasing calculator](/en/rechner/leasing) to rerun the example with your own figures.
+
 ## Deciding in four questions
 
 1. **Do you need the container for less than about one to two years?** Then rental is almost always right. The break-even calculation is in [Understanding hire prices](/en/ratgeber/container-mietpreise-kalkulation).

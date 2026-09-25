@@ -1,0 +1,195 @@
+---
+/**
+ * Leasingrechner (clientseitig, ohne externe Abhängigkeiten).
+ * Rechnet vereinfacht als Annuität mit nachschüssiger Zahlung und optionalem Restwert
+ * und stellt Leasing, Mietkauf, Barkauf und optional Miete nebeneinander.
+ */
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id?: string }
+const { lang, id = 'leasing-calc' } = Astro.props;
+const de = lang === 'de';
+const t = de ? {
+  title: 'Leasingrechner', intro: 'Geben Sie Kaufpreis, Laufzeit und Zins ein. Der Rechner zeigt die Monatsrate und vergleicht Leasing mit Mietkauf, Barkauf und – optional – Miete.',
+  price: 'Anschaffungspreis netto (€)', term: 'Laufzeit', months: 'Monate',
+  newOnly: 'Leasing ist in der Regel nur bei Neucontainern möglich. Für gebrauchte Container kommt eher der Mietkauf infrage – der Rechner zeigt ihn deshalb gleich mit.', hpLink: 'Mehr zum Mietkauf', rate: 'Effektiver Jahreszins (%)', rateHint: 'Wird in den Monatszins umgerechnet',
+  residual: 'Restwert am Laufzeitende (€)', residualHint: 'vorbelegt mit 10 % des Kaufpreises; 0 € = Vollamortisation',
+  down: 'Anzahlung / Sonderzahlung (€)', fee: 'Bearbeitungsgebühr (€)',
+  market: 'Erwarteter Marktwert am Ende (% vom Preis)', marketHint: 'Wiederverkaufswert des Containers nach der Laufzeit',
+  rent: 'Vergleichsmiete pro Monat (€, optional)', takeover: 'Container am Ende zum Restwert übernehmen',
+  gross: 'Beträge brutto anzeigen (inkl. 19 % USt.)',
+  monthly: 'Leasingrate pro Monat', factor: 'Leasingfaktor', sumRates: 'Summe der Raten', interest: 'Zins- und Gebührenanteil',
+  compare: 'Vergleich über die Laufzeit', variant: 'Variante', paid: 'Gezahlt', owned: 'Wert am Ende bei Ihnen', net: 'Effektiver Aufwand',
+  lease: 'Leasing', hp: 'Mietkauf', cash: 'Barkauf', hire: 'Miete',
+  note: 'Annuitätenrechnung mit Zahlung am Monatsende; der effektive Jahreszins wird in den gleichwertigen Monatszins umgerechnet. Nicht enthalten sind Versicherung, Transport und Steuerwirkung. Echte Angebote rechnen teils mit Zahlung zum Monatsanfang und weiteren Gebühren. Alle Ergebnisse sind Orientierungswerte ohne Gewähr.',
+  hpNote: 'Mietkauf: gleiche Laufzeit und gleicher Zins, ohne Restwert; der Container gehört Ihnen am Ende.',
+  cheapest: 'günstigste Variante', perMonth: '/ Monat',
+} : {
+  title: 'Leasing calculator', intro: 'Enter purchase price, term and interest rate. The calculator shows the monthly instalment and compares leasing with hire purchase, cash purchase and – optionally – rental.',
+  price: 'Purchase price, net (€)', term: 'Term', months: 'months',
+  newOnly: 'Leasing is generally only available for new containers. For used containers, hire purchase is the more likely option – which is why the calculator shows it alongside.', hpLink: 'More on hire purchase', rate: 'Effective annual interest rate (%)', rateHint: 'Converted into the monthly rate',
+  residual: 'Residual value at the end of the term (€)', residualHint: 'pre-filled with 10% of the price; €0 = full payout',
+  down: 'Down payment / initial payment (€)', fee: 'Handling fee (€)',
+  market: 'Expected market value at the end (% of price)', marketHint: 'resale value of the container after the term',
+  rent: 'Comparison rent per month (€, optional)', takeover: 'Take over the container at the residual value at the end',
+  gross: 'Show gross amounts (incl. 19% German VAT)',
+  monthly: 'Monthly lease instalment', factor: 'Lease factor', sumRates: 'Sum of instalments', interest: 'Interest and fees',
+  compare: 'Comparison over the term', variant: 'Option', paid: 'Paid', owned: 'Value you own at the end', net: 'Effective cost',
+  lease: 'Leasing', hp: 'Hire purchase', cash: 'Cash purchase', hire: 'Rental',
+  note: 'Annuity calculation with payment at the end of each month; the effective annual rate is converted into the equivalent monthly rate. Insurance, transport and tax effects are not included. Real offers sometimes assume payment at the start of the month and further fees. All results are orientation values without guarantee.',
+  hpNote: 'Hire purchase: same term and interest, no residual value; the container is yours at the end.',
+  cheapest: 'cheapest option', perMonth: '/ month',
+};
+---
+<section class="lc" id={id} data-lang={lang} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`} class="lc__title">{t.title}</h2>
+  <p class="lc__intro">{t.intro}</p>
+  <p class="lc__notice"><strong>ⓘ</strong> <span>{t.newOnly} <a href={lang === 'de' ? '/kaufen-mieten/kauf/mietkauf' : '/en/kaufen-mieten/kauf/mietkauf'}>{t.hpLink} →</a></span></p>
+
+  <form class="lc__form" onsubmit="return false">
+    <label>{t.price}<input type="number" name="price" min="0" step="100" value="10000" inputmode="decimal" /></label>
+    <label>{t.term}<select name="term">{[24, 36, 48, 60].map((m) => <option value={m} selected={m === 36}>{m} {t.months}</option>)}</select></label>
+    <label>{t.rate}<input type="number" name="rate" min="0" max="30" step="0.01" value="6.99" inputmode="decimal" /><small>{t.rateHint}</small></label>
+    <label>{t.residual}<input type="number" name="residual" min="0" step="100" value="1000" inputmode="decimal" /><small data-out="rvhint">{t.residualHint}</small></label>
+    <label>{t.down}<input type="number" name="down" min="0" step="100" value="0" inputmode="decimal" /></label>
+    <label>{t.fee}<input type="number" name="fee" min="0" step="10" value="0" inputmode="decimal" /></label>
+    <label>{t.market}<input type="number" name="market" min="0" max="100" step="1" value="65" inputmode="decimal" /><small>{t.marketHint}</small></label>
+    <label>{t.rent}<input type="number" name="rent" min="0" step="10" value="" placeholder={de ? "z. B. 200" : "e.g. 200"} inputmode="decimal" /></label>
+    <label class="lc__check"><input type="checkbox" name="takeover" /> {t.takeover}</label>
+    <label class="lc__check"><input type="checkbox" name="gross" /> {t.gross}</label>
+  </form>
+
+  <div class="lc__result" aria-live="polite">
+    <div class="lc__kpis">
+      <div class="lc__kpi lc__kpi--main"><span>{t.monthly}</span><strong data-out="monthly">–</strong></div>
+      <div class="lc__kpi"><span>{t.factor}</span><strong data-out="factor">–</strong></div>
+      <div class="lc__kpi"><span>{t.sumRates}</span><strong data-out="sum">–</strong></div>
+      <div class="lc__kpi"><span>{t.interest}</span><strong data-out="interest">–</strong></div>
+    </div>
+
+    <h3 class="lc__sub">{t.compare}</h3>
+    <div class="lc__table-wrap">
+      <table class="lc__table">
+        <thead><tr><th scope="col">{t.variant}</th><th scope="col">{t.paid}</th><th scope="col">{t.owned}</th><th scope="col">{t.net}</th></tr></thead>
+        <tbody data-out="rows"></tbody>
+      </table>
+    </div>
+    <p class="lc__note">{t.hpNote}</p>
+    <p class="lc__note">{t.note}</p>
+  </div>
+</section>
+
+<script is:inline define:vars={{ id, lang, labels: { lease: t.lease, hp: t.hp, cash: t.cash, hire: t.hire, cheapest: t.cheapest, perMonth: t.perMonth } }}>
+  (function () {
+    var root = document.getElementById(id);
+    if (!root) return;
+    var form = root.querySelector('form');
+    var locale = lang === 'de' ? 'de-DE' : 'en-GB';
+    var eur = new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+    var eur2 = new Intl.NumberFormat(locale, { style: 'currency', currency: 'EUR', minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    var pct = new Intl.NumberFormat(locale, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    function num(n) { var v = parseFloat(String(form.elements[n].value).replace(',', '.')); return isFinite(v) ? v : 0; }
+    // Annuität mit Restwert (Barwert des Restwerts wird abgezogen), Zahlung am Periodenende.
+    function annuity(pv, fv, r, n) {
+      if (n <= 0) return 0;
+      if (r === 0) return (pv - fv) / n;
+      var q = Math.pow(1 + r, n);
+      return (pv - fv / q) * r / (1 - 1 / q);
+    }
+    function calc() {
+      var price = Math.max(0, num('price')), n = Math.min(60, Math.max(24, Math.round(num('term')) || 36));
+      // Effektiver Jahreszins -> äquivalenter Monatszins: (1 + eff)^(1/12) - 1
+      var eff = Math.max(0, num('rate')) / 100;
+      var r = Math.pow(1 + eff, 1 / 12) - 1;
+      var rv = Math.min(price, Math.max(0, num('residual')));
+      var down = Math.min(price, Math.max(0, num('down'))), fee = Math.max(0, num('fee'));
+      var mv = price * Math.min(100, Math.max(0, num('market'))) / 100;
+      var rent = Math.max(0, num('rent'));
+      var takeover = form.elements.takeover.checked, gross = form.elements.gross.checked;
+      var f = gross ? 1.19 : 1;
+
+      var lr = annuity(price - down, rv, r, n);           // Leasingrate
+      var sum = lr * n;
+      var leasePaid = sum + down + fee + (takeover ? rv : 0);
+      var leaseOwned = takeover ? mv : 0;
+      var hr = annuity(price - down, 0, r, n);             // Mietkauf ohne Restwert
+      var hpPaid = hr * n + down + fee;
+
+      root.querySelector('[data-out=rvhint]').textContent = rv > 0 && price > 0
+        ? (lang === 'de' ? 'entspricht ' : 'equals ') + pct.format(rv / price * 100) + ' % ' + (lang === 'de' ? 'des Preises – Teilamortisation' : 'of the price – partial payout')
+        : (lang === 'de' ? '0 € = Vollamortisation' : '€0 = full payout');
+      root.querySelector('[data-out=monthly]').textContent = eur2.format(lr * f);
+      root.querySelector('[data-out=factor]').textContent = price > 0 ? pct.format(lr / price * 100) + ' %' : '–';
+      root.querySelector('[data-out=sum]').textContent = eur.format(sum * f);
+      root.querySelector('[data-out=interest]').textContent = eur.format(Math.max(0, (sum + down + fee + rv - price)) * f);
+
+      var rows = [
+        { k: labels.lease, paid: leasePaid, owned: leaseOwned, extra: eur2.format(lr * f) + ' ' + labels.perMonth },
+        { k: labels.hp, paid: hpPaid, owned: mv, extra: eur2.format(hr * f) + ' ' + labels.perMonth },
+        { k: labels.cash, paid: price, owned: mv, extra: '' },
+      ];
+      if (rent > 0) rows.push({ k: labels.hire, paid: rent * n, owned: 0, extra: eur.format(rent * f) + ' ' + labels.perMonth });
+      var best = rows.reduce(function (a, b) { return (b.paid - b.owned) < (a.paid - a.owned) ? b : a; });
+      var tb = root.querySelector('[data-out=rows]');
+      tb.innerHTML = '';
+      rows.forEach(function (row) {
+        var tr = document.createElement('tr');
+        if (row === best) tr.className = 'is-best';
+        var th = document.createElement('th'); th.scope = 'row';
+        th.textContent = row.k;
+        if (row.extra) { var sm = document.createElement('small'); sm.textContent = row.extra; th.appendChild(sm); }
+        if (row === best) { var b = document.createElement('em'); b.textContent = labels.cheapest; th.appendChild(b); }
+        tr.appendChild(th);
+        [row.paid * f, row.owned * f, (row.paid - row.owned) * f].forEach(function (v) {
+          var td = document.createElement('td'); td.textContent = eur.format(v); tr.appendChild(td);
+        });
+        tb.appendChild(tr);
+      });
+    }
+    // Restwert folgt mit 10 % dem Kaufpreis, bis er von Hand geändert wird.
+    var rvTouched = false;
+    form.elements.residual.addEventListener('input', function () { rvTouched = true; });
+    form.elements.price.addEventListener('input', function () {
+      if (!rvTouched) form.elements.residual.value = Math.round(Math.max(0, num('price')) * 0.10);
+    });
+    form.addEventListener('input', calc);
+    form.addEventListener('change', calc);
+    calc();
+  })();
+</script>
+
+<style>
+  .lc { border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-bg-alt); padding: clamp(1.1rem, 0.8rem + 1.5vw, 1.8rem); margin-block: 2rem; }
+  .lc__title { font-size: var(--text-xl); }
+  .lc__intro { color: var(--color-ink-soft); margin-top: 0.4rem; font-size: var(--text-sm); max-width: 60ch; }
+  .lc__form { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); gap: 0.9rem 1.1rem; margin-top: 1.2rem; }
+  .lc__form label { display: flex; flex-direction: column; gap: 0.3rem; font-size: var(--text-sm); font-weight: 600; color: var(--color-ink); }
+  .lc__form select,
+  .lc__form input[type=number] { font: inherit; font-weight: 500; padding: 0.55rem 0.7rem; border: 1px solid var(--color-border-strong); border-radius: var(--radius-md); background: #fff; color: var(--color-ink); width: 100%; }
+  .lc__form select:focus,
+  .lc__form input[type=number]:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+  .lc__notice { display: flex; gap: 0.6rem; align-items: flex-start; margin-top: 0.9rem; padding: 0.75rem 0.9rem; border-radius: var(--radius-md); background: var(--warn-amber-bg, #fff6e5); border: 1px solid var(--color-border); font-size: var(--text-sm); color: var(--color-ink); max-width: 62ch; }
+  .lc__notice strong { color: var(--warn-amber, #9a6200); }
+  .lc__notice a { font-weight: 600; white-space: nowrap; }
+  .lc__form small { font-weight: 400; color: var(--color-muted); font-size: var(--text-xs); }
+  .lc__check { flex-direction: row !important; align-items: center; gap: 0.5rem !important; font-weight: 500 !important; }
+  .lc__check input { width: 1.1rem; height: 1.1rem; accent-color: var(--color-signal); }
+  .lc__result { margin-top: 1.5rem; }
+  .lc__kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 11rem), 1fr)); gap: 0.7rem; }
+  .lc__kpi { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 0.8rem 0.9rem; display: flex; flex-direction: column; gap: 0.2rem; }
+  .lc__kpi span { font-size: var(--text-xs); color: var(--color-muted); }
+  .lc__kpi strong { font-family: var(--font-head); font-size: var(--text-lg); color: var(--color-ink); }
+  .lc__kpi--main { background: var(--color-signal); border-color: var(--color-signal); }
+  .lc__kpi--main span { color: rgba(255,255,255,0.8); }
+  .lc__kpi--main strong { color: #fff; font-size: var(--text-xl); }
+  .lc__sub { font-size: var(--text-base); margin-top: 1.4rem; margin-bottom: 0.6rem; }
+  .lc__table-wrap { overflow-x: auto; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: #fff; }
+  .lc__table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+  .lc__table th, .lc__table td { padding: 0.6rem 0.75rem; text-align: right; border-bottom: 1px solid var(--color-border); white-space: nowrap; }
+  .lc__table th:first-child { text-align: left; }
+  .lc__table thead th { background: var(--color-bg-alt); font-weight: 700; }
+  .lc__table tbody th small { display: block; font-weight: 400; color: var(--color-muted); font-size: var(--text-xs); }
+  .lc__table tbody th em { display: inline-block; margin-top: 0.2rem; font-style: normal; font-size: var(--text-xs); font-weight: 700; color: var(--tip-green, #1a7f4b); }
+  .lc__table tr.is-best { background: var(--tip-green-bg, #eef8f1); }
+  .lc__table tbody tr:last-child > * { border-bottom: 0; }
+  .lc__note { font-size: var(--text-xs); color: var(--color-muted); margin-top: 0.6rem; }
+</style>

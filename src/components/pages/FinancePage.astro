@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Breadcrumbs from '../Breadcrumbs.astro';
+import LeasingCalculator from '../LeasingCalculator.astro';
 import { financeSlug, financePath, financeAncestors, financeChildren, type FinancePage } from '../../lib/finance';
 import { localizePath, type Lang } from '../../lib/i18n';
 
@@ -56,6 +57,7 @@ const inPath = (p: FinancePage) => isActive(p) || ancestors.some((a) => financeS
       </section>
     )}
     <div class="prose fin-body"><Content /></div>
+    {slug === 'leasing' && <LeasingCalculator lang={lang} id="leasing-calc-inline" />}
   </div>
 
   <aside class="fin-side">

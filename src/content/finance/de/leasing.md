@@ -16,7 +16,7 @@ Beim Leasing kauft eine Leasinggesellschaft den Container beim Händler und übe
 
 Weil der Container häufig am Ende übernommen wird und Leasing wie ein Kauf auf Raten wirkt, ordnen wir es hier als Variante des Kaufs ein. Formal ist es eine Nutzungsüberlassung.
 
-Leasing richtet sich fast ausschließlich an **Gewerbetreibende und Freiberufler**. Für Privatpersonen wird Container-Leasing kaum angeboten.
+Leasing richtet sich fast ausschließlich an **Gewerbetreibende und Freiberufler**. Für Privatpersonen wird Container-Leasing kaum angeboten. Außerdem ist Leasing in der Regel **nur bei Neucontainern** möglich, typischerweise mit Laufzeiten von 24 bis 60 Monaten. Für gebrauchte Container ist der [Mietkauf](/kaufen-mieten/kauf/mietkauf) meist die passende Alternative.
 
 ## Die zwei Grundmodelle
 

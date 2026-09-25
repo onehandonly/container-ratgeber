@@ -145,6 +145,8 @@ Not in the formula, but real: when you buy, **you** carry the downtime risk, the
 4. **Bundle deliveries.** If you need two containers at once, you pay for one journey rather than two. The same applies to collection.
 5. **Use the off-season.** Demand for site and storage containers follows the construction season. The market is more relaxed in winter.
 
+> **Calculator:** work out the monthly leasing instalment for your own figures, and how it compares with hire purchase, cash purchase and rental, with the [leasing calculator](/en/rechner/leasing).
+
 ## Important note
 
 > All prices in this article are **rough orientation values without guarantee**. Container hire prices are subject to considerable regional, seasonal and provider-dependent variation and shift with steel prices, transport costs and market conditions. Only an individual quote is binding. The break-even calculation is a simplified model and does not replace business or tax advice.

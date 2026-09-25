@@ -1,0 +1,68 @@
+---
+import Breadcrumbs from '../Breadcrumbs.astro';
+import LeasingCalculator from '../LeasingCalculator.astro';
+import { localizePath, type Lang } from '../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<Breadcrumbs items={[{ label: de ? 'Kosten' : 'Costs', href: L('/ratgeber/was-kostet-ein-container') }, { label: de ? 'Leasingrechner' : 'Leasing calculator' }]} />
+
+<header class="lcp-hero">
+  <div class="wrap">
+    <span class="eyebrow">{de ? 'Rechner' : 'Calculator'}</span>
+    <h1>{de ? 'Leasingrechner für Container' : 'Leasing calculator for containers'}</h1>
+    <p>{de
+      ? 'Monatsrate, Leasingfaktor und Gesamtkosten aus Kaufpreis, Laufzeit, effektivem Jahreszins und Restwert – mit direktem Vergleich zu Mietkauf, Barkauf und Miete.'
+      : 'Monthly instalment, lease factor and total cost from purchase price, term, effective annual rate and residual value – compared directly with hire purchase, cash purchase and rental.'}</p>
+  </div>
+</header>
+
+<div class="wrap lcp-body">
+  <LeasingCalculator lang={lang} />
+
+  <div class="prose lcp-text">
+    {de ? (
+      <>
+        <h2>So lesen Sie das Ergebnis</h2>
+        <p><strong>Leasingrate:</strong> Der monatliche Betrag, den Sie an den Leasinggeber zahlen. Er ergibt sich aus dem finanzierten Betrag (Kaufpreis minus Anzahlung), dem Zins, der Laufzeit und dem Restwert. Je höher der Restwert, desto niedriger die Rate – dafür wird der Restwert am Ende fällig, wenn Sie den Container übernehmen.</p>
+        <p><strong>Leasingfaktor:</strong> Die Monatsrate in Prozent des Kaufpreises. Anbieter nennen ihn oft statt eines Zinses. Ein Faktor von 3,0 % bedeutet 300 € Rate bei 10.000 € Kaufpreis. Damit lassen sich Angebote schnell vergleichen – aber nur bei gleicher Laufzeit und gleichem Restwert.</p>
+        <p><strong>Effektiver Jahreszins:</strong> Die Zinsbelastung auf das Jahr gerechnet, einschließlich Zinseszins innerhalb des Jahres. Der Rechner wandelt ihn in den gleichwertigen Monatszins um. Nennt ein Anbieter nur einen Sollzins (nominal), liegt der effektive Zins etwas darüber.</p>
+        <p><strong>Effektiver Aufwand:</strong> Alles, was Sie zahlen, abzüglich des Werts, der Ihnen am Ende gehört. Diese Zahl macht Leasing, Mietkauf, Barkauf und Miete vergleichbar.</p>
+        <h2>Was der Rechner nicht berücksichtigt</h2>
+        <ul>
+          <li>Versicherung, Transport, Aufstellung und Wartung – sie fallen bei allen Varianten ähnlich an.</li>
+          <li>Die Steuerwirkung: Leasingraten sind als Betriebsausgabe absetzbar, beim Kauf wird abgeschrieben. Die Unterschiede hängen von Ihrem Steuersatz ab.</li>
+          <li>Zahlung zum Monatsanfang: Manche Verträge rechnen so; die Rate fällt dann etwas niedriger aus, die Belastung beginnt aber früher.</li>
+          <li>Die entgangenen Zinsen auf das Kapital, das Sie beim Barkauf binden.</li>
+        </ul>
+        <p>Hintergründe zu Vertragsmodellen, Andienungsrecht und Steuer stehen auf der Seite <a href={L('/kaufen-mieten/kauf/leasing')}>Leasing</a>, den Vergleich aller Wege finden Sie unter <a href={L('/kaufen-mieten')}>Kaufen &amp; Mieten</a>.</p>
+      </>
+    ) : (
+      <>
+        <h2>How to read the result</h2>
+        <p><strong>Lease instalment:</strong> the monthly amount you pay the lessor. It results from the financed amount (price minus down payment), the interest rate, the term and the residual value. The higher the residual value, the lower the instalment – but the residual value becomes due at the end if you take the container over.</p>
+        <p><strong>Lease factor:</strong> the monthly instalment as a percentage of the purchase price. Providers often quote it instead of an interest rate. A factor of 3.0% means a €300 instalment on a €10,000 price. It makes quick comparisons possible – but only with the same term and residual value.</p>
+        <p><strong>Effective annual rate:</strong> the interest burden expressed per year, including compounding within the year. The calculator converts it into the equivalent monthly rate. If a provider quotes only a nominal rate, the effective rate is slightly higher.</p>
+        <p><strong>Effective cost:</strong> everything you pay, minus the value you own at the end. This figure makes leasing, hire purchase, cash purchase and rental comparable.</p>
+        <h2>What the calculator does not include</h2>
+        <ul>
+          <li>Insurance, transport, installation and maintenance – they are similar for all options.</li>
+          <li>Tax effects: lease instalments are deductible as a business expense, a purchase is depreciated. The differences depend on your tax rate.</li>
+          <li>Payment at the start of the month: some contracts calculate this way; the instalment is then slightly lower, but payments start earlier.</li>
+          <li>Interest forgone on the capital tied up in a cash purchase.</li>
+        </ul>
+        <p>Background on contract models, put options and tax is on the <a href={L('/kaufen-mieten/kauf/leasing')}>Leasing</a> page; the comparison of all routes is under <a href={L('/kaufen-mieten')}>Buy &amp; rent</a>.</p>
+      </>
+    )}
+  </div>
+</div>
+
+<style>
+  .lcp-hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.2rem, 1.8rem + 3vw, 3.6rem); }
+  .lcp-hero h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .lcp-hero p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 62ch; }
+  .lcp-body { max-width: 56rem; padding-block: 1rem var(--space-section); }
+  .lcp-text { margin-top: 1rem; }
+</style>

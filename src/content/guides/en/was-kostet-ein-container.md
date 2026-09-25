@@ -89,6 +89,8 @@ With a few considerations, you can noticeably ease the budget:
 - **Choose the condition realistically:** Not every use requires a flawless container. Matching the condition to the actual need avoids unnecessary surcharges.
 - **Compare quotes:** Obtaining several current quotes is the simplest way to gauge the market and recognise fair prices.
 
+> **Calculator:** work out the monthly leasing instalment for your own figures, and how it compares with hire purchase, cash purchase and rental, with the [leasing calculator](/en/rechner/leasing).
+
 ## Conclusion
 
 What a container costs depends above all on type, condition and the way it is used. A used 20 ft storage container costs approximately €1,500 – €3,000, while fitted office and sanitary containers quickly reach five-figure sums. When renting, always factor in delivery, crane and additional costs alongside the monthly rate.

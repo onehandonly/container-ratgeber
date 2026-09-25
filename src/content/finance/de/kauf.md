@@ -36,7 +36,7 @@ Für die Kaufentscheidung ist der Zustand mindestens so wichtig wie die Zahlungs
 
 Die ausführliche Entscheidungshilfe steht in [Neu, One-Way oder gebraucht?](/ratgeber/container-neu-oder-gebraucht), die Prüfliste für die Besichtigung in [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
 
-Beachten Sie bei Leasing und Mietkauf: Finanzierer akzeptieren gebrauchte Container oft nur eingeschränkt oder mit kürzerer Laufzeit, weil der Wert schwerer einzuschätzen ist. Für neue und One-Way-Container ist die Finanzierung einfacher.
+Beachten Sie bei der Finanzierung: Leasing ist in der Regel nur bei Neucontainern möglich. Für gebrauchte Container kommt eher der Mietkauf infrage, weil ihr Wert für Leasinggesellschaften schwerer einzuschätzen ist.
 
 ## Worauf es im Kaufvertrag ankommt
 

@@ -145,6 +145,8 @@ Nicht in der Formel enthalten, aber real: Beim Kauf tragen **Sie** das Ausfallri
 4. **Anlieferung bündeln.** Wer zwei Container gleichzeitig braucht, zahlt eine Anfahrt statt zwei. Das gilt auch bei der Abholung.
 5. **Nebensaison nutzen.** Die Nachfrage nach Bau- und Lagercontainern folgt der Bausaison. Im Winter ist der Markt entspannter.
 
+> **Rechner:** Wie hoch die monatliche Rate beim Leasing ausfällt und wie sie sich gegen Mietkauf, Barkauf und Miete schlägt, können Sie mit dem [Leasingrechner](/rechner/leasing) für Ihre eigenen Zahlen ausrechnen.
+
 ## Wichtiger Hinweis
 
 > Alle Preisangaben in diesem Beitrag sind **grobe Orientierungswerte ohne Gewähr**. Container-Mietpreise unterliegen erheblichen regionalen, saisonalen und anbieterabhängigen Schwankungen und ändern sich mit Stahlpreis, Transportkosten und Marktlage. Verbindlich ist ausschließlich ein individuelles Angebot. Die Break-even-Rechnung ist ein vereinfachtes Modell und ersetzt keine betriebswirtschaftliche oder steuerliche Beratung.
