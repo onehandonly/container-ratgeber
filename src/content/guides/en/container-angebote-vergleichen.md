@@ -122,6 +122,8 @@ What rarely works: blanket discount demands without anything in return, and pres
 
 For a used purchase, demand **photos of the specific container with its number**, at minimum all round from the outside, of the roof, the interior and the floor. A dealer with their own stock supplies these without argument. More on inspection in [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
 
+How sham companies operate with copied websites and prepayment, and how a bank guarantee protects you, is covered in [Spotting fake container dealers](/en/ratgeber/fake-containerhaendler-vorkasse-betrug).
+
 ## Checklist before you commit
 
 - [ ] All quotes converted to total cost for the actual period

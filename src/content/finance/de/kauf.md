@@ -56,6 +56,7 @@ Beim Wiederverkauf hilft, was schon beim Kauf zählt: Standardmaße, gepflegter 
 ## Checkliste vor dem Kauf
 
 - Nutzungsdauer realistisch eingeschätzt und mit der Miete verglichen
+- Anbieter geprüft, bei Vorkasse ohne Besichtigung Bankbürgschaft verlangt – siehe [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug)
 - Zahlungsform gewählt: bar, Kredit, Mietkauf oder Leasing
 - Zustand passend zum Zweck gewählt und schriftlich festgehalten
 - Container-Nummer und Typcode geprüft, siehe [Container-Nummer und CSC-Plakette](/ratgeber/container-nummer-csc-plakette)

@@ -56,6 +56,7 @@ For resale, what counts at purchase counts again: standard dimensions, well-kept
 ## Checklist before buying
 
 - Useful life realistically estimated and compared with renting
+- Seller checked; for prepayment without inspection, bank guarantee requested – see [Spotting fake container dealers](/en/ratgeber/fake-containerhaendler-vorkasse-betrug)
 - Form of payment chosen: cash, loan, hire purchase or leasing
 - Condition chosen to suit the purpose and recorded in writing
 - Container number and type code checked, see [Container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette)

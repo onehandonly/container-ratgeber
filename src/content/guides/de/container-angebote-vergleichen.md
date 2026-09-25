@@ -122,6 +122,8 @@ Was dagegen selten funktioniert: pauschale Rabattforderungen ohne Gegenleistung,
 
 Verlangen Sie beim Gebrauchtkauf **Fotos des konkreten Containers mit Nummer**, mindestens von außen umlaufend, vom Dach, vom Innenraum und vom Boden. Ein Händler mit eigenem Bestand liefert das ohne Diskussion. Mehr zur Prüfung im Beitrag [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
 
+Wie Scheinfirmen mit kopierten Webseiten und Vorkasse arbeiten und wie Sie sich mit einer Bankbürgschaft schützen, steht in [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug).
+
 ## Checkliste vor der Zusage
 
 - [ ] Alle Angebote auf Gesamtkosten für den tatsächlichen Zeitraum umgerechnet
