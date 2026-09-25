@@ -2,7 +2,7 @@
 title: "Roll-off & Skip Containers: Sizes, Waste Types & Costs"
 description: "Containers for rubble, bulky waste and garden waste: the difference between skip and roll-off containers, the right size for your project, waste types and how the price is calculated."
 lang: "en"
-category: "Container Types"
+category: "Container types"
 icon: "abroll"
 readingTime: 11
 published: 2026-08-01
