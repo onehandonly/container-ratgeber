@@ -3,6 +3,7 @@
  * Wird von den Typ-Detailseiten unter /container/<slug> gerendert.
  */
 export interface TypeDetail {
+  /** Einleitung; Absätze durch Leerzeile (\n\n) trennen. */
   intro: string;
   useCases: string[];
   pros: string[];
@@ -10,9 +11,19 @@ export interface TypeDetail {
   facts: { label: string; value: string }[];
   /** Slugs verwandter Ratgeber-Artikel. */
   related: string[];
+  /** Maßtabelle: Kopfzeile + Zeilen. */
+  sizes?: { head: string[]; rows: string[][]; note?: string };
+  /** Ausstattung und Optionen. */
+  equipment?: string[];
+  /** Preisrahmen (ca.-Werte). */
+  costs?: { label: string; value: string }[];
+  /** Worauf beim Kauf oder Mieten achten. */
+  tips?: string[];
+  /** Häufige Fragen – werden auch als FAQPage-Schema ausgegeben. */
+  faq?: { q: string; a: string }[];
 }
 
-type Bilingual = { de: TypeDetail; en: TypeDetail };
+export type Bilingual = { de: TypeDetail; en: TypeDetail };
 
 export const typeDetails: Record<string, Bilingual> = {
   baucontainer: {
@@ -592,3 +603,20 @@ export const typeDetails: Record<string, Bilingual> = {
     },
   },
 };
+
+// ---------------------------------------------------------------------------
+// Zusammenführen: Basisdaten oben, neue Typen und Ergänzungen in ./types/*.
+// ---------------------------------------------------------------------------
+import { seeTypes } from './types/see';
+import { raumTypes } from './types/raum';
+import { spezialTypes } from './types/spezial';
+import { typeExtras } from './types/extras';
+
+const allDetails: Record<string, Bilingual> = { ...typeDetails, ...seeTypes, ...raumTypes, ...spezialTypes };
+
+/** Vollständige Detaildaten eines Typs (Basis + Ergänzungen). */
+export function getTypeDetail(slug: string, lang: 'de' | 'en'): TypeDetail {
+  const base = allDetails[slug]?.[lang];
+  if (!base) throw new Error(`Keine Typ-Details für "${slug}" (${lang})`);
+  return { ...base, ...(typeExtras[slug]?.[lang] ?? {}) };
+}

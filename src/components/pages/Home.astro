@@ -68,15 +68,18 @@ const featured = lang === 'en'
       <p>{t('types.lead')}</p>
     </div>
     <div class="grid-auto">
-      {containerTypes.map((ct) => (
+      {containerTypes.filter((c) => c.featured).map((ct) => (
         <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
-          <TypeThumb slug={ct.slug} alt={typeName(ct, lang)} class="type-card__icon" />
+          <TypeThumb slug={ct.slug} src={ct.photo} alt={typeName(ct, lang)} class="type-card__icon" />
           <h3>{typeName(ct, lang)}</h3>
           <p>{typeTeaser(ct, lang)}</p>
           <span class="type-card__more">{t('type.more')} →</span>
         </a>
       ))}
     </div>
+    <p class="types-all">
+      <a href={L('/container')} class="btn btn--ghost">{lang === 'en' ? `All ${containerTypes.length} container types` : `Alle ${containerTypes.length} Container-Typen`} →</a>
+    </p>
   </div>
 </section>
 
@@ -187,4 +190,5 @@ const featured = lang === 'en'
   .endcta p { color: rgba(255,255,255,0.85); margin-top: 0.4rem; }
   .endcta .btn--primary { background: #fff; color: var(--color-signal); box-shadow: none; }
   .endcta .btn--primary:hover { background: #eef2fb; color: var(--color-signal-dark); }
+  .types-all { margin-top: 1.6rem; text-align: center; }
 </style>

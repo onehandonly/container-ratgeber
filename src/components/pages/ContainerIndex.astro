@@ -1,13 +1,20 @@
 ---
 import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
-import { containerTypes, typeName, typeTeaser } from '../../lib/site';
+import { containerTypes, typeGroups, typeName, typeTeaser } from '../../lib/site';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
+const groups = typeGroups
+  .map((g) => ({ ...g, items: containerTypes.filter((c) => c.group === g.id) }))
+  .filter((g) => g.items.length > 0);
+const parentName = (slug?: string) => {
+  const p = slug ? containerTypes.find((c) => c.slug === slug) : undefined;
+  return p ? typeName(p, lang) : '';
+};
 ---
 <section class="lead-band lead-band--photo" style="background-image: linear-gradient(180deg, rgba(11,18,32,.74), rgba(11,18,32,.85)), url('/img/photos/hero-home.webp')">
   <div class="wrap">
@@ -20,17 +27,30 @@ const L = (p: string) => localizePath(p, lang);
 </section>
 
 <div class="wrap section--tight">
-  <div class="grid-auto">
-    {containerTypes.map((ct) => (
-      <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
-        <TypeThumb slug={ct.slug} alt={typeName(ct, lang)} class="type-card__icon" />
-        <h2>{typeName(ct, lang)}</h2>
-        <p>{typeTeaser(ct, lang)}</p>
-        <span class="type-card__more">{t('type.more')} →</span>
-      </a>
-    ))}
-  </div>
-  <AdSlot lang={lang} minHeight="120px" />
+  <nav class="type-jump" aria-label={lang === 'en' ? 'Groups' : 'Gruppen'}>
+    {groups.map((g) => <a href={`#${g.id}`}>{lang === 'en' ? g.en : g.de} <span>{g.items.length}</span></a>)}
+  </nav>
+
+  {groups.map((g, gi) => (
+    <section class="type-group" id={g.id}>
+      <div class="type-group__head">
+        <h2>{lang === 'en' ? g.en : g.de}</h2>
+        <p>{lang === 'en' ? g.lead_en : g.lead_de}</p>
+      </div>
+      <div class="grid-auto">
+        {g.items.map((ct) => (
+          <a href={L(`/container/${ct.slug}`)} class="card card--link type-card">
+            <TypeThumb slug={ct.slug} src={ct.photo} alt={typeName(ct, lang)} class="type-card__icon" />
+            {ct.parent && <span class="type-card__parent">{lang === 'en' ? 'Variant of' : 'Variante von'} {parentName(ct.parent)}</span>}
+            <h3>{typeName(ct, lang)}</h3>
+            <p>{typeTeaser(ct, lang)}</p>
+            <span class="type-card__more">{t('type.more')} →</span>
+          </a>
+        ))}
+      </div>
+      {gi === 0 && <AdSlot lang={lang} minHeight="120px" />}
+    </section>
+  ))}
 </div>
 
 <style>
@@ -44,7 +64,16 @@ const L = (p: string) => localizePath(p, lang);
   .lead-band--photo p { color: rgba(255,255,255,0.85); }
   .type-card { display: flex; flex-direction: column; padding: 1.1rem; text-decoration: none; color: inherit; }
   .type-card__icon { border-radius: var(--radius-md); overflow: hidden; margin-bottom: 0.9rem; }
-  .type-card h2 { font-size: var(--text-lg); }
+  .type-card h3 { font-size: var(--text-lg); }
+  .type-card__parent { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.25rem; }
+  .type-jump { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .type-jump a { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.4rem 0.8rem; border: 1px solid var(--color-border); border-radius: 100px; text-decoration: none; font-size: var(--text-sm); font-weight: 600; color: var(--color-ink); background: var(--color-bg); }
+  .type-jump a:hover { border-color: var(--color-signal); }
+  .type-jump span { font-size: var(--text-xs); color: var(--color-muted); font-weight: 700; }
+  .type-group { margin-top: 2.6rem; scroll-margin-top: 6rem; }
+  .type-group__head { padding-bottom: 0.6rem; border-bottom: 2px solid var(--color-bg-sunken); margin-bottom: 1.3rem; }
+  .type-group__head h2 { font-size: var(--text-xl); }
+  .type-group__head p { color: var(--color-ink-soft); margin-top: 0.3rem; max-width: 68ch; }
   .type-card p { color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.35rem; flex: 1; }
   .type-card__more { color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); margin-top: 0.9rem; }
 </style>

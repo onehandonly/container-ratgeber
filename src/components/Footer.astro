@@ -40,7 +40,7 @@ const serviceLinks = lang === 'en'
       { label: 'Datenschutz', href: '/datenschutz' },
     ];
 
-const typeLinks = containerTypes.slice(0, 5);
+const typeLinks = containerTypes.filter((c) => c.featured).slice(0, 5);
 ---
 <footer class="site-footer">
   <div class="wrap site-footer__grid">

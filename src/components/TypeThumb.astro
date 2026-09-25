@@ -1,20 +1,23 @@
 ---
 /**
- * Vorschaubild eines Container-Typs (echtes Foto aus public/img/photos).
+ * Vorschaubild eines Container-Typs (echtes Foto aus public/img).
+ * `src` hat Vorrang; ohne `src` wird das klassische Typfoto nach Slug gesucht.
  * Fehlt die Datei, bleibt eine dezente Fläche in Markenfarbe stehen.
  */
 interface Props {
   slug: string;
+  src?: string;
   alt?: string;
   /** "card" = breites Kartenbild, "chip" = kleines quadratisches Vorschaubild. */
   shape?: 'card' | 'chip';
   class?: string;
 }
-const { slug, alt = '', shape = 'card', class: cls = '' } = Astro.props;
+const { slug, src, alt = '', shape = 'card', class: cls = '' } = Astro.props;
+const image = src ?? `/img/photos/type-${slug}.webp`;
 ---
 <span class={`thumb thumb--${shape} ${cls}`}>
   <img
-    src={`/img/photos/type-${slug}.webp`}
+    src={image}
     alt={alt}
     loading="lazy"
     decoding="async"

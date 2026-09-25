@@ -2,55 +2,80 @@
 import Breadcrumbs from '../Breadcrumbs.astro';
 import TypeThumb from '../TypeThumb.astro';
 import AdSlot from '../AdSlot.astro';
-import { containerTypes, typeName, typeTeaser, type ContainerType } from '../../lib/site';
-import { typeDetails } from '../../lib/typeDetails';
+import { containerTypes, typeGroups, typeName, typeTeaser, type ContainerType } from '../../lib/site';
+import { getTypeDetail } from '../../lib/typeDetails';
+import { getGuides, guideSlug } from '../../lib/guides';
 import { useTranslations, localizePath, type Lang } from '../../lib/i18n';
 
 interface Props { type: ContainerType; lang: Lang }
 const { type, lang } = Astro.props;
 const t = useTranslations(lang);
 const L = (p: string) => localizePath(p, lang);
-const d = typeDetails[type.slug][lang];
+const d = getTypeDetail(type.slug, lang);
 const name = typeName(type, lang);
-// Foto-Kopfbild (selbst gehostet). Fehlt die Datei, greift der Verlauf-Fallback.
-const photo = `/img/photos/type-${type.slug}.webp`;
+const introParas = d.intro.split(/\n\n+/);
 
-const others = containerTypes.filter((c) => c.slug !== type.slug).slice(0, 4);
-const relatedTitles: Record<string, { de: string; en: string }> = {
-  'container-groessen-und-masse': { de: 'Größen & Maße', en: 'Sizes & dimensions' },
-  'was-kostet-ein-container': { de: 'Was kostet ein Container?', en: 'What does a container cost?' },
-  'container-baugenehmigung': { de: 'Baugenehmigung', en: 'Building permit' },
-  'container-kaufen-oder-mieten': { de: 'Kaufen oder mieten?', en: 'Buy or rent?' },
-  'gebrauchten-container-kaufen': { de: 'Gebrauchtkauf-Checkliste', en: 'Used-buying checklist' },
-  'wohncontainer-ausbauen': { de: 'Wohncontainer ausbauen', en: 'Container fit-out' },
-};
-const tx = {
-  useCases: lang === 'en' ? 'Typical uses' : 'Typische Einsätze',
-  pros: lang === 'en' ? 'Advantages' : 'Vorteile',
-  cons: lang === 'en' ? 'Points to consider' : 'Zu bedenken',
-  facts: lang === 'en' ? 'At a glance' : 'Auf einen Blick',
-  related: lang === 'en' ? 'Related guides' : 'Passende Ratgeber',
-  more: lang === 'en' ? 'More container types' : 'Weitere Container-Typen',
-  ctaTitle: lang === 'en' ? `Planning with ${name.toLowerCase()}?` : `${name} im Blick?`,
-  ctaLead: lang === 'en' ? 'Compare sizes, costs and buying vs. renting in our guides.' : 'Vergleichen Sie Größen, Kosten und Kauf vs. Miete in unseren Ratgebern.',
-  ctaBtn: lang === 'en' ? 'To the guides' : 'Zu den Ratgebern',
+// Hierarchie: übergeordneter Typ (Breadcrumb) und Unterseiten (Bauformen/Varianten).
+const parent = type.parent ? containerTypes.find((c) => c.slug === type.parent) : undefined;
+const children = containerTypes.filter((c) => c.parent === type.slug);
+const group = typeGroups.find((g) => g.id === type.group);
+
+// Weitere Typen: zuerst dieselbe Gruppe, dann der Rest – ohne Eltern/Kinder, die schon verlinkt sind.
+const shown = new Set([type.slug, parent?.slug, ...children.map((c) => c.slug)]);
+const pool = containerTypes.filter((c) => !shown.has(c.slug));
+const others = [...pool.filter((c) => c.group === type.group), ...pool.filter((c) => c.group !== type.group)].slice(0, 4);
+
+// Titel der verwandten Ratgeber direkt aus der Collection – kein Pflegeaufwand, keine rohen Slugs.
+const guides = await getGuides(lang);
+const guideTitle = new Map(guides.map((g) => [guideSlug(g), g.data.title]));
+const related = d.related.filter((s) => guideTitle.has(s));
+
+const tx = lang === 'en' ? {
+  useCases: 'Typical uses', sizes: 'Sizes and dimensions', equipment: 'Equipment and options',
+  pros: 'Advantages', cons: 'Points to consider', costs: 'Price guide',
+  costsNote: 'Rough orientation values without guarantee; prices vary by region, condition and market.',
+  tips: 'What to look out for', faq: 'Frequently asked questions', facts: 'At a glance',
+  related: 'Related guides', more: 'More container types', variants: `${name}: variants`,
+  variantOf: 'Variant of', group: 'Group',
+  ctaTitle: `Planning with ${name.toLowerCase()}?`, ctaLead: 'Compare sizes, costs and buying vs. renting in our guides.', ctaBtn: 'To the guides',
+} : {
+  useCases: 'Typische Einsätze', sizes: 'Größen und Maße', equipment: 'Ausstattung und Optionen',
+  pros: 'Vorteile', cons: 'Zu bedenken', costs: 'Preisrahmen',
+  costsNote: 'Grobe Orientierungswerte ohne Gewähr; Preise schwanken nach Region, Zustand und Marktlage.',
+  tips: 'Worauf Sie achten sollten', faq: 'Häufige Fragen', facts: 'Auf einen Blick',
+  related: 'Passende Ratgeber', more: 'Weitere Container-Typen', variants: `${name}: Bauformen und Varianten`,
+  variantOf: 'Variante von', group: 'Gruppe',
+  ctaTitle: `${name} im Blick?`, ctaLead: 'Vergleichen Sie Größen, Kosten und Kauf vs. Miete in unseren Ratgebern.', ctaBtn: 'Zu den Ratgebern',
 };
 
-const jsonLd = {
+const jsonLd: Record<string, unknown>[] = [{
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: name,
   description: typeTeaser(type, lang),
   inLanguage: lang === 'en' ? 'en' : 'de-DE',
-};
+}];
+if (d.faq?.length) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  });
+}
+
+const crumbs = [
+  { label: t('nav.types'), href: L('/container') },
+  ...(parent ? [{ label: typeName(parent, lang), href: L(`/container/${parent.slug}`) }] : []),
+  { label: name },
+];
 ---
-<Breadcrumbs items={[{ label: t('nav.types'), href: L('/container') }, { label: name }]} />
+<Breadcrumbs items={crumbs} />
 
 <article class="ct">
-  <header class="ct__hero" style={`background-image: linear-gradient(180deg, rgba(11,18,32,.72), rgba(11,18,32,.82)), url('${photo}')`}>
+  <header class="ct__hero" style={`background-image: linear-gradient(180deg, rgba(11,18,32,.72), rgba(11,18,32,.82)), url('${type.photo}')`}>
     <div class="wrap ct__hero-inner">
       <div class="ct__hero-copy">
-        <span class="pill pill--on-dark">{t('nav.types')}</span>
+        <span class="pill pill--on-dark">{parent ? `${tx.variantOf} ${typeName(parent, lang)}` : (group ? (lang === 'en' ? group.en : group.de) : t('nav.types'))}</span>
         <h1>{name}</h1>
         <p class="ct__teaser">{typeTeaser(type, lang)}</p>
       </div>
@@ -59,7 +84,7 @@ const jsonLd = {
 
   <div class="wrap ct__grid">
     <div class="ct__main">
-      <p class="ct__intro">{d.intro}</p>
+      {introParas.map((p, i) => <p class={i === 0 ? 'ct__intro' : 'ct__intro ct__intro--more'}>{p}</p>)}
 
       <section class="ct__block">
         <h2>{tx.useCases}</h2>
@@ -67,6 +92,19 @@ const jsonLd = {
           {d.useCases.map((u) => <li>{u}</li>)}
         </ul>
       </section>
+
+      {d.sizes && (
+        <section class="ct__block">
+          <h2>{tx.sizes}</h2>
+          <div class="ct__table-wrap">
+            <table class="ct__table">
+              <thead><tr>{d.sizes.head.map((h) => <th scope="col">{h}</th>)}</tr></thead>
+              <tbody>{d.sizes.rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+            </table>
+          </div>
+          {d.sizes.note && <p class="ct__note">{d.sizes.note}</p>}
+        </section>
+      )}
 
       <AdSlot lang={lang} minHeight="120px" />
 
@@ -81,16 +119,71 @@ const jsonLd = {
         </div>
       </section>
 
-      <section class="ct__block">
-        <h2>{tx.related}</h2>
-        <div class="ct__related">
-          {d.related.map((slug) => (
-            <a href={L(`/ratgeber/${slug}`)} class="ct__related-link">
-              {relatedTitles[slug]?.[lang] ?? slug} →
-            </a>
-          ))}
-        </div>
-      </section>
+      {d.equipment && (
+        <section class="ct__block">
+          <h2>{tx.equipment}</h2>
+          <ul class="ct__list">{d.equipment.map((e) => <li>{e}</li>)}</ul>
+        </section>
+      )}
+
+      {d.costs && (
+        <section class="ct__block">
+          <h2>{tx.costs}</h2>
+          <dl class="ct__costs">
+            {d.costs.map((c) => (<div><dt>{c.label}</dt><dd>{c.value}</dd></div>))}
+          </dl>
+          <p class="ct__note">{tx.costsNote}</p>
+        </section>
+      )}
+
+      {d.tips && (
+        <section class="ct__block">
+          <h2>{tx.tips}</h2>
+          <ol class="ct__tips">{d.tips.map((tip) => <li>{tip}</li>)}</ol>
+        </section>
+      )}
+
+      {children.length > 0 && (
+        <section class="ct__block">
+          <h2>{tx.variants}</h2>
+          <div class="ct__variants">
+            {children.map((c) => (
+              <a href={L(`/container/${c.slug}`)} class="card card--link ct__variant">
+                <TypeThumb slug={c.slug} src={c.photo} alt={typeName(c, lang)} shape="chip" />
+                <span>
+                  <strong>{typeName(c, lang)}</strong>
+                  <small>{typeTeaser(c, lang)}</small>
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {d.faq && (
+        <section class="ct__block">
+          <h2>{tx.faq}</h2>
+          <div class="ct__faq">
+            {d.faq.map((f) => (
+              <details>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section class="ct__block">
+          <h2>{tx.related}</h2>
+          <div class="ct__related">
+            {related.map((slug) => (
+              <a href={L(`/ratgeber/${slug}`)} class="ct__related-link">{guideTitle.get(slug)} →</a>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div class="ct__cta">
         <div><h2>{tx.ctaTitle}</h2><p>{tx.ctaLead}</p></div>
@@ -114,7 +207,7 @@ const jsonLd = {
     <div class="ct__more-grid">
       {others.map((o) => (
         <a href={L(`/container/${o.slug}`)} class="card card--link ct__more-card">
-          <TypeThumb slug={o.slug} alt={typeName(o, lang)} class="ct__more-icon" />
+          <TypeThumb slug={o.slug} src={o.photo} alt={typeName(o, lang)} class="ct__more-icon" />
           <span>{typeName(o, lang)}</span>
         </a>
       ))}
@@ -122,7 +215,7 @@ const jsonLd = {
   </section>
 </article>
 
-<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
+{jsonLd.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} is:inline />)}
 
 <style>
   .ct__hero {
@@ -183,4 +276,32 @@ const jsonLd = {
   .ct__more-icon { width: 100%; }
   @media (max-width: 860px) { .ct__more-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media (max-width: 420px) { .ct__more-grid { grid-template-columns: 1fr; } }
+
+  .ct__intro--more { font-size: var(--text-base); margin-top: 1rem; }
+  .ct__table-wrap { overflow-x: auto; border: 1px solid var(--color-border); border-radius: var(--radius-md); }
+  .ct__table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+  .ct__table th, .ct__table td { padding: 0.6rem 0.75rem; text-align: left; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+  .ct__table thead th { background: var(--color-bg-alt); font-weight: 700; white-space: nowrap; }
+  .ct__table tbody th { font-weight: 600; white-space: nowrap; }
+  .ct__table tbody tr:last-child > * { border-bottom: 0; }
+  .ct__note { font-size: var(--text-xs); color: var(--color-muted); margin-top: 0.6rem; }
+  .ct__list { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+  .ct__list li { padding-left: 1.4rem; position: relative; color: var(--color-ink-soft); }
+  .ct__list li::before { content: "•"; position: absolute; left: 0.3rem; color: var(--color-signal); font-weight: 700; }
+  .ct__costs { display: flex; flex-direction: column; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
+  .ct__costs div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.65rem 0.9rem; border-top: 1px solid var(--color-border); font-size: var(--text-sm); }
+  .ct__costs div:first-child { border-top: 0; }
+  .ct__costs dt { color: var(--color-ink-soft); }
+  .ct__costs dd { font-weight: 600; text-align: right; }
+  .ct__tips { list-style: decimal; padding-left: 1.3rem; display: flex; flex-direction: column; gap: 0.55rem; color: var(--color-ink-soft); }
+  .ct__tips li::marker { color: var(--color-signal); font-weight: 700; }
+  .ct__variants { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 0.8rem; }
+  .ct__variant { display: flex; gap: 0.8rem; align-items: flex-start; padding: 0.8rem; text-decoration: none; color: inherit; }
+  .ct__variant strong { display: block; font-size: var(--text-sm); }
+  .ct__variant small { display: block; color: var(--color-ink-soft); font-size: var(--text-xs); margin-top: 0.2rem; line-height: 1.45; }
+  .ct__faq { display: flex; flex-direction: column; gap: 0.6rem; }
+  .ct__faq details { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 0.8rem 1rem; background: var(--color-bg); }
+  .ct__faq summary { cursor: pointer; font-weight: 600; }
+  .ct__faq details[open] summary { margin-bottom: 0.5rem; }
+  .ct__faq p { color: var(--color-ink-soft); font-size: var(--text-sm); }
 </style>
