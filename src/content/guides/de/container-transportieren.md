@@ -76,6 +76,8 @@ Steht der Container auf privatem Grund, ist meist keine Genehmigung nötig. Soll
 
 Kümmern Sie sich rechtzeitig darum, da die Bearbeitung einige Tage dauern kann. Manche Anbieter übernehmen die Beantragung gegen Aufpreis. Die Kosten für die Sondernutzung liegen je nach Kommune und Dauer häufig im niedrigen zwei- bis dreistelligen Bereich.
 
+Wie der Container technisch richtig angeschlagen und gehoben wird, steht in [Container richtig anheben](/ratgeber/container-richtig-anheben); worauf es beim Beladen ankommt, damit er sich überhaupt noch heben lässt, in [Container richtig beladen](/ratgeber/container-richtig-beladen).
+
 ## Checkliste vor dem Liefertermin
 
 - [ ] Zufahrtsbreite und Durchfahrtshöhe geprüft

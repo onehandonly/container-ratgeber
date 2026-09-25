@@ -76,6 +76,8 @@ If the container stands on private ground, a permit is usually not required. If 
 
 Arrange this in good time, as processing can take a few days. Some providers handle the application for a surcharge. The cost of special use often lies in the low two- to three-digit range, depending on the municipality and duration.
 
+How a container is correctly rigged and lifted is covered in [Lifting a container properly](/en/ratgeber/container-richtig-anheben); what matters when loading so that it can still be lifted at all is in [Loading a container properly](/en/ratgeber/container-richtig-beladen).
+
 ## Checklist before the delivery date
 
 - [ ] Access width and clearance height checked
