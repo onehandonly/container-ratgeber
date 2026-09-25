@@ -29,4 +29,22 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { guides };
+// Bereich „Kaufen & Mieten": hierarchische Seiten (parent = Slug der Elternseite).
+const finance = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/finance' }),
+  schema: z.object({
+    title: z.string(),
+    /** Kurzname für Baum, Karten und Breadcrumb. */
+    label: z.string(),
+    description: z.string(),
+    lang: z.enum(['de', 'en']),
+    lead: z.string().optional(),
+    /** Slug der übergeordneten Seite; fehlt bei Seiten direkt unter der Übersicht. */
+    parent: z.string().optional(),
+    order: z.number().default(100),
+    readingTime: z.number().default(8),
+    updated: z.coerce.date(),
+  }),
+});
+
+export const collections = { guides, finance };

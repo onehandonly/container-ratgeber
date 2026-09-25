@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FinancePage from '../../../components/pages/FinancePage.astro';
+import { getFinancePages, financeSlug } from '../../../lib/finance';
+const all = await getFinancePages('en');
+const entry = all.find((p) => financeSlug(p) === 'index')!;
+---
+<BaseLayout title={entry.data.title} description={entry.data.description}>
+  <FinancePage entry={entry} all={all} lang="en" />
+</BaseLayout>

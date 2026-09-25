@@ -14,6 +14,8 @@ draft: false
 
 Die Frage „kaufen oder mieten?" stellt sich bei nahezu jedem Container-Projekt – vom Lagercontainer im Garten über den Baustellencontainer bis hin zum umgebauten Bürocontainer. Eine pauschale Antwort gibt es nicht. Entscheidend sind vor allem drei Faktoren: **wie lange** Sie den Container brauchen, **wie viel Budget** Sie verfügbar haben und **wie viel Flexibilität** Ihnen wichtig ist. Dieser Ratgeber ordnet die typischen Szenarien ein und zeigt mit einem Beispielrechnung, ab wann sich der Kauf gegenüber der Miete rechnet.
 
+> **Alle Wege im Detail:** Neben Kauf und Miete gibt es Leasing und Mietkauf. Einen Vergleich aller vier Varianten mit Rechenbeispiel finden Sie im Bereich [Kaufen & Mieten](/kaufen-mieten).
+
 ## Wann sich der Kauf lohnt
 
 Ein Kauf spielt seine Vorteile vor allem bei **langfristiger Nutzung** aus. Wer einen Container über mehrere Jahre als dauerhaften Lagerraum, als Werkstatt oder als festen Bestandteil eines Betriebsgeländes einsetzt, fährt mit dem Kauf in der Regel günstiger. Denn die Miete läuft Monat für Monat weiter, während der Kaufpreis eine einmalige Investition bleibt.

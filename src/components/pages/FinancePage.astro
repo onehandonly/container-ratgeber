@@ -1,0 +1,108 @@
+---
+import { render } from 'astro:content';
+import Breadcrumbs from '../Breadcrumbs.astro';
+import { financeSlug, financePath, financeAncestors, financeChildren, type FinancePage } from '../../lib/finance';
+import { localizePath, type Lang } from '../../lib/i18n';
+
+interface Props { entry: FinancePage; all: FinancePage[]; lang: Lang }
+const { entry, all, lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const { Content } = await render(entry);
+const slug = financeSlug(entry);
+const index = all.find((p) => financeSlug(p) === 'index');
+const ancestors = financeAncestors(entry, all).filter((a) => financeSlug(a) !== 'index');
+const children = financeChildren(slug, all);
+const top = financeChildren('index', all);
+
+const crumbs = [
+  ...(slug === 'index' ? [] : [{ label: index?.data.label ?? 'Kaufen & Mieten', href: L('/kaufen-mieten') }]),
+  ...ancestors.map((a) => ({ label: a.data.label, href: L(financePath(a, all)) })),
+  { label: entry.data.label },
+];
+const tx = lang === 'en'
+  ? { eyebrow: 'Buy & rent', sub: 'Options in this section', tree: 'Overview', read: 'min read', more: 'Read more' }
+  : { eyebrow: 'Kaufen & Mieten', sub: 'Optionen in diesem Bereich', tree: 'Übersicht', read: 'Min. Lesezeit', more: 'Weiterlesen' };
+const isActive = (p: FinancePage) => financeSlug(p) === slug;
+const inPath = (p: FinancePage) => isActive(p) || ancestors.some((a) => financeSlug(a) === financeSlug(p));
+---
+<Breadcrumbs items={crumbs} />
+
+<header class="fin-hero">
+  <div class="wrap">
+    <span class="eyebrow">{tx.eyebrow}</span>
+    <h1>{entry.data.title}</h1>
+    {entry.data.lead && <p class="fin-hero__lead">{entry.data.lead}</p>}
+    <p class="fin-hero__meta">{entry.data.readingTime} {tx.read}</p>
+  </div>
+</header>
+
+<div class="wrap fin-grid">
+  <div class="fin-main">
+    {children.length > 0 && (
+      <section class="fin-children" aria-label={tx.sub}>
+        <h2 class="fin-children__title">{tx.sub}</h2>
+        <div class="fin-cards">
+          {children.map((c) => (
+            <a href={L(financePath(c, all))} class="card card--link fin-card">
+              <strong>{c.data.label}</strong>
+              <span>{c.data.description}</span>
+              {financeChildren(financeSlug(c), all).length > 0 && (
+                <small>{financeChildren(financeSlug(c), all).map((g) => g.data.label).join(' · ')}</small>
+              )}
+              <em>{tx.more} →</em>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+    <div class="prose fin-body"><Content /></div>
+  </div>
+
+  <aside class="fin-side">
+    <nav class="fin-tree" aria-label={tx.tree}>
+      <p class="fin-tree__title">{tx.eyebrow}</p>
+      <ul>
+        <li><a href={L('/kaufen-mieten')} class:list={[{ active: slug === 'index' }]}>{tx.tree}</a></li>
+        {top.map((t) => (
+          <li>
+            <a href={L(financePath(t, all))} class:list={[{ active: isActive(t), path: inPath(t) }]}>{t.data.label}</a>
+            {financeChildren(financeSlug(t), all).length > 0 && (
+              <ul>
+                {financeChildren(financeSlug(t), all).map((c) => (
+                  <li><a href={L(financePath(c, all))} class:list={[{ active: isActive(c) }]}>{c.data.label}</a></li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </aside>
+</div>
+
+<style>
+  .fin-hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.2rem, 1.8rem + 3vw, 3.6rem); }
+  .fin-hero h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; text-wrap: balance; max-width: 30ch; }
+  .fin-hero__lead { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 62ch; }
+  .fin-hero__meta { color: var(--color-muted); font-size: var(--text-xs); margin-top: 0.9rem; }
+  .fin-grid { display: grid; grid-template-columns: minmax(0, 1fr) 16rem; gap: clamp(1.5rem, 1rem + 3vw, 3.5rem); align-items: start; padding-block: var(--space-section); }
+  .fin-main { min-width: 0; max-width: 46rem; }
+  .fin-children { margin-bottom: 2.4rem; }
+  .fin-children__title { font-size: var(--text-xl); margin-bottom: 1rem; }
+  .fin-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); gap: var(--gap); }
+  .fin-card { display: flex; flex-direction: column; gap: 0.4rem; padding: 1.1rem; text-decoration: none; color: inherit; }
+  .fin-card strong { font-size: var(--text-lg); }
+  .fin-card span { color: var(--color-ink-soft); font-size: var(--text-sm); flex: 1; }
+  .fin-card small { font-size: var(--text-xs); font-weight: 700; color: var(--color-accent); letter-spacing: 0.03em; }
+  .fin-card em { font-style: normal; font-weight: 600; font-size: var(--text-sm); color: var(--color-signal); }
+  .fin-side { position: sticky; top: 5.5rem; }
+  .fin-tree { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 1rem 1.1rem; background: var(--color-bg); }
+  .fin-tree__title { font-family: var(--font-head); font-weight: 700; font-size: var(--text-sm); margin-bottom: 0.5rem; }
+  .fin-tree ul { list-style: none; display: flex; flex-direction: column; gap: 0.15rem; }
+  .fin-tree ul ul { margin: 0.15rem 0 0.3rem 0.9rem; padding-left: 0.7rem; border-left: 2px solid var(--color-bg-sunken); }
+  .fin-tree a { display: block; padding: 0.3rem 0.4rem; border-radius: var(--radius-sm); text-decoration: none; font-size: var(--text-sm); color: var(--color-ink-soft); }
+  .fin-tree a:hover { background: var(--color-bg-alt); }
+  .fin-tree a.path { color: var(--color-ink); font-weight: 600; }
+  .fin-tree a.active { background: var(--color-bg-alt); color: var(--color-signal); font-weight: 700; }
+  @media (max-width: 900px) { .fin-grid { grid-template-columns: 1fr; } .fin-side { position: static; order: -1; } }
+</style>

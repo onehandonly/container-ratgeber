@@ -9,6 +9,7 @@ const other: Lang = lang === 'de' ? 'en' : 'de';
 const nav = [
   { key: 'nav.types', href: '/container' },
   { key: 'nav.guide', href: '/ratgeber' },
+  { key: 'nav.finance', href: '/kaufen-mieten' },
   { key: 'nav.tiny', href: '/ratgeber/tiny-house-aus-container' },
   { key: 'nav.sizes', href: '/ratgeber/container-groessen-und-masse' },
   { key: 'nav.costs', href: '/ratgeber/was-kostet-ein-container' },
@@ -55,7 +56,8 @@ const homeHref = localizePath('/', lang);
     border-bottom: 1px solid var(--color-border);
   }
   .site-header__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 5.25rem; }
-  .site-header__logo { text-decoration: none; }
+  /* Logo darf nie gestaucht werden – lieber wechselt das Menü früher ins Burger-Menü. */
+  .site-header__logo { text-decoration: none; flex-shrink: 0; }
 
   .site-nav { display: flex; align-items: center; gap: 1.05rem; }
   .site-nav__link {
@@ -84,7 +86,11 @@ const homeHref = localizePath('/', lang);
   .nav-burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 0.5rem; }
   .nav-burger span { width: 26px; height: 3px; background: var(--color-ink); border-radius: 2px; transition: transform var(--dur), opacity var(--dur); }
 
-  @media (max-width: 1000px) {
+  /* Mittlere Breiten: CTA doppelt zum Menüpunkt „Ratgeber" – ausblenden, damit alles in eine Zeile passt. */
+  @media (min-width: 1181px) and (max-width: 1440px) {
+    .site-nav__cta { display: none; }
+  }
+  @media (max-width: 1180px) {
     .nav-burger { display: flex; }
     .site-nav {
       position: absolute; inset-inline: 0; top: 100%;

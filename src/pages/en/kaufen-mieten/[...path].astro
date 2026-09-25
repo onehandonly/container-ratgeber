@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FinancePage from '../../../components/pages/FinancePage.astro';
+import { getFinancePages, financeSlug, financePath } from '../../../lib/finance';
+
+export async function getStaticPaths() {
+  const all = await getFinancePages('en');
+  return all
+    .filter((p) => financeSlug(p) !== 'index')
+    .map((entry) => ({ params: { path: financePath(entry, all).replace('/kaufen-mieten/', '') }, props: { entry, all } }));
+}
+const { entry, all } = Astro.props;
+---
+<BaseLayout title={entry.data.title} description={entry.data.description}>
+  <FinancePage entry={entry} all={all} lang="en" />
+</BaseLayout>

@@ -14,6 +14,9 @@ draft: false
 
 The question "buy or rent?" comes up in almost every container project – from a storage container in the garden and a site container on a construction site to a converted office container. There is no one-size-fits-all answer. Three factors are decisive: **how long** you need the container, **how much budget** you have available and **how much flexibility** matters to you. This guide sorts through the typical scenarios and uses an example calculation to show when buying starts to pay off compared with renting.
 
+
+> **Every route in detail:** besides buying and renting there are leasing and hire purchase. A comparison of all four with a worked example is in the [Buy & rent](/en/kaufen-mieten) section.
+
 ## When buying pays off
 
 Buying plays to its strengths above all with **long-term use**. If you use a container for several years as permanent storage, as a workshop or as a fixed part of a business site, buying is usually the cheaper option in the long run. Rent keeps running month after month, whereas the purchase price is a one-off investment.
