@@ -21,8 +21,8 @@ const crumbs = [
   { label: entry.data.label },
 ];
 const tx = lang === 'en'
-  ? { eyebrow: 'Buy & rent', sub: 'Options in this section', tree: 'Overview', read: 'min read', more: 'Read more' }
-  : { eyebrow: 'Kaufen & Mieten', sub: 'Optionen in diesem Bereich', tree: 'Übersicht', read: 'Min. Lesezeit', more: 'Weiterlesen' };
+  ? { eyebrow: 'Buy & rent', sub: 'Options in this section', tree: 'Overview', read: 'min read', more: 'Read more', calc: 'Leasing calculator' }
+  : { eyebrow: 'Kaufen & Mieten', sub: 'Optionen in diesem Bereich', tree: 'Übersicht', read: 'Min. Lesezeit', more: 'Weiterlesen', calc: 'Leasingrechner' };
 const isActive = (p: FinancePage) => financeSlug(p) === slug;
 const inPath = (p: FinancePage) => isActive(p) || ancestors.some((a) => financeSlug(a) === financeSlug(p));
 ---
@@ -77,6 +77,12 @@ const inPath = (p: FinancePage) => isActive(p) || ancestors.some((a) => financeS
             )}
           </li>
         ))}
+        <li class="fin-tree__tool">
+          <a href={L('/rechner/leasing')}>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 19h.01M12 19h4"/></svg>
+            {tx.calc} →
+          </a>
+        </li>
       </ul>
     </nav>
   </aside>
@@ -106,5 +112,7 @@ const inPath = (p: FinancePage) => isActive(p) || ancestors.some((a) => financeS
   .fin-tree a:hover { background: var(--color-bg-alt); }
   .fin-tree a.path { color: var(--color-ink); font-weight: 600; }
   .fin-tree a.active { background: var(--color-bg-alt); color: var(--color-signal); font-weight: 700; }
+  .fin-tree__tool { margin-top: 0.5rem; padding-top: 0.6rem; border-top: 1px solid var(--color-border); }
+  .fin-tree__tool a { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; color: var(--color-signal); }
   @media (max-width: 900px) { .fin-grid { grid-template-columns: 1fr; } .fin-side { position: static; order: -1; } }
 </style>
