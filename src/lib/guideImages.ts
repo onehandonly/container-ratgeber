@@ -38,7 +38,7 @@ const MAP: Record<string, string> = {
   // --- Kaufberatung ---
   'gebrauchten-container-kaufen': PHOTO('type-seecontainer'),
   'container-neu-oder-gebraucht': PHOTO('type-lagercontainer'),
-  'container-kaufberatung-haeufige-fehler': PHOTO('type-abrollcontainer'),
+  'container-kaufberatung-haeufige-fehler': PHOTO('hero-home'),
 
   // --- Kosten ---
   'was-kostet-ein-container': PHOTO('hero-home'),

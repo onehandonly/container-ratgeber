@@ -12,7 +12,7 @@ order: 42
 draft: false
 ---
 
-At first glance, buying a container looks simple: pick a size, compare prices, have it delivered. In practice, the most expensive problems rarely come from the purchase price itself – they come from questions that got too little attention before ordering. This article collects the mistakes that keep showing up in experience reports and forums, and shows how to avoid them.
+At first glance, buying a container looks simple: pick a size, compare prices, have it delivered. In practice, the most expensive problems rarely come from the purchase price itself – they come from questions that got too little attention before ordering. This article collects the mistakes that keep coming up in practice, and shows how to avoid them.
 
 ## Mistake 1: Judging condition from photos alone
 
@@ -20,7 +20,7 @@ Photos reveal little about corrosion-through, floor damage or leaking seals – 
 
 **Better:** Insist on a viewing, or a detailed video with close-ups of the floor, corners and seals. A structured inspection sequence is covered in [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen); the differences between new and used stock are explained in [New or used?](/en/ratgeber/container-neu-oder-gebraucht).
 
-## Mistake 2: Ignoring ground class and structural loads
+## Mistake 2: Ignoring the ground and structural loads
 
 Not every surface can carry a loaded or converted container long-term. If the container is placed directly on grass or loose gravel, it settles unevenly – doors jam and stress cracks appear at the corner castings. Living or office conversions add further weight through insulation, screed and furniture.
 

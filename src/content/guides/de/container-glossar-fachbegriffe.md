@@ -4,7 +4,7 @@ description: "TEU, CSC-Plakette, One-Trip, Corner Casting, WWT und mehr: die wic
 lang: "de"
 category: "Grundlagen"
 icon: "container"
-readingTime: 7
+readingTime: 10
 published: 2026-09-25
 updated: 2026-09-25
 lead: "Wer Container kauft, mietet oder umbaut, stößt schnell auf Fachjargon aus Schifffahrt, Handel und Baurecht. Dieses Glossar erklärt die wichtigsten Begriffe kurz und ohne Vorwissen."
@@ -28,8 +28,14 @@ Container mit erhöhter Standardhöhe (meist 2,90 m statt 2,59 m Außenhöhe). D
 **CSC-Plakette**
 Metallschild am Container, das die Zulassung nach der internationalen CSC-Konvention für den Seetransport bestätigt und regelmäßige Prüfungen dokumentiert. Für reine Landnutzung ist sie nicht zwingend, gibt aber Hinweise auf Baujahr und Herkunft. Details unter [Container-Nummer & CSC-Plakette](/ratgeber/container-nummer-csc-plakette).
 
+**Typcode**
+Vierstelliger Code neben der Container-Nummer, etwa 22G1 oder 45G1. Die erste Stelle steht für die Länge, die zweite für die Höhe, der Rest für die Bauart. Eine 5 an zweiter Stelle bedeutet High Cube. Erklärt in [Container-Nummer & CSC-Plakette](/ratgeber/container-nummer-csc-plakette).
+
+**Twistlock**
+Drehverschluss, der in die Öffnung eines Eckbeschlags greift und Container untereinander oder mit dem Fahrzeug verriegelt. Beim Stapeln an Land werden häufig einfache Stapelkonen oder Twistlocks verwendet.
+
 **Corner Casting (Eckbeschlag)**
-Die vier verstärkten Eckelemente an jedem Container. Sie nehmen beim Stapeln, Heben und Verzurren die gesamte Last auf und sind deshalb die wichtigste Stelle bei einer Zustandsprüfung.
+Die acht verstärkten Eckelemente eines Containers – vier oben, vier unten. Sie nehmen beim Stapeln, Heben und Verzurren die gesamte Last auf und sind deshalb die wichtigste Stelle bei einer Zustandsprüfung.
 
 ## Zustand und Handel
 
@@ -43,9 +49,41 @@ Container, der für den Seetransport zugelassen ist: dicht, mit gültiger CSC-Pl
 „Wind- und wasserdicht": Der Container hält Regen und Zugluft zuverlässig ab, ist aber nicht mehr für den internationalen Seetransport zugelassen. Für Lagerung an Land in der Regel ausreichend. Eine vollständige Übersicht der Zustandsklassen bietet [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
 
 **Corten-Stahl**
-Wetterfester Baustahl, der durch eine dichte Rostschutzschicht an der Oberfläche vor weiterer Korrosion geschützt wird. Viele Seecontainer bestehen aus Corten-Stahl; die Schutzschicht darf beim Lackieren oder Ausbessern nicht einfach entfernt werden.
+Wetterfester Baustahl, der unter wechselnd nassen und trockenen Bedingungen eine dichte Deckschicht bildet und dadurch langsamer korrodiert als normaler Stahl. Seecontainer bestehen meist aus Corten-Stahl und sind zusätzlich lackiert. Rostfrei ist er trotzdem nicht: Wo der Lack beschädigt ist und Wasser stehen bleibt, rostet auch Corten-Stahl. Wie man das behandelt, steht in [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz).
+
+## Bauformen
+
+**Standardcontainer (General Purpose)**
+Der geschlossene Seecontainer mit Stahldach und einer Doppelflügeltür an einer Stirnseite – die Grundform, von der alle anderen Bauformen abgeleitet sind. Siehe [Seecontainer](/container/seecontainer).
+
+**Open Side**
+Container, dessen eine Längsseite sich über nahezu die ganze Länge öffnen lässt. Praktisch als Lager mit direktem Zugriff auf jedes Regal. Siehe [Open-Side-Container](/container/open-side-container).
+
+**Double Door (Tunnelcontainer)**
+Container mit Türen an beiden Stirnseiten, zum Durchladen oder um das Lager in zwei Hälften zu teilen. Siehe [Double-Door-Container](/container/double-door-container).
+
+**Open Top**
+Container mit Plane statt Stahldach, der von oben per Kran beladen wird. Siehe [Open-Top-Container](/container/open-top-container).
+
+**Flat Rack**
+Ladeplattform mit Containermaßen, nur Boden und Stirnwände – für Maschinen, Fahrzeuge und Überbreiten. Siehe [Flat-Rack-Container](/container/flat-rack-container).
+
+**Reefer (Kühlcontainer)**
+Isolierter Container mit eigenem Kälteaggregat für temperaturgeführte Ware. Braucht einen Starkstromanschluss. Siehe [Kühlcontainer](/container/kuehlcontainer).
+
+**Raumcontainer (Allroundcontainer)**
+Gedämmter Container mit Fenstern, Elektrik und Heizung für den Aufenthalt von Menschen – als Büro, Mannschaftsraum oder Wohnmodul. Nicht ISO-genormt, aber transportkompatibel. Siehe [Bürocontainer](/container/buerocontainer).
+
+**XL-Container**
+Raumcontainer mit 3,00 m statt rund 2,44 m Außenbreite. Mehr Nutzfläche, aber genehmigungspflichtiger Transport. Siehe [XL-Container](/container/xl-container).
 
 ## Technik und Ausbau
+
+**Containerregen**
+Kondenswasser, das sich nachts an der kalten Stahldecke bildet und in den Container tropft. Ursache ist warme, feuchte Luft, die an der Decke unter den Taupunkt abkühlt. Gegenmittel sind Lüftung, trockene Einlagerung und Dämmung, siehe [Container belüften](/ratgeber/container-belueftung).
+
+**Punktfundament**
+Einzelfundamente unter den Eckbeschlägen, bei längeren Containern auch in der Mitte. Die übliche und günstigste Gründung für Container. Siehe [Container-Fundament](/ratgeber/container-fundament).
 
 **Wärmebrücke**
 Stelle in der Gebäudehülle, an der Wärme deutlich schneller nach außen entweicht als in der Umgebung – bei Stahlcontainern typischerweise an den durchgehenden Stahlprofilen. Wärmebrücken begünstigen Kondenswasser und Schimmel. Ausführlich erklärt in [Wärmebrücken bei Containern](/ratgeber/waermebruecken-container).
@@ -65,7 +103,7 @@ Bauordnungsrechtlicher Begriff für den Wechsel der genehmigten Nutzung eines Ge
 Nutzung von öffentlichem Straßen- oder Wegeland über den Gemeingebrauch hinaus, etwa das vorübergehende Aufstellen eines Containers auf dem Gehweg. Dafür ist in der Regel eine Sondernutzungserlaubnis der Gemeinde nötig. Details in [Container auf öffentlichem Grund](/ratgeber/container-oeffentlicher-grund-sondernutzung).
 
 **Gewährleistung**
-Gesetzliche Haftung des Verkäufers für Mängel, die bereits beim Kauf vorhanden waren. Bei privaten Verkäufen wird die Gewährleistung häufig vertraglich ausgeschlossen, bei gewerblichen Verkäufern ist das nur eingeschränkt möglich. Ausführlich in [Kaufvertrag & Gewährleistung](/ratgeber/container-kaufvertrag-gewaehrleistung).
+Gesetzliche Haftung des Verkäufers für Mängel, die bereits beim Kauf vorhanden waren. Bei privaten Verkäufen wird sie häufig vertraglich ausgeschlossen. Verkauft ein Händler an einen Verbraucher, kann er sie bei Gebrauchtware verkürzen, aber nicht ausschließen; zwischen Unternehmen ist ein Ausschluss dagegen möglich. Ausführlich in [Kaufvertrag & Gewährleistung](/ratgeber/container-kaufvertrag-gewaehrleistung).
 
 ## Wichtiger Hinweis
 

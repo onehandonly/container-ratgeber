@@ -12,7 +12,7 @@ order: 42
 draft: false
 ---
 
-Ein Container wirkt auf den ersten Blick wie ein einfacher Kauf: Größe wählen, Preis vergleichen, liefern lassen. In der Praxis entstehen die teuersten Probleme aber selten beim Kaufpreis selbst, sondern bei Fragen, die vor der Bestellung zu wenig Beachtung finden. Dieser Beitrag sammelt die Fehler, die in Erfahrungsberichten und Foren immer wieder auftauchen, und zeigt, wie Sie sie vermeiden.
+Ein Container wirkt auf den ersten Blick wie ein einfacher Kauf: Größe wählen, Preis vergleichen, liefern lassen. In der Praxis entstehen die teuersten Probleme aber selten beim Kaufpreis selbst, sondern bei Fragen, die vor der Bestellung zu wenig Beachtung finden. Dieser Beitrag sammelt die Fehler, die in der Praxis immer wieder vorkommen, und zeigt, wie Sie sie vermeiden.
 
 ## Fehler 1: Zustand nur nach Fotos beurteilen
 
@@ -20,7 +20,7 @@ Fotos verraten wenig über Durchrostung, Bodenschäden oder undichte Dichtungen 
 
 **Besser:** Bestehen Sie auf einer Besichtigung oder auf einer ausführlichen Videoaufnahme mit Nahaufnahmen von Boden, Ecken und Dichtungen. Eine strukturierte Prüfreihenfolge liefert der Beitrag [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen); die Unterschiede zwischen neuwertiger und gebrauchter Ware erklärt [Neu oder gebraucht?](/ratgeber/container-neu-oder-gebraucht).
 
-## Fehler 2: Bodenklasse und Statik ignorieren
+## Fehler 2: Untergrund und Statik ignorieren
 
 Nicht jeder Untergrund trägt einen beladenen oder ausgebauten Container dauerhaft. Wird der Container direkt auf Rasen oder losem Schotter abgestellt, sackt er einseitig ab – die Türen klemmen, und an den Eckbeschlägen entstehen Spannungsrisse. Bei Wohn- oder Büroausbau kommt zusätzliches Gewicht durch Dämmung, Estrich und Möbel hinzu.
 
