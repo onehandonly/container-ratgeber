@@ -2,6 +2,11 @@
 /**
  * Werbeplatz.
  *
+ * ADS_ENABLED = false blendet ALLE Werbeflächen aus (Komponente rendert nichts).
+ * Grund: Für die AdSense-Prüfung sollen keine leeren Platzhalter sichtbar sein.
+ * Zum Wiedereinschalten nach der Freigabe nur ADS_ENABLED auf true setzen –
+ * die Einbindungen in den Seiten bleiben unverändert bestehen.
+ *
  * Solange keine AdSense-Kundennummer gesetzt ist (Umgebungsvariable
  * PUBLIC_ADSENSE_CLIENT, Format "ca-pub-XXXXXXXXXXXXXXXX"), wird ein sauber
  * gekennzeichneter Platzhalter angezeigt. Ist die Nummer gesetzt und wird eine
@@ -38,9 +43,12 @@ const txt = lang === 'en'
   : { label: 'Anzeige', title: 'Werbefläche', note: 'Wird nach Freigabe von Google AdSense automatisch befüllt.' };
 const shownLabel = label ?? txt.label;
 
+const ADS_ENABLED = false;
+
 const client = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
 const live = Boolean(client && slot);
 ---
+{ADS_ENABLED && (
 <aside class={`ad ${cls}`} aria-label={txt.label} data-ad-zone>
   <span class="ad__label">{shownLabel}</span>
   {live ? (
@@ -63,6 +71,7 @@ const live = Boolean(client && slot);
     </div>
   )}
 </aside>
+)}
 
 <style>
   .ad { margin-block: 1.75rem; text-align: center; }
