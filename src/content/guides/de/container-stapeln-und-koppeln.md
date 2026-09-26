@@ -24,9 +24,9 @@ Das hat eine wichtige Konsequenz: Ein Container trägt Lasten fast ausschließli
 
 ## Verbindungstechnik: was Container zusammenhält
 
-Beim reinen Übereinanderstellen für den Transport (Schiff, Zwischenlager) reicht meist die Schwerkraft plus Ausrichtung Ecke auf Ecke. Für Transport auf See und für dauerhafte Anlagen kommen zusätzliche Verbindungselemente zum Einsatz:
+Beim kurzzeitigen Übereinanderstellen an Land, etwa auf einem Depot- oder Lagerplatz, halten oft schon Eigengewicht und exakte Ausrichtung Ecke auf Ecke den Stapel – meist ergänzt um Stapelkonen. Auf See ist das nie ausreichend: Dort wird jede Lage verriegelt. Auch dauerhafte Anlagen brauchen feste Verbindungselemente:
 
-- **Twistlocks / Drehverschlüsse:** Sie greifen von unten in die Öffnung des oberen Eckbeschlags und die des unteren Containers darunter und verriegeln beide gegen seitliches Verrutschen und Abheben. Standard beim Seetransport, auch bei Zwischenstapeln an Land üblich.
+- **Twistlocks / Drehverschlüsse:** Sie sitzen zwischen dem oberen Eckbeschlag des unteren und dem unteren Eckbeschlag des oberen Containers, greifen in beide Langlöcher und verriegeln die Container durch eine Vierteldrehung gegen seitliches Verrutschen und Abheben. Standard beim Seetransport, auch bei Zwischenstapeln an Land üblich.
 - **Stapel- und Verbindungskonen:** Einfachere Stecklösungen, die zwei Eckbeschläge übereinander zentrieren, ohne eine Verriegelung gegen Abheben zu bieten – ausreichend für ruhende Stapel ohne dynamische Belastung.
 - **Kopplungsschrauben und Laschen bei Raumcontainern:** Modulhersteller verbinden Raumcontainer im Baukastensystem seitlich und übereinander mit Schraub- oder Klemmverbindern am Rahmen, ergänzt um Dichtprofile in der Fuge.
 

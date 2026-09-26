@@ -24,9 +24,9 @@ That has an important consequence: a container carries loads almost entirely thr
 
 ## Connecting hardware: what actually holds containers together
 
-For simple stacking during transport (ship, temporary yard storage), gravity plus careful corner-on-corner alignment is usually enough. For sea transport and for permanent installations, additional connecting hardware is used:
+For short-term stacking on land, such as in a depot or storage yard, the containers' own weight and exact corner-on-corner alignment often hold the stack – usually supplemented by stacking cones. At sea this is never enough: every tier is locked. Permanent installations also need fixed connecting hardware:
 
-- **Twist locks:** these engage from below into the opening of the corner casting above and the one on the container beneath it, locking both against lateral shift and lifting off. Standard for sea transport, and also common for temporary stacks on land.
+- **Twist locks:** these sit between the top corner casting of the lower container and the bottom corner casting of the upper one, engage both apertures and, with a quarter turn, lock the containers against lateral shift and lifting off. Standard for sea transport, and also common for temporary stacks on land.
 - **Stacking cones:** simpler push-in fittings that centre two corner castings on top of each other without locking against lift-off – adequate for static stacks with no dynamic loading.
 - **Coupling bolts and brackets on room containers:** module manufacturers connect room containers side by side and stacked with bolted or clamped connectors on the frame, combined with sealing profiles at the joint.
 
