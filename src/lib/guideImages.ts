@@ -34,6 +34,8 @@ const MAP: Record<string, string> = {
   'container-nummer-csc-plakette': PHOTO('type-seecontainer'),
   'geschichte-des-containers': PHOTO('hero-home'),
   'container-glossar-fachbegriffe': PHOTO('type-buerocontainer'),
+  'container-stapeln-und-koppeln': PHOTO('type-high-cube-container'),
+  'modulbau-fertighaus-massivbau-vergleich': INSPO('haus-zwei-etagen'),
 
   // --- Kaufberatung ---
   'gebrauchten-container-kaufen': PHOTO('type-seecontainer'),
