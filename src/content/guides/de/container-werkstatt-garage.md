@@ -12,11 +12,11 @@ order: 111
 draft: false
 ---
 
-Ein Container als ausgelagerte Werkstatt, Hobbyraum oder Garage ist eine naheliegende Idee: robust, schnell verfügbar, ohne Baugenehmigung für den reinen Innenausbau meist einfacher als ein Anbau. Doch zwischen „Container hinstellen" und „darin sicher und komfortabel arbeiten" liegt eine Reihe von Entscheidungen, die [Container-Anwendungsbeispiele](/ratgeber/container-anwendungsbeispiele) nur streift. Dieser Ratgeber geht für den konkreten Fall Werkstatt und Garage in die Tiefe.
+Ein Container als ausgelagerte Werkstatt, Hobbyraum oder Garage ist eine naheliegende Idee: robust, schnell verfügbar und meist unkomplizierter als ein Anbau. Ob für das Aufstellen eine Baugenehmigung nötig ist, hängt wie bei jedem Container von Standort, Dauer und Nutzung ab – siehe [Container-Baugenehmigung](/ratgeber/container-baugenehmigung). Doch zwischen „Container hinstellen" und „darin sicher und komfortabel arbeiten" liegt eine Reihe von Entscheidungen, die [Container-Anwendungsbeispiele](/ratgeber/container-anwendungsbeispiele) nur streift. Dieser Ratgeber geht für den konkreten Fall Werkstatt und Garage in die Tiefe.
 
 ## Container-Typ und Größe wählen
 
-Für die meisten Werkstatt- und Garagennutzungen ist ein **20-Fuß-High-Cube-Container** der beste Kompromiss: Die zusätzlichen rund 30 Zentimeter Höhe gegenüber dem Standardcontainer schaffen spürbar mehr Kopffreiheit über Werkbank und Hebebühne. Details zu Maßen liefert [Container-Größen und -Maße](/ratgeber/container-groessen-und-masse).
+Für die meisten Werkstatt- und Garagennutzungen ist ein **20-Fuß-High-Cube-Container** der beste Kompromiss: Die zusätzlichen rund 30 Zentimeter Höhe gegenüber dem Standardcontainer schaffen spürbar mehr Kopffreiheit über Werkbank und Regalen. Eine Pkw-Hebebühne ist dagegen auch im High Cube mit rund 2,70 m Innenhöhe nicht realistisch – sie braucht deutlich mehr Raumhöhe. Details zu Maßen liefert [Container-Größen und -Maße](/ratgeber/container-groessen-und-masse).
 
 | Nutzung | Empfohlener Typ | Warum |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ Für die meisten Werkstatt- und Garagennutzungen ist ein **20-Fuß-High-Cube-Con
 
 ## Elektrik: wenn Werkzeugmaschinen mehr brauchen als eine Steckdose
 
-Eine Handkreissäge oder Akkuschrauber läuft an jeder normalen Steckdose. Sobald Kompressor, Standbohrmaschine, Schweißgerät oder eine Hebebühne dazukommen, wird häufig ein dreiphasiger Drehstromanschluss nötig. Wie der Anschluss ans Netz – provisorisch über Baustrom oder fest – geplant und dimensioniert wird, ist ausführlich unter [Stromanschluss für den Container](/ratgeber/container-stromanschluss) beschrieben. Für die Werkstatt gilt zusätzlich:
+Eine Handkreissäge oder Akkuschrauber läuft an jeder normalen Steckdose. Sobald Kompressor, Standbohrmaschine, Schweißgerät oder Tischkreissäge mit Drehstrommotor dazukommen, wird häufig ein dreiphasiger Drehstromanschluss nötig. Wie der Anschluss ans Netz – provisorisch über Baustrom oder fest – geplant und dimensioniert wird, ist ausführlich unter [Stromanschluss für den Container](/ratgeber/container-stromanschluss) beschrieben. Für die Werkstatt gilt zusätzlich:
 
 - **Mindestens zwei getrennte Stromkreise**, damit ein überlasteter Kreis (z. B. Kompressor) nicht die gesamte Beleuchtung mit abschaltet.
 - **Steckdosen auf Arbeitshöhe** an der Werkbank, nicht nur auf Bodenniveau.
@@ -40,7 +40,7 @@ Werkbank und Maschinenarbeitsplätze brauchen deutlich mehr Licht als ein Lagerr
 
 ## Lüftung und Absaugung: Staub, Dämpfe, Abgase
 
-Ein geschlossener Container mit rund 30 Kubikmetern Innenvolumen konzentriert Schadstoffe schnell. Je nach Tätigkeit ist eine gezielte Lösung nötig:
+Ein geschlossener Container mit rund 33 bis 37 Kubikmetern Innenvolumen (20 Fuß Standard bzw. High Cube) konzentriert Schadstoffe schnell. Je nach Tätigkeit ist eine gezielte Lösung nötig:
 
 | Tätigkeit | Belastung | Empfohlene Lösung |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Der letzte Punkt aus der Tabelle ist keine Nebensache: Ein Fahrzeugmotor darf in
 
 ## Boden und Traglast
 
-Der serienmäßige Holzwerkstoffboden eines Containers ist für gleichmäßig verteilte Lagerlast ausgelegt, nicht zwingend für die punktuelle Belastung durch eine schwere Standbohrmaschine, Drehbank oder Hebebühne. Vor der Aufstellung schwerer Einzelmaschinen lohnt sich die Rückfrage beim Anbieter nach der zulässigen Punktlast; bei Unsicherheit hilft eine lastverteilende Unterkonstruktion aus Stahlplatte oder Bohlen unter den Auflagepunkten. Für den allgemeinen Werkstattbetrieb mit Werkbank, Regalen und Handwerkzeug reicht der Serienboden dagegen ohne Weiteres.
+Der serienmäßige Holzwerkstoffboden eines Containers ist für gleichmäßig verteilte Lagerlast ausgelegt, nicht zwingend für die punktuelle Belastung durch eine schwere Standbohrmaschine, Drehbank oder Bandsäge. Vor der Aufstellung schwerer Einzelmaschinen lohnt sich die Rückfrage beim Anbieter nach der zulässigen Punktlast; bei Unsicherheit hilft eine lastverteilende Unterkonstruktion aus Stahlplatte oder Bohlen unter den Auflagepunkten. Für den allgemeinen Werkstattbetrieb mit Werkbank, Regalen und Handwerkzeug reicht der Serienboden dagegen ohne Weiteres.
 
 ## Brandschutz: brennbare Stoffe und Funkenflug
 
@@ -79,7 +79,7 @@ Anders als bei Wohn- oder Bürocontainern ist eine vollständige Dämmung für v
 
 Ein häufiger Irrtum: Nicht das Innenmaß, sondern die **Türöffnung** entscheidet, ob ein Fahrzeug hineinpasst. Bei Standard- und High-Cube-Containern ist die Türöffnung rund 2,34 m breit; die Höhe liegt bei rund 2,28 m (Standard) bzw. 2,58 m (High Cube) – exakte Werte je nach Hersteller unter [Container-Größen und -Maße](/ratgeber/container-groessen-und-masse).
 
-Für die Praxis bedeutet das: Die meisten PKW mit eingeklappten Außenspiegeln passen problemlos durch die Breite. Kritischer wird es bei Transportern mit hohem Dach, Fahrzeugen mit Dachbox oder -trägern sowie bei Anhängerkupplungen, die die nutzbare Länge verkürzen. Eine Probefahrt in den leeren Container vor der endgültigen Einrichtung erspart Überraschungen. Wer regelmäßig sehr breite oder sperrige Fahrzeuge und Maschinen einbringen muss, ist mit einem [Open-Side-Container](/container/open-side-container) mit voller seitlicher Öffnung besser bedient als mit der Stirntür allein.
+Für die Praxis bedeutet das: Die meisten Pkw mit eingeklappten Außenspiegeln passen durch die Breite. Eng wird es beim Aussteigen: Bei rund 2,35 m Innenbreite und einem gut 1,8 m breiten Auto bleibt pro Seite kaum mehr als eine Handbreit bis 30 cm – die Fahrertür lässt sich kaum öffnen. Als Garage für den täglichen Gebrauch eignet sich ein Container deshalb eher für schmale Kleinwagen, Motorräder, Oldtimer im Winterlager oder Anhänger. Kritischer wird es bei Transportern mit hohem Dach, Fahrzeugen mit Dachbox oder -trägern sowie bei Anhängerkupplungen, die die nutzbare Länge verkürzen. Eine Probefahrt in den leeren Container vor der endgültigen Einrichtung erspart Überraschungen. Wer regelmäßig sehr breite oder sperrige Fahrzeuge und Maschinen einbringen muss, ist mit einem [Open-Side-Container](/container/open-side-container) mit voller seitlicher Öffnung besser bedient als mit der Stirntür allein.
 
 ## Kaufen oder mieten?
 

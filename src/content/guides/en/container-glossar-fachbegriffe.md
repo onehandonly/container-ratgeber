@@ -8,7 +8,7 @@ readingTime: 10
 published: 2026-09-25
 updated: 2026-09-25
 lead: "Anyone buying, renting or converting a container quickly runs into jargon from shipping, trade and building law. This glossary explains the key terms briefly, with no prior knowledge required."
-order: 20.5
+order: 23
 draft: false
 ---
 

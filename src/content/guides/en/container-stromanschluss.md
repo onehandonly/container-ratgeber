@@ -31,7 +31,7 @@ The two routes differ considerably in effort, cost, and legal requirements. Choo
 | Who applies | usually the contractor or tenant directly | landowner or building owner, with the grid operator |
 | Approval effort | low | application to the distribution network operator, allow lead time |
 | Ongoing cost | board rental plus consumption, often via a site meter | normal domestic electricity tariff |
-| Typical setup cost | roughly €200–800 for board/connection work | roughly €1,000–5,000 depending on distance to the nearest connection point |
+| Typical setup cost | roughly €200–800 for board/connection work | roughly €1,300–4,000 with an existing service connection, considerably more with a new underground cable (see cost table below) |
 
 ## The site power connection: setup and process
 
@@ -90,7 +90,7 @@ The table shows that from roughly 25 to 50 metres of cable length, a thin 1.5 mm
 
 Regardless of whether it is a site supply or a fixed connection, a container needs its own compliant protection.
 
-- **RCD (residual current device):** protects people from dangerous fault currents, for example from a damaged cable or moisture. On construction sites and in damp areas, a maximum rated residual current of 30 mA is required.
+- **RCD (residual current device):** protects people from dangerous fault currents, for example from a damaged cable or moisture. In new installations, socket circuits up to 32 A require a maximum rated residual current of 30 mA – on construction sites and in damp areas in any case.
 - **Circuit breakers:** protect the cable itself against overload and short circuit, sized to match the cable cross-section.
 - **Earthing/equipotential bonding:** the container's steel shell must be tied into the equipotential bonding system so that it cannot become live in a fault condition.
 - **Recurring inspection:** portable equipment and the electrical installation on construction sites are subject to recurring inspection requirements under the relevant occupational safety regulations.

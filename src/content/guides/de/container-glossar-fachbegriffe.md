@@ -8,7 +8,7 @@ readingTime: 10
 published: 2026-09-25
 updated: 2026-09-25
 lead: "Wer Container kauft, mietet oder umbaut, stößt schnell auf Fachjargon aus Schifffahrt, Handel und Baurecht. Dieses Glossar erklärt die wichtigsten Begriffe kurz und ohne Vorwissen."
-order: 20.5
+order: 23
 draft: false
 ---
 

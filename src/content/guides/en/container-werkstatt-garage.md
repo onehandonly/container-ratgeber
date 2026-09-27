@@ -12,13 +12,13 @@ order: 111
 draft: false
 ---
 
-Using a container as a detached workshop, hobby space, or garage is an obvious idea: robust, quickly available, and in Germany usually simpler than an extension since no planning permission is normally needed for the fit-out itself. But between "put the container down" and "work in it safely and comfortably" lies a series of decisions that [Container use cases](/en/ratgeber/container-anwendungsbeispiele) only touches on briefly. This guide goes into depth for the specific case of a workshop or garage.
+Using a container as a detached workshop, hobby space, or garage is an obvious idea: robust, quickly available, and usually less complicated than an extension. Whether placing it needs planning permission depends, as with any container, on location, duration and use – see [Container planning permission](/en/ratgeber/container-baugenehmigung). But between "put the container down" and "work in it safely and comfortably" lies a series of decisions that [Container use cases](/en/ratgeber/container-anwendungsbeispiele) only touches on briefly. This guide goes into depth for the specific case of a workshop or garage.
 
 Note on German law: planning permission (or its absence) for placing and using a container depends on the plot, local development plan and intended use; the German-law references in this article are general orientation, not advice for a specific site.
 
 ## Choosing the right container type and size
 
-For most workshop and garage uses, a **20-foot high-cube container** is the best compromise: the roughly 30 extra centimetres of height compared with a standard container create noticeably more headroom over a workbench or vehicle lift. Details on dimensions are in [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
+For most workshop and garage uses, a **20-foot high-cube container** is the best compromise: the roughly 30 extra centimetres of height compared with a standard container create noticeably more headroom over a workbench and shelving. A car lift, by contrast, is not realistic even in a high cube with about 2.70 m of internal height – it needs considerably more headroom. Details on dimensions are in [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 | Use | Recommended type | Why |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ For most workshop and garage uses, a **20-foot high-cube container** is the best
 
 ## Power: when tools need more than a single socket
 
-A circular saw or cordless drill runs from any ordinary socket. Once a compressor, pillar drill, welding set, or vehicle lift is added, a three-phase supply is often required. How the connection to the grid – temporary site supply or a fixed connection – is planned and sized is covered in detail in [Power connection for a container](/en/ratgeber/container-stromanschluss). For a workshop, additionally:
+A circular saw or cordless drill runs from any ordinary socket. Once a compressor, pillar drill, welding set, or table saw with a three-phase motor is added, a three-phase supply is often required. How the connection to the grid – temporary site supply or a fixed connection – is planned and sized is covered in detail in [Power connection for a container](/en/ratgeber/container-stromanschluss). For a workshop, additionally:
 
 - **At least two separate circuits**, so an overloaded circuit (e.g. a compressor) doesn't take the lighting down with it.
 - **Sockets at working height** on the bench, not only at floor level.
@@ -42,7 +42,7 @@ A workbench and machine workstations need noticeably more light than a storage s
 
 ## Ventilation and extraction: dust, fumes, exhaust
 
-An enclosed container with roughly 30 cubic metres of interior volume concentrates pollutants quickly. Depending on the activity, a targeted solution is needed:
+An enclosed container with roughly 33 to 37 cubic metres of interior volume (20 ft standard or high cube) concentrates pollutants quickly. Depending on the activity, a targeted solution is needed:
 
 | Activity | Hazard | Recommended solution |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ The last row is not a minor point: a vehicle engine must never run inside a clos
 
 ## Floor and load capacity
 
-The standard timber-composite floor of a container is designed for evenly distributed storage loads, not necessarily for the concentrated point load of a heavy pillar drill, lathe, or vehicle lift. Before installing heavy individual machines, it is worth checking the permissible point load with the supplier; where in doubt, a load-spreading sub-structure of steel plate or timber beams under the support points helps. For general workshop use with a bench, shelving, and hand tools, the standard floor is normally sufficient on its own.
+The standard timber-composite floor of a container is designed for evenly distributed storage loads, not necessarily for the concentrated point load of a heavy pillar drill, lathe, or band saw. Before installing heavy individual machines, it is worth checking the permissible point load with the supplier; where in doubt, a load-spreading sub-structure of steel plate or timber beams under the support points helps. For general workshop use with a bench, shelving, and hand tools, the standard floor is normally sufficient on its own.
 
 ## Fire safety: flammable materials and sparks
 
@@ -81,7 +81,7 @@ Unlike residential or office containers, full insulation is not essential for ma
 
 A common misconception: it is not the interior dimension but the **door opening** that decides whether a vehicle fits. On standard and high-cube containers, the door opening is roughly 2.34 m wide; the height is roughly 2.28 m (standard) or 2.58 m (high cube) – exact figures vary by manufacturer, see [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
-In practice, this means most cars with folded-in wing mirrors pass through the width without issue. It becomes tighter with high-roof vans, vehicles with roof boxes or roof racks, and tow bars that reduce the usable length. A trial run into the empty container before final fit-out avoids surprises. Anyone who regularly needs to bring in very wide or bulky vehicles and machinery is better served by an [open-side container](/en/container/open-side-container) with full side access than by the end door alone.
+In practice, this means most cars with folded-in wing mirrors pass through the width. Getting out is the tight part: with about 2.35 m of internal width and a car just over 1.8 m wide, there is barely a hand's width to 30 cm on each side – the driver's door will hardly open. As an everyday garage, a container therefore suits narrow small cars, motorcycles, classic cars in winter storage or trailers better. It becomes tighter with high-roof vans, vehicles with roof boxes or roof racks, and tow bars that reduce the usable length. A trial run into the empty container before final fit-out avoids surprises. Anyone who regularly needs to bring in very wide or bulky vehicles and machinery is better served by an [open-side container](/en/container/open-side-container) with full side access than by the end door alone.
 
 ## Buy or rent?
 

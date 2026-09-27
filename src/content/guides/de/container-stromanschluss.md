@@ -29,7 +29,7 @@ Beide Wege unterscheiden sich in Aufwand, Kosten und rechtlichen Anforderungen e
 | Wer beantragt | meist Bauunternehmen oder Mieter direkt | Grundstückseigentümer oder Bauherr beim Netzbetreiber |
 | Genehmigungsaufwand | gering | Antrag beim Verteilnetzbetreiber, Vorlauf einplanen |
 | Laufende Kosten | Verteiler-Miete plus Verbrauch, oft über Baustromzähler | normaler Stromtarif wie im Haushalt |
-| Typische Kosten der Einrichtung | ca. 200–800 € für Verteiler/Anschlussarbeiten | ca. 1.000–5.000 € je nach Entfernung zum nächsten Verteilerkasten |
+| Typische Kosten der Einrichtung | ca. 200–800 € für Verteiler/Anschlussarbeiten | ca. 1.300–4.000 € bei vorhandenem Hausanschluss, mit neuem Erdkabel deutlich mehr (siehe Kostentabelle unten) |
 
 ## Der Baustromanschluss: Aufbau und Ablauf
 
@@ -88,7 +88,7 @@ Die Tabelle zeigt: Ab rund 25 bis 50 Metern Kabellänge reicht ein dünner 1,5-m
 
 Unabhängig davon, ob Baustrom oder Festanschluss: Ein Container braucht eine eigene, normgerechte Absicherung.
 
-- **FI-Schutzschalter (RCD):** schützt Personen vor gefährlichen Fehlerströmen, etwa bei einem beschädigten Kabel oder Feuchtigkeit. Auf Baustellen und in Feuchtbereichen ist ein Auslösestrom von maximal 30 mA vorgeschrieben.
+- **FI-Schutzschalter (RCD):** schützt Personen vor gefährlichen Fehlerströmen, etwa bei einem beschädigten Kabel oder Feuchtigkeit. Für Steckdosenstromkreise bis 32 A ist bei neuen Anlagen ein Auslösestrom von maximal 30 mA vorgeschrieben, auf Baustellen und in Feuchtbereichen ohnehin.
 - **Leitungsschutzschalter:** schützen die Leitung selbst vor Überlast und Kurzschluss, dimensioniert nach Kabelquerschnitt.
 - **Erdung/Potentialausgleich:** Die Stahlhülle des Containers muss in den Potentialausgleich eingebunden werden, damit sie im Fehlerfall nicht selbst unter Spannung steht.
 - **Wiederkehrende Prüfung:** Ortsveränderliche Geräte und die Elektroinstallation auf Baustellen unterliegen wiederkehrenden Prüfpflichten nach den Vorgaben der Berufsgenossenschaften (DGUV).
