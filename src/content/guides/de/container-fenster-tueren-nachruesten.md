@@ -16,7 +16,7 @@ Ein unveränderter Seecontainer hat genau eine Öffnung: die zweiflügelige Tür
 
 ## Warum jeder Einschnitt die Statik betrifft
 
-Ein Seecontainer trägt seine Lasten nicht wie ein Haus über tragende Wände, sondern über den **Rahmen aus den acht Eckbeschlägen** und die gewellten Seitenwände, die als aussteifende Scheiben mitwirken. Die charakteristische Wellung der Wandbleche erhöht die Steifigkeit gegen Verwindung erheblich – genau diese Steifigkeit wird durch jeden großflächigen Ausschnitt geschwächt.
+Ein Seecontainer trägt seine Lasten nicht wie ein Haus über tragende Wände, sondern über den **Stahlrahmen aus Eckpfosten, Boden- und Dachlängsträgern mit den acht Eckbeschlägen** und die gewellten Seitenwände, die als aussteifende Scheiben mitwirken. Die charakteristische Wellung der Wandbleche erhöht die Steifigkeit gegen Verwindung erheblich – genau diese Steifigkeit wird durch jeden großflächigen Ausschnitt geschwächt.
 
 Deshalb gilt für jede Fenster- oder Türöffnung: Der Ausschnitt allein reicht nicht. Um die Öffnung wird ein **Stahlrahmen aus Formrohr oder Winkelprofil eingeschweißt**, der die durchtrennte Wandebene wieder schließt und die Kräfte um die Öffnung herumleitet. Bei mehreren oder großen Öffnungen in einer Wand – etwa einer durchgehenden Fensterfront – kann zusätzliche Verstärkung der Dachkonstruktion oder benachbarter Wandfelder nötig werden, damit der Container insgesamt formstabil bleibt. Wie viele und wie große Öffnungen ohne zusätzliche Verstärkung möglich sind, ist eine Frage für die ausführende Fachwerkstatt oder einen Statiker – keine Faustregel ersetzt diese Prüfung im Einzelfall.
 

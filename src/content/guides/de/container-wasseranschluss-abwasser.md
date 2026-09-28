@@ -38,7 +38,7 @@ Die Dimensionierung des Tanks richtet sich nach dem tatsächlichen Bedarf. Als g
 
 ## Abwasser: Kanalanschluss, Kleinkläranlage oder Sammelgrube
 
-Beim Abwasser gilt eine wichtige Unterscheidung, die viele unterschätzen: Es reicht nicht, Wasser "irgendwo" ablaufen zu lassen. Abwasser fällt unter das Wasserrecht, das in Deutschland überwiegend Ländersache ist und von der unteren Wasserbehörde beim Landkreis oder der kreisfreien Stadt vollzogen wird – unabhängig von einer eventuellen Baugenehmigung für den Container selbst. Drei Wege sind üblich:
+Beim Abwasser gilt eine wichtige Unterscheidung, die viele unterschätzen: Es reicht nicht, Wasser "irgendwo" ablaufen zu lassen. Abwasser fällt unter das Wasserrecht – geregelt im Wasserhaushaltsgesetz des Bundes und in den Landeswassergesetzen – und wird von der unteren Wasserbehörde beim Landkreis oder der kreisfreien Stadt vollzogen wird – unabhängig von einer eventuellen Baugenehmigung für den Container selbst. Drei Wege sind üblich:
 
 1. **Anschluss an den öffentlichen Schmutzwasserkanal.** Der Regelfall auf erschlossenen Grundstücken; die Gemeinde oder der Abwasserzweckverband legt Anschlusspflicht und technische Vorgaben fest.
 2. **Kleinkläranlage.** Reinigt das Abwasser biologisch vor Ort und leitet es gereinigt in ein Gewässer oder den Untergrund ein; braucht eine wasserrechtliche Erlaubnis und regelmäßige Wartung durch einen Fachbetrieb.
@@ -46,7 +46,7 @@ Beim Abwasser gilt eine wichtige Unterscheidung, die viele unterschätzen: Es re
 
 Welche Variante zulässig ist, entscheidet die untere Wasserbehörde – nicht der Container-Aufsteller. Bei jeder dauerhaften Nutzung mit WC oder Dusche sollte die Abwasserfrage vor dem Kauf geklärt sein, ähnlich wie bei der Baugenehmigung. Mehr zur Genehmigungsfrage allgemein im Ratgeber [Container-Baugenehmigung](/ratgeber/container-baugenehmigung).
 
-Für kurzzeitige oder mobile Nutzung ohne Kanalanschluss ist eine **Trockentrenntoilette** oder Chemietoilette oft die pragmatischere Lösung als eine Sammelgrube – sie erzeugt gar kein flüssiges Schwarzwasser, das entsorgt werden müsste.
+Für kurzzeitige oder mobile Nutzung ohne Kanalanschluss ist eine **Trockentrenntoilette** oder Chemietoilette oft die pragmatischere Lösung als eine Sammelgrube. Die Trockentrenntoilette erzeugt gar kein flüssiges Schwarzwasser; bei der Chemietoilette fällt es nur in kleinen Mengen im Fäkalientank an, der über zugelassene Entsorgungsstellen oder einen Dienstleister geleert wird.
 
 ## Grauwasser und Schwarzwasser unterscheiden
 
@@ -74,7 +74,7 @@ Wie sich Kondensat und Wärmebrücken an der Stahlhülle allgemein vermeiden las
 
 Für warmes Wasser stehen zwei Grundprinzipien zur Wahl. Der **elektrische Durchlauferhitzer** erwärmt Wasser erst beim Zapfen und braucht dafür kurzzeitig sehr viel elektrische Leistung – häufig 18 bis 21 kW, was praktisch immer einen dreiphasigen Stromanschluss erfordert (siehe [Stromanschluss für den Container](/ratgeber/container-stromanschluss)). Der **Warmwasserspeicher** erwärmt eine Wassermenge langsam vor und hält sie bereit; er braucht deutlich weniger Anschlussleistung, dafür Platz und – nach den Regeln der Technik – eine Speichertemperatur von in der Regel mindestens rund 60 °C, um der Vermehrung von Legionellen in stehendem Warmwasser vorzubeugen.
 
-Für einen Container mit gelegentlicher Nutzung (Werkstatt, Büro) reicht oft ein kleiner Durchlauferhitzer oder Boiler unter der Spüle. Für dauerhaftes Wohnen mit Dusche lohnt sich der Blick auf die vorhandene elektrische Anschlussleistung, bevor die Entscheidung fällt.
+Für einen Container mit gelegentlicher Nutzung (Werkstatt, Büro) reicht oft ein Klein-Durchlauferhitzer (ca. 3,5–6,5 kW, einphasig) oder ein Kleinspeicher unter der Spüle – genug fürs Handwaschbecken, nicht für eine Dusche. Für dauerhaftes Wohnen mit Dusche lohnt sich der Blick auf die vorhandene elektrische Anschlussleistung, bevor die Entscheidung fällt.
 
 ## Kosten im Überblick
 

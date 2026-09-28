@@ -16,7 +16,7 @@ An unmodified shipping container has exactly one opening: the double door at one
 
 ## Why every cut is a structural matter
 
-A shipping container does not carry its loads through load-bearing walls the way a house does, but through the **frame formed by its eight corner castings** and the corrugated side walls, which act as stiffening panels. The characteristic corrugation of the wall sheets substantially increases resistance to twisting – and it is exactly this stiffness that every large cut-out weakens.
+A shipping container does not carry its loads through load-bearing walls the way a house does, but through the **steel frame of corner posts and bottom and top side rails, with its eight corner castings,** and the corrugated side walls, which act as stiffening panels. The characteristic corrugation of the wall sheets substantially increases resistance to twisting – and it is exactly this stiffness that every large cut-out weakens.
 
 That is why, for any window or door opening, the cut alone is never enough. A **steel frame made from box section or angle profile is welded in** around the opening, closing the severed wall plane again and routing forces around it. Where a wall carries several or particularly large openings – a continuous window front, for example – the roof structure or neighbouring wall panels may need extra reinforcement to keep the container dimensionally stable overall. How many openings, and how large, are possible without extra reinforcement is a question for the workshop carrying out the conversion or a structural engineer – no rule of thumb replaces that case-by-case check.
 

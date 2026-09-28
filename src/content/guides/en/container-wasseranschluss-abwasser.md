@@ -40,7 +40,7 @@ Tank sizing depends on actual demand. As a rough benchmark, average drinking wat
 
 ## Wastewater: sewer connection, small treatment plant or sealed cesspit
 
-For wastewater, one distinction is often underestimated: it is not enough to let water drain away somewhere. In Germany, wastewater falls under water law, which is largely a matter for the federal states and enforced by the local water authority at district level – independent of any planning permission for the container itself. Three routes are common:
+For wastewater, one distinction is often underestimated: it is not enough to let water drain away somewhere. In Germany, wastewater falls under water law, governed by the federal Water Resources Act (Wasserhaushaltsgesetz) and the state water acts, and enforced by the local water authority at district level – independent of any planning permission for the container itself. Three routes are common:
 
 1. **Connection to the public sewer.** The standard case on a serviced plot; the municipality or wastewater association sets the connection obligation and technical requirements.
 2. **Small treatment plant (Kleinkläranlage).** Treats wastewater biologically on site and discharges it, treated, into a watercourse or the ground; needs a water-law permit and regular servicing by a specialist contractor.
@@ -48,7 +48,7 @@ For wastewater, one distinction is often underestimated: it is not enough to let
 
 Which option is permitted is decided by the local water authority – not by whoever sets up the container. For any permanent use with a toilet or shower, the wastewater question should be settled before purchase, much like planning permission. For more on the permission question in general, see [Container planning permission](/en/ratgeber/container-baugenehmigung).
 
-For short-term or mobile use without a sewer connection, a **dry composting toilet** or chemical toilet is often the more practical solution than a cesspit – it produces no liquid black water that needs collecting at all.
+For short-term or mobile use without a sewer connection, a **dry composting toilet** or chemical toilet is often the more practical solution than a cesspit. A dry toilet produces no liquid black water at all; a chemical toilet produces only small amounts in its waste tank, which is emptied at approved disposal points or by a service provider.
 
 ## Grey water and black water
 
@@ -76,7 +76,7 @@ For how to avoid condensation and thermal bridges on the steel shell more genera
 
 Two basic approaches exist for hot water. An **electric instantaneous water heater** heats water only as it is drawn, and needs a lot of electrical power for a short burst to do so – often 18 to 21 kW, which practically always requires a three-phase power connection (see [Power connection for a container](/en/ratgeber/container-stromanschluss)). A **storage water heater (cylinder)** heats a volume of water slowly and keeps it ready; it needs a much lower connected load, but takes up space and, following accepted technical practice, generally needs a storage temperature of at least around 60°C to guard against Legionella growth in standing hot water.
 
-For a container in occasional use (workshop, office), a small instantaneous heater or boiler under the sink is often enough. For permanent living with a shower, it is worth checking the available electrical supply before deciding.
+For a container in occasional use (workshop, office), a small instantaneous heater (about 3.5–6.5 kW, single-phase) or a small under-sink storage heater is often enough – sufficient for a hand basin, not for a shower. For permanent living with a shower, it is worth checking the available electrical supply before deciding.
 
 ## Costs at a glance
 
