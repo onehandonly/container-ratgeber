@@ -84,6 +84,7 @@ const MAP: Record<string, string> = {
   'container-belueftung': PHOTO('type-lagercontainer'),
   'container-daemmen': INSPO('haus-gruendach'),
   'container-stromanschluss': PHOTO('type-baucontainer'),
+  'container-wasseranschluss-abwasser': PHOTO('type-sanitaercontainer'),
 
   // --- Tiny House ---
   'containerhaus-bauen-oder-kaufen': INSPO('haus-zwei-etagen'),
@@ -97,6 +98,7 @@ const MAP: Record<string, string> = {
   // --- Wohnen ---
   'wohncontainer-ausbauen': INSPO('innen-hell'),
   'container-als-gartenhaus': INSPO('gartenbuero'),
+  'container-fenster-tueren-nachruesten': PHOTO('type-wohncontainer'),
 };
 
 /** Foto zu einem Ratgeber-Slug (ohne Sprachpräfix). */
