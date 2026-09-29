@@ -55,6 +55,7 @@ const MAP: Record<string, string> = {
   // --- Praxis ---
   'container-pflege-und-rostschutz': PHOTO('type-seecontainer'),
   'container-sichern-diebstahlschutz': PHOTO('type-lagercontainer'),
+  'container-im-winter': INSPO('haus-wald'),
   'container-transportieren': PHOTO('type-abrollcontainer'),
   'container-richtig-beladen': PHOTO('type-open-side-container'),
   'container-richtig-anheben': PHOTO('type-open-top-container'),
@@ -82,6 +83,7 @@ const MAP: Record<string, string> = {
   'spruehschaum-daemmung-container': INSPO('innen-hell'),
   'waermebruecken-container': PHOTO('type-wohncontainer'),
   'container-belueftung': PHOTO('type-lagercontainer'),
+  'photovoltaik-auf-dem-container': INSPO('haus-gruendach'),
   'container-daemmen': INSPO('haus-gruendach'),
   'container-stromanschluss': PHOTO('type-baucontainer'),
   'container-wasseranschluss-abwasser': PHOTO('type-sanitaercontainer'),
