@@ -35,7 +35,7 @@ Bei **Lagercontainern** ist die Preisspanne am breitesten, weil hier der Erhaltu
 
 **Bürocontainer** und **Sanitärcontainer** sind wegen ihrer Ausstattung teurer. Bei Bürocontainern bestimmen Isolierung, Fenster, Heizung, Elektrik und Bodenbelag den Preis. Sanitärcontainer enthalten Sanitärtechnik (WC, Waschbecken, teils Duschen, Boiler) und liegen deshalb am oberen Ende der Skala. Wer stärker ausgestattete Module oder Sonderanfertigungen benötigt, sollte mit Aufschlägen rechnen.
 
-Ob sich Kauf oder Miete lohnt, hängt vor allem von der geplanten Nutzungsdauer ab. Eine ausführliche Gegenüberstellung findest du im Ratgeber [Container kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten).
+Ob sich Kauf oder Miete lohnt, hängt vor allem von der geplanten Nutzungsdauer ab. Eine ausführliche Gegenüberstellung finden Sie im Ratgeber [Container kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten).
 
 ## Mietpreise pro Monat
 
