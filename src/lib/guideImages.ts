@@ -63,6 +63,7 @@ const MAP: Record<string, string> = {
   'lagercontainer-richtig-nutzen': PHOTO('type-lagercontainer'),
   'container-fuer-events-und-gastronomie': INSPO('gartenbuero'),
   'container-werkstatt-garage': PHOTO('type-high-cube-container'),
+  'container-firmengelaende-planen': PHOTO('type-kantinencontainer'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
@@ -101,6 +102,7 @@ const MAP: Record<string, string> = {
   'wohncontainer-ausbauen': INSPO('innen-hell'),
   'container-als-gartenhaus': INSPO('gartenbuero'),
   'container-fenster-tueren-nachruesten': PHOTO('type-wohncontainer'),
+  'container-laermschutz-akustik': PHOTO('type-buerocontainer'),
 };
 
 /** Foto zu einem Ratgeber-Slug (ohne Sprachpräfix). */
