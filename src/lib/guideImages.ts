@@ -43,6 +43,7 @@ const MAP: Record<string, string> = {
   'fake-containerhaendler-vorkasse-betrug': PHOTO('type-high-cube-container'),
   'buerocontainer-qualitaet-bausatz': PHOTO('type-xl-container'),
   'container-kaufberatung-haeufige-fehler': PHOTO('hero-home'),
+  'container-gebraucht-verkaufen': PHOTO('type-double-door-container'),
 
   // --- Kosten ---
   'was-kostet-ein-container': PHOTO('hero-home'),
@@ -88,6 +89,7 @@ const MAP: Record<string, string> = {
   'container-daemmen': INSPO('haus-gruendach'),
   'container-stromanschluss': PHOTO('type-baucontainer'),
   'container-wasseranschluss-abwasser': PHOTO('type-sanitaercontainer'),
+  'container-elektroplanung-innenausbau': PHOTO('type-technikcontainer'),
 
   // --- Tiny House ---
   'containerhaus-bauen-oder-kaufen': INSPO('haus-zwei-etagen'),
