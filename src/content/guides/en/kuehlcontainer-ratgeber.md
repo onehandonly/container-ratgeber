@@ -89,7 +89,7 @@ For sensitive goods, protection against power failure should be considered from 
 | 20 ft | approx. €250–600/month | approx. €8,000–18,000 | approx. €25,000–40,000 |
 | 40 ft high cube | approx. €400–900/month | approx. €12,000–25,000 | approx. €35,000–55,000 |
 | Transport / placement | approx. €300–1,200 per leg | additional | additional |
-| Electricity (example €0.30/kWh) | approx. €40–500/month by case | identical | identical |
+| Electricity (example €0.30/kWh) | approx. €35–550/month by case | identical | identical |
 | Maintenance | usually included in the rent | approx. €300–800/year | approx. €300–800/year |
 
 > Disclaimer: non-binding approximate ranges without warranty, strongly dependent on region, age, term and availability.

@@ -74,7 +74,7 @@ Der Komplettaustausch lässt sich handwerklich versierten Personen zutrauen; bei
 
 1. **Altboden entfernen:** Befestigungen lösen oder ausbohren, Platten herausnehmen. Entsorgung beachten: Je nach Behandlung ist Holz als Abfall unterschiedlich einzustufen; fragen Sie beim Entsorger nach.
 2. **Querträger entrosten:** mechanisch bis zum tragfähigen Stahl, dann Rostschutzgrundierung und Anstrich. Durchgerostete Träger vor dem Neubelegen schweißen lassen.
-3. **Ablauf- und Kondensatsituation klären:** Ablauflöcher freimachen, Dichtungen prüfen, Lüftung planen ([Belüftung im Container](/ratgeber/container-belueftung)).
+3. **Feuchtequelle klären:** Woher kam die Nässe? Undichte Türdichtungen und Dachstellen beheben, Kondensat durch Lüftung vermeiden ([Belüftung im Container](/ratgeber/container-belueftung)).
 4. **Neue Platten zuschneiden:** Der Innenraum eines 20-Fuß-Containers ist ca. 5,90 × 2,35 m groß, also rund 14 m² Fläche. Handelsübliche Platten (z. B. 2,44 × 1,22 m) müssen zugeschnitten werden; planen Sie Verschnitt ein und legen Sie die Plattenstöße auf die Querträger.
 5. **Befestigen:** rostgeschützte, versenkte Schrauben; Stöße stirnseitig dicht und kantenversiegelt. Plattenränder wegen des Feuchtigkeitsschutzes versiegeln.
 6. **Dämmung und Bodenaufbau** erst danach, falls Wohn- oder Büronutzung geplant ist ([Container dämmen](/ratgeber/container-daemmen)).

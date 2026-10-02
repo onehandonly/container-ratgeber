@@ -89,7 +89,7 @@ Für empfindliche Ware sollte eine Netzausfallabsicherung mitgedacht werden: Ala
 | 20 Fuß | ca. 250–600 €/Monat | ca. 8.000–18.000 € | ca. 25.000–40.000 € |
 | 40 Fuß High Cube | ca. 400–900 €/Monat | ca. 12.000–25.000 € | ca. 35.000–55.000 € |
 | Transport / Aufstellung | ca. 300–1.200 € je Weg | zusätzlich | zusätzlich |
-| Strom (Beispiel 0,30 €/kWh) | ca. 40–500 €/Monat je Betriebsfall | identisch | identisch |
+| Strom (Beispiel 0,30 €/kWh) | ca. 35–550 €/Monat je Betriebsfall | identisch | identisch |
 | Wartung | meist im Mietpreis enthalten | ca. 300–800 €/Jahr | ca. 300–800 €/Jahr |
 
 > Disclaimer: unverbindliche ca.-Spannen ohne Gewähr, stark abhängig von Region, Alter, Laufzeit und Verfügbarkeit.

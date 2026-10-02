@@ -74,7 +74,7 @@ A full replacement is feasible for practically skilled people; for welding and s
 
 1. **Remove the old floor:** release or drill out fixings, lift the boards. Mind disposal: depending on treatment, the wood may be classified differently as waste; ask the disposal company.
 2. **De-rust the cross members:** mechanically down to sound steel, then rust-protection primer and paint. Have rusted-through members welded before relaying.
-3. **Clarify drainage and condensation:** clear the drain holes, check the seals, plan ventilation ([ventilation in containers](/en/ratgeber/container-belueftung)).
+3. **Find the source of moisture:** where did the moisture come from? Fix leaking door seals and roof spots, prevent condensation through ventilation ([ventilation in containers](/en/ratgeber/container-belueftung)).
 4. **Cut the new boards:** the interior of a 20-foot container is approx. 5.90 × 2.35 m, i.e. about 14 m². Standard sheets (e.g. 2.44 × 1.22 m) must be cut; allow for waste and place the joints over cross members.
 5. **Fix:** rust-protected, countersunk screws; seal joints and board edges against moisture.
 6. **Insulation and floor build-up** only afterwards, if residential or office use is planned ([insulating a container](/en/ratgeber/container-daemmen)).
