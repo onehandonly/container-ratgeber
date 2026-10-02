@@ -60,6 +60,8 @@ In Europe the connection is usually three-phase 400 V / 50 Hz, mostly with a 32 
 
 Consumption varies widely. It depends on set point, ambient temperature and solar gain, the condition of insulation and door seals, how often the doors are opened, and the heat load of the stored goods. A freshly loaded container with warm cargo draws a multiple of its later steady-state load during the pull-down phase.
 
+How to turn this into annual costs and what can be saved is shown in [Reefer containers in operation: calculating and cutting power costs](/en/ratgeber/kuehlcontainer-betrieb-stromkosten).
+
 | Operating case | Rough consumption guide |
 | --- | --- |
 | Chilled (+2 to +8 °C), moderate weather | approx. 4–8 kWh per day |

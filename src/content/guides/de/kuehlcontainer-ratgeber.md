@@ -60,6 +60,8 @@ Der Anschluss erfolgt in Europa üblicherweise über Drehstrom 400 V / 50 Hz, me
 
 Der Verbrauch schwankt stark. Er hängt ab von Solltemperatur, Außentemperatur und Sonneneinstrahlung, Zustand von Dämmung und Türdichtungen, Häufigkeit der Türöffnungen sowie der Wärmelast der eingelagerten Ware. Ein frisch beladener Container mit warmer Ware zieht während der Abkühlphase ein Vielfaches der späteren Dauerlast.
 
+Wie Sie daraus Jahreskosten ableiten und was sich einsparen lässt, zeigt [Kühlcontainer im Betrieb: Stromkosten berechnen und senken](/ratgeber/kuehlcontainer-betrieb-stromkosten).
+
 | Betriebsfall | Grobe Orientierung Verbrauch |
 | --- | --- |
 | Plusgrade (+2 bis +8 °C), gemäßigtes Wetter | ca. 4–8 kWh pro Tag |

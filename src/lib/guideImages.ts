@@ -25,6 +25,7 @@ const MAP: Record<string, string> = {
   'seecontainer-typen': PHOTO('type-seecontainer'),
   'kuehlcontainer-ratgeber': PHOTO('type-kuehlcontainer'),
   'abrollcontainer-ratgeber': PHOTO('type-abrollcontainer'),
+  'kuehlcontainer-betrieb-stromkosten': PHOTO('type-kuehlcontainer'),
 
   // --- Grundlagen ---
   'container-kaufen-oder-mieten': PHOTO('type-lagercontainer'),
@@ -90,6 +91,7 @@ const MAP: Record<string, string> = {
   'container-stromanschluss': PHOTO('type-baucontainer'),
   'container-wasseranschluss-abwasser': PHOTO('type-sanitaercontainer'),
   'container-elektroplanung-innenausbau': PHOTO('type-technikcontainer'),
+  'container-boden-sanieren-austauschen': PHOTO('type-open-side-container'),
 
   // --- Tiny House ---
   'containerhaus-bauen-oder-kaufen': INSPO('haus-zwei-etagen'),
