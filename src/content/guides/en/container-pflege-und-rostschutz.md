@@ -84,6 +84,8 @@ A well-maintained steel container easily reaches 20 to 30 years or more in stati
 
 If you are considering a purchase anyway, it pays to look closely at condition and prior damage before buying. You can read what to watch out for in the guide [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
 
+**More on the roof:** How to tell a leak from condensation, which waterproofing suits which case and what the roof can carry is covered in [Container roof: load capacity, drainage and waterproofing](/en/ratgeber/container-dach-abdichten-dachlast).
+
 ## Conclusion
 
 Rust on a container is not fate but a question of care. Corten steel does protect itself superficially, but condensation, scratches and standing water can lead to rust-through. With six-monthly checks, clear drain holes, well-maintained seals and good ventilation, you keep moisture in check. Treat small rust spots immediately and refresh the paint regularly. This keeps your container functional and valuable for decades.

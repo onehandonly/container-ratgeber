@@ -84,6 +84,8 @@ Ein gepflegter Stahlcontainer erreicht im stationären Einsatz problemlos 20 bis
 
 Wenn Sie ohnehin über eine Anschaffung nachdenken, lohnt sich vor dem Kauf ein Blick auf Zustand und Vorschäden. Worauf Sie dabei achten sollten, lesen Sie im Ratgeber [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
 
+**Vertiefung zum Dach:** Wie Sie Leck und Kondensat unterscheiden, welche Abdichtung passt und was das Dach tragen darf, steht im Ratgeber [Containerdach: Dachlast, Wasserführung und Abdichten](/ratgeber/container-dach-abdichten-dachlast).
+
 ## Fazit
 
 Rost am Container ist kein Schicksal, sondern eine Frage der Pflege. Cortenstahl schützt sich zwar oberflächlich selbst, doch Kondensat, Kratzer und stehendes Wasser können zur Durchrostung führen. Mit halbjährlicher Kontrolle, freien Ablauflöchern, gepflegten Dichtungen und guter Belüftung halten Sie Feuchtigkeit in Schach. Behandeln Sie kleine Roststellen sofort und frischen Sie den Lack regelmäßig auf. So bleibt Ihr Container über Jahrzehnte funktionsfähig und werthaltig.

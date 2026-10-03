@@ -95,6 +95,8 @@ A storage container is low-maintenance but not maintenance-free. An inspection r
 
 Treating small rust spots early takes minutes; a rusted-through roof section costs a repair – or the container.
 
+**Special case – bicycles:** How many bikes fit into a 20 ft container and what applies to e-bike batteries is worked out in [Container as a bicycle garage](/en/ratgeber/container-als-fahrradgarage).
+
 ## Conclusion
 
 A storage container is one of the cheapest and most flexible storage solutions available – provided you treat it as what it is: an unheated steel space with its own microclimate. Load dry goods, arrange cross-ventilation, insulate the ceiling for sensitive cargo, and site the box on load-bearing, slightly sloped ground with air underneath, and you have covered the decisive 90 percent. The rest is organisation: shelves instead of stacks, an aisle instead of cramming, an inventory list instead of memory. With one inspection round per quarter, the goods will still be in the condition you stored them in years later.

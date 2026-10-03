@@ -95,6 +95,8 @@ Ein Lagercontainer ist wartungsarm, aber nicht wartungsfrei. Ein Kontrollgang al
 
 Kleine Roststellen früh zu behandeln kostet Minuten; ein durchgerosteter Dachbereich kostet eine Reparatur oder den Container.
 
+**Sonderfall Fahrräder:** Wie viele Räder in einen 20-Fuß-Container passen und was bei E-Bike-Akkus gilt, rechnet der Ratgeber [Container als Fahrradgarage](/ratgeber/container-als-fahrradgarage) durch.
+
 ## Fazit
 
 Ein Lagercontainer ist eine der günstigsten und flexibelsten Lagerlösungen überhaupt – vorausgesetzt, man behandelt ihn als das, was er ist: ein unbeheizter Stahlraum mit eigenem Mikroklima. Wer trocken einlagert, für Querlüftung sorgt, die Decke bei sensibler Ware dämmt und den Container auf tragfähigem, leicht geneigtem Untergrund mit Luft unter dem Boden aufstellt, hat die entscheidenden 90 Prozent erledigt. Der Rest ist Ordnung: Regale statt Stapel, Gasse statt Vollstopfen, Inventarliste statt Gedächtnis. Mit einem Kontrollgang pro Quartal bleibt die Ware auch nach Jahren so, wie sie eingelagert wurde.

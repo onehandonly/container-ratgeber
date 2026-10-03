@@ -66,6 +66,7 @@ const MAP: Record<string, string> = {
   'container-fuer-events-und-gastronomie': INSPO('gartenbuero'),
   'container-werkstatt-garage': PHOTO('type-high-cube-container'),
   'container-firmengelaende-planen': PHOTO('type-kantinencontainer'),
+  'container-als-fahrradgarage': PHOTO('type-double-door-container'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
@@ -92,6 +93,7 @@ const MAP: Record<string, string> = {
   'container-wasseranschluss-abwasser': PHOTO('type-sanitaercontainer'),
   'container-elektroplanung-innenausbau': PHOTO('type-technikcontainer'),
   'container-boden-sanieren-austauschen': PHOTO('type-open-side-container'),
+  'container-dach-abdichten-dachlast': PHOTO('type-seecontainer'),
 
   // --- Tiny House ---
   'containerhaus-bauen-oder-kaufen': INSPO('haus-zwei-etagen'),
