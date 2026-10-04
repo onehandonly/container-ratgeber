@@ -75,7 +75,7 @@ Wenn es gefahrlos geht, betrachten Sie das Dach von einer Leiter oder per Telesk
 
 ### 7. Innenraum: Licht, Boden, Geruch
 
-Schließen Sie die Türen, ohne die Verschlussstangen einrasten zu lassen, und lassen Sie eine zweite Person an der Tür bleiben – **schließen Sie sich nie selbst ein**, denn von innen lassen sich verriegelte Türen meist nicht öffnen. Warten Sie, bis sich die Augen an die Dunkelheit gewöhnt haben: Jeder Lichtpunkt ist eine undichte Stelle. Leuchten Sie dann mit der Taschenlampe Wände, Decke und Boden ab. Der Boden besteht in der Regel aus Siebdruckplatten oder Holzbohlen; er darf nicht weich, aufgequollen oder durchgetreten sein. Riechen Sie am Innenraum: Muffiger Geruch deutet auf Feuchte, ein chemischer Geruch auf Vorfracht hin. Prüfen Sie bei Rückfragen, was zuvor transportiert wurde.
+Schließen Sie die Türen, ohne die Verschlussstangen einrasten zu lassen, und lassen Sie eine zweite Person an der Tür bleiben – **schließen Sie sich nie selbst ein**, denn von innen lassen sich verriegelte Türen meist nicht öffnen. Warten Sie, bis sich die Augen an die Dunkelheit gewöhnt haben: Jeder Lichtpunkt ist eine undichte Stelle. Leuchten Sie dann mit der Taschenlampe Wände, Decke und Boden ab. Der Boden besteht in der Regel aus rund 28 mm starken Sperrholzplatten (Hartholz, teils Bambus) auf stählernen Querträgern; er darf nicht weich, aufgequollen oder durchgetreten sein. Riechen Sie am Innenraum: Muffiger Geruch deutet auf Feuchte, ein chemischer Geruch auf Vorfracht hin. Prüfen Sie bei Rückfragen, was zuvor transportiert wurde.
 
 ## Messungen: Stimmen die Maße?
 

@@ -75,7 +75,7 @@ Open and close both door leaves **several times yourself**. The locking rods mus
 
 ### 7. Interior: light, floor, smell
 
-Close the doors without letting the locking rods engage, and keep a second person at the door – **never lock yourself in**, as locked doors usually cannot be opened from inside. Wait until your eyes adjust to the dark: every point of light is a leak. Then sweep the walls, ceiling and floor with the torch. The floor is normally plywood or timber boards; it must not be soft, swollen or worn through. Smell the interior: a musty smell suggests moisture, a chemical smell suggests a previous cargo. Ask what was transported before.
+Close the doors without letting the locking rods engage, and keep a second person at the door – **never lock yourself in**, as locked doors usually cannot be opened from inside. Wait until your eyes adjust to the dark: every point of light is a leak. Then sweep the walls, ceiling and floor with the torch. The floor is normally plywood panels about 28 mm thick (hardwood, sometimes bamboo) on steel cross members; it must not be soft, swollen or worn through. Smell the interior: a musty smell suggests moisture, a chemical smell suggests a previous cargo. Ask what was transported before.
 
 ## Measuring: do the dimensions fit?
 
