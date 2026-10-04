@@ -45,6 +45,7 @@ const MAP: Record<string, string> = {
   'buerocontainer-qualitaet-bausatz': PHOTO('type-xl-container'),
   'container-kaufberatung-haeufige-fehler': PHOTO('hero-home'),
   'container-gebraucht-verkaufen': PHOTO('type-double-door-container'),
+  'container-besichtigung-pruefprotokoll': PHOTO('type-open-side-container'),
 
   // --- Kosten ---
   'was-kostet-ein-container': PHOTO('hero-home'),
@@ -109,6 +110,7 @@ const MAP: Record<string, string> = {
   'container-als-gartenhaus': INSPO('gartenbuero'),
   'container-fenster-tueren-nachruesten': PHOTO('type-wohncontainer'),
   'container-laermschutz-akustik': PHOTO('type-buerocontainer'),
+  'container-ferienunterkunft-vermieten': INSPO('haus-see'),
 };
 
 /** Foto zu einem Ratgeber-Slug (ohne Sprachpräfix). */
