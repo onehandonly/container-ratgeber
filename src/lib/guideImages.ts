@@ -46,6 +46,7 @@ const MAP: Record<string, string> = {
   'container-kaufberatung-haeufige-fehler': PHOTO('hero-home'),
   'container-gebraucht-verkaufen': PHOTO('type-double-door-container'),
   'container-besichtigung-pruefprotokoll': PHOTO('type-open-side-container'),
+  'container-sonderanfertigung': PHOTO('type-xl-container'),
 
   // --- Kosten ---
   'was-kostet-ein-container': PHOTO('hero-home'),
@@ -68,6 +69,7 @@ const MAP: Record<string, string> = {
   'container-werkstatt-garage': PHOTO('type-high-cube-container'),
   'container-firmengelaende-planen': PHOTO('type-kantinencontainer'),
   'container-als-fahrradgarage': PHOTO('type-double-door-container'),
+  'container-landwirtschaft': PHOTO('type-open-top-container'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
