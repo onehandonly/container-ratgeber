@@ -94,6 +94,8 @@ The following checklist helps with an initial assessment:
 4. You prefer **predictable, ongoing costs** over a large one-off payment.
 5. The location might **change**.
 
+> **Tool:** With the [Buy or rent?](/en/rechner/kaufen-oder-mieten) calculator you can work out from your own quotes after how many months buying pays off – with and without resale.
+
 ## Conclusion
 
 Buying or renting is not a question of right or wrong, but a question of how long you need the container and what your priorities are. **Rule of thumb: up to around two years of use, renting is usually cheaper and more convenient; beyond that, buying generally pays off** – supported additionally by the residual value. Short-term, flexible or project-based needs argue for renting; permanent locations with individual fit-out argue for buying. If you are unsure, you can start with a rent-to-buy option and keep the decision open. In any case, obtain several quotes and factor transport, foundation and possible permits into your calculation.

@@ -132,6 +132,8 @@ If you often need individual items, an [open side container](/en/container/open-
 - Moisture, hazardous substances and fire loads considered
 - For sea freight: weight determined and declared
 
+> **Tool:** For planning floor positions, use the [What fits in the container?](/en/rechner/container-volumen) calculator.
+
 ## Important note
 
 > This information is **general orientation without guarantee**. The values on the container's CSC plate, the haulier's requirements and the applicable load securing rules are binding. Special rules apply to sea freight and dangerous goods; take advice from your forwarder.

@@ -77,6 +77,8 @@ Lassen Sie sich die Transportkosten separat ausweisen und klären Sie, wer für 
 
 Vergleichen Sie mehrere Angebote und beziehen Sie Zustand, Baujahr, Größe und Lieferung in die Bewertung ein. Dokumentierte Mängel sind Ihr bestes Verhandlungsargument – jeder Rostpunkt und jede spröde Dichtung senkt den fairen Preis. Fragen Sie gezielt nach, ob kleinere Reparaturen (Lackierung, Bodenausbesserung) im Preis enthalten sind. Für eine Orientierung, welche Beträge realistisch sind, hilft unser Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container). Welche Größe zu Ihrem Vorhaben passt, lesen Sie unter [Größen & Maße](/ratgeber/container-groessen-und-masse).
 
+> **Rechner:** Für den Termin vor Ort können Sie die [interaktive Besichtigungs-Checkliste](/rechner/besichtigung-checkliste) auf dem Smartphone nutzen.
+
 ## Fazit
 
 Ein gebrauchter Container ist eine solide und günstige Wahl – vorausgesetzt, Sie prüfen den Zustand gewissenhaft. Verstehen Sie die Zustandsklassen, arbeiten Sie die Prüf-Checkliste konsequent ab und bestehen Sie immer auf einer Besichtigung. Durchrostung, beschädigte Eckbeschläge und undichte Türen sind die teuren Mängel; Oberflächenrost und kleine Dellen sind meist verkraftbar. Wer Bezugsquelle, Transport und Preis sorgfältig vergleicht und bei Vorkasse-Fallen skeptisch bleibt, kauft sicher und spart bares Geld.

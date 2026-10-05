@@ -93,6 +93,8 @@ Die folgende Checkliste hilft bei der ersten Einordnung:
 4. Sie **planbare, laufende Kosten** einer großen Einmalzahlung vorziehen.
 5. Der Standort **wechseln** könnte.
 
+> **Rechner:** Mit dem Rechner [Kaufen oder mieten?](/rechner/kaufen-oder-mieten) ermitteln Sie mit Ihren eigenen Angeboten, ab wie vielen Monaten sich der Kauf lohnt – mit und ohne Wiederverkauf.
+
 ## Fazit
 
 Kaufen oder mieten ist keine Frage von richtig oder falsch, sondern eine Frage der Nutzungsdauer und der Prioritäten. **Faustregel: Bis rund zwei Jahre Nutzung ist die Miete meist günstiger und bequemer, darüber hinaus lohnt sich in der Regel der Kauf** – zusätzlich gestützt durch den Restwert. Kurzfristige, flexible oder projektbezogene Bedarfe sprechen für die Miete; dauerhafte Standorte mit individuellem Ausbau für den Kauf. Wer unsicher ist, kann mit einer Miet-Kauf-Option starten und sich die Entscheidung offenhalten. Holen Sie in jedem Fall mehrere Angebote ein und beziehen Sie Transport, Fundament und mögliche Genehmigungen in Ihre Kalkulation mit ein.

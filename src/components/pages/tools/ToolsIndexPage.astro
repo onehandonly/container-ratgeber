@@ -1,0 +1,51 @@
+---
+import Breadcrumbs from '../../Breadcrumbs.astro';
+import ToolIcon from '../../ToolIcon.astro';
+import { tools, toolText } from '../../../lib/tools';
+import { localizePath, type Lang } from '../../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<Breadcrumbs items={[{ label: de ? 'Rechner & Werkzeuge' : 'Calculators & tools' }]} />
+<header class="ti-hero">
+  <div class="wrap">
+    <span class="eyebrow">{de ? 'Werkzeuge' : 'Tools'}</span>
+    <h1>{de ? 'Rechner & Werkzeuge rund um Container' : 'Container calculators & tools'}</h1>
+    <p>{de
+      ? 'Kostenlos, ohne Anmeldung und direkt im Browser: Rechnen Sie Kauf, Miete und Leasing durch, schätzen Sie Transportkosten, planen Sie die Beladung und prüfen Sie gebrauchte Container vor Ort.'
+      : 'Free, without registration and right in your browser: compare buying, renting and leasing, estimate transport costs, plan the load and inspect used containers on site.'}</p>
+  </div>
+</header>
+<div class="wrap ti-body">
+  <div class="ti-grid">
+    {tools.map((tool) => (
+      <a href={L(`/rechner/${tool.slug}`)} class="card card--link ti-card">
+        <span class="ti-card__icon"><ToolIcon icon={tool.icon} /></span>
+        <span class="ti-card__badge">{toolText(tool, lang).badge}</span>
+        <h2>{toolText(tool, lang).name}</h2>
+        <p>{toolText(tool, lang).teaser}</p>
+        <span class="ti-card__more">{de ? 'Öffnen' : 'Open'} →</span>
+      </a>
+    ))}
+  </div>
+  <p class="ti-note">{de
+    ? 'Alle Rechner arbeiten mit Orientierungswerten aus unseren Ratgebern und ersetzen keine verbindlichen Angebote oder Fachberatung. Ihre Eingaben bleiben in Ihrem Browser.'
+    : 'All calculators use orientation values from our guides and do not replace binding quotes or professional advice. Your entries stay in your browser.'}</p>
+</div>
+<style>
+  .ti-hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.2rem, 1.8rem + 3vw, 3.6rem); }
+  .ti-hero h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .ti-hero p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 64ch; }
+  .ti-body { padding-block: var(--space-section); }
+  .ti-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: var(--gap); }
+  .ti-card { display: flex; flex-direction: column; gap: 0.4rem; padding: 1.2rem; text-decoration: none; color: inherit; }
+  .ti-card__icon { width: 3.4rem; height: 3.4rem; border-radius: var(--radius-md); background: var(--grad-brand-deep); color: #fff; display: flex; align-items: center; justify-content: center; margin-bottom: 0.4rem; }
+  .ti-card__icon :global(svg) { width: 2.2rem; height: 2.2rem; }
+  .ti-card__badge { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-accent); }
+  .ti-card h2 { font-size: var(--text-lg); }
+  .ti-card p { color: var(--color-ink-soft); font-size: var(--text-sm); flex: 1; }
+  .ti-card__more { color: var(--color-signal); font-weight: 600; font-size: var(--text-sm); margin-top: 0.4rem; }
+  .ti-note { color: var(--color-muted); font-size: var(--text-sm); margin-top: 2rem; max-width: 70ch; }
+</style>

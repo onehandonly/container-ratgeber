@@ -132,6 +132,8 @@ Wer oft an einzelne Teile muss, ist mit einem [Open-Side-Container](/container/o
 - Feuchte, Gefahrstoffe und Brandlasten bedacht
 - Bei Seefracht: Gewicht ermittelt und gemeldet
 
+> **Rechner:** Für die Planung der Stellplätze hilft der Rechner [Was passt in den Container?](/rechner/container-volumen).
+
 ## Wichtiger Hinweis
 
 > Die Angaben sind **allgemeine Orientierung ohne Gewähr**. Verbindlich sind die Werte auf der CSC-Plakette des Containers, die Vorgaben des Transportunternehmens und die geltenden Vorschriften zur Ladungssicherung. Für Seefracht und Gefahrgut gelten besondere Regeln; lassen Sie sich dort von der Spedition beraten.

@@ -249,6 +249,8 @@ Die Außenhöhe liegt jeweils bei ca. 2,60–2,80 m. Auch diese Längen sind in 
 
 Wie sich die verschiedenen Größen preislich unterscheiden, lesen Sie im Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container).
 
+> **Rechner:** Wie viele Paletten, Kartons oder Fahrräder in die einzelnen Größen passen, rechnet der Rechner [Was passt in den Container?](/rechner/container-volumen) für Sie aus – einschließlich Türhöhe und Zuladung.
+
 ## Fazit
 
 Die Wahl der richtigen Container-Größe hängt weniger von der Bezeichnung als von den konkreten Maßen ab. Entscheidend sind das nutzbare **Innenmaß**, die oft übersehene **Türöffnung** und – beim Transport – die zulässige **Zuladung**. Seecontainer sind streng genormt und dadurch gut planbar, während Baucontainer-Module flexibel koppelbar sind. Wer vor der Miete oder dem Kauf die hier zusammengestellten Tabellen zurate zieht, vermeidet böse Überraschungen und findet zuverlässig die passende Größe für sein Vorhaben.

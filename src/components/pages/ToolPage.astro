@@ -1,0 +1,59 @@
+---
+/** Seitenrahmen für Rechner und Werkzeuge: Brotkrumen, Kopf, Werkzeug, Erläuterung, weitere Werkzeuge. */
+import Breadcrumbs from '../Breadcrumbs.astro';
+import ToolIcon from '../ToolIcon.astro';
+import { tools, toolText } from '../../lib/tools';
+import { localizePath, type Lang } from '../../lib/i18n';
+interface Props { lang: Lang; slug: string; title: string; intro: string }
+const { lang, slug, title, intro } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+const others = tools.filter((t) => t.slug !== slug);
+---
+<Breadcrumbs items={[{ label: de ? 'Rechner & Werkzeuge' : 'Calculators & tools', href: L('/rechner') }, { label: title }]} />
+
+<header class="tp-hero">
+  <div class="wrap">
+    <span class="eyebrow">{de ? 'Rechner & Werkzeuge' : 'Calculators & tools'}</span>
+    <h1>{title}</h1>
+    <p>{intro}</p>
+  </div>
+</header>
+
+<div class="wrap tp-body">
+  <slot />
+  <div class="prose tp-text">
+    <slot name="text" />
+  </div>
+
+  <section class="tp-more" aria-labelledby="tp-more-title">
+    <h2 id="tp-more-title">{de ? 'Weitere Rechner und Werkzeuge' : 'More calculators and tools'}</h2>
+    <div class="tp-more__grid">
+      {others.map((t) => (
+        <a href={L(`/rechner/${t.slug}`)} class="card card--link tp-more__card">
+          <span class="tp-more__icon"><ToolIcon icon={t.icon} /></span>
+          <span><strong>{toolText(t, lang).name}</strong><small>{toolText(t, lang).teaser}</small></span>
+        </a>
+      ))}
+    </div>
+  </section>
+</div>
+
+<style>
+  .tp-hero { background: linear-gradient(180deg, #fff, var(--color-bg-alt)); border-bottom: 1px solid var(--color-border); padding-block: clamp(2.2rem, 1.8rem + 3vw, 3.6rem); }
+  .tp-hero h1 { font-size: var(--text-3xl); margin-top: 0.8rem; letter-spacing: -0.02em; }
+  .tp-hero p { color: var(--color-ink-soft); font-size: var(--text-lg); margin-top: 0.8rem; max-width: 62ch; }
+  .tp-body { max-width: 56rem; padding-block: 1rem var(--space-section); }
+  .tp-text { margin-top: 1rem; }
+  .tp-text :global(ul) { list-style: disc; padding-left: 1.3rem; }
+  .tp-text :global(ol) { list-style: decimal; padding-left: 1.4rem; }
+  .tp-text :global(li) { margin-top: 0.35rem; }
+  .tp-more { margin-top: 3rem; }
+  .tp-more h2 { font-size: var(--text-xl); margin-bottom: 1rem; }
+  .tp-more__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: var(--gap); }
+  .tp-more__card { display: flex; gap: 0.9rem; align-items: flex-start; padding: 1rem; text-decoration: none; color: inherit; }
+  .tp-more__icon { flex-shrink: 0; width: 3rem; height: 3rem; border-radius: var(--radius-md); background: var(--grad-brand-deep); color: #fff; display: flex; align-items: center; justify-content: center; }
+  .tp-more__icon :global(svg) { width: 2rem; height: 2rem; }
+  .tp-more__card strong { display: block; font-size: var(--text-base); }
+  .tp-more__card small { display: block; color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.25rem; }
+</style>

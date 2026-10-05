@@ -1,0 +1,37 @@
+---
+import ToolPage from '../ToolPage.astro';
+import VolumeCalculator from '../../VolumeCalculator.astro';
+import { localizePath, type Lang } from '../../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<ToolPage lang={lang} slug="container-volumen"
+  title={de ? 'Was passt in den Container?' : 'What fits in the container?'}
+  intro={de
+    ? 'Wie viele Paletten, Kartons oder Fahrräder passen in einen 10-, 20- oder 40-Fuß-Container? Der Rechner berücksichtigt Innenmaße, Türhöhe und Zuladung.'
+    : 'How many pallets, boxes or bicycles fit into a 10, 20 or 40 ft container? The calculator takes internal dimensions, door height and payload into account.'}>
+  <VolumeCalculator lang={lang} />
+  <Fragment slot="text">
+    {de ? (<>
+      <h2>Paletten: warum 11 statt 8</h2>
+      <p>Legt man Europaletten (1,20 × 0,80 m) einheitlich in einen 20-Fuß-Container, passen nur zwei nebeneinander und vier hintereinander – also 8. Mischt man die Ausrichtung, nutzt man die Innenbreite von rund 2,35 m besser: Eine Bahn mit längs gestellten Paletten (0,80 m breit) und eine Bahn mit quer gestellten Paletten (1,20 m breit) ergeben zusammen 2,00 m. In der ersten Bahn passen 4, in der zweiten 7 Paletten – zusammen 11. Im 40-Fuß-Container ergibt dieselbe Logik 25 Europaletten. Der Rechner probiert alle Kombinationen aus Längs- und Querbahnen durch und nimmt die beste.</p>
+      <h2>Stapeln und Türhöhe</h2>
+      <p>Die Innenhöhe ist nicht die entscheidende Grenze, sondern die Türöffnung: rund 2,28 m beim Standardcontainer, rund 2,58 m beim High Cube. Doppelt gestapelte Paletten werden meist außerhalb gestapelt und gemeinsam eingefahren; dann muss der ganze Stapel durch die Tür passen. Zwei Paletten mit je 1,20 m Höhe passen deshalb nur in einen High Cube.</p>
+      <h2>Gewicht nicht vergessen</h2>
+      <p>Die Zuladung eines 20-Fuß-Containers liegt bei rund 28 t – für ein stationäres Lager selten ein Problem. Anders beim Transport: Soll der Container beladen auf der Straße bewegt werden, setzen Fahrzeug und Straßenverkehrsrecht deutlich niedrigere Grenzen. Wie Sie Gewicht verteilen und Punktlasten auf dem Holzboden vermeiden, steht in <a href={L('/ratgeber/container-richtig-beladen')}>Container richtig beladen</a>.</p>
+      <h2>Kartons und Fahrräder</h2>
+      <p>Für Kartons rechnet der Rechner ein gleichmäßiges Raster in der günstigsten Ausrichtung. In der Praxis kosten Gänge, unterschiedliche Größen und der Türbereich meist 10–20 % der Fläche. Die Werte für Fahrräder stammen aus unserem Ratgeber <a href={L('/ratgeber/container-als-fahrradgarage')}>Container als Fahrradgarage</a>. Alle Maße im Überblick: <a href={L('/ratgeber/container-groessen-und-masse')}>Container-Größen und Maße</a>.</p>
+    </>) : (<>
+      <h2>Pallets: why 11 rather than 8</h2>
+      <p>If you load euro pallets (1.20 × 0.80 m) all the same way into a 20 ft container, only two fit side by side and four one behind the other – 8 in total. Mixing the orientation uses the internal width of about 2.35 m better: one lane of pallets placed lengthwise (0.80 m wide) and one lane placed crosswise (1.20 m wide) take up 2.00 m together. The first lane holds 4, the second 7 – 11 in total. In a 40 ft container the same logic gives 25 euro pallets. The calculator tries every combination of lengthwise and crosswise lanes and takes the best one.</p>
+      <h2>Stacking and door height</h2>
+      <p>The limiting factor is not the internal height but the door opening: about 2.28 m on a standard container and about 2.58 m on a high cube. Double-stacked pallets are usually stacked outside and driven in together, so the whole stack has to pass through the door. Two pallets of 1.20 m each therefore only fit in a high cube.</p>
+      <h2>Do not forget weight</h2>
+      <p>The payload of a 20 ft container is around 28 t – rarely a problem for static storage. Transport is a different matter: if the container is to be moved by road while loaded, the vehicle and road traffic rules set much lower limits. How to distribute weight and avoid point loads on the timber floor is covered in <a href={L('/ratgeber/container-richtig-beladen')}>Loading a container correctly</a>.</p>
+      <h2>Boxes and bicycles</h2>
+      <p>For boxes, the calculator uses a uniform grid in the most favourable orientation. In practice, aisles, mixed sizes and the door area usually cost 10–20% of the space. The values for bicycles come from our guide <a href={L('/ratgeber/container-als-fahrradgarage')}>Container as a bike shed</a>. All dimensions at a glance: <a href={L('/ratgeber/container-groessen-und-masse')}>Container sizes and dimensions</a>.</p>
+    </>)}
+  </Fragment>
+</ToolPage>

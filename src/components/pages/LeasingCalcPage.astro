@@ -7,7 +7,7 @@ const { lang } = Astro.props;
 const L = (p: string) => localizePath(p, lang);
 const de = lang === 'de';
 ---
-<Breadcrumbs items={[{ label: de ? 'Kosten' : 'Costs', href: L('/ratgeber/was-kostet-ein-container') }, { label: de ? 'Leasingrechner' : 'Leasing calculator' }]} />
+<Breadcrumbs items={[{ label: de ? 'Rechner & Werkzeuge' : 'Calculators & tools', href: L('/rechner') }, { label: de ? 'Leasingrechner' : 'Leasing calculator' }]} />
 
 <header class="lcp-hero">
   <div class="wrap">

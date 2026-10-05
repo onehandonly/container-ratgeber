@@ -1,0 +1,100 @@
+---
+/**
+ * Transportkosten-Schätzer (clientseitig).
+ * Spannen aus dem Ratgeber „Container-Transport und Lieferkosten":
+ * Fahrzeugpauschale im Nahbereich (bis ca. 25 km), darüber Kilometersatz
+ * ca. 1,80–4,50 € je km auf doppelter Strecke, Kranstunden und Autokran.
+ */
+import '../styles/tools.css';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id?: string }
+const { lang, id = 'transport-calc' } = Astro.props;
+const de = lang === 'de';
+const vehicles = [
+  { v: 'absetz', de: 'Absetzkipper', en: 'Skip loader', lo: 120, hi: 250, max: 10 },
+  { v: 'haken', de: 'Abrollkipper (Hakenlift)', en: 'Hook-lift truck', lo: 180, hi: 350, max: 20 },
+  { v: 'kran', de: 'Lkw mit Ladekran', en: 'Truck with loader crane', lo: 350, hi: 800, max: 20 },
+  { v: 'sattel', de: 'Sattelzug mit Autokran', en: 'Articulated lorry with mobile crane', lo: 400, hi: 900, max: 45 },
+];
+const t = de ? {
+  title: 'Transport schätzen', intro: 'Wählen Sie Containergröße, Entfernung vom Händler oder Depot und die Art der Entladung.',
+  size: 'Containergröße', s10: '10 Fuß', s20: '20 Fuß', s40: '40 Fuß', km: 'Entfernung einfache Strecke (km)',
+  vehicle: 'Fahrzeug / Entladung', craneH: 'Zusätzliche Kranstunden vor Ort', craneHHint: 'über die übliche Entladezeit hinaus (Hecke, Stapeln, weite Ausladung)',
+  autokran: 'Autokran-Einsatz', half: 'halber Tag', full: 'ganzer Tag', back: 'Abholung später in gleicher Konstellation einrechnen',
+  oneTrip: 'Anlieferung', total: 'Transport gesamt', perTrip: 'je Fahrt',
+  notFit: 'Dieses Fahrzeug ist für die gewählte Containergröße in der Regel nicht geeignet.',
+  near: 'Bis ca. 25 km gilt meist eine Nahbereichspauschale. Darüber rechnen wir Mehrkilometer auf doppelter Strecke (hin und zurück).',
+  note: 'Spannen auf Basis unseres Ratgebers zu Transport und Lieferkosten. Nicht enthalten: Genehmigungen für Sondertransporte, Straßensperrungen, Wartezeiten, Mautzuschläge und Umsatzsteuer. Ersetzen Sie die Schätzung immer durch konkrete Angebote. Orientierungswerte ohne Gewähr.',
+} : {
+  title: 'Estimate transport', intro: 'Choose container size, distance from the dealer or depot and the unloading method.',
+  size: 'Container size', s10: '10 ft', s20: '20 ft', s40: '40 ft', km: 'One-way distance (km)',
+  vehicle: 'Vehicle / unloading', craneH: 'Additional crane hours on site', craneHHint: 'beyond the usual unloading time (hedge, stacking, long reach)',
+  autokran: 'Mobile crane hire', half: 'half day', full: 'full day', back: 'Include later collection with the same set-up',
+  oneTrip: 'Delivery', total: 'Total transport', perTrip: 'per trip',
+  notFit: 'This vehicle is usually not suitable for the selected container size.',
+  near: 'Up to about 25 km a local flat rate usually applies. Beyond that we charge extra kilometres on the double distance (there and back).',
+  note: 'Ranges based on our guide to transport and delivery costs (German market). Not included: permits for abnormal loads, road closures, waiting time, toll surcharges and VAT. Always replace the estimate with concrete quotes. Orientation values without guarantee.',
+};
+---
+<section class="tl" id={id} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`} class="tl__title">{t.title}</h2>
+  <p class="tl__intro">{t.intro}</p>
+  <form class="tl__form" onsubmit="return false">
+    <div class="tl__field">{t.size}
+      <div class="tl__seg" role="radiogroup">
+        <label><input type="radio" name="size" value="10" /> {t.s10}</label>
+        <label><input type="radio" name="size" value="20" checked /> {t.s20}</label>
+        <label><input type="radio" name="size" value="40" /> {t.s40}</label>
+      </div>
+    </div>
+    <label>{t.km}<input type="number" name="km" min="0" max="1500" step="5" value="25" inputmode="numeric" /></label>
+    <label>{t.vehicle}<select name="vehicle">{vehicles.map((v) => <option value={v.v} selected={v.v === 'haken'}>{de ? v.de : v.en}</option>)}</select></label>
+    <label data-for="kran">{t.craneH}<input type="number" name="craneH" min="0" max="10" step="0.5" value="0" inputmode="decimal" /><small>{t.craneHHint}</small></label>
+    <label data-for="sattel">{t.autokran}<select name="ak"><option value="half">{t.half}</option><option value="full">{t.full}</option></select></label>
+    <label class="tl__check"><input type="checkbox" name="back" checked /> {t.back}</label>
+  </form>
+
+  <div class="tl__result" aria-live="polite">
+    <div class="tl__kpis">
+      <div class="tl__kpi tl__kpi--main"><span>{t.total}</span><strong data-out="total">–</strong></div>
+      <div class="tl__kpi"><span>{t.oneTrip}</span><strong data-out="trip">–</strong></div>
+    </div>
+    <div data-out="msgs"></div>
+    <p class="tl__msg">{t.near}</p>
+    <p class="tl__note">{t.note}</p>
+  </div>
+</section>
+
+<script is:inline define:vars={{ id, lang, t, vehicles }}>
+(function () {
+  var root = document.getElementById(id); if (!root) return;
+  var f = root.querySelector('form');
+  var nf = new Intl.NumberFormat(lang === 'de' ? 'de-DE' : 'en-GB', { maximumFractionDigits: 0 });
+  var r10 = function (v) { return Math.round(v / 10) * 10; };
+  var range = function (lo, hi) { return 'ca. ' + nf.format(r10(lo)) + '–' + nf.format(r10(hi)) + ' €'; };
+  var out = function (k) { return root.querySelector('[data-out="' + k + '"]'); };
+  function calc() {
+    var size = parseInt(f.querySelector('input[name=size]:checked').value, 10);
+    var vSel = f.elements.vehicle;
+    Array.prototype.forEach.call(vSel.options, function (o) {
+      var v = vehicles.filter(function (x) { return x.v === o.value; })[0];
+      o.disabled = size > v.max;
+    });
+    if (vSel.selectedOptions[0].disabled) { vSel.value = size === 40 ? 'sattel' : (size === 10 ? 'absetz' : 'haken'); }
+    var veh = vehicles.filter(function (x) { return x.v === vSel.value; })[0];
+    root.querySelectorAll('[data-for]').forEach(function (el) { el.style.display = el.dataset.for === veh.v ? '' : 'none'; });
+    var km = Math.max(0, parseFloat(f.elements.km.value) || 0);
+    var extraKm = Math.max(0, km - 25) * 2;
+    var lo = veh.lo + extraKm * 1.8, hi = veh.hi + extraKm * 4.5;
+    if (veh.v === 'kran') { var h = Math.max(0, parseFloat(f.elements.craneH.value) || 0); lo += h * 150; hi += h * 350; }
+    if (veh.v === 'sattel') { var full = f.elements.ak.value === 'full'; lo += full ? 600 : 300; hi += full ? 1800 : 900; }
+    var trips = f.elements.back.checked ? 2 : 1;
+    out('trip').textContent = range(lo, hi);
+    out('total').textContent = range(lo * trips, hi * trips);
+    out('msgs').innerHTML = size > veh.max ? '<p class="tl__msg tl__msg--bad">' + t.notFit + '</p>' : '';
+  }
+  f.addEventListener('input', calc);
+  f.addEventListener('change', calc);
+  calc();
+})();
+</script>

@@ -136,6 +136,8 @@ Verlangen Sie diese Positionen ausdrücklich schriftlich:
 | Voraussetzungen an Zufahrt und Untergrund | verlagert sonst das Risiko auf Sie |
 | Zuschläge für Termine außerhalb der Kernzeit | vermeidbar bei flexibler Planung |
 
+> **Rechner:** Eine schnelle Kostenspanne für Ihren Fall liefert der [Transportkosten-Schätzer](/rechner/transportkosten) auf Basis der Werte in diesem Ratgeber.
+
 ## Wichtiger Hinweis
 
 > Alle Preisangaben sind **grobe Orientierungswerte ohne Gewähr**. Transportkosten hängen von Region, Auftragslage, Kraftstoffpreisen, Fahrzeugverfügbarkeit und den Verhältnissen vor Ort ab und schwanken erheblich. Verbindlich ist ausschließlich ein individuelles Angebot auf Basis der tatsächlichen Gegebenheiten. Anforderungen an Ladungssicherung, Schwertransport und Genehmigungen richten sich nach Straßenverkehrsrecht und den Auflagen der zuständigen Behörden.

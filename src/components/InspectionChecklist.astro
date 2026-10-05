@@ -1,0 +1,176 @@
+---
+/**
+ * Interaktive Besichtigungs-Checkliste mit Ampelbewertung.
+ * Prüfpunkte aus dem Ratgeber „Container besichtigen: Prüfprotokoll".
+ * Eingaben bleiben nur im Browser des Nutzers (localStorage), nichts wird übertragen.
+ */
+import '../styles/tools.css';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id?: string }
+const { lang, id = 'inspection' } = Astro.props;
+const de = lang === 'de';
+const items = de ? [
+  { k: 'nummer', crit: true, n: 'Container-Nummer, Plakette', g: 'Einheitlich, lesbar, stimmig', y: 'Teilweise überlackiert', r: 'Nummern passen nicht zusammen' },
+  { k: 'stand', crit: true, n: 'Gesamtstellung', g: 'Gerade, keine Schieflage', y: 'Leichte Dellen', r: 'Sichtbarer Verzug' },
+  { k: 'haut', crit: true, n: 'Außenhaut', g: 'Nur Flugrost', y: 'Rostpunkte, Blasen, kleine Flicken', r: 'Durchrostung, großflächige Reparaturen' },
+  { k: 'rahmen', crit: true, n: 'Eckbeschläge, Rahmen', g: 'Unbeschädigt', y: 'Leichte Kratzer, Oberflächenrost', r: 'Risse, Verformung, Durchrostung' },
+  { k: 'dach', crit: false, n: 'Dach', g: 'Eben, trocken', y: 'Leichte Dellen, kein stehendes Wasser', r: 'Wasserlachen, Rost, Löcher' },
+  { k: 'tueren', crit: false, n: 'Türen, Verschlüsse', g: 'Leichtgängig, sauber schließend', y: 'Schwergängig, nachstellbar', r: 'Verzogen, klemmend, defekt' },
+  { k: 'dichtung', crit: false, n: 'Dichtungen', g: 'Elastisch, durchgängig', y: 'Spröde, teilweise defekt (austauschbar)', r: 'Fehlen, großflächig zerstört' },
+  { k: 'licht', crit: false, n: 'Lichtprobe innen', g: 'Dunkel', y: 'Einzelne Lichtpunkte an Dichtungen', r: 'Löcher in Blech oder Wand' },
+  { k: 'boden', crit: false, n: 'Boden', g: 'Fest, trocken', y: 'Flecken, kleine Beschädigungen', r: 'Weich, durchgetreten, Schimmel' },
+  { k: 'geruch', crit: false, n: 'Geruch', g: 'Neutral', y: 'Leicht muffig', r: 'Chemisch oder stark modrig' },
+  { k: 'masse', crit: true, n: 'Maße, Diagonalen', g: 'Innerhalb der Toleranz', y: 'Leichte Abweichung', r: 'Deutliche Abweichung' },
+] : [
+  { k: 'nummer', crit: true, n: 'Container number, plate', g: 'Consistent, legible, plausible', y: 'Partly painted over', r: 'Numbers do not match' },
+  { k: 'stand', crit: true, n: 'Overall stance', g: 'Straight, no tilt', y: 'Minor dents', r: 'Visible distortion' },
+  { k: 'haut', crit: true, n: 'Outer skin', g: 'Surface rust only', y: 'Rust spots, blisters, small patches', r: 'Rust-through, large repairs' },
+  { k: 'rahmen', crit: true, n: 'Corner castings, frame', g: 'Undamaged', y: 'Light scratches, surface rust', r: 'Cracks, deformation, rust-through' },
+  { k: 'dach', crit: false, n: 'Roof', g: 'Flat, dry', y: 'Minor dents, no standing water', r: 'Puddles, rust, holes' },
+  { k: 'tueren', crit: false, n: 'Doors, locking gear', g: 'Moves freely, closes cleanly', y: 'Stiff, adjustable', r: 'Warped, jamming, defective' },
+  { k: 'dichtung', crit: false, n: 'Seals', g: 'Elastic, continuous', y: 'Brittle, partly damaged (replaceable)', r: 'Missing, extensively destroyed' },
+  { k: 'licht', crit: false, n: 'Light test inside', g: 'Dark', y: 'Single points of light at seals', r: 'Holes in panel or wall' },
+  { k: 'boden', crit: false, n: 'Floor', g: 'Firm, dry', y: 'Stains, minor damage', r: 'Soft, worn through, mould' },
+  { k: 'geruch', crit: false, n: 'Smell', g: 'Neutral', y: 'Slightly musty', r: 'Chemical or strongly mouldy' },
+  { k: 'masse', crit: true, n: 'Dimensions, diagonals', g: 'Within tolerance', y: 'Slight deviation', r: 'Clear deviation' },
+];
+const t = de ? {
+  title: 'Prüfprotokoll', intro: 'Bewerten Sie jeden Punkt vor Ort mit Grün, Gelb oder Rot. Ihre Eingaben werden nur in diesem Browser gespeichert und nirgendwohin übertragen.',
+  no: 'Container-Nummer', date: 'Datum', place: 'Ort / Händler', price: 'Angebotspreis (€)',
+  g: 'Grün', y: 'Gelb', r: 'Rot', crit: 'Ausschlusskriterium bei Rot',
+  notes: 'Notizen (Mängel, Fotos, Absprachen)',
+  open: 'offen', sum: 'Auswertung',
+  vNone: 'Bewerten Sie die Prüfpunkte, um eine Auswertung zu erhalten.',
+  vBad: 'Mindestens ein Ausschlusskriterium ist rot. In der Regel ein Grund, den Kauf abzulehnen oder ein deutlich anderes Angebot zu verlangen.',
+  vRed: 'Es gibt rote Punkte bei behebbaren Bauteilen. Lassen Sie die Reparaturkosten beziffern, bevor Sie zusagen.',
+  vYellow: 'Keine roten Punkte, aber Mängel. Beziffern Sie die gelben Punkte und nutzen Sie sie für die Preisverhandlung.',
+  vGood: 'Alle bewerteten Punkte sind grün.',
+  vOpen: 'Noch nicht alle Punkte bewertet.',
+  print: 'Drucken / als PDF speichern', reset: 'Zurücksetzen', resetQ: 'Alle Eingaben löschen?',
+  note: 'Die Checkliste ersetzt keine fachliche Begutachtung. Lassen Sie das Protokoll von beiden Seiten unterschreiben und nehmen Sie es in den Kaufvertrag auf.',
+} : {
+  title: 'Inspection record', intro: 'Rate each item on site as green, amber or red. Your entries are stored only in this browser and are not transmitted anywhere.',
+  no: 'Container number', date: 'Date', place: 'Location / dealer', price: 'Asking price (€)',
+  g: 'Green', y: 'Amber', r: 'Red', crit: 'Deal-breaker if red',
+  notes: 'Notes (defects, photos, agreements)',
+  open: 'open', sum: 'Assessment',
+  vNone: 'Rate the items to get an assessment.',
+  vBad: 'At least one deal-breaker is red. Usually a reason to walk away or to ask for a substantially different offer.',
+  vRed: 'There are red items on repairable parts. Get the repair costs quoted before you commit.',
+  vYellow: 'No red items, but defects. Put a figure on the amber items and use them in the price negotiation.',
+  vGood: 'All rated items are green.',
+  vOpen: 'Not all items have been rated yet.',
+  print: 'Print / save as PDF', reset: 'Reset', resetQ: 'Delete all entries?',
+  note: 'The checklist does not replace an expert inspection. Have both parties sign the record and include it in the purchase contract.',
+};
+---
+<section class="tl tl-insp" id={id} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`} class="tl__title">{t.title}</h2>
+  <p class="tl__intro">{t.intro}</p>
+  <form class="tl__form" onsubmit="return false">
+    <label>{t.no}<input type="text" name="no" maxlength="20" autocomplete="off" placeholder="ABCU 123456 7" /></label>
+    <label>{t.date}<input type="date" name="date" /></label>
+    <label>{t.place}<input type="text" name="place" maxlength="80" /></label>
+    <label>{t.price}<input type="number" name="price" min="0" step="50" inputmode="decimal" /></label>
+
+    <ol class="tl-insp__list">
+      {items.map((it) => (
+        <li class="tl-insp__item" data-key={it.k}>
+          <div class="tl-insp__head"><strong>{it.n}</strong>{it.crit && <span class="tl-insp__crit">{t.crit}</span>}</div>
+          <div class="tl-insp__opts" role="radiogroup" aria-label={it.n}>
+            <label class="is-g"><input type="radio" name={`r-${it.k}`} value="g" /><span><b>{t.g}</b>{it.g}</span></label>
+            <label class="is-y"><input type="radio" name={`r-${it.k}`} value="y" /><span><b>{t.y}</b>{it.y}</span></label>
+            <label class="is-r"><input type="radio" name={`r-${it.k}`} value="r" /><span><b>{t.r}</b>{it.r}</span></label>
+          </div>
+        </li>
+      ))}
+    </ol>
+    <label class="tl-insp__notes">{t.notes}<textarea name="notes" rows="4"></textarea></label>
+  </form>
+
+  <div class="tl__result" aria-live="polite">
+    <h3 class="tl__sub">{t.sum}</h3>
+    <div class="tl__kpis">
+      <div class="tl__kpi"><span>{t.g}</span><strong data-out="g">0</strong></div>
+      <div class="tl__kpi"><span>{t.y}</span><strong data-out="y">0</strong></div>
+      <div class="tl__kpi"><span>{t.r}</span><strong data-out="r">0</strong></div>
+      <div class="tl__kpi"><span>{t.open}</span><strong data-out="o">0</strong></div>
+    </div>
+    <p class="tl__msg" data-out="verdict"></p>
+    <div class="tl__btns tl-noprint">
+      <button type="button" class="tl__btn tl__btn--primary" data-act="print">{t.print}</button>
+      <button type="button" class="tl__btn" data-act="reset">{t.reset}</button>
+    </div>
+    <p class="tl__note">{t.note}</p>
+  </div>
+</section>
+
+<style is:global>
+  .tl-insp__list { grid-column: 1 / -1; list-style: none; padding: 0; margin: 0.4rem 0 0; display: flex; flex-direction: column; gap: 0.8rem; counter-reset: insp; }
+  .tl-insp__item { background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: 0.8rem 0.9rem; counter-increment: insp; }
+  .tl-insp__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.7rem; margin-bottom: 0.6rem; }
+  .tl-insp__head strong::before { content: counter(insp) ". "; color: var(--color-muted); }
+  .tl-insp__crit { font-size: var(--text-xs); font-weight: 700; color: #b42318; text-transform: uppercase; letter-spacing: 0.04em; }
+  .tl-insp__opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 0.5rem; }
+  .tl-insp__opts label { display: flex; gap: 0.5rem; align-items: flex-start; padding: 0.55rem 0.65rem; border: 1px solid var(--color-border-strong); border-radius: var(--radius-md); cursor: pointer; font-size: var(--text-sm); font-weight: 400; background: #fff; }
+  .tl-insp__opts input { margin-top: 0.2rem; }
+  .tl-insp__opts span b { display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.04em; }
+  .tl-insp__opts .is-g b { color: #1a7f4b; } .tl-insp__opts .is-y b { color: #9a6200; } .tl-insp__opts .is-r b { color: #b42318; }
+  .tl-insp__opts .is-g:has(input:checked) { background: #eef8f1; border-color: #1a7f4b; }
+  .tl-insp__opts .is-y:has(input:checked) { background: #fff6e5; border-color: #c98a00; }
+  .tl-insp__opts .is-r:has(input:checked) { background: #fdecec; border-color: #b42318; }
+  .tl-insp__notes { grid-column: 1 / -1; }
+  @media print {
+    .site-header, .site-footer, .crumbs, .tp-more, .tp-text, .tp-hero p, #cr-cookie, .tl-noprint { display: none !important; }
+    .tl { border: 0; background: none; padding: 0; margin: 0; }
+    .tl-insp__opts label:not(:has(input:checked)) { display: none; }
+    .tl-insp__item { break-inside: avoid; }
+  }
+</style>
+
+<script is:inline define:vars={{ id, items, t }}>
+(function () {
+  var root = document.getElementById(id); if (!root) return;
+  var f = root.querySelector('form'), KEY = 'cr-inspection-v1';
+  var out = function (k) { return root.querySelector('[data-out="' + k + '"]'); };
+  function load() {
+    try {
+      var s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (!s) return;
+      ['no', 'date', 'place', 'price', 'notes'].forEach(function (n) { if (s[n] != null) f.elements[n].value = s[n]; });
+      items.forEach(function (it) { var v = s['r-' + it.k]; if (v) { var el = f.querySelector('input[name="r-' + it.k + '"][value="' + v + '"]'); if (el) el.checked = true; } });
+    } catch (e) {}
+  }
+  function save() {
+    var s = {};
+    ['no', 'date', 'place', 'price', 'notes'].forEach(function (n) { s[n] = f.elements[n].value; });
+    items.forEach(function (it) { var el = f.querySelector('input[name="r-' + it.k + '"]:checked'); if (el) s['r-' + it.k] = el.value; });
+    try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {}
+  }
+  function evalAll() {
+    var c = { g: 0, y: 0, r: 0, o: 0 }, critRed = false;
+    items.forEach(function (it) {
+      var el = f.querySelector('input[name="r-' + it.k + '"]:checked');
+      if (!el) { c.o++; return; }
+      c[el.value]++;
+      if (el.value === 'r' && it.crit) critRed = true;
+    });
+    ['g', 'y', 'r', 'o'].forEach(function (k) { out(k).textContent = c[k]; });
+    var v = out('verdict'), txt, cls = 'tl__msg';
+    if (c.o === items.length) { txt = t.vNone; }
+    else if (critRed) { txt = t.vBad; cls += ' tl__msg--bad'; }
+    else if (c.r) { txt = t.vRed; cls += ' tl__msg--bad'; }
+    else if (c.y) { txt = t.vYellow; cls += ' tl__msg--warn'; }
+    else { txt = t.vGood; cls += ' tl__msg--ok'; }
+    if (c.o && c.o < items.length) txt += ' ' + t.vOpen;
+    v.textContent = txt; v.className = cls;
+  }
+  f.addEventListener('input', function () { save(); evalAll(); });
+  f.addEventListener('change', function () { save(); evalAll(); });
+  root.querySelector('[data-act=print]').addEventListener('click', function () { window.print(); });
+  root.querySelector('[data-act=reset]').addEventListener('click', function () {
+    if (!window.confirm(t.resetQ)) return;
+    f.reset(); try { localStorage.removeItem(KEY); } catch (e) {} evalAll();
+  });
+  load(); evalAll();
+})();
+</script>

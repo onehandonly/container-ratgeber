@@ -1,0 +1,45 @@
+---
+import ToolPage from '../ToolPage.astro';
+import InspectionChecklist from '../../InspectionChecklist.astro';
+import { localizePath, type Lang } from '../../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<ToolPage lang={lang} slug="besichtigung-checkliste"
+  title={de ? 'Besichtigungs-Checkliste für gebrauchte Container' : 'Inspection checklist for used containers'}
+  intro={de
+    ? 'Das Ampel-Protokoll zum Abhaken auf dem Smartphone: elf Prüfpunkte, automatische Auswertung und Druckansicht für die Unterschrift beider Seiten.'
+    : 'The traffic-light record to tick off on your smartphone: eleven checks, automatic assessment and a print view for both parties to sign.'}>
+  <InspectionChecklist lang={lang} />
+  <Fragment slot="text">
+    {de ? (<>
+      <h2>So setzen Sie die Checkliste ein</h2>
+      <ol>
+        <li>Öffnen Sie die Seite vor dem Termin auf dem Smartphone und tragen Sie Container-Nummer und Angebotspreis ein.</li>
+        <li>Gehen Sie vor Ort die Punkte in der Reihenfolge durch: Gesamteindruck, Kennzeichnung, Außenhaut, Rahmen, Dach, Türen, Innenraum, Maße.</li>
+        <li>Fotografieren Sie jeden gelben und roten Punkt und notieren Sie die Stelle.</li>
+        <li>Nutzen Sie die Druckansicht oder „Als PDF speichern", lassen Sie das Protokoll unterschreiben und nehmen Sie es in den Kaufvertrag auf.</li>
+      </ol>
+      <h2>Wie die Auswertung entsteht</h2>
+      <p>Fünf Punkte gelten als <strong>Ausschlusskriterien</strong>: Kennzeichnung, Verzug, Durchrostung der Außenhaut, Schäden an Eckbeschlägen und Rahmen sowie deutlich abweichende Maße. Ist einer davon rot, ist der Container in der Regel kein sinnvoller Kauf – solche Schäden lassen sich meist nicht wirtschaftlich beheben. Gelbe Punkte bei Türen, Dichtungen oder Boden sind dagegen typische Verhandlungsthemen. Wie Sie sie in einen Preisnachlass übersetzen, zeigt der Ratgeber <a href={L('/ratgeber/container-besichtigung-pruefprotokoll')}>Container besichtigen: Prüfprotokoll</a>.</p>
+      <h2>Datenschutz</h2>
+      <p>Ihre Eingaben werden ausschließlich im Speicher Ihres Browsers abgelegt, damit sie bei einem Neuladen der Seite erhalten bleiben. Sie werden nicht an uns oder Dritte übertragen. Mit „Zurücksetzen" löschen Sie sie vollständig.</p>
+      <p>Weitere Hinweise zum Kauf: <a href={L('/ratgeber/gebrauchten-container-kaufen')}>Gebrauchten Container kaufen</a> und – wenn keine Besichtigung möglich ist – <a href={L('/ratgeber/fake-containerhaendler-vorkasse-betrug')}>Fake-Containerhändler und Vorkasse-Betrug</a>.</p>
+    </>) : (<>
+      <h2>How to use the checklist</h2>
+      <ol>
+        <li>Open the page on your smartphone before the appointment and enter the container number and asking price.</li>
+        <li>On site, work through the items in order: overall impression, markings, outer skin, frame, roof, doors, interior, dimensions.</li>
+        <li>Photograph every amber and red item and note its position.</li>
+        <li>Use the print view or "Save as PDF", have the record signed and include it in the purchase contract.</li>
+      </ol>
+      <h2>How the assessment works</h2>
+      <p>Five items count as <strong>deal-breakers</strong>: markings, distortion, rust-through of the outer skin, damage to corner castings and frame, and clearly deviating dimensions. If one of them is red, the container is usually not a sensible purchase – such damage can rarely be repaired economically. Amber items on doors, seals or floor, by contrast, are typical negotiating points. How to turn them into a price reduction is shown in the guide <a href={L('/ratgeber/container-besichtigung-pruefprotokoll')}>Inspecting a container: the checklist</a>.</p>
+      <h2>Privacy</h2>
+      <p>Your entries are stored only in your browser's storage so that they survive a page reload. They are not transmitted to us or to third parties. "Reset" deletes them completely.</p>
+      <p>More on buying: <a href={L('/ratgeber/gebrauchten-container-kaufen')}>Buying a used container</a> and – if no viewing is possible – <a href={L('/ratgeber/fake-containerhaendler-vorkasse-betrug')}>Fake container dealers and advance-payment fraud</a>.</p>
+    </>)}
+  </Fragment>
+</ToolPage>

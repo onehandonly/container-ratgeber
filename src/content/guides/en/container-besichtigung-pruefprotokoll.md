@@ -150,6 +150,8 @@ If the seller is unwilling to accept any of these, ask yourself why.
 - **Deciding under time pressure.** "Another buyer is coming today" is a familiar sales tactic.
 - **Not carrying the protocol into the contract.**
 
+> **Tool:** The record is also available as an [interactive inspection checklist](/en/rechner/besichtigung-checkliste) to tick off on your smartphone – with automatic assessment and print view.
+
 ## Important note
 
 This guide is for general orientation and replaces neither a professional survey nor legal advice. Dimensions are standard values and may differ for individual manufacturers. All prices are indicative values without guarantee. For high-priced containers or those intended for living use, an independent survey is recommended.

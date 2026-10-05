@@ -1,0 +1,138 @@
+---
+/**
+ * Rechner „Was passt in den Container?" (clientseitig).
+ * Paletten: Kombination aus Längs- und Querbahnen über die Innenbreite.
+ * Kartons: bestes Raster aus allen sechs Ausrichtungen. Fahrräder: Richtwerte
+ * aus dem Ratgeber „Container als Fahrradgarage".
+ */
+import '../styles/tools.css';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id?: string }
+const { lang, id = 'volume-calc' } = Astro.props;
+const de = lang === 'de';
+const types = [
+  { v: '10', de: '10 Fuß', en: '10 ft', L: 2.83, W: 2.35, H: 2.39, dH: 2.28, pay: 8000 },
+  { v: '20', de: '20 Fuß', en: '20 ft', L: 5.90, W: 2.35, H: 2.39, dH: 2.28, pay: 28000 },
+  { v: '20hc', de: '20 Fuß High Cube', en: '20 ft high cube', L: 5.90, W: 2.35, H: 2.70, dH: 2.58, pay: 28000 },
+  { v: '40', de: '40 Fuß', en: '40 ft', L: 12.03, W: 2.35, H: 2.39, dH: 2.28, pay: 26500 },
+  { v: '40hc', de: '40 Fuß High Cube', en: '40 ft high cube', L: 12.03, W: 2.35, H: 2.70, dH: 2.58, pay: 26500 },
+];
+const t = de ? {
+  title: 'Ladung planen', intro: 'Wählen Sie Containergröße und Ladungsart. Die Innenmaße sind Näherungswerte aus unserem Ratgeber zu Größen und Maßen.',
+  size: 'Containergröße', what: 'Was soll hinein?',
+  euro: 'Europaletten (1,20 × 0,80 m)', ind: 'Industriepaletten (1,20 × 1,00 m)', box: 'Kartons / Kisten', bike: 'Fahrräder',
+  ph: 'Höhe einer beladenen Palette (m)', stack: 'Paletten doppelt stapelbar', pw: 'Gewicht je Palette (kg)',
+  bl: 'Karton Länge (cm)', bw: 'Karton Breite (cm)', bh: 'Karton Höhe (cm)', bkg: 'Gewicht je Karton (kg)',
+  count: 'passen rechnerisch hinein', floor: 'Stellplätze am Boden', layers: 'Lagen übereinander', util: 'Raumausnutzung', weight: 'Gesamtgewicht',
+  bikeFlat: 'längs an beiden Wänden, ebenerdig', bikeWall: 'mit Wandhaltern, Vorderrad hochgestellt',
+  tooHigh: 'Die Ladungshöhe ist größer als die Türöffnung dieses Containers ({d} m). So kommt die Ladung nicht hinein.',
+  stackDoor: 'Gestapelte Paletten werden meist draußen gestapelt und gemeinsam eingefahren. Gerechnet wird deshalb mit der Türhöhe ({d} m), nicht mit der Innenhöhe.',
+  overPay: 'Achtung: Das Gesamtgewicht liegt über der zulässigen Zuladung von ca. {p} kg.',
+  roadPay: 'Hinweis: Soll der Container beladen auf der Straße transportiert werden, gelten deutlich niedrigere Grenzen als die Zuladung.',
+  bikeNote: 'Richtwerte für Räder um 1,85 m Länge: längs etwa 1,85 m je Rad, mit Wandhaltern etwa 0,40 m Abstand, 1 m für Ecken und Türbereich abgezogen.',
+  note: 'Rechnerische Obergrenze ohne Gänge, Rangierraum und Ladungssicherung. In der Praxis bleiben oft 10–20 % weniger. Innenmaße schwanken je nach Hersteller um einige Zentimeter. Orientierungswerte ohne Gewähr.',
+} : {
+  title: 'Plan your load', intro: 'Choose container size and type of load. Internal dimensions are approximate values from our guide to sizes and dimensions.',
+  size: 'Container size', what: 'What goes in?',
+  euro: 'Euro pallets (1.20 × 0.80 m)', ind: 'Industrial pallets (1.20 × 1.00 m)', box: 'Boxes / crates', bike: 'Bicycles',
+  ph: 'Height of a loaded pallet (m)', stack: 'Pallets can be double-stacked', pw: 'Weight per pallet (kg)',
+  bl: 'Box length (cm)', bw: 'Box width (cm)', bh: 'Box height (cm)', bkg: 'Weight per box (kg)',
+  count: 'fit in theory', floor: 'floor positions', layers: 'layers', util: 'Space utilisation', weight: 'Total weight',
+  bikeFlat: 'lengthwise along both walls, on the floor', bikeWall: 'with wall hangers, front wheel raised',
+  tooHigh: 'The load is taller than the door opening of this container ({d} m). It will not go in like this.',
+  stackDoor: 'Stacked pallets are usually stacked outside and driven in together. The calculation therefore uses the door height ({d} m), not the internal height.',
+  overPay: 'Caution: the total weight exceeds the permissible payload of approx. {p} kg.',
+  roadPay: 'Note: if the container is to be moved by road while loaded, much lower limits than the payload apply.',
+  bikeNote: 'Guide values for bikes around 1.85 m long: about 1.85 m per bike lengthwise, about 0.40 m spacing with wall hangers, 1 m deducted for corners and door area.',
+  note: 'Theoretical maximum without aisles, manoeuvring space or load securing. In practice, 10–20% less is common. Internal dimensions vary by a few centimetres between manufacturers. Orientation values without guarantee.',
+};
+const typeData = types.map(({ v, L, W, H, dH, pay }) => ({ v, L, W, H, dH, pay }));
+---
+<section class="tl" id={id} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`} class="tl__title">{t.title}</h2>
+  <p class="tl__intro">{t.intro}</p>
+  <form class="tl__form" onsubmit="return false">
+    <label>{t.size}<select name="type">{types.map((c) => <option value={c.v} selected={c.v === '20'}>{de ? c.de : c.en}</option>)}</select></label>
+    <label>{t.what}<select name="mode">
+      <option value="euro">{t.euro}</option><option value="ind">{t.ind}</option><option value="box">{t.box}</option><option value="bike">{t.bike}</option>
+    </select></label>
+    <label data-for="pallet">{t.ph}<input type="number" name="ph" min="0.1" max="3" step="0.05" value="1.2" inputmode="decimal" /></label>
+    <label data-for="pallet">{t.pw}<input type="number" name="pw" min="0" step="50" value="500" inputmode="decimal" /></label>
+    <label data-for="pallet" class="tl__check"><input type="checkbox" name="stack" /> {t.stack}</label>
+    <label data-for="box">{t.bl}<input type="number" name="bl" min="5" step="1" value="60" inputmode="decimal" /></label>
+    <label data-for="box">{t.bw}<input type="number" name="bw" min="5" step="1" value="33" inputmode="decimal" /></label>
+    <label data-for="box">{t.bh}<input type="number" name="bh" min="5" step="1" value="34" inputmode="decimal" /></label>
+    <label data-for="box">{t.bkg}<input type="number" name="bkg" min="0" step="1" value="15" inputmode="decimal" /></label>
+  </form>
+
+  <div class="tl__result" aria-live="polite">
+    <div class="tl__kpis" data-out="kpis"></div>
+    <div data-out="msgs"></div>
+    <p class="tl__note">{t.note}</p>
+  </div>
+</section>
+
+<script is:inline define:vars={{ id, lang, t, typeData }}>
+(function () {
+  var root = document.getElementById(id); if (!root) return;
+  var f = root.querySelector('form');
+  var nf = new Intl.NumberFormat(lang === 'de' ? 'de-DE' : 'en-GB', { maximumFractionDigits: 0 });
+  var nf2 = new Intl.NumberFormat(lang === 'de' ? 'de-DE' : 'en-GB', { maximumFractionDigits: 2 });
+  var num = function (n) { var v = parseFloat(f.elements[n].value); return isFinite(v) && v > 0 ? v : 0; };
+  var out = function (k) { return root.querySelector('[data-out="' + k + '"]'); };
+  var EPS = 1e-9;
+  function lanes(L, W, a, b) { // a = kurze Seite, b = lange Seite
+    var best = 0;
+    for (var na = 0; na * a <= W + EPS; na++) {
+      for (var nb = 0; na * a + nb * b <= W + EPS; nb++) {
+        var c = na * Math.floor(L / b + EPS) + nb * Math.floor(L / a + EPS);
+        if (c > best) best = c;
+      }
+    }
+    return best;
+  }
+  function grid(L, W, H, d) {
+    var p = [[0,1,2],[0,2,1],[1,0,2],[1,2,0],[2,0,1],[2,1,0]], best = 0;
+    p.forEach(function (o) { var c = Math.floor(L / d[o[0]] + EPS) * Math.floor(W / d[o[1]] + EPS) * Math.floor(H / d[o[2]] + EPS); if (c > best) best = c; });
+    return best;
+  }
+  function kpi(label, value, main) { return '<div class="tl__kpi' + (main ? ' tl__kpi--main' : '') + '"><span>' + label + '</span><strong>' + value + '</strong></div>'; }
+  function msg(text, cls) { return '<p class="tl__msg ' + (cls || '') + '">' + text + '</p>'; }
+  function calc() {
+    var c = typeData.filter(function (x) { return x.v === f.elements.type.value; })[0];
+    var mode = f.elements.mode.value, isPal = mode === 'euro' || mode === 'ind';
+    root.querySelectorAll('[data-for]').forEach(function (el) {
+      var show = (el.dataset.for === 'pallet' && isPal) || (el.dataset.for === 'box' && mode === 'box');
+      el.style.display = show ? '' : 'none';
+    });
+    var vol = c.L * c.W * c.H, k = '', m = '';
+    if (isPal) {
+      var w = mode === 'euro' ? 0.8 : 1.0, l = 1.2, h = num('ph'), kg = num('pw');
+      var floorN = lanes(c.L, c.W, w, l);
+      var stack = f.elements.stack.checked;
+      var layers = h > c.dH ? 0 : (stack ? Math.max(1, Math.floor(c.dH / h + EPS)) : 1);
+      var n = floorN * layers, tot = n * kg;
+      k += kpi(t.count, nf.format(n), true) + kpi(t.floor, nf.format(floorN)) + kpi(t.layers, nf.format(layers)) + kpi(t.weight, nf.format(tot) + ' kg');
+      if (h > c.dH) m += msg(t.tooHigh.replace('{d}', nf2.format(c.dH)), 'tl__msg--bad');
+      else if (stack) m += msg(t.stackDoor.replace('{d}', nf2.format(c.dH)), 'tl__msg--warn');
+      if (tot > c.pay) m += msg(t.overPay.replace('{p}', nf.format(c.pay)), 'tl__msg--bad');
+      else if (tot > 0) m += msg(t.roadPay);
+    } else if (mode === 'box') {
+      var d = [num('bl') / 100, num('bw') / 100, num('bh') / 100];
+      var n2 = d[0] && d[1] && d[2] ? grid(c.L, c.W, c.H, d) : 0;
+      var util = vol ? n2 * d[0] * d[1] * d[2] / vol * 100 : 0, tot2 = n2 * num('bkg');
+      k += kpi(t.count, nf.format(n2), true) + kpi(t.util, nf.format(util) + ' %') + kpi(t.weight, nf.format(tot2) + ' kg');
+      if (tot2 > c.pay) m += msg(t.overPay.replace('{p}', nf.format(c.pay)), 'tl__msg--bad');
+    } else {
+      var flat = 2 * Math.floor(c.L / 1.85 + EPS), wall = 2 * Math.max(0, Math.floor((c.L - 1.0) / 0.40 + EPS));
+      k += kpi(t.bikeWall, nf.format(wall), true) + kpi(t.bikeFlat, nf.format(flat));
+      m += msg(t.bikeNote);
+    }
+    out('kpis').innerHTML = k;
+    out('msgs').innerHTML = m;
+  }
+  f.addEventListener('input', calc);
+  f.addEventListener('change', calc);
+  calc();
+})();
+</script>

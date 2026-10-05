@@ -136,6 +136,8 @@ Insist on these items in writing:
 | Requirements for access and ground | otherwise the risk shifts to you |
 | Surcharges for out-of-hours slots | avoidable with flexible planning |
 
+> **Tool:** The [transport cost estimator](/en/rechner/transportkosten) gives you a quick cost range for your case, based on the values in this guide.
+
 ## Important note
 
 > All prices are **rough orientation values without guarantee**. Transport costs depend on region, order volumes, fuel prices, vehicle availability and site conditions, and vary considerably. Only an individual quote based on the actual circumstances is binding. Requirements for load securing, abnormal loads and permits follow road traffic law and the conditions set by the responsible authorities.

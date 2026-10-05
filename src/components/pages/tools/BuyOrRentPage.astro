@@ -1,0 +1,53 @@
+---
+import ToolPage from '../ToolPage.astro';
+import BuyOrRentCalculator from '../../BuyOrRentCalculator.astro';
+import { localizePath, type Lang } from '../../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<ToolPage lang={lang} slug="kaufen-oder-mieten"
+  title={de ? 'Kaufen oder mieten? Der Gleichstand-Rechner' : 'Buy or rent? The break-even calculator'}
+  intro={de
+    ? 'Ab welcher Nutzungsdauer ist ein eigener Container günstiger als ein Mietcontainer? Der Rechner vergleicht die kumulierten Kosten und zeigt den Gleichstand mit und ohne Wiederverkauf.'
+    : 'From what period of use is your own container cheaper than a rented one? The calculator compares cumulative costs and shows the break-even point with and without resale.'}>
+  <BuyOrRentCalculator lang={lang} />
+  <Fragment slot="text">
+    {de ? (<>
+      <h2>So rechnet der Rechner</h2>
+      <p>Die <strong>Miete</strong> kostet einmalig Lieferung und Abholung plus die Monatsmiete. Der <strong>Kauf</strong> kostet Kaufpreis und Anlieferung, dazu auf Wunsch eine jährliche Instandhaltung. Wird der Container am Ende verkauft, kommen die Abholung als Kosten und der Verkaufserlös als Gutschrift hinzu.</p>
+      <p>Daraus ergeben sich zwei Gleichstände:</p>
+      <ul>
+        <li><strong>Ohne Wiederverkauf</strong> – der Container bleibt bei Ihnen. Das ist die vorsichtige Sicht und passt zu Dauerbedarf.</li>
+        <li><strong>Mit Wiederverkauf</strong> – Sie verkaufen nach der Nutzung. Dann lohnt sich der Kauf deutlich früher, allerdings nur, wenn Sie den angenommenen Preis tatsächlich erzielen.</li>
+      </ul>
+      <h2>Beispiel mit den voreingestellten Werten</h2>
+      <p>Ein gebrauchter 20-Fuß-Lagercontainer für 2.400 € plus 250 € Anlieferung gegen eine Miete von 95 € im Monat plus 500 € für Lieferung und Abholung: Ohne Wiederverkauf liegt der Gleichstand bei (2.650 − 500) ÷ 95 ≈ 23 Monaten. Mit einem Verkaufserlös von 1.700 € und 250 € Abholung sinken die Nettokosten des Kaufs auf 1.200 € – der Gleichstand liegt dann bei rund 8 Monaten. Die Spanne zwischen 8 und 23 Monaten zeigt, wie stark das Ergebnis vom Wiederverkauf abhängt.</p>
+      <h2>Was zusätzlich zählt</h2>
+      <ul>
+        <li><strong>Flexibilität:</strong> Bei unsicherem Bedarf spricht viel für die Miete, auch wenn sie rechnerisch etwas teurer ist.</li>
+        <li><strong>Kapitalbindung und Steuer:</strong> Beim Kauf ist Geld gebunden, Mieten sind laufender Aufwand. Die steuerliche Wirkung hängt von Ihrer Situation ab.</li>
+        <li><strong>Zustand:</strong> Ein günstiger Gebrauchtcontainer kann Reparaturkosten mitbringen. Prüfen Sie ihn mit der <a href={L('/rechner/besichtigung-checkliste')}>Besichtigungs-Checkliste</a>.</li>
+      </ul>
+      <p>Die Abwägung im Detail steht im Ratgeber <a href={L('/ratgeber/container-kaufen-oder-mieten')}>Container kaufen oder mieten?</a>, Preisorientierung unter <a href={L('/ratgeber/was-kostet-ein-container')}>Was kostet ein Container?</a>. Wer die Investition strecken will, vergleicht zusätzlich mit dem <a href={L('/rechner/leasing')}>Leasingrechner</a>.</p>
+    </>) : (<>
+      <h2>How the calculator works</h2>
+      <p><strong>Renting</strong> costs a one-off delivery and collection plus the monthly rent. <strong>Buying</strong> costs the purchase price and delivery, plus optional annual upkeep. If you sell the container at the end, collection is added as a cost and the sale proceeds as a credit.</p>
+      <p>This gives two break-even points:</p>
+      <ul>
+        <li><strong>Without resale</strong> – the container stays with you. This is the cautious view and suits permanent needs.</li>
+        <li><strong>With resale</strong> – you sell after use. Buying then pays off much sooner, but only if you actually achieve the assumed price.</li>
+      </ul>
+      <h2>Example with the default values</h2>
+      <p>A used 20 ft storage container for €2,400 plus €250 delivery against rent of €95 a month plus €500 for delivery and collection: without resale the break-even is (2,650 − 500) ÷ 95 ≈ 23 months. With sale proceeds of €1,700 and €250 for collection, the net cost of buying falls to €1,200 – the break-even is then around 8 months. The gap between 8 and 23 months shows how much the result depends on resale.</p>
+      <h2>What else matters</h2>
+      <ul>
+        <li><strong>Flexibility:</strong> if your need is uncertain, renting is often the better choice even if it costs a little more.</li>
+        <li><strong>Capital and tax:</strong> buying ties up money, rent is an ongoing expense. The tax effect depends on your situation.</li>
+        <li><strong>Condition:</strong> a cheap used container may come with repair costs. Check it with the <a href={L('/rechner/besichtigung-checkliste')}>inspection checklist</a>.</li>
+      </ul>
+      <p>The detailed trade-off is in the guide <a href={L('/ratgeber/container-kaufen-oder-mieten')}>Buy or rent a container?</a>, price orientation in <a href={L('/ratgeber/was-kostet-ein-container')}>What does a container cost?</a>. If you want to spread the investment, also compare with the <a href={L('/rechner/leasing')}>leasing calculator</a>.</p>
+    </>)}
+  </Fragment>
+</ToolPage>

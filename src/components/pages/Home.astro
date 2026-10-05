@@ -33,6 +33,8 @@ const featured = lang === 'en'
       { icon: 'permit', title: 'Baugenehmigung nötig?', teaser: 'Wann Container in Deutschland genehmigungspflichtig sind.', href: '/ratgeber/container-baugenehmigung' },
       { icon: 'wohn', title: 'Im Container wohnen', teaser: 'Vom Tiny House bis zum Büro – Dämmung, Recht und Ausbau.', href: '/ratgeber/wohncontainer-ausbauen' },
     ];
+import ToolIcon from '../ToolIcon.astro';
+import { tools, toolText } from '../../lib/tools';
 ---
 <!-- ============ HERO ============ -->
 <section class="hero">
@@ -114,6 +116,25 @@ const featured = lang === 'en'
       ))}
     </div>
     <div class="section-cta"><a href={L('/ratgeber')} class="btn btn--ghost">{t('topics.all')} →</a></div>
+  </div>
+</section>
+
+<!-- ============ RECHNER & WERKZEUGE ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{lang === 'en' ? 'Tools' : 'Werkzeuge'}</span>
+      <h2>{lang === 'en' ? 'Calculators & tools' : 'Rechner & Werkzeuge'}</h2>
+    </div>
+    <div class="home-tools">
+      {tools.map((tool) => (
+        <a href={L(`/rechner/${tool.slug}`)} class="card card--link home-tool">
+          <span class="home-tool__icon"><ToolIcon icon={tool.icon} /></span>
+          <span><strong>{toolText(tool, lang).name}</strong><small>{toolText(tool, lang).teaser}</small></span>
+        </a>
+      ))}
+    </div>
+    <div class="section-cta"><a href={L('/rechner')} class="btn btn--ghost">{lang === 'en' ? 'All tools' : 'Alle Werkzeuge'} →</a></div>
   </div>
 </section>
 
@@ -213,4 +234,10 @@ const featured = lang === 'en'
   .hero__calc-link:hover { text-decoration: underline; }
   .calc-teaser { padding-block: clamp(1.5rem, 1rem + 2vw, 2.5rem) 0; }
   .endcta-stack { display: flex; flex-direction: column; gap: var(--gap); }
+  .home-tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: var(--gap); }
+  .home-tool { display: flex; gap: 0.9rem; align-items: flex-start; padding: 1rem; text-decoration: none; color: inherit; }
+  .home-tool__icon { flex-shrink: 0; width: 3rem; height: 3rem; border-radius: var(--radius-md); background: var(--grad-brand-deep); color: #fff; display: flex; align-items: center; justify-content: center; }
+  .home-tool__icon :global(svg) { width: 2rem; height: 2rem; }
+  .home-tool strong { display: block; }
+  .home-tool small { display: block; color: var(--color-ink-soft); font-size: var(--text-sm); margin-top: 0.25rem; }
 </style>

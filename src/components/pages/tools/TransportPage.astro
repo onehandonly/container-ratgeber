@@ -1,0 +1,43 @@
+---
+import ToolPage from '../ToolPage.astro';
+import TransportEstimator from '../../TransportEstimator.astro';
+import { localizePath, type Lang } from '../../../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const L = (p: string) => localizePath(p, lang);
+const de = lang === 'de';
+---
+<ToolPage lang={lang} slug="transportkosten"
+  title={de ? 'Transportkosten-Schätzer für Container' : 'Container transport cost estimator'}
+  intro={de
+    ? 'Was kosten Anlieferung und Abholung? Der Schätzer liefert eine Kostenspanne nach Containergröße, Entfernung und Fahrzeug – als Plausibilitätscheck für Angebote.'
+    : 'What do delivery and collection cost? The estimator gives a cost range by container size, distance and vehicle – as a plausibility check for quotes.'}>
+  <TransportEstimator lang={lang} />
+  <Fragment slot="text">
+    {de ? (<>
+      <h2>Welches Fahrzeug passt?</h2>
+      <ul>
+        <li><strong>Absetzkipper:</strong> für kleine Container bis etwa 10 Fuß, wenig Platzbedarf, setzt nur hinter dem Fahrzeug ab.</li>
+        <li><strong>Abrollkipper (Hakenlift):</strong> für Container bis 20 Fuß, häufig die günstigste Variante, braucht aber Rangierweg in Fahrtrichtung.</li>
+        <li><strong>Lkw mit Ladekran:</strong> setzt präzise ab, auch über Hindernisse – dafür teurer. Seitlich muss Platz für die Abstützung sein, darüber keine Leitungen.</li>
+        <li><strong>Sattelzug mit Autokran:</strong> für 40-Fuß-Container und schwierige Stellen. Der Autokran wird meist nach halben oder ganzen Einsatztagen abgerechnet.</li>
+      </ul>
+      <h2>Wie die Spanne entsteht</h2>
+      <p>Grundlage sind die Orientierungswerte aus unserem Ratgeber <a href={L('/ratgeber/container-transport-lieferkosten')}>Container-Transport und Lieferkosten</a>: eine Fahrzeugpauschale im Nahbereich bis etwa 25 km, darüber ca. 1,80–4,50 € je Kilometer auf doppelter Strecke, beim Ladekran zusätzlich ca. 150–350 € je weiterer Kranstunde und beim Autokran ca. 600–1.800 € je Einsatztag. Die Spannen sind bewusst breit: Region, Auslastung und Zugänglichkeit verschieben den Preis erheblich.</p>
+      <h2>So nutzen Sie das Ergebnis</h2>
+      <p>Liegt ein Angebot deutlich über der Spanne, fragen Sie nach, was enthalten ist – etwa Wartezeit, Kranstunden oder Sondergenehmigungen. Liegt es deutlich darunter, prüfen Sie, ob Abholung, Entladen und Kran wirklich enthalten sind. Den Ablauf am Liefertag beschreibt <a href={L('/ratgeber/container-transportieren')}>Container transportieren</a>; wie Angebote vergleichbar werden, steht in <a href={L('/ratgeber/container-angebote-vergleichen')}>Container-Angebote vergleichen</a>.</p>
+    </>) : (<>
+      <h2>Which vehicle fits?</h2>
+      <ul>
+        <li><strong>Skip loader:</strong> for small containers up to about 10 ft, little space needed, sets down only behind the vehicle.</li>
+        <li><strong>Hook-lift truck:</strong> for containers up to 20 ft, often the cheapest option, but needs manoeuvring room in the direction of travel.</li>
+        <li><strong>Truck with loader crane:</strong> sets down precisely, even over obstacles – at a higher price. There must be room at the side for the outriggers and no overhead lines.</li>
+        <li><strong>Articulated lorry with mobile crane:</strong> for 40 ft containers and difficult sites. The mobile crane is usually charged by half or full days.</li>
+      </ul>
+      <h2>How the range is calculated</h2>
+      <p>It is based on the orientation values from our guide <a href={L('/ratgeber/container-transport-lieferkosten')}>Container transport and delivery costs</a>: a vehicle flat rate within about 25 km, beyond that about €1.80–4.50 per kilometre on the double distance, an extra €150–350 per additional crane hour for a loader crane and about €600–1,800 per day for a mobile crane. The ranges are deliberately wide: region, demand and access shift the price considerably.</p>
+      <h2>How to use the result</h2>
+      <p>If a quote is well above the range, ask what is included – such as waiting time, crane hours or special permits. If it is well below, check whether collection, unloading and crane work are really included. The delivery day is described in <a href={L('/ratgeber/container-transportieren')}>Transporting a container</a>; how to make quotes comparable is covered in <a href={L('/ratgeber/container-angebote-vergleichen')}>Comparing container quotes</a>.</p>
+    </>)}
+  </Fragment>
+</ToolPage>

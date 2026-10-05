@@ -150,6 +150,8 @@ Ist der Verkäufer nicht bereit, eines dieser Verfahren zu akzeptieren, sollten 
 - **Unter Zeitdruck entscheiden.** „Ein anderer Interessent kommt heute noch" ist ein bekannter Verkaufsdruck.
 - **Das Protokoll nicht in den Vertrag übernehmen.**
 
+> **Rechner:** Das Protokoll gibt es auch als [interaktive Besichtigungs-Checkliste](/rechner/besichtigung-checkliste) zum Abhaken auf dem Smartphone – mit automatischer Auswertung und Druckansicht.
+
 ## Wichtiger Hinweis
 
 Dieser Beitrag dient der allgemeinen Orientierung und ersetzt keine fachliche Begutachtung und keine Rechtsberatung. Maße sind Normwerte und können bei einzelnen Herstellern abweichen. Alle Preise sind Orientierungswerte ohne Gewähr. Bei hochpreisigen oder für Wohnzwecke vorgesehenen Containern empfiehlt sich eine unabhängige Begutachtung.

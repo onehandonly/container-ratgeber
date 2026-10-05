@@ -249,6 +249,8 @@ External height is around 2.60–2.80 m in each case. These lengths are also ava
 
 You can read how the different sizes differ in price in the article [What does a container cost?](/en/ratgeber/was-kostet-ein-container).
 
+> **Tool:** How many pallets, boxes or bicycles fit into each size is calculated by the [What fits in the container?](/en/rechner/container-volumen) tool – including door height and payload.
+
 ## Conclusion
 
 Choosing the right container size depends less on the label than on the actual dimensions. What counts is the usable **internal size**, the often overlooked **door opening** and – for transport – the permitted **payload**. Shipping containers are strictly standardised and therefore easy to plan with, while site container modules can be coupled flexibly. Anyone who consults the tables compiled here before renting or buying avoids nasty surprises and reliably finds the right size for their project.

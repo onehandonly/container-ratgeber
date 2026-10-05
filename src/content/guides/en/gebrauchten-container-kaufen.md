@@ -77,6 +77,8 @@ Have the transport cost itemised separately and clarify who is liable for damage
 
 Compare several offers and factor in condition, year of manufacture, size and delivery. Documented defects are your best bargaining argument – every rust spot and every brittle seal lowers the fair price. Ask specifically whether minor repairs (paintwork, floor patching) are included in the price. For guidance on realistic amounts, see our article [What does a container cost?](/en/ratgeber/was-kostet-ein-container). To find out which size suits your project, read [Sizes & dimensions](/en/ratgeber/container-groessen-und-masse).
 
+> **Tool:** For the on-site viewing you can use the [interactive inspection checklist](/en/rechner/besichtigung-checkliste) on your smartphone.
+
 ## Conclusion
 
 A used container is a solid and affordable choice – provided you inspect the condition conscientiously. Understand the condition grades, work through the inspection checklist consistently, and always insist on a viewing. Corrosion-through, damaged corner castings and leaking doors are the expensive defects; surface rust and small dents are usually manageable. If you carefully compare source, transport and price and stay sceptical about advance-payment traps, you buy safely and save real money.

@@ -1,0 +1,136 @@
+---
+/**
+ * Rechner „Kaufen oder mieten?" (clientseitig).
+ * Vergleicht kumulierte Kosten von Miete und Kauf und ermittelt den Gleichstand
+ * mit und ohne Wiederverkauf. Der Wiederverkaufswert wird als fester Betrag angenommen.
+ */
+import '../styles/tools.css';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id?: string }
+const { lang, id = 'buy-rent' } = Astro.props;
+const de = lang === 'de';
+const t = de ? {
+  title: 'Ihre Zahlen', intro: 'Vorbelegt mit Orientierungswerten für einen gebrauchten 20-Fuß-Lagercontainer. Ersetzen Sie sie durch Ihre Angebote.',
+  buy: 'Kauf', rent: 'Miete',
+  price: 'Kaufpreis (€)', delivery: 'Anlieferung (€)', pickup: 'Abholung beim Verkauf (€)', pickupHint: 'Transport, wenn Sie den Container später verkaufen',
+  maint: 'Instandhaltung pro Jahr (€)', maintHint: 'z. B. Rostschutz, Dichtungen; 0 = nicht berücksichtigen',
+  resale: 'Erwarteter Wiederverkaufserlös (€)', resaleHint: 'was Sie beim Verkauf realistisch erzielen',
+  monthly: 'Monatsmiete (€)', fixed: 'Lieferung und Abholung zusammen (€)', fixedHint: 'einmalige Transportkosten der Miete',
+  months: 'Geplante Nutzungsdauer (Monate)',
+  beNo: 'Kauf günstiger ab (ohne Wiederverkauf)', beYes: 'Kauf günstiger ab (mit Wiederverkauf)',
+  costRent: 'Miete über die Nutzungsdauer', costBuy: 'Kauf über die Nutzungsdauer', costBuyNet: 'mit Wiederverkauf',
+  mo: 'Monat', mos: 'Monaten', never: 'nie', immediately: 'sofort',
+  chart: 'Kumulierte Kosten', lRent: 'Miete', lBuy: 'Kauf, Container bleibt', lBuyResale: 'Kauf mit Wiederverkauf',
+  verdictRent: 'Bei der geplanten Dauer ist die Miete voraussichtlich günstiger.', verdictBuy: 'Bei der geplanten Dauer ist der Kauf voraussichtlich günstiger.', verdictBuyResale: 'Bei der geplanten Dauer ist der Kauf nur dann günstiger, wenn Sie den Container am Ende zum angenommenen Preis verkaufen.',
+  note: 'Vereinfachte Rechnung ohne Zinsen, Steuerwirkung und Kaution. Der Wiederverkaufserlös wird unabhängig von der Nutzungsdauer angesetzt; je länger Sie den Container nutzen, desto vorsichtiger sollten Sie ihn schätzen. Orientierungswerte ohne Gewähr.',
+} : {
+  title: 'Your figures', intro: 'Pre-filled with orientation values for a used 20 ft storage container. Replace them with your quotes.',
+  buy: 'Buying', rent: 'Renting',
+  price: 'Purchase price (€)', delivery: 'Delivery (€)', pickup: 'Collection when selling (€)', pickupHint: 'transport when you sell the container later',
+  maint: 'Upkeep per year (€)', maintHint: 'e.g. rust protection, seals; 0 = ignore',
+  resale: 'Expected resale proceeds (€)', resaleHint: 'what you can realistically get when selling',
+  monthly: 'Monthly rent (€)', fixed: 'Delivery and collection combined (€)', fixedHint: 'one-off transport costs of renting',
+  months: 'Planned period of use (months)',
+  beNo: 'Buying cheaper from (without resale)', beYes: 'Buying cheaper from (with resale)',
+  costRent: 'Rental over the period', costBuy: 'Purchase over the period', costBuyNet: 'with resale',
+  mo: 'month', mos: 'months', never: 'never', immediately: 'immediately',
+  chart: 'Cumulative cost', lRent: 'Rental', lBuy: 'Purchase, container stays', lBuyResale: 'Purchase with resale',
+  verdictRent: 'For the planned period, renting is likely to be cheaper.', verdictBuy: 'For the planned period, buying is likely to be cheaper.', verdictBuyResale: 'For the planned period, buying is only cheaper if you sell the container at the assumed price at the end.',
+  note: 'Simplified calculation without interest, tax effects or deposit. Resale proceeds are applied regardless of the period of use; the longer you use the container, the more cautiously you should estimate them. Orientation values without guarantee.',
+};
+---
+<section class="tl" id={id} aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`} class="tl__title">{t.title}</h2>
+  <p class="tl__intro">{t.intro}</p>
+  <form class="tl__form" onsubmit="return false">
+    <fieldset class="tl__fieldset"><legend>{t.buy}</legend>
+      <div class="tl__form">
+        <label>{t.price}<input type="number" name="price" min="0" step="50" value="2400" inputmode="decimal" /></label>
+        <label>{t.delivery}<input type="number" name="delivery" min="0" step="10" value="250" inputmode="decimal" /></label>
+        <label>{t.pickup}<input type="number" name="pickup" min="0" step="10" value="250" inputmode="decimal" /><small>{t.pickupHint}</small></label>
+        <label>{t.maint}<input type="number" name="maint" min="0" step="10" value="0" inputmode="decimal" /><small>{t.maintHint}</small></label>
+        <label>{t.resale}<input type="number" name="resale" min="0" step="50" value="1700" inputmode="decimal" /><small>{t.resaleHint}</small></label>
+      </div>
+    </fieldset>
+    <fieldset class="tl__fieldset"><legend>{t.rent}</legend>
+      <div class="tl__form">
+        <label>{t.monthly}<input type="number" name="rent" min="0" step="5" value="95" inputmode="decimal" /></label>
+        <label>{t.fixed}<input type="number" name="fixed" min="0" step="10" value="500" inputmode="decimal" /><small>{t.fixedHint}</small></label>
+        <label>{t.months}<input type="number" name="months" min="1" max="240" step="1" value="24" inputmode="numeric" /></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="tl__result" aria-live="polite">
+    <div class="tl__kpis">
+      <div class="tl__kpi tl__kpi--main"><span>{t.beYes}</span><strong data-out="beYes">–</strong></div>
+      <div class="tl__kpi"><span>{t.beNo}</span><strong data-out="beNo">–</strong></div>
+      <div class="tl__kpi"><span>{t.costRent}</span><strong data-out="costRent">–</strong></div>
+      <div class="tl__kpi"><span>{t.costBuy}</span><strong data-out="costBuy">–</strong><span data-out="costBuyNet"></span></div>
+    </div>
+    <p class="tl__msg" data-out="verdict"></p>
+    <h3 class="tl__sub">{t.chart}</h3>
+    <div class="tl__chart"><svg data-out="chart" viewBox="0 0 640 260" role="img" aria-label={t.chart}></svg>
+      <div class="tl__legend"><span><i style="background:#d9822b"></i>{t.lRent}</span><span><i style="background:#1f3a8a"></i>{t.lBuy}</span><span><i style="background:#1f9d73"></i>{t.lBuyResale}</span></div>
+    </div>
+    <p class="tl__note">{t.note}</p>
+  </div>
+</section>
+
+<script is:inline define:vars={{ id, lang, t }}>
+(function () {
+  var root = document.getElementById(id); if (!root) return;
+  var f = root.querySelector('form');
+  var nf = new Intl.NumberFormat(lang === 'de' ? 'de-DE' : 'en-GB', { maximumFractionDigits: 0 });
+  var eur = function (v) { return nf.format(Math.round(v)) + ' €'; };
+  var num = function (n) { var v = parseFloat(f.elements[n].value); return isFinite(v) && v >= 0 ? v : 0; };
+  var out = function (k) { return root.querySelector('[data-out="' + k + '"]'); };
+  function months(n) {
+    if (n === null) return t.never;
+    if (n <= 0) return t.immediately;
+    var m = Math.ceil(n);
+    return m + ' ' + (m === 1 ? t.mo : t.mos);
+  }
+  function calc() {
+    var price = num('price'), del = num('delivery'), pick = num('pickup'), maint = num('maint') / 12, resale = num('resale');
+    var rent = num('rent'), fixed = num('fixed'), N = Math.max(1, Math.round(num('months')) || 1);
+    var diff = rent - maint;
+    var beNo = diff > 0 ? (price + del - fixed) / diff : null;
+    var beYes = diff > 0 ? (price + del + pick - resale - fixed) / diff : null;
+    var cRent = fixed + rent * N, cBuy = price + del + maint * N, cBuyNet = price + del + pick + maint * N - resale;
+    out('beNo').textContent = months(beNo);
+    out('beYes').textContent = months(beYes);
+    out('costRent').textContent = eur(cRent);
+    out('costBuy').textContent = eur(cBuy);
+    out('costBuyNet').textContent = t.costBuyNet + ': ' + eur(cBuyNet);
+    var v = out('verdict');
+    if (cBuy <= cRent) { v.textContent = t.verdictBuy; v.className = 'tl__msg tl__msg--ok'; }
+    else if (cBuyNet <= cRent) { v.textContent = t.verdictBuyResale; v.className = 'tl__msg tl__msg--warn'; }
+    else { v.textContent = t.verdictRent; v.className = 'tl__msg'; }
+    draw(N, beNo, price, del, pick, maint, resale, rent, fixed);
+  }
+  function draw(N, beNo, price, del, pick, maint, resale, rent, fixed) {
+    var svg = out('chart');
+    var maxM = Math.max(N, 12, beNo && beNo < 240 ? Math.ceil(beNo * 1.3) : 0); maxM = Math.min(maxM, 240);
+    var series = [
+      { c: '#d9822b', f: function (m) { return fixed + rent * m; } },
+      { c: '#1f3a8a', f: function (m) { return price + del + maint * m; } },
+      { c: '#1f9d73', f: function (m) { return price + del + pick + maint * m - resale; } },
+    ];
+    var maxY = 0; series.forEach(function (s) { maxY = Math.max(maxY, s.f(0), s.f(maxM)); }); maxY = maxY * 1.08 || 1;
+    var minY = Math.min(0, series[2].f(0));
+    var W = 640, H = 260, pl = 56, pr = 12, pt = 10, pb = 30;
+    var x = function (m) { return pl + (W - pl - pr) * m / maxM; };
+    var y = function (val) { return pt + (H - pt - pb) * (1 - (val - minY) / (maxY - minY)); };
+    var s = '';
+    for (var i = 0; i <= 4; i++) { var gv = minY + (maxY - minY) * i / 4; s += '<line x1="' + pl + '" x2="' + (W - pr) + '" y1="' + y(gv) + '" y2="' + y(gv) + '" stroke="#e4e7ee"/><text x="' + (pl - 6) + '" y="' + (y(gv) + 4) + '" font-size="11" text-anchor="end" fill="#667">' + nf.format(Math.round(gv / 100) * 100) + '</text>'; }
+    var step = maxM <= 24 ? 6 : maxM <= 60 ? 12 : 24;
+    for (var m = 0; m <= maxM; m += step) s += '<text x="' + x(m) + '" y="' + (H - 10) + '" font-size="11" text-anchor="middle" fill="#667">' + m + '</text>';
+    s += '<line x1="' + x(N) + '" x2="' + x(N) + '" y1="' + pt + '" y2="' + (H - pb) + '" stroke="#99a" stroke-dasharray="4 4"/>';
+    series.forEach(function (sr) { s += '<line x1="' + x(0) + '" y1="' + y(sr.f(0)) + '" x2="' + x(maxM) + '" y2="' + y(sr.f(maxM)) + '" stroke="' + sr.c + '" stroke-width="3" stroke-linecap="round"/>'; });
+    svg.innerHTML = s;
+  }
+  f.addEventListener('input', calc);
+  calc();
+})();
+</script>
