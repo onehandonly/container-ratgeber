@@ -42,7 +42,7 @@ Ein 40-Fuß-Container ist mit etwa 28 m² Innenfläche für ein Einzelbüro meis
 
 Die folgende Beispielrechnung geht von einem gebrauchten 20-Fuß-High-Cube aus, der gedämmt, mit zwei Fenstern, Grundelektrik und einem Split-Klimagerät ausgestattet wird. Die Zahlen sind Orientierungswerte ohne Gewähr und stammen aus den Spannen unserer Kostenratgeber ([Was kostet ein Container?](/ratgeber/was-kostet-ein-container), [Ausbaukosten nach Gewerken](/ratgeber/container-ausbaukosten-gewerke), [Fundament](/ratgeber/container-fundament)).
 
-Für die Dämmfläche gilt: Zwei Längs- und zwei Stirnwände ergeben bei ca. 2,39 m Innenhöhe rund 39 m², das Dach etwa 14 m² – zusammen rund 53 m², hier gerundet auf 50 m².
+Für die Dämmfläche gilt: Zwei Längs- und zwei Stirnwände ergeben beim High Cube mit ca. 2,70 m Innenhöhe rund 45 m² (2 × 5,90 × 2,70 + 2 × 2,35 × 2,70), die Decke etwa 14 m² – zusammen rund 58 m².
 
 | Posten | Ansatz | Kosten (ca.) |
 |---|---|---|
@@ -50,18 +50,18 @@ Für die Dämmfläche gilt: Zwei Längs- und zwei Stirnwände ergeben bei ca. 2,
 | Lieferung und Kran | je Fahrt bzw. Einsatz | 250 – 800 € |
 | Punktfundamente | Beton | 600 – 2.000 € |
 | Zwei Fenster inkl. Öffnung | 2 × (900 – 1.800 €) | 1.800 – 3.600 € |
-| Innendämmung Mineralwolle | 50 m² × 60 – 110 € | 3.000 – 5.500 € |
-| Innenverkleidung Gipskarton | 50 m² × 35 – 60 € | 1.750 – 3.000 € |
+| Innendämmung Mineralwolle | 58 m² × 60 – 110 € | 3.480 – 6.380 € |
+| Innenverkleidung Gipskarton | 58 m² × 35 – 60 € | 2.030 – 3.480 € |
 | Grundinstallation plus Unterverteilung | Fachbetrieb | 2.200 – 4.900 € |
 | Split-Klimagerät mit Heizfunktion | inkl. Montage | 1.500 – 3.500 € |
 | Bodenaufbau und Belag | Schätzwert | 600 – 1.500 € |
-| **Summe** | | **ca. 13.700 – 28.300 €** |
+| **Summe** | | **ca. 14.460 – 29.660 €** |
 
 Nicht enthalten sind die Zuleitung vom Haus (hängt stark von der Länge ab), Möbel, Netzwerktechnik und eine eventuelle Baugenehmigung. Bei Eigenleistung bei Dämmung und Verkleidung sinkt die Summe, die Elektroinstallation gehört dagegen in Fachhand.
 
 **Laufende Kosten:** Für einen gedämmten Bürocontainer mit Split-Wärmepumpe und ganzjähriger Nutzung nennt der Ratgeber [Betriebskosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust) ca. 1.500–3.000 kWh bzw. 450–900 € Strom pro Jahr. Dazu kommen Pflege (siehe [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz)) und Versicherung.
 
-**Monatsrechnung über 10 Jahre:** Die Anschaffung von 13.700 – 28.300 € ergibt verteilt auf 120 Monate ca. 115 – 236 € pro Monat. Hinzu kommen Strom mit ca. 38 – 75 € pro Monat. Ihr Büro kostet damit grob **ca. 150 – 310 € im Monat**, ohne Pflege, Versicherung und Zuleitung. Setzen Sie diese Spanne in Ihre eigene Rechnung ein, etwa gegen die Miete eines Arbeitsplatzes außer Haus oder eines zusätzlichen Zimmers.
+**Monatsrechnung über 10 Jahre:** Die Anschaffung von 14.460 – 29.660 € ergibt verteilt auf 120 Monate ca. 121 – 247 € pro Monat. Hinzu kommen Strom mit ca. 38 – 75 € pro Monat. Ihr Büro kostet damit grob **ca. 160 – 320 € im Monat**, ohne Pflege, Versicherung und Zuleitung. Setzen Sie diese Spanne in Ihre eigene Rechnung ein, etwa gegen die Miete eines Arbeitsplatzes außer Haus oder eines zusätzlichen Zimmers.
 
 ## Entscheidungshilfe: Container, Gartenhaus, Anbau oder externe Lösung
 

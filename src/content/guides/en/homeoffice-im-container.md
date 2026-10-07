@@ -42,7 +42,7 @@ With about 28 m² of internal area, a 40 ft container is usually oversized for a
 
 The example assumes a used 20 ft high-cube that is insulated and fitted with two windows, basic electrics and a split air-conditioning unit. All figures are guide values without guarantee, taken from the ranges in our cost guides ([What does a container cost?](/en/ratgeber/was-kostet-ein-container), [Fit-out costs by trade](/en/ratgeber/container-ausbaukosten-gewerke), [Foundations](/en/ratgeber/container-fundament)).
 
-For the insulated area: two long and two end walls at about 2.39 m inside height give roughly 39 m², the roof about 14 m² – around 53 m² in total, rounded here to 50 m².
+For the insulated area: two long and two end walls of a high cube with about 2.70 m inside height give roughly 45 m² (2 × 5.90 × 2.70 + 2 × 2.35 × 2.70), the ceiling about 14 m² – around 58 m² in total.
 
 | Item | Basis | Cost (approx.) |
 |---|---|---|
@@ -50,18 +50,18 @@ For the insulated area: two long and two end walls at about 2.39 m inside height
 | Delivery and crane | per trip / call-out | €250 – 800 |
 | Pad foundations | concrete | €600 – 2,000 |
 | Two windows incl. openings | 2 × (€900 – 1,800) | €1,800 – 3,600 |
-| Internal insulation, mineral wool | 50 m² × €60 – 110 | €3,000 – 5,500 |
-| Plasterboard lining | 50 m² × €35 – 60 | €1,750 – 3,000 |
+| Internal insulation, mineral wool | 58 m² × €60 – 110 | €3,480 – 6,380 |
+| Plasterboard lining | 58 m² × €35 – 60 | €2,030 – 3,480 |
 | Basic installation plus sub-distribution | specialist firm | €2,200 – 4,900 |
 | Split unit with heating function | incl. installation | €1,500 – 3,500 |
 | Floor build-up and covering | estimate | €600 – 1,500 |
-| **Total** | | **approx. €13,700 – 28,300** |
+| **Total** | | **approx. €14,460 – 29,660** |
 
 Not included are the supply cable from the house (depends strongly on length), furniture, network equipment and any building permit. If you do the insulation and lining yourself the total falls; the electrical installation belongs in professional hands.
 
 **Running costs:** For an insulated office container with a split heat pump used all year, [Running costs and depreciation](/en/ratgeber/container-betriebskosten-wertverlust) gives roughly 1,500–3,000 kWh, or €450–900 of electricity per year. Maintenance (see [Maintenance and rust protection](/en/ratgeber/container-pflege-und-rostschutz)) and insurance come on top.
 
-**Monthly view over 10 years:** €13,700 – 28,300 spread over 120 months is about €115 – 236 per month. Electricity adds about €38 – 75 per month. Your office therefore costs roughly **€150 – 310 per month**, excluding maintenance, insurance and the supply cable. Put this range into your own comparison, for example against renting a workspace elsewhere or an extra room.
+**Monthly view over 10 years:** €14,460 – 29,660 spread over 120 months is about €121 – 247 per month. Electricity adds about €38 – 75 per month. Your office therefore costs roughly **€160 – 320 per month**, excluding maintenance, insurance and the supply cable. Put this range into your own comparison, for example against renting a workspace elsewhere or an extra room.
 
 ## Decision aid: container, garden shed, extension or external workspace
 
