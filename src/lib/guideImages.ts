@@ -70,6 +70,7 @@ const MAP: Record<string, string> = {
   'container-firmengelaende-planen': PHOTO('type-kantinencontainer'),
   'container-als-fahrradgarage': PHOTO('type-double-door-container'),
   'container-landwirtschaft': PHOTO('type-open-top-container'),
+  'homeoffice-im-container': INSPO('innen-hell'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
