@@ -6,7 +6,7 @@ category: "Costs"
 icon: "euro"
 readingTime: 8
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-08
 lead: "What a container costs depends heavily on type, condition and region. These guide prices for buying and renting help with budgeting."
 order: 30
 draft: false
@@ -45,27 +45,42 @@ The following table shows rough guide values for the pure monthly rent (as of 20
 
 | Container type | Monthly rent (approx.) |
 |---|---|
-| Storage container 20 ft | €50 – €150 / month |
-| Office container | €80 – €250 / month |
-| Sanitary container | €150 – €500 / month |
+| Storage container 20 ft, used | €70 – €130 / month |
+| Office container, insulated (20 ft) | €150 – €350 / month |
+| Sanitary container | €250 – €700 / month |
 
-The range results from size, equipment, rental period and region. Longer rental periods are often rewarded with lower monthly rates, whereas very short rentals attract surcharges. For sanitary containers, additional service costs frequently apply, for example for wastewater, fresh water or regular cleaning.
+The range results from size, equipment, rental period and region; for a finer breakdown with sliding-scale rates and deposits see [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation). Longer rental periods are often rewarded with lower monthly rates, whereas very short rentals attract surcharges. For sanitary containers, additional service costs frequently apply, for example for wastewater, fresh water or regular cleaning.
 
-Important: over a longer period of use, the sum of rental payments quickly exceeds the purchase price. As a rough rule of thumb, buying can pay off from a usage period of one to two years – depending on the rental rate and container type.
+Important: over a longer period of use, the sum of rental payments quickly exceeds the purchase price. As a rough rule of thumb, buying a simple storage container can pay off from a usage period of about one to two years. For insulated office and sanitary containers the break-even point comes much later, because technical equipment and depreciation weigh more heavily.
 
 ## Don't forget the additional costs
 
 Besides the actual purchase or rental price, additional costs almost always apply. These are frequently underestimated during budget planning.
 
-**Delivery and transport:** Transport by truck costs approximately **€150 – €500 per trip** depending on distance and effort (as of 2026, guide value). Longer distances and hard-to-access sites increase the price.
+**Delivery and transport:** In the local area (up to roughly 20–30 km) a hook-lift trip costs approximately **€120 – €300**; a truck with a loader crane is more likely to cost approximately €350 – €800, and an articulated lorry for 40 ft containers approximately €400 – €900. Beyond that, per-kilometre rates are often charged. When renting, the trip happens twice: delivery and collection. Details are in [Container transport and delivery costs](/en/ratgeber/container-transport-lieferkosten), and the [transport cost estimator](/en/rechner/transportkosten) gives an estimate for your case.
 
-**Crane placement / hook lift:** If the container cannot be set down directly from the truck, a crane or a swap-body tipper is needed. For this, budget an additional **€100 – €300** approximately, depending on lifting height and accessibility.
+**Crane placement / hook lift:** If the container cannot be set down directly from the truck, a crane or a swap-body tipper is needed. If the crane is ordered separately, expect approximately €150 – €350 per crane hour plus a call-out charge of approximately €150 – €500; a minimum booking often applies. A swap-body tipper is only suitable for small containers up to about 10 ft.
 
 **Reconditioning:** On request, used containers are cleaned, de-rusted or repainted. Such reconditioning costs extra depending on the scope.
 
 **Accessories:** Practical additions such as shelving systems, ventilation grilles, extra lighting or a high-quality padlock with a lock box cause further costs. A level, load-bearing standing surface (e.g. foundation slabs or squared timbers) should also be budgeted for.
 
-Include these items from the outset so that the overall budget remains realistic.
+Include these items from the outset so that the overall budget remains realistic. The following example shows how much they matter.
+
+### Worked example: total budget for buying and for renting
+
+Suppose you need a used 20 ft storage container. The figures are assumptions within the ranges above, not quotes:
+
+| Item | Buy | Rent (6 months) |
+|---|---|---|
+| Container | approx. €2,400 | 6 × approx. €95 = approx. €570 |
+| Delivery (buying: truck with loader crane) | approx. €600 | approx. €250 |
+| Collection at the end | – | approx. €250 |
+| Base and accessories (assumption) | approx. €300 | – |
+| **Total** | **approx. €3,300** | **approx. €1,070** |
+| Additionally tied up | – | deposit, approx. €300 – €800 |
+
+When buying, the total budget is therefore around €900, or a good third, above the bare purchase price. When renting, delivery and collection (about €500 together) almost exceed the rent itself – for short rentals this is the decisive item. How both routes develop over 36 months is worked through in [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation); for the rental process in detail see [Renting a container: process, contract and costs](/en/ratgeber/container-mieten-ablauf).
 
 ## What determines the price
 

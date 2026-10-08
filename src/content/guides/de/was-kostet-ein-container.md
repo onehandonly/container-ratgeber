@@ -6,7 +6,7 @@ category: "Kosten"
 icon: "euro"
 readingTime: 8
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-08
 lead: "Was ein Container kostet, hängt stark von Typ, Zustand und Region ab. Diese Orientierungswerte für Kauf und Miete helfen bei der Budgetplanung."
 order: 30
 draft: false
@@ -45,27 +45,42 @@ Die folgende Tabelle zeigt grobe Orientierungswerte für die reine Monatsmiete (
 
 | Containertyp | Monatsmiete (ca.) |
 |---|---|
-| Lagercontainer 20 Fuß | 50 – 150 € / Monat |
-| Bürocontainer | 80 – 250 € / Monat |
-| Sanitärcontainer | 150 – 500 € / Monat |
+| Lagercontainer 20 Fuß, gebraucht | 70 – 130 € / Monat |
+| Bürocontainer, isoliert (20 Fuß) | 150 – 350 € / Monat |
+| Sanitärcontainer | 250 – 700 € / Monat |
 
-Die Bandbreite ergibt sich aus Größe, Ausstattung, Mietdauer und Region. Längere Mietzeiträume werden oft mit niedrigeren Monatsraten belohnt, sehr kurze Mietzeiten dagegen mit Zuschlägen. Bei Sanitärcontainern kommen häufig zusätzliche Servicekosten hinzu, etwa für Abwasser, Frischwasser oder regelmäßige Reinigung.
+Die Bandbreite ergibt sich aus Größe, Ausstattung, Mietdauer und Region; eine feinere Aufschlüsselung mit Staffelpreisen und Kautionen finden Sie im Beitrag [Mietpreise und Kalkulation](/ratgeber/container-mietpreise-kalkulation). Längere Mietzeiträume werden oft mit niedrigeren Monatsraten belohnt, sehr kurze Mietzeiten dagegen mit Zuschlägen. Bei Sanitärcontainern kommen häufig zusätzliche Servicekosten hinzu, etwa für Abwasser, Frischwasser oder regelmäßige Reinigung.
 
-Wichtig: Bei längerer Nutzung übersteigt die Summe der Mietzahlungen schnell den Kaufpreis. Als grobe Faustregel kann sich ein Kauf bereits ab einer Nutzungsdauer von ein bis zwei Jahren rechnen – abhängig von Miethöhe und Containertyp.
+Wichtig: Bei längerer Nutzung übersteigt die Summe der Mietzahlungen schnell den Kaufpreis. Als grobe Faustregel kann sich der Kauf eines einfachen Lagercontainers bereits ab einer Nutzungsdauer von etwa ein bis zwei Jahren rechnen. Bei isolierten Büro- und Sanitärcontainern liegt der Break-even deutlich später, weil Technik und Wertverlust stärker ins Gewicht fallen.
 
 ## Nebenkosten nicht vergessen
 
 Neben dem eigentlichen Kauf- oder Mietpreis fallen fast immer Nebenkosten an. Diese werden bei der Budgetplanung häufig unterschätzt.
 
-**Lieferung und Transport:** Der Transport per LKW kostet je nach Entfernung und Aufwand ca. **150 – 500 € pro Fahrt** (Stand 2026, Orientierungswert). Größere Distanzen und schwer zugängliche Standorte erhöhen den Preis.
+**Lieferung und Transport:** Im Nahbereich (bis etwa 20–30 km) kostet eine Fahrt mit dem Hakenlift ca. **120 – 300 €**; ein Lkw mit Ladekran liegt eher bei ca. 350 – 800 €, ein Sattelzug für 40-Fuß-Container bei ca. 400 – 900 €. Darüber hinaus werden häufig Kilometersätze berechnet. Bei der Miete fällt die Fahrt zweimal an: Anlieferung und Abholung. Die Details stehen im Beitrag [Container Transport und Lieferkosten](/ratgeber/container-transport-lieferkosten), eine Schätzung für Ihren Fall liefert der [Transportkosten-Schätzer](/rechner/transportkosten).
 
-**Kranstellung / Hakenlift:** Kann der Container nicht direkt vom LKW abgesetzt werden, ist ein Kran oder ein Absetzkipper nötig. Hierfür sollten zusätzlich ca. **100 – 300 €** eingeplant werden, je nach Hebehöhe und Zugänglichkeit.
+**Kranstellung / Hakenlift:** Kann der Container nicht direkt vom LKW abgesetzt werden, ist ein Kran oder ein Absetzkipper nötig. Wird der Kran separat bestellt, kommen ca. 150 – 350 € je Kranstunde plus eine An- und Abfahrtspauschale von ca. 150 – 500 € hinzu; häufig gilt eine Mindestabnahme. Ein Absetzkipper ist nur für kleine Container bis etwa 10 Fuß geeignet.
 
 **Aufbereitung:** Gebrauchte Container werden auf Wunsch gereinigt, entrostet oder neu lackiert. Solche Aufbereitungen kosten je nach Umfang extra.
 
 **Zubehör:** Praktische Ergänzungen wie Regalsysteme, Belüftungsgitter, Zusatzbeleuchtung oder ein hochwertiges Vorhängeschloss mit Schlosskasten verursachen weitere Kosten. Auch eine ebene, tragfähige Aufstellfläche (z. B. Fundamentplatten oder Kanthölzer) sollte eingeplant werden.
 
-Rechne diese Posten von Anfang an mit ein, damit das Gesamtbudget realistisch bleibt.
+Rechnen Sie diese Posten von Anfang an mit ein, damit das Gesamtbudget realistisch bleibt. Das folgende Beispiel zeigt, wie stark sie ins Gewicht fallen.
+
+### Beispielrechnung: Gesamtbudget bei Kauf und bei Miete
+
+Angenommen, Sie brauchen einen gebrauchten 20-Fuß-Lagercontainer. Die Zahlen sind Annahmen innerhalb der oben genannten Spannen, keine Angebote:
+
+| Position | Kauf | Miete (6 Monate) |
+|---|---|---|
+| Container | ca. 2.400 € | 6 × ca. 95 € = ca. 570 € |
+| Anlieferung (Kauf: Lkw mit Ladekran) | ca. 600 € | ca. 250 € |
+| Abholung am Ende | – | ca. 250 € |
+| Unterbau und Zubehör (Annahme) | ca. 300 € | – |
+| **Summe** | **ca. 3.300 €** | **ca. 1.070 €** |
+| Zusätzlich gebunden | – | Kaution, ca. 300 – 800 € |
+
+Beim Kauf liegt das Gesamtbudget damit rund 900 € oder gut ein Drittel über dem reinen Kaufpreis. Bei der Miete übersteigen Anlieferung und Abholung (zusammen ca. 500 €) fast die Mietkosten selbst – bei kurzen Mietzeiten ist das der entscheidende Posten. Wie sich beide Wege über 36 Monate entwickeln, rechnet der Beitrag [Mietpreise und Kalkulation](/ratgeber/container-mietpreise-kalkulation) durch; ausführlich zum Ablauf der Miete: [Container mieten: Ablauf, Vertrag und Kosten](/ratgeber/container-mieten-ablauf).
 
 ## Was den Preis bestimmt
 
