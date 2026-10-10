@@ -101,7 +101,7 @@ Costs depend strongly on condition, size and fit-out standard. The following fig
 | Shelving, ventilation, lock (assumption) | €200 – 800 |
 | **Total** | **approx. €2,550 – 6,600** |
 
-**Example B – garden office (used 20 ft container, two windows, air conditioner):**
+**Example B – garden office (used 20 ft high cube, two windows, air conditioner):**
 
 | Item | Range approx. |
 |---|---|

@@ -101,7 +101,7 @@ Die Kosten hängen stark von Zustand, Größe und Ausbaustandard ab. Die folgend
 | Regale, Lüftung, Schloss (Annahme) | 200 – 800 € |
 | **Summe** | **ca. 2.550 – 6.600 €** |
 
-**Beispiel B – Gartenbüro (gebrauchter 20-Fuß-Container, zwei Fenster, Klimagerät):**
+**Beispiel B – Gartenbüro (gebrauchter 20-Fuß-High-Cube, zwei Fenster, Klimagerät):**
 
 | Position | Spanne ca. |
 |---|---|
