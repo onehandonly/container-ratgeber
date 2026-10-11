@@ -6,7 +6,7 @@ category: "Buying advice"
 icon: "checklist"
 readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-11
 lead: "A used container saves a lot of money – if the condition is right. This checklist helps you spot rust, defects and dubious offers."
 order: 40
 draft: false
@@ -32,13 +32,13 @@ In the trade, containers are classified by condition. The terms are not defined 
 
 Take your time and inspect systematically. Work through these points on site or using meaningful photos:
 
-- **Outer skin and rust:** Check the entire corrugated profile (the ribbed side walls) for rust spots, blisters under the paint, and above all corrosion-through. Superficial flash rust is normal; rusted-through spots are a deal-breaker. Tap suspicious areas – a dull sound means the steel is thin.
-- **Floor / plywood:** The floor covering is usually plywood (glued marine-grade boards). Look for swollen, rotten or sagging areas as well as oil and chemical stains. Check from underneath whether the cross members below the floor are corroded. How to classify floor damage and what a partial repair or replacement costs is covered in [Container floor: inspect, repair or replace](/en/ratgeber/container-boden-sanieren-austauschen).
+- **Outer skin and rust:** Shipping containers are made of weathering steel (Corten), which is **not stainless** and is also painted – rust is therefore normal on used units, and what matters is how deep it goes. Check the entire corrugated profile (the ribbed side walls) for rust spots, blisters under the paint, and above all corrosion-through. Superficial flash rust is normal; rusted-through spots are a deal-breaker. Tap suspicious areas – a dull sound means the steel is thin.
+- **Floor:** The floor is normally about 28 mm of plywood (hardwood, sometimes bamboo) resting on steel cross-members. Look for swollen, rotten or worn-through spots and oil or chemical stains. Check from underneath whether the cross-members are corroded. For how to judge floor damage and what a partial repair or replacement costs, see [Container floor: inspect, repair or replace](/en/ratgeber/container-boden-sanieren-austauschen).
 - **Doors, seals and locking gear:** Open and close both door leaves several times. The locking bars must engage smoothly. Check the rubber seals for cracks, brittleness and completeness – leaking seals lead to moisture inside.
 - **Roof and standing water:** If it can be done safely, climb onto the roof or check it by photo. Dents where water collects promote rust from above. Standing water is a warning sign.
-- **Frame and corner castings:** The four corner castings and the surrounding frame carry the entire load. They must be undamaged and rust-free so the container can be stacked, lifted and transported.
+- **Frame and corner castings:** The load-bearing structure is the steel frame of corner posts plus the bottom and top side rails; its nodes are the eight corner castings (four at the top, four at the bottom). Frame and castings must be undamaged and rust-free so the container can be stacked, lifted and transported. Check the openings for distortion, cracks and weld repairs.
 - **Interior, smell and moisture:** Close the doors and check for light ingress – if daylight enters through holes or gaps, the container leaks. A musty smell, condensation or water marks indicate a moisture problem. Watch for residue from previous cargo (chemicals, pesticides).
-- **CSC plate and paperwork:** A valid CSC plate is mandatory for sea transport. For pure land storage it is not required, but it reveals the year of manufacture and origin. Ask to see proof of ownership or sale.
+- **CSC plate and paperwork:** A valid CSC plate is mandatory for sea transport. For pure land storage it is not required, but it reveals the year of manufacture and origin. Ask to see proof of ownership or sale. How to read the container number and plate and recalculate the check digit is explained in [Reading the container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette).
 
 > Rule of thumb: surface rust can be treated, but corrosion-through and damaged corner castings cannot be repaired economically. When in doubt, buy one condition grade higher.
 
@@ -57,11 +57,11 @@ Watch out for these **warning signs**:
 - **Unrealistically low prices** clearly below the market level.
 - Pressure to close quickly, missing company address, contact only via messenger.
 
-Never transfer the full purchase price before you have seen the container or have a trustworthy delivery commitment.
+Never transfer the full purchase price before you have seen the container or have a trustworthy delivery commitment. Typical fraud patterns and protective measures are described in [Fake container dealers and prepayment fraud](/en/ratgeber/fake-containerhaendler-vorkasse-betrug).
 
 ## Viewing: what to look for on site
 
-Schedule the appointment in daylight and dry weather so you can spot leaks by light ingress. Bring a torch, a screwdriver to test suspicious rust spots, and work gloves. Walk around the container twice: once completely on the outside including roof and underside, once inside with the doors closed. Test the door mechanism yourself rather than just having it demonstrated. Photograph and note any defects – this helps later during price negotiation and documents the agreed condition.
+Schedule the appointment in daylight and dry weather so you can spot leaks by light ingress. Bring a torch, a screwdriver to test suspicious rust spots, and work gloves. Walk around the container twice: once completely on the outside including roof and underside, once inside with the doors closed. Test the door mechanism yourself rather than just having it demonstrated. Photograph and note any defects – this helps later during price negotiation and documents the agreed condition. A detailed protocol with a scoring scheme is in [Viewing a container before you buy](/en/ratgeber/container-besichtigung-pruefprotokoll).
 
 ## Transport and delivery
 
@@ -73,11 +73,44 @@ Delivery is often underestimated and can account for a significant share of the 
 
 Have the transport cost itemised separately and clarify who is liable for damage during unloading.
 
+## Total cost: a worked example
+
+The purchase price is only part of the calculation. The example below uses the indicative values from [What does a container cost?](/en/ratgeber/was-kostet-ein-container) for a used 20-foot storage container; it does not replace a quote.
+
+| Item | Example |
+|---|---|
+| Container, used (WWT) | approx. €2,400 |
+| Delivery by truck with loader crane | approx. €600 |
+| Base and accessories (assumption) | approx. €300 |
+| **Total budget** | **approx. €3,300** |
+
+The total budget is therefore about €900, or a good third, above the bare purchase price. That changes the comparison: an offer €300 cheaper is not better if delivery costs €200 more or seals and paint need work afterwards. Include possible rework – a new plywood floor costs approx. €1,000–2,800 from a specialist firm, or approx. €630–1,700 in materials if you do it yourself (details in the floor article). A container with a badly damaged floor is therefore rarely a bargain.
+
+## Decision aid: which quality for which purpose?
+
+| Purpose | Sensible minimum quality | Reason |
+|---|---|---|
+| Dry storage of tools and household goods | WWT | Tightness is enough; sea-worthiness is not needed |
+| Storage of sensitive goods (paper, textiles, electronics) | WWT, very good condition, odour-free | Moisture and odours damage stored goods |
+| Conversion to office, workshop or living space | One-trip container or a very good used unit | Little floor damage, clean walls, straight frame |
+| Stacking or crane lifts over several tiers | Check frame and corner castings; if in doubt, CSC-approved | The load-bearing structure must be undamaged |
+| Sea transport or export | CSC-approved with a valid plate | Prerequisite for sea traffic |
+
+The comparison of new, one-way and used is in [New, one-way or used?](/en/ratgeber/container-neu-oder-gebraucht).
+
+## Warranty when buying used (German law)
+
+How far you can rely on warranty depends on the seller. If a **consumer buys from a trader**, the warranty period for used goods may be shortened but not excluded entirely. In **B2B deals** and **private-to-private sales** an exclusion is possible and common ("sold as seen"), but it does not apply to defects fraudulently concealed. Record the inspected condition in writing – details in [Purchase contract and warranty](/en/ratgeber/container-kaufvertrag-gewaehrleistung).
+
 ## Price and negotiation
 
 Compare several offers and factor in condition, year of manufacture, size and delivery. Documented defects are your best bargaining argument – every rust spot and every brittle seal lowers the fair price. Ask specifically whether minor repairs (paintwork, floor patching) are included in the price. For guidance on realistic amounts, see our article [What does a container cost?](/en/ratgeber/was-kostet-ein-container). To find out which size suits your project, read [Sizes & dimensions](/en/ratgeber/container-groessen-und-masse).
 
 > **Tool:** For the on-site viewing you can use the [interactive inspection checklist](/en/rechner/besichtigung-checkliste) on your smartphone.
+
+## Important note
+
+The notes on warranty describe the legal position in Germany in outline and are not legal advice. Whether and how warranty may be limited depends on the individual case, in particular on whether consumers or businesses are involved. Costs are indicative values without guarantee.
 
 ## Conclusion
 

@@ -6,7 +6,7 @@ category: "Basics"
 icon: "euro"
 readingTime: 8
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-11
 lead: "Whether buying or renting is better depends mainly on how long you need it, your budget and how much flexibility you want. This guide makes the difference clear."
 order: 10
 draft: false
@@ -40,28 +40,36 @@ Typical arguments in favour of renting:
 - **Projects and construction sites:** On building sites, location and requirements change frequently. Rental containers can be ordered flexibly and simply returned once the project ends.
 - **No transport or storage effort:** Delivery and collection are usually handled by the rental provider. You do not have to worry about logistics, interim storage or resale.
 - **Predictable costs:** Monthly rent is a clearly calculable operating expense – often immediately tax-deductible and without tying up capital.
-- **Maintenance included:** Many rental contracts cover upkeep and repairs, so you carry no risk for wear and tear.
+- **Maintenance partly included:** Many rental contracts cover normal wear. Damage from improper use and returning the container in the agreed condition are usually your responsibility, though – details in [Renting a container: rental contract, liability & return](/en/ratgeber/container-mietvertrag-recht) (German law).
 
 ## Cost comparison with break-even
 
-The decisive point is the so-called **break-even** – the moment at which the accumulated rent exceeds the purchase price. From then on, buying would have been the cheaper choice in hindsight.
+The decisive point is the so-called **break-even** – the moment at which the accumulated rent (including transport) exceeds the cost of buying. From then on, buying would have been the cheaper choice in hindsight. Do not compare the purchase price with the monthly rent alone; compare the **total cost over the planned period of use**.
 
-The following table shows a **simplified example** for a used 20-foot standard container. The figures are for illustration only and do not replace a concrete quote.
+The example below uses the same assumptions as the articles [What does a container cost?](/en/ratgeber/was-kostet-ein-container) and [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation): a used 20-foot storage container, purchase price approx. €2,400, monthly rent approx. €95, delivery and collection approx. €250 each. The figures are indicative values without guarantee and do not replace a quote.
 
-| Item | Buy (example) | Rent (example) |
+| Item | Buy | Rent |
 |---|---|---|
-| One-off purchase price (used) | approx. €1,800–2,500 | – |
-| Monthly rent | – | approx. €80–150 / month |
-| Cost after 12 months | approx. €2,200 | approx. €1,200 |
-| Cost after 24 months | approx. €2,200 | approx. €2,400 |
-| Cost after 36 months | approx. €2,200 | approx. €3,600 |
-| Residual value after 3 years | approx. €1,200–1,800 | €0 |
+| Container | approx. €2,400 | – |
+| Delivery | approx. €250 | approx. €250 |
+| Collection at the end | – (the container stays with you) | approx. €250 |
+| **Cost after 12 months** | **approx. €2,650** | **approx. €1,640** (€500 + 12 × €95) |
+| **Cost after 24 months** | **approx. €2,650** | **approx. €2,780** (€500 + 24 × €95) |
+| **Cost after 36 months** | **approx. €2,650** | **approx. €3,920** (€500 + 36 × €95) |
 
-> **Example calculation, as of 2026.** Prices vary widely depending on condition, size, region and provider. Transport, delivery and possible additional costs are not included here.
+Ignoring any resale, the break-even is at around 23 months: (€2,650 − €500) ÷ €95 ≈ 22.6. If you sell the container later, the calculation shifts in favour of buying – in the rental-pricing article, an assumed resale price of approx. €1,700 after three years gives a break-even of roughly 14 to 16 months. The proceeds are not guaranteed, though: they depend on condition, age and the market, and should be assumed cautiously.
 
-In this example the break-even lies at roughly **18 to 24 months**. Rule of thumb: if the container is needed for **more than about two years**, there is a strong case for buying – especially since the residual value shifts the balance further in favour of the purchase. For shorter use, renting is usually the more economical choice.
+**Rule of thumb for storage containers:** below about one year of use renting is usually cheaper; from about one to two years there is a strong case for buying. The exact value depends on the container type:
 
-Important: the exact break-even depends heavily on container size and fit-out. A high-quality office container shifts the calculation differently than a simple storage container.
+| Container type | Rough break-even, buy vs rent |
+|---|---|
+| Used storage container | approx. 12–18 months |
+| Nearly new shipping container | approx. 18–30 months |
+| Insulated office container | approx. 24–36 months |
+| Sanitary container | approx. 30–48 months |
+| Refrigerated container | often never – renting is usually more sensible |
+
+The ranges come from the calculation in the article [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation). Typical dimensions and types are covered in [Sizes & dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## Additional factors
 
@@ -69,10 +77,12 @@ Beyond the pure price comparison, you should consider a few practical points tha
 
 - **Transport and delivery:** Transport by truck with a crane or hook lift is a cost block of its own – often several hundred euros depending on distance and effort. When buying it applies at least once; when renting it usually applies for both delivery and collection.
 - **Standing area and foundation:** A container needs a load-bearing, ideally level surface. Point foundations, concrete slabs or bearing plates prevent waterlogging and sinking – a factor that matters especially for a permanent purchase.
-- **Permits:** Depending on the region, duration of placement and use, a building permit may be required. This tends to apply more to permanently placed, purchased containers than to short-term rentals. Clarify this early with the relevant authority.
+- **Permits:** Depending on the region, duration of placement and use, a building permit may be required. This tends to apply more to permanently placed, purchased containers than to short-term rentals. It depends on location, duration and use; the basics are in [Containers and building permits](/en/ratgeber/container-baugenehmigung) (German law). Clarify this early with the relevant authority.
 - **Maintenance:** As the owner you carry maintenance, rust protection and repairs yourself. With renting, this is often covered by the contract.
 - **Resale value:** Purchased containers can be resold later. For shipping containers in good condition, the loss in value is usually moderate.
-- **Rent-to-buy option:** Some providers offer models in which rent already paid is partly credited towards a later purchase. This can be useful when it is not yet clear at the outset how long the container will be needed.
+- **Rent-to-buy option:** Some providers offer models in which rent already paid is partly credited towards a later purchase. This can be useful when it is not yet clear at the outset how long the container will be needed. Check how much is credited and what the option costs: [hire purchase](/en/kaufen-mieten/kauf/mietkauf) and [leasing](/en/kaufen-mieten/kauf/leasing) are compared there in detail.
+- **Tax:** Buying and renting are treated differently for tax purposes (depreciation versus operating expense). Basics for the self-employed and businesses: [Tax and depreciation](/en/ratgeber/container-steuer-abschreibung); have your individual case checked by a tax adviser.
+- **Purchase contract:** If you buy, put condition, delivery and warranty in writing: [Purchase contract and warranty](/en/ratgeber/container-kaufvertrag-gewaehrleistung).
 
 ## Decision guide
 
@@ -80,7 +90,7 @@ The following checklist helps with an initial assessment:
 
 **Rather buy if …**
 
-1. You expect to use the container for **more than two years**.
+1. You expect to use the container for **more than one to two years** (storage container; longer for office or sanitary containers).
 2. The location is **permanently fixed**.
 3. You want to **customise** the container individually.
 4. A **residual value** and independence from the provider matter to you.
@@ -98,4 +108,4 @@ The following checklist helps with an initial assessment:
 
 ## Conclusion
 
-Buying or renting is not a question of right or wrong, but a question of how long you need the container and what your priorities are. **Rule of thumb: up to around two years of use, renting is usually cheaper and more convenient; beyond that, buying generally pays off** – supported additionally by the residual value. Short-term, flexible or project-based needs argue for renting; permanent locations with individual fit-out argue for buying. If you are unsure, you can start with a rent-to-buy option and keep the decision open. In any case, obtain several quotes and factor transport, foundation and possible permits into your calculation.
+Buying or renting is not a question of right or wrong, but a question of how long you need the container and what your priorities are. **Rule of thumb: for storage containers, renting is usually cheaper up to about one year of use, and buying generally pays off from one to two years; for fitted-out containers the threshold comes much later** (see table) – and a resale value shifts the calculation further in favour of buying. Short-term, flexible or project-based needs argue for renting; permanent locations with individual fit-out argue for buying. If you are unsure, you can start with a rent-to-buy option and keep the decision open. In any case, obtain several quotes and factor transport, foundation and possible permits into your calculation.
