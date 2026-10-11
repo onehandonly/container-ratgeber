@@ -56,13 +56,13 @@ Das folgende Beispiel nutzt dieselben Annahmen wie die Beiträge [Was kostet ein
 | **Kosten nach 24 Monaten** | **ca. 2.650 €** | **ca. 2.780 €** (500 € + 24 × 95 €) |
 | **Kosten nach 36 Monaten** | **ca. 2.650 €** | **ca. 3.920 €** (500 € + 36 × 95 €) |
 
-Ohne Berücksichtigung eines Weiterverkaufs liegt der Break-even bei rund 23 Monaten: (2.650 € − 500 €) ÷ 95 € ≈ 22,6. Verkaufen Sie den Container später wieder, verschiebt sich die Rechnung zugunsten des Kaufs – in der Kalkulation im Beitrag zur Miete führt ein angenommener Wiederverkaufserlös von ca. 1.700 € nach drei Jahren zu einem Break-even von grob 14 bis 16 Monaten. Der Erlös ist aber nicht garantiert: Er hängt von Zustand, Alter und Marktlage ab und sollte im Zweifel vorsichtig angesetzt werden.
+Ohne Berücksichtigung eines Weiterverkaufs liegt der Break-even bei rund 23 Monaten: (2.650 € − 500 €) ÷ 95 € ≈ 22,6. Verkaufen Sie den Container später wieder, verschiebt sich die Rechnung zugunsten des Kaufs – mit einem angenommenen Wiederverkaufserlös von ca. 1.700 € und ca. 250 € für die Abholung beim Verkauf sinkt der Break-even auf rund 8 Monate: (2.650 € + 250 € − 1.700 € − 500 €) ÷ 95 € ≈ 7,4. Der Erlös ist aber nicht garantiert: Er hängt von Zustand, Alter und Marktlage ab und sollte im Zweifel vorsichtig angesetzt werden.
 
 **Faustregel für Lagercontainer:** Bei weniger als etwa einem Jahr Nutzung ist die Miete meist günstiger, ab etwa ein bis zwei Jahren spricht viel für den Kauf. Der genaue Wert hängt vom Containertyp ab:
 
 | Containertyp | Grober Break-even Kauf vs. Miete |
 |---|---|
-| Lagercontainer gebraucht | ca. 12–18 Monate |
+| Lagercontainer gebraucht | ca. 8–24 Monate (je nach Wiederverkauf) |
 | Seecontainer neuwertig | ca. 18–30 Monate |
 | Bürocontainer, isoliert | ca. 24–36 Monate |
 | Sanitärcontainer | ca. 30–48 Monate |

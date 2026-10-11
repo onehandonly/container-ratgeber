@@ -26,7 +26,7 @@ Mieten lohnt sich vor allem dann, wenn Sie den Container **zeitlich begrenzt** o
 | Technisch aufwendiger Container (Kühl, Sanitär) | meist ja | nur bei langer Nutzung |
 | Eigener, dauerhafter Stellplatz vorhanden | egal | spricht für Kauf |
 
-Die Faustwerte für den Break-even – bei gebrauchten Lagercontainern meist ab etwa 12 bis 18 Monaten – stehen im Beitrag [Mietpreise und Kalkulation](/ratgeber/container-mietpreise-kalkulation), die grundsätzliche Abwägung in [Container kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten). Wer lieber mit festen Raten arbeitet, findet Alternativen unter [Kaufen & Mieten](/kaufen-mieten), etwa [Miete](/kaufen-mieten/miete), [Leasing](/kaufen-mieten/kauf/leasing) und [Mietkauf](/kaufen-mieten/kauf/mietkauf).
+Die Faustwerte für den Break-even – bei gebrauchten Lagercontainern je nach Wiederverkauf meist zwischen etwa 8 und 24 Monaten – stehen im Beitrag [Mietpreise und Kalkulation](/ratgeber/container-mietpreise-kalkulation), die grundsätzliche Abwägung in [Container kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten). Wer lieber mit festen Raten arbeitet, findet Alternativen unter [Kaufen & Mieten](/kaufen-mieten), etwa [Miete](/kaufen-mieten/miete), [Leasing](/kaufen-mieten/kauf/leasing) und [Mietkauf](/kaufen-mieten/kauf/mietkauf).
 
 ## Ablauf Schritt für Schritt
 

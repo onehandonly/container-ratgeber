@@ -108,7 +108,7 @@ Bestehen Sie deshalb auf einem **Angebot mit Einzelposten**, das Anlieferung, Ab
 
 Die zentrale Rechnung ist einfacher, als sie oft dargestellt wird. Vergleichen Sie nicht Kaufpreis gegen Miete, sondern die **Gesamtkosten über den geplanten Nutzungszeitraum** – und rechnen Sie beim Kauf den Wiederverkaufserlös gegen.
 
-> Break-even in Monaten ≈ (Kaufpreis + Transport bei Kauf − erwarteter Restwert) ÷ (Monatsmiete + anteilige Transportkosten der Miete)
+> Break-even in Monaten ≈ (Kaufpreis + Transport bei Kauf − erwarteter Restwert − Transportkosten der Miete) ÷ (Monatsmiete − laufende Kosten des eigenen Containers)
 
 Ein durchgerechnetes Beispiel für einen gebrauchten 20-Fuß-Lagercontainer:
 
@@ -121,13 +121,13 @@ Ein durchgerechnetes Beispiel für einen gebrauchten 20-Fuß-Lagercontainer:
 | Erwarteter Wiederverkauf nach 3 Jahren | ca. −1.700 € | – |
 | **Kosten über 36 Monate** | **ca. 1.200 €** | **ca. 3.920 €** |
 
-Der Break-even liegt in diesem Beispiel bei grob 14 bis 16 Monaten. Das ist ein für die Branche typischer Wert: **Bei Lagercontainern rentiert sich der Kauf meist ab etwa einem bis eineinhalb Jahren Nutzung.**
+Mit Wiederverkauf zum angenommenen Preis liegt der Break-even in diesem Beispiel rechnerisch bei rund 8 Monaten: (2.400 + 250 + 250 − 1.700 − 500) ÷ 95 ≈ 7,4. Bleibt der Container ohne Verkauf bei Ihnen, sind es rund 23 Monate: (2.400 + 250 − 500) ÷ 95 ≈ 22,6. Weil der Wiederverkaufserlös unsicher ist, liegt der realistische Wert dazwischen: **Bei Lagercontainern rentiert sich der Kauf je nach Wiederverkauf meist nach etwa einem halben bis zwei Jahren.** Mit Ihren eigenen Zahlen rechnet der Rechner [Kaufen oder mieten?](/rechner/kaufen-oder-mieten).
 
 Bei technisch aufwendigen Containern verschiebt sich das deutlich nach hinten, weil Anschaffung und Instandhaltung teurer sind und der Wertverlust höher ausfällt:
 
 | Containertyp | Grober Break-even Kauf vs. Miete |
 | --- | --- |
-| Lagercontainer gebraucht | ca. 12–18 Monate |
+| Lagercontainer gebraucht | ca. 8–24 Monate (je nach Wiederverkauf) |
 | Seecontainer neuwertig | ca. 18–30 Monate |
 | Bürocontainer, isoliert | ca. 24–36 Monate |
 | Sanitärcontainer | ca. 30–48 Monate |

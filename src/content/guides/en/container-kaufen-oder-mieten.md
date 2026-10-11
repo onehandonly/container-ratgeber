@@ -57,13 +57,13 @@ The example below uses the same assumptions as the articles [What does a contain
 | **Cost after 24 months** | **approx. €2,650** | **approx. €2,780** (€500 + 24 × €95) |
 | **Cost after 36 months** | **approx. €2,650** | **approx. €3,920** (€500 + 36 × €95) |
 
-Ignoring any resale, the break-even is at around 23 months: (€2,650 − €500) ÷ €95 ≈ 22.6. If you sell the container later, the calculation shifts in favour of buying – in the rental-pricing article, an assumed resale price of approx. €1,700 after three years gives a break-even of roughly 14 to 16 months. The proceeds are not guaranteed, though: they depend on condition, age and the market, and should be assumed cautiously.
+Ignoring any resale, the break-even is at around 23 months: (€2,650 − €500) ÷ €95 ≈ 22.6. If you sell the container later, the calculation shifts in favour of buying – with assumed resale proceeds of approx. €1,700 and approx. €250 for collection when selling, break-even drops to around 8 months: (€2,650 + €250 − €1,700 − €500) ÷ €95 ≈ 7.4. The proceeds are not guaranteed, though: they depend on condition, age and the market, and should be assumed cautiously.
 
 **Rule of thumb for storage containers:** below about one year of use renting is usually cheaper; from about one to two years there is a strong case for buying. The exact value depends on the container type:
 
 | Container type | Rough break-even, buy vs rent |
 |---|---|
-| Used storage container | approx. 12–18 months |
+| Used storage container | approx. 8–24 months (depending on resale) |
 | Nearly new shipping container | approx. 18–30 months |
 | Insulated office container | approx. 24–36 months |
 | Sanitary container | approx. 30–48 months |

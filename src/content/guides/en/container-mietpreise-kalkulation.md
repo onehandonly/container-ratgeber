@@ -108,7 +108,7 @@ Insist on an **itemised quote** that explicitly names delivery, collection, mini
 
 The central calculation is simpler than it is often made out to be. Do not compare purchase price against rent, but the **total cost over the planned period of use** – and offset the resale proceeds when buying.
 
-> Break-even in months ≈ (purchase price + delivery on purchase − expected residual value) ÷ (monthly rate + pro rata transport costs of hiring)
+> Break-even in months ≈ (purchase price + transport on purchase − expected residual value − transport costs of hiring) ÷ (monthly rate − running costs of your own container)
 
 A worked example for a used 20-foot storage container:
 
@@ -121,13 +121,13 @@ A worked example for a used 20-foot storage container:
 | Expected resale after 3 years | approx. −€1,700 | – |
 | **Cost over 36 months** | **approx. €1,200** | **approx. €3,920** |
 
-Break-even in this example falls at roughly 14 to 16 months. That is a typical figure for the sector: **for storage containers, buying usually pays off from around one to one and a half years of use.**
+With resale at the assumed price, break-even in this example falls at around 8 months: (2,400 + 250 + 250 − 1,700 − 500) ÷ 95 ≈ 7.4. If the container stays with you without being sold, it is around 23 months: (2,400 + 250 − 500) ÷ 95 ≈ 22.6. Because resale proceeds are uncertain, the realistic value lies in between: **for storage containers, buying usually pays off after roughly six months to two years, depending on resale.** The [Buy or rent?](/en/rechner/kaufen-oder-mieten) calculator works it out with your own figures.
 
 For technically complex containers this shifts considerably later, because acquisition and maintenance cost more and depreciation is steeper:
 
 | Container type | Rough break-even, buy vs. hire |
 | --- | --- |
-| Used storage container | approx. 12–18 months |
+| Used storage container | approx. 8–24 months (depending on resale) |
 | As-new shipping container | approx. 18–30 months |
 | Office container, insulated | approx. 24–36 months |
 | Sanitary container | approx. 30–48 months |

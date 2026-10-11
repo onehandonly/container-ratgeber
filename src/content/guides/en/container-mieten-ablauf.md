@@ -26,7 +26,7 @@ Renting pays off above all when you need the container for a **limited time** or
 | Technically complex container (refrigerated, sanitary) | usually yes | only for long use |
 | Own permanent site available | either | favours buying |
 
-Rules of thumb for the break-even point – for used storage containers usually from about 12 to 18 months – are in [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation), and the general weighing-up is in [Buy or rent a container?](/en/ratgeber/container-kaufen-oder-mieten). If you prefer fixed instalments, see the alternatives under [Buy & rent](/en/kaufen-mieten), such as [renting](/en/kaufen-mieten/miete), [leasing](/en/kaufen-mieten/kauf/leasing) and [hire purchase](/en/kaufen-mieten/kauf/mietkauf).
+Rules of thumb for the break-even point – for used storage containers usually between about 8 and 24 months, depending on resale – are in [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation), and the general weighing-up is in [Buy or rent a container?](/en/ratgeber/container-kaufen-oder-mieten). If you prefer fixed instalments, see the alternatives under [Buy & rent](/en/kaufen-mieten), such as [renting](/en/kaufen-mieten/miete), [leasing](/en/kaufen-mieten/kauf/leasing) and [hire purchase](/en/kaufen-mieten/kauf/mietkauf).
 
 ## The process step by step
 
