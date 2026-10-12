@@ -55,6 +55,7 @@ const MAP: Record<string, string> = {
   'container-ausbaukosten-gewerke': INSPO('innen-hell'),
   'container-betriebskosten-wertverlust': PHOTO('type-seecontainer'),
   'container-angebote-vergleichen': PHOTO('type-lagercontainer'),
+  'self-storage-oder-lagercontainer': PHOTO('type-double-door-container'),
 
   // --- Praxis ---
   'container-pflege-und-rostschutz': PHOTO('type-seecontainer'),
