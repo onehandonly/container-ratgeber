@@ -6,7 +6,7 @@ category: "Praxis"
 icon: "lager"
 readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-13
 lead: "Ein Lagercontainer schützt zuverlässig – wenn Belüftung, Untergrund und Einlagerung stimmen. So vermeiden Sie Feuchte- und Rostschäden."
 order: 76
 draft: false
@@ -44,13 +44,21 @@ Bei besonders empfindlicher Ware kann ein kleiner Luftentfeuchter mit Stromansch
 
 ## Untergrund und Aufstellung
 
-Ein 20-Fuß-Container wiegt leer rund 2,2 Tonnen und beladen schnell das Zehnfache. Die Last verteilt sich fast vollständig auf die vier Eckbeschläge – punktuell, nicht flächig.
+Ein 20-Fuß-Container wiegt leer rund 2,2 Tonnen; beladen kann er je nach Ladung ein Vielfaches davon erreichen (Zuladung bis rund 28 t, siehe [Container-Größen und Maße](/ratgeber/container-groessen-und-masse)). Die Last wird über die vier unteren Eckbeschläge abgetragen – punktuell, nicht flächig. Ein Rechenbeispiel steht im Beitrag [Container-Fundament](/ratgeber/container-fundament).
 
-- **Tragfähig und eben.** Verdichteter Schotter, Betonplatten oder Streifenfundamente unter den Ecken. Weicher Rasen oder frisch aufgeschütteter Boden führt zu Setzungen.
-- **Waagerecht ausrichten.** Steht der Container verzogen, klemmen die Türen. Eine leichte Neigung nach hinten (ein bis zwei Zentimeter) hilft, Regenwasser vom Türbereich wegzuführen.
+- **Tragfähig und eben.** Verdichteter Schotter mit Platten, Punkt- oder Streifenfundamente unter den Ecken (Auswahl im [Fundament-Ratgeber](/ratgeber/container-fundament)). Weicher Rasen oder frisch aufgeschütteter Boden führt zu Setzungen.
+- **Waagerecht ausrichten.** Steht der Container verzogen, klemmen die Türen. Auch eine leichte Neigung nach hinten (wenige Zentimeter auf die Länge) ist kein Problem und führt Regenwasser vom Türbereich weg; die Türen müssen dabei weiter sauber schließen.
 - **Luft unter dem Boden.** Kanthölzer oder Betonplatten schaffen zehn bis fünfzehn Zentimeter Abstand zum Erdreich. Das hält Staunässe fern und schützt den Bodenrahmen vor Rost.
 - **Türseite frei halten.** Vor den Türflügeln zwei bis drei Meter freie Fläche einplanen – Flügel schwenken weit aus. Türseite möglichst wind- und wetterabgewandt orientieren.
 - **Abstand zu Bewuchs.** Laub und Äste auf dem Dach halten Feuchtigkeit und beschleunigen Korrosion.
+
+## Rechenbeispiele: Luftfeuchte und Regalvolumen
+
+Zwei Überschlagsrechnungen machen die Hebel greifbar. Sie gelten für einen 20-Fuß-Standardcontainer mit Innenmaßen von ca. 5,90 × 2,35 × 2,39 m (rund 33 m³ Innenvolumen, 13,9 m² Grundfläche); bei einem High Cube (Innenhöhe ca. 2,70 m) liegen die Werte entsprechend höher.
+
+**Wie viel Wasser steckt in der Luft?** Luft von 20 °C und 70 % relativer Feuchte enthält rund 12 g Wasser je m³ (Sättigung bei 20 °C: ca. 17,3 g/m³). Im leeren Container sind das etwa 400 g. Kühlt die Luft über Nacht auf 10 °C ab, kann sie nur noch ca. 9,4 g/m³ halten, also rund 311 g. Die Differenz von knapp 90 g schlägt sich als Kondensat an kalten Flächen nieder. Das klingt wenig, doch die Menge wiederholt sich bei jedem Temperaturwechsel, und eingelagerte Ware bringt oft ein Vielfaches mit: Feuchtes Holz, Kartons und Paletten geben ihr gebundenes Wasser langsam an die Luft ab. Entscheidend ist, dass tatsächlich Luft ausgetauscht wird; Querlüftung und trockene Ware wirken deshalb stärker als jedes Einzelmittel.
+
+**Wie viel Regal passt hinein?** Beidseitig 0,60 m tiefe Regale auf einer Länge von je 5,60 m lassen bei 2,35 m Innenbreite eine Gasse von rund 1,15 m. Bei zwei Metern Regalhöhe ergeben sich 2 × 5,60 × 0,60 × 2,0 ≈ 13,4 m³ Regalraum, also rund 40 % des Innenvolumens. Mit vier Fachebenen sind das etwa 27 m² Lagerfläche (4 × 2 × 5,60 × 0,60), fast das Doppelte der Bodenfläche von 13,9 m². Der Rest ist Gasse und Türbereich, und genau dieser „Verlust" macht das Lager benutzbar. Wer die Gasse streicht, spart zwar Regalraum, muss aber jedes Mal ausräumen.
 
 ## Sinnvolle Ausstattung
 
@@ -72,7 +80,7 @@ Alle Angaben sind grobe Orientierungswerte und schwanken je nach Region, Anbiete
 Der häufigste Ärger im Alltag ist nicht der Schaden, sondern das Suchen. Ein durchdachtes Layout spart auf Dauer mehr Zeit als jede Ausstattung.
 
 - **Gasse in der Mitte lassen.** Regale an die Längsseiten, mindestens 70 Zentimeter Gang – sonst müssen Sie jedes Mal ausräumen, um hinten heranzukommen.
-- **Schwere Lasten unten und über den Trägern.** Maschinen und Metall gehören auf den Boden, möglichst nah an die Längsseiten, wo der Rahmen trägt.
+- **Schwere Lasten unten und verteilt.** Maschinen und Metall gehören auf den Boden bzw. unten ins Regal, nicht auf Zwischenebenen. Punktlasten wie Regalfüße oder Maschinenfüße verteilen Sie mit Lastverteilplatten oder Bohlen; die Gesamtlast bleibt unter der Zuladungsgrenze des Containers und der Tragfähigkeit des Bodens (rund 28 mm Sperrholz auf Stahlquerträgern).
 - **ABC-Prinzip.** Häufig benötigte Ware nach vorne, Saisonware nach hinten.
 - **Inventarliste führen.** Eine einfache Tabelle mit Position (z. B. „Regal B, Fach 3") reicht. Fotos beim Einlagern helfen zusätzlich bei Versicherungsfragen.
 - **Kartons beschriften**, und zwar auf der Stirnseite, die zur Gasse zeigt.
@@ -80,11 +88,11 @@ Der häufigste Ärger im Alltag ist nicht der Schaden, sondern das Suchen. Ein d
 
 ## Sicherheit in Kürze
 
-Standardschlösser an Containertüren sind mit einem Bolzenschneider in Sekunden offen. Wirksam sind Vorhangschlösser mit verdecktem Bügel in Kombination mit einer verschweißten Lockbox, ergänzt durch Verriegelungsstangen und eine sichtbare Standortwahl. Mehr Details finden Sie im Beitrag [Container sichern](/ratgeber/container-sichern-diebstahlschutz).
+Standardschlösser an Containertüren sind mit einem Bolzenschneider in Sekunden offen. Wirksam sind Vorhangschlösser mit verdecktem Bügel in Kombination mit einer verschweißten Lockbox, ergänzt durch Verriegelungsstangen und eine sichtbare Standortwahl. Mehr Details finden Sie im Beitrag [Container sichern](/ratgeber/container-sichern-diebstahlschutz); ob und wie der Inhalt abgesichert ist, klärt [Container versichern](/ratgeber/container-versichern).
 
 ## Wartung und Kontrolle
 
-Ein Lagercontainer ist wartungsarm, aber nicht wartungsfrei. Ein Kontrollgang alle drei Monate genügt in der Regel:
+Ein Lagercontainer ist wartungsarm, aber nicht wartungsfrei. Ein Kontrollgang alle drei Monate genügt in der Regel; Details zum Rostschutz stehen in [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz):
 
 | Intervall | Prüfpunkt |
 | --- | --- |
@@ -96,6 +104,19 @@ Ein Lagercontainer ist wartungsarm, aber nicht wartungsfrei. Ein Kontrollgang al
 Kleine Roststellen früh zu behandeln kostet Minuten; ein durchgerosteter Dachbereich kostet eine Reparatur oder den Container.
 
 **Sonderfall Fahrräder:** Wie viele Räder in einen 20-Fuß-Container passen und was bei E-Bike-Akkus gilt, rechnet der Ratgeber [Container als Fahrradgarage](/ratgeber/container-als-fahrradgarage) durch.
+
+## Wann ein Lagercontainer die falsche Lösung ist
+
+Nicht jede Lagerfrage ist mit einem Container gelöst. Eine Abgrenzung:
+
+| Situation | Lagercontainer | Alternative |
+| --- | --- | --- |
+| Dauerhaft temperatur- oder feuchteempfindliche Ware (Archiv, Kunst, Instrumente) | nur gedämmt und belüftet | beheizter Raum oder Self-Storage mit Klima |
+| Kurzfristiger Bedarf von wenigen Wochen | Miete möglich, Einmalkosten für Transport beachten | Self-Storage-Box |
+| Kein eigener Stellplatz | Standort und Genehmigung vorab klären | Self-Storage |
+| Langfristig große Menge, eigenes Grundstück | meist wirtschaftlich | – |
+
+Die Kostenfrage und den Vergleich mit Self-Storage rechnet [Self-Storage oder eigener Lagercontainer](/ratgeber/self-storage-oder-lagercontainer) durch; eine Übersicht über Typen und Ausstattung bietet der [Lagercontainer-Ratgeber](/ratgeber/lagercontainer-ratgeber). Ob für den Standort eine Genehmigung nötig ist, hängt von Standort, Dauer und Nutzung ab, siehe [Container-Baugenehmigung](/ratgeber/container-baugenehmigung).
 
 ## Fazit
 

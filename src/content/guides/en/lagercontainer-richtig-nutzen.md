@@ -6,7 +6,7 @@ category: "Practice"
 icon: "lager"
 readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-13
 lead: "A storage container offers reliable protection – provided ventilation, ground conditions and loading are right. Here is how to avoid moisture and rust damage."
 order: 76
 draft: false
@@ -44,13 +44,21 @@ For especially sensitive goods a small dehumidifier with a power supply can make
 
 ## Ground and siting
 
-An empty 20-foot container weighs around 2.2 tonnes and, when loaded, easily ten times that. Almost all of the load rests on the four corner castings – as point loads, not spread across the floor.
+An empty 20-foot container weighs around 2.2 tonnes; loaded, it can reach a multiple of that depending on the cargo (payload up to about 28 t, see [container sizes and dimensions](/en/ratgeber/container-groessen-und-masse)). The load is carried through the four lower corner castings – as point loads, not spread across the floor. A worked example is in the [foundation guide](/en/ratgeber/container-fundament).
 
-- **Load-bearing and level.** Compacted gravel, concrete slabs or strip footings under the corners. Soft lawn or freshly filled ground leads to settlement.
-- **Align horizontally.** A twisted container has jamming doors. A slight rearward tilt (one to two centimetres) helps carry rainwater away from the door end.
+- **Load-bearing and level.** Compacted gravel with slabs, pad footings or strip footings under the corners (see the [foundation guide](/en/ratgeber/container-fundament) for how to choose). Soft lawn or freshly filled ground leads to settlement.
+- **Align horizontally.** A twisted container has jamming doors. A slight rearward tilt (a few centimetres over the length) is harmless and carries rainwater away from the door end, as long as the doors still close properly.
 - **Air beneath the floor.** Timber beams or concrete slabs create ten to fifteen centimetres of clearance to the ground. This keeps standing moisture away and protects the base frame from rust.
 - **Keep the door side clear.** Allow two to three metres of free space in front of the doors – the leaves swing wide. Orient the door end away from the prevailing weather where possible.
 - **Distance from vegetation.** Leaves and branches on the roof trap moisture and accelerate corrosion.
+
+## Worked Examples: Air Moisture and Shelf Volume
+
+Two back-of-the-envelope calculations make the levers tangible. They apply to a standard 20-foot container with internal dimensions of about 5.90 × 2.35 × 2.39 m (around 33 m³ internal volume, 13.9 m² floor area); a high cube (internal height about 2.70 m) gives correspondingly higher values.
+
+**How much water is in the air?** Air at 20 °C and 70 % relative humidity holds about 12 g of water per m³ (saturation at 20 °C: about 17.3 g/m³). In an empty container that is roughly 400 g. If the air cools overnight to 10 °C, it can hold only about 9.4 g/m³, i.e. around 311 g. The difference of just under 90 g condenses on cold surfaces. That sounds small, but it repeats with every temperature swing, and stored goods often bring a multiple of it: damp wood, cartons and pallets release their bound water slowly into the air. What matters is that air is actually exchanged, so cross-ventilation and dry goods work better than any single measure.
+
+**How much shelving fits?** Shelves 0.60 m deep on both sides, each 5.60 m long, leave an aisle of about 1.15 m in a 2.35 m wide interior. At a shelf height of two metres this gives 2 × 5.60 × 0.60 × 2.0 ≈ 13.4 m³ of shelf space, around 40 % of the internal volume. With four shelf levels that is about 27 m² of storage area (4 × 2 × 5.60 × 0.60), almost twice the 13.9 m² floor area. The rest is aisle and door area, and this very "loss" is what makes the store usable. Dropping the aisle saves shelf space, but you then have to unload everything every time.
 
 ## Sensible fit-out
 
@@ -72,7 +80,7 @@ All figures are rough guide values and vary by region, supplier and specificatio
 The most common day-to-day annoyance is not damage but searching. A well-planned layout saves more time in the long run than any accessory.
 
 - **Keep a central aisle.** Shelving against the long walls, at least 70 centimetres of walkway – otherwise you have to unload everything to reach the back.
-- **Heavy loads low and over the rails.** Machines and metal belong on the floor, as close as possible to the long sides where the frame carries the load.
+- **Heavy loads low and spread out.** Machines and metal belong on the floor or on the lowest shelf, not on upper levels. Spread point loads such as shelf or machine feet with load-spreading plates or planks; the total load must stay below the container's payload limit and the floor's capacity (about 28 mm plywood on steel cross-members).
 - **ABC principle.** Frequently needed goods at the front, seasonal items at the back.
 - **Keep an inventory list.** A simple table with a position reference ("bay B, shelf 3") is enough. Photos taken during loading also help with insurance questions.
 - **Label cartons** on the face pointing towards the aisle.
@@ -80,11 +88,11 @@ The most common day-to-day annoyance is not damage but searching. A well-planned
 
 ## Security in brief
 
-Standard padlocks on container doors yield to bolt cutters in seconds. What works is a shrouded-shackle padlock combined with a welded lock box, backed up by locking bars and a visible, well-chosen location. More detail can be found in the article [securing a container](/ratgeber/container-sichern-diebstahlschutz).
+Standard padlocks on container doors yield to bolt cutters in seconds. What works is a shrouded-shackle padlock combined with a welded lock box, backed up by locking bars and a visible, well-chosen location. More detail can be found in the article [securing a container](/en/ratgeber/container-sichern-diebstahlschutz); how to insure the contents is covered in [insuring a container](/en/ratgeber/container-versichern).
 
 ## Maintenance and inspection
 
-A storage container is low-maintenance but not maintenance-free. An inspection round every three months is usually enough:
+A storage container is low-maintenance but not maintenance-free. An inspection round every three months is usually enough; rust protection is covered in [care and rust protection](/en/ratgeber/container-pflege-und-rostschutz):
 
 | Interval | Check |
 | --- | --- |
@@ -96,6 +104,19 @@ A storage container is low-maintenance but not maintenance-free. An inspection r
 Treating small rust spots early takes minutes; a rusted-through roof section costs a repair – or the container.
 
 **Special case – bicycles:** How many bikes fit into a 20 ft container and what applies to e-bike batteries is worked out in [Container as a bicycle garage](/en/ratgeber/container-als-fahrradgarage).
+
+## When a storage container is the wrong solution
+
+Not every storage question is solved by a container. A comparison:
+
+| Situation | Storage container | Alternative |
+| --- | --- | --- |
+| Long-term temperature- or humidity-sensitive goods (archives, art, instruments) | only insulated and ventilated | heated room or climate-controlled self-storage |
+| Short-term need of a few weeks | hire possible, mind the one-off transport costs | self-storage unit |
+| No suitable site of your own | clarify location and permit beforehand | self-storage |
+| Large quantity long-term, own plot | usually economical | – |
+
+The cost question and the comparison with self-storage are worked out in [self-storage or your own storage container](/en/ratgeber/self-storage-oder-lagercontainer); an overview of types and fit-out is in the [storage container guide](/en/ratgeber/lagercontainer-ratgeber). Whether a permit is needed for the site depends on location, duration and use – see the [container building permit guide](/en/ratgeber/container-baugenehmigung) (German rules).
 
 ## Conclusion
 
