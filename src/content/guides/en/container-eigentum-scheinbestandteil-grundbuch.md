@@ -50,7 +50,7 @@ What is an essential component passes to the buyer with the land, even if the sa
 
 ### Land charges and financing
 
-A land charge covers the plot together with its essential components (sections 1120 ff. BGB). A permanent container house can therefore raise the lending value, a merely placed temporary fixture usually does not. Banks typically require a building permit and a fixed connection for construction finance; more in [building or buying a container home](/en/ratgeber/containerhaus-bauen-oder-kaufen) and [tiny house costs](/en/ratgeber/container-tiny-house-kosten).
+A land charge covers the plot together with its components and, in some cases, accessories belonging to the landowner (sections 1120 ff. BGB). A permanent container house can therefore raise the lending value. A merely placed temporary fixture usually does not; however, if a container owned by the landowner permanently serves the economic purpose of the property – for example as a business's store – it may still be liable as an accessory (section 97 BGB). Banks typically require a building permit and a fixed connection for construction finance; more in [building or buying a container home](/en/ratgeber/containerhaus-bauen-oder-kaufen) and [tiny house costs](/en/ratgeber/container-tiny-house-kosten).
 
 ### Retention of title by the supplier
 

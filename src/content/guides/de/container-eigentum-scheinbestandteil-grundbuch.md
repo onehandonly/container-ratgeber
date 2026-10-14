@@ -50,7 +50,7 @@ Was wesentlicher Bestandteil ist, geht mit dem Grundstück auf den Käufer über
 
 ### Grundschuld und Finanzierung
 
-Eine Grundschuld erfasst das Grundstück samt seinen wesentlichen Bestandteilen (§§ 1120 ff. BGB). Ein festes Containerhaus kann daher den Beleihungswert erhöhen, ein bloß aufgestellter Scheinbestandteil in der Regel nicht. Banken verlangen für eine Baufinanzierung meist eine Baugenehmigung und eine feste Verbindung; Näheres in [Containerhaus bauen oder kaufen](/ratgeber/containerhaus-bauen-oder-kaufen) und [Tiny-House-Kosten](/ratgeber/container-tiny-house-kosten).
+Eine Grundschuld erfasst das Grundstück samt seinen Bestandteilen und unter Umständen auch Zubehör des Grundstückseigentümers (§§ 1120 ff. BGB). Ein festes Containerhaus kann daher den Beleihungswert erhöhen. Ein bloß aufgestellter Scheinbestandteil erhöht ihn in der Regel nicht; dient ein dem Grundstückseigentümer gehörender Container aber dauerhaft dem wirtschaftlichen Zweck des Grundstücks, etwa als Lager eines Betriebs, kann er als Zubehör (§ 97 BGB) dennoch mithaften. Banken verlangen für eine Baufinanzierung meist eine Baugenehmigung und eine feste Verbindung; Näheres in [Containerhaus bauen oder kaufen](/ratgeber/containerhaus-bauen-oder-kaufen) und [Tiny-House-Kosten](/ratgeber/container-tiny-house-kosten).
 
 ### Eigentumsvorbehalt des Lieferanten
 
