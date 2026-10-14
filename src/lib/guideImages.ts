@@ -87,6 +87,7 @@ const MAP: Record<string, string> = {
   'container-brandschutz-vorschriften': PHOTO('type-baucontainer'),
   'container-geg-energierecht': INSPO('haus-gruendach'),
   'container-steuer-abschreibung': PHOTO('hero-home'),
+  'container-eigentum-scheinbestandteil-grundbuch': INSPO('gartenbuero'),
 
   // --- Technik ---
   'container-fundament': INSPO('haus-zwei-etagen'),
