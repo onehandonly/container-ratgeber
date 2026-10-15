@@ -4,9 +4,9 @@ description: "How window and door openings are properly cut into the steel wall,
 lang: "en"
 category: "Living"
 icon: "ruler"
-readingTime: 9
+readingTime: 11
 published: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-15
 lead: "A shipping container arrives with no windows and a single door. How a closed steel box becomes a space with daylight and more than one way in, without compromising its strength."
 order: 70
 draft: false
@@ -62,6 +62,23 @@ The following figures are **rough guide ranges only, without guarantee**, and de
 | Reveal insulation per opening | €50–200 |
 | Extra structural reinforcement for several/large openings | €500–2,000 depending on scope |
 
+## Worked example: 20-foot office with two windows and an access door
+
+Suppose a 20-foot container (standard height, internal height about 2.39 m) is used as an office and gets two standard windows (about 1 × 1 m) and an additional door in the long wall. Using the ranges from the table above:
+
+| Item | Standard door | RC2 security door |
+| --- | --- | --- |
+| 2 window cut-outs incl. frame (€600–1,500 each) | €1,200–3,000 | €1,200–3,000 |
+| 1 door cut-out incl. frame | €900–2,000 | €1,800–3,500 |
+| Reveal insulation, 3 openings (€50–200 each) | €150–600 | €150–600 |
+| **Total (approx.)** | **€2,250–5,600** | **€3,150–7,100** |
+
+Not included are any additional structural reinforcement (about €500–2,000), ventilation, and the cost of the window and door units themselves where they are not part of the cut-out price – check exactly what a quote covers. A combined window area of about 2 m² on just under 14 m² of floor area (about 5.90 × 2.35 m internally) is roughly 14 % – a workable starting point for daylight at a workstation; actual requirements depend on use and regulations.
+
+## Permits, escape routes and ventilation
+
+New openings also change legal and constructional conditions. If the container is used as an occupied room, **escape routes** matter: an additional door or a window of suitable size can help in designing a fire-safe layout, but is not automatically a recognised second escape route. Requirements are covered in [Fire safety in containers](/en/ratgeber/container-brandschutz-vorschriften) (German rules). For permanent residential use, energy requirements apply as well ([Containers and the GEG](/en/ratgeber/container-geg-energierecht)). Windows improve airflow but do not replace a ventilation concept – see [Ventilating a container](/en/ratgeber/container-belueftung). Whether a permit is needed for placement and conversion depends on location, duration and use; more in [Container planning permission](/en/ratgeber/container-baugenehmigung).
+
 ## Common mistakes
 
 - **Cutting openings without reinforcing the frame.** Leads to twisting of the container and, in extreme cases, cracks at weld seams.
@@ -69,6 +86,10 @@ The following figures are **rough guide ranges only, without guarantee**, and de
 - **Forgetting reveal insulation.** The welded-in frame otherwise becomes the most obvious thermal bridge in the whole container.
 - **Clarifying security requirements with the insurer only after installation.** Better to check beforehand which resistance class the cover actually requires.
 - **Planning several large openings without a structural check**, for example for a continuous window front – here, a structural engineer's advice before cutting is essential.
+
+## Important note
+
+This article is general guidance and does not replace structural, building-law or safety advice for your specific case; the legal references are to German rules. Costs are guideline figures without guarantee. Before larger conversions, clarify structure and permit questions with a specialist workshop, a structural engineer and the local building authority.
 
 ## Conclusion
 

@@ -4,9 +4,9 @@ description: "Wie Fenster- und Türeinschnitte in die Stahlwand fachgerecht ausg
 lang: "de"
 category: "Wohnen"
 icon: "ruler"
-readingTime: 9
+readingTime: 11
 published: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-15
 lead: "Ein Seecontainer kommt ohne Fenster und mit einer einzigen Tür. Wie aus der geschlossenen Stahlbox ein Raum mit Tageslicht und mehreren Zugängen wird, ohne die Tragfähigkeit zu gefährden."
 order: 70
 draft: false
@@ -62,6 +62,23 @@ Die folgenden Werte sind **grobe Orientierungsspannen ohne Gewähr** und hängen
 | Laibungsdämmung je Öffnung | 50–200 € |
 | Statische Zusatzverstärkung bei mehreren/großen Öffnungen | 500–2.000 € je nach Umfang |
 
+## Rechenbeispiel: 20-Fuß-Büro mit zwei Fenstern und Zugangstür
+
+Angenommen, ein 20-Fuß-Container (Standardhöhe, Innenhöhe ca. 2,39 m) wird als Büro genutzt und erhält in der Längswand zwei Standardfenster (ca. 1 × 1 m) und eine zusätzliche Tür. Mit den Spannen aus der Tabelle oben ergibt sich:
+
+| Position | Standardtür | Sicherheitstür RC 2 |
+| --- | --- | --- |
+| 2 Fenstereinschnitte inkl. Rahmen (je 600–1.500 €) | 1.200–3.000 € | 1.200–3.000 € |
+| 1 Türeinschnitt inkl. Rahmen | 900–2.000 € | 1.800–3.500 € |
+| Laibungsdämmung, 3 Öffnungen (je 50–200 €) | 150–600 € | 150–600 € |
+| **Summe (ca.)** | **2.250–5.600 €** | **3.150–7.100 €** |
+
+Nicht enthalten sind eine mögliche statische Zusatzverstärkung (ca. 500–2.000 €), Lüftung und die Kosten für Fenster und Tür selbst, soweit sie nicht im Einschnittpreis stehen – klären Sie im Angebot genau, was enthalten ist. Die Fensterfläche von zusammen ca. 2 m² entspricht bei knapp 14 m² Grundfläche (ca. 5,90 × 2,35 m innen) rund 14 % – für Tageslicht am Arbeitsplatz ist das ein brauchbarer Ausgangspunkt, die tatsächlichen Anforderungen hängen von Nutzung und Vorschriften ab.
+
+## Genehmigung, Rettungsweg und Lüftung
+
+Mit neuen Öffnungen ändern sich auch rechtliche und bauliche Randbedingungen. Wird der Container als Aufenthaltsraum genutzt, spielen **Rettungswege** eine Rolle: Eine zusätzliche Tür oder ein Fenster in passender Größe kann dazu beitragen, ein Raumkonzept brandschutzgerecht zu gestalten, ist aber nicht automatisch ein anerkannter zweiter Rettungsweg. Anforderungen enthält der Ratgeber [Brandschutz am Container](/ratgeber/container-brandschutz-vorschriften). Bei dauerhafter Wohnnutzung kommen energetische Anforderungen hinzu ([Container und GEG](/ratgeber/container-geg-energierecht)). Fenster verbessern die Belüftung, ersetzen aber kein Lüftungskonzept – siehe [Container belüften](/ratgeber/container-belueftung). Ob für Aufstellung und Umbau eine Genehmigung nötig ist, hängt von Standort, Dauer und Nutzung ab; mehr in [Container und Baugenehmigung](/ratgeber/container-baugenehmigung).
+
 ## Typische Fehler
 
 - **Öffnungen einschneiden, ohne den Rahmen zu verstärken.** Führt zu Verwindung des Containers und im Extremfall zu Rissen an Schweißnähten.
@@ -69,6 +86,10 @@ Die folgenden Werte sind **grobe Orientierungsspannen ohne Gewähr** und hängen
 - **Laibungsdämmung vergessen.** Der eingeschweißte Rahmen wird sonst zur auffälligsten Wärmebrücke im ganzen Container.
 - **Sicherheitsanforderungen erst nach dem Einbau mit dem Versicherer klären.** Besser vorab prüfen, welche Widerstandsklasse für den Versicherungsschutz vorausgesetzt wird.
 - **Viele große Öffnungen ohne statische Prüfung planen**, etwa für eine durchgehende Fensterfront – hier ist der Rat eines Statikers vor dem Zuschnitt Pflicht.
+
+## Wichtiger Hinweis
+
+Dieser Beitrag ist eine allgemeine Orientierung und ersetzt keine statische, bauordnungsrechtliche oder sicherheitstechnische Beratung im Einzelfall. Kostenangaben sind Orientierungswerte ohne Gewähr. Vor größeren Umbauten klären Sie Statik und Genehmigungsfragen mit Fachbetrieb, Statiker und Bauaufsichtsbehörde.
 
 ## Fazit
 
