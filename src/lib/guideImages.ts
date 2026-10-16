@@ -73,6 +73,7 @@ const MAP: Record<string, string> = {
   'container-landwirtschaft': PHOTO('type-open-top-container'),
   'homeoffice-im-container': INSPO('innen-hell'),
   'container-als-pop-up-store': PHOTO('type-eventcontainer'),
+  'container-schulraum-kita-interim': PHOTO('type-schul-und-kitacontainer'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
