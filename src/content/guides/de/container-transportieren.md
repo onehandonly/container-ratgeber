@@ -6,7 +6,7 @@ category: "Praxis"
 icon: "abroll"
 readingTime: 8
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-17
 lead: "Ein Container muss sicher an seinen Platz kommen. Welche Anlieferung passt, was die Zufahrt können muss und womit Sie rechnen sollten."
 order: 70
 draft: false
@@ -33,6 +33,21 @@ Je nach Containertyp, Größe und Untergrund kommen unterschiedliche Fahrzeuge z
 | LKW mit Ladekran | Bau-, Büro-, Seecontainer | Hebt über Hindernisse, feste Abstützfläche erforderlich |
 | Tieflader / Sattelauflieger | Große/schwere Seecontainer | Für lange Transporte, Abladen oft per Kran/Stapler |
 
+## Welches Fahrzeug für welchen Container?
+
+Entscheidend sind Gewicht und Länge der Einheit. Die Werte stammen aus den Standardmaßen (siehe [Größen und Maße](/ratgeber/container-groessen-und-masse)); echte Gewichte weichen je nach Hersteller und Ausbau ab, und ein ausgebauter Container ist deutlich schwerer als ein leerer Seecontainer.
+
+| Container | Leergewicht (ca.) | Üblicher Transport | Absetzen vor Ort |
+| --- | --- | --- | --- |
+| 10 Fuß | ca. 1.300 kg | Lkw mit Ladekran, teils Absetzkipper | Ladekran, am Stellplatz meist unkompliziert |
+| 20 Fuß (Standard / High Cube) | ca. 2.200–2.400 kg | Hakenlift mit Rahmen, Lkw mit Ladekran oder Tieflader | Abrollen, Ladekran oder separater Kran |
+| 40 Fuß (Standard / High Cube) | ca. 3.700–4.000 kg | Sattelzug / Tieflader | meist Autokran, Abrollen nur mit Spezialtechnik |
+| Ausgebauter Wohn- oder Bürocontainer | je nach Ausbau höher als der leere Seecontainer | Lkw mit Ladekran oder Tieflader | Kran mit ausreichender Reserve |
+
+Beim Kran zählt nicht die Nennlast, sondern die **Tragfähigkeit bei der benötigten Ausladung**: Ein Kran, der nah am Fahrzeug viel hebt, schafft über eine Hecke hinweg deutlich weniger. Nennen Sie dem Anbieter deshalb Gewicht des Containers *und* Abstand zwischen Fahrzeugstandort und Stellplatz. Wie der Container angeschlagen wird, steht in [Container richtig anheben](/ratgeber/container-richtig-anheben).
+
+Auch **Breite und Ladungssicherung** spielen eine Rolle: Standardcontainer sind außen ca. 2,44 m breit und werden auf dem Fahrzeug an den Eckbeschlägen mit Twistlocks gesichert. Überbreite Module (z. B. 3 m) und mehrere gekoppelte Einheiten unterliegen anderen Transportvorschriften, mit Genehmigung und teils Begleitfahrzeug; die Kostenfolgen beschreibt [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten).
+
 ## Anforderungen an Zufahrt und Stellplatz
 
 Die meisten gescheiterten Liefertermine liegen nicht am Container, sondern an der Zufahrt. Prüfen Sie diese Punkte vorab:
@@ -56,19 +71,22 @@ Die meisten gescheiterten Liefertermine liegen nicht am Container, sondern an de
 
 ## Kosten der Anlieferung
 
-Die Anlieferung ist bei vielen Angeboten bereits eingerechnet, kann aber je nach Aufwand separat berechnet werden. Die folgenden Werte sind grobe Orientierungsspannen und können regional und je Anbieter deutlich abweichen.
+Die Anlieferung ist bei manchen Mietangeboten eingerechnet, wird aber häufig separat ausgewiesen. Die Werte unten sind Orientierungsspannen und stimmen mit dem Ratgeber [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten) überein; dort finden Sie auch ausführliche Beispielrechnungen.
 
 | Kostenpunkt | Ca.-Spanne | Hinweis |
 | --- | --- | --- |
-| Anlieferung im Nahbereich | ca. 40 bis 120 EUR | Oft in Miet- oder Entsorgungspreis enthalten |
-| Zusätzliche Entfernung | ca. 1 bis 3 EUR je km | Ab einer bestimmten Radiusgrenze |
-| Kranstellung / Kraneinsatz | ca. 80 bis 250 EUR | Je nach Dauer und Reichweite |
-| Wartezeit / Standgeld | ca. 30 bis 90 EUR je angefangene Stunde | Wenn der Stellplatz nicht frei ist |
-| Leerfahrt / Fehlanfahrt | ca. 50 bis 150 EUR | Wenn keine Anlieferung möglich war |
+| Anlieferung im Nahbereich (bis ca. 20–30 km) | ca. 120–300 € je Fahrt | häufigstes Abrechnungsmodell |
+| Kilometer über den Nahbereich hinaus | ca. 1,80–4,50 € je km | einfache oder doppelte Strecke vorher klären |
+| Kranstunde | ca. 150–350 € je Stunde | häufig mit Mindestabnahme und An-/Abfahrtspauschale |
+| Wartezeit | ca. 60–120 € je angefangene Stunde | meist nach 15–30 Minuten Freigrenze |
+| Fehlfahrt | häufig volle Anfahrt | Zweitanfahrt kommt hinzu |
+| Zuschlag für Samstag oder enges Zeitfenster | ca. 20–50 % | vermeidbar bei flexibler Planung |
 
-Die Hauptkostentreiber sind Entfernung, Kranbedarf und verlorene Zeit vor Ort. Wer die Zufahrt gut vorbereitet, vermeidet die teuersten Posten: Wartezeit und Fehlanfahrten. Eine Einordnung der Gesamtkosten finden Sie im Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container).
+**Rechenbeispiel:** Ein 20-Fuß-Lagercontainer wird 25 km entfernt per Hakenlift auf einen ebenen Hof geliefert: Anlieferung ca. 220 €, später Abholung ca. 220 €, zusammen **ca. 440 €**. Muss derselbe Container mit Ladekran über eine Hecke gesetzt werden, kann die Anlieferung allein schon bei ca. 750 € liegen (Pauschale, zusätzliche Kilometer und rund 1,5 Kranstunden); mit Abholung wären es **ca. 1.500 €**. Der Unterschied kommt fast ausschließlich vom Kran, nicht von der Strecke. Wer den Stellplatz so wählt, dass der Lkw abrollen kann, spart also oft mehrere hundert Euro.
 
-> Hinweis: Alle Preisangaben sind unverbindliche ca.-Werte zur groben Orientierung und ersetzen kein individuelles Angebot. Maßgeblich sind stets die Konditionen des jeweiligen Anbieters.
+Die Hauptkostentreiber sind Kranbedarf, Entfernung und verlorene Zeit vor Ort. Eine Einordnung der Gesamtkosten finden Sie im Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container); eine schnelle Schätzung liefert der [Transportkosten-Schätzer](/rechner/transportkosten).
+
+> Hinweis: Alle Preisangaben sind unverbindliche ca.-Werte ohne Gewähr und ersetzen kein individuelles Angebot. Maßgeblich sind stets die Konditionen des jeweiligen Anbieters.
 
 ## Genehmigung bei Aufstellung auf öffentlichem Grund
 

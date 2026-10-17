@@ -6,7 +6,7 @@ category: "Practice"
 icon: "abroll"
 readingTime: 8
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-17
 lead: "A container has to reach its spot safely. Which delivery method fits, what the access route must handle and what to budget for."
 order: 70
 draft: false
@@ -33,6 +33,21 @@ Depending on the container type, size and ground conditions, different vehicles 
 | Truck with loader crane | Construction, office, shipping containers | Lifts over obstacles, firm outrigger surface required |
 | Low loader / semi-trailer | Large/heavy shipping containers | For long transports, unloading often by crane/forklift |
 
+## Which vehicle for which container?
+
+Weight and length of the unit decide. The values come from the standard dimensions (see [Sizes and dimensions](/en/ratgeber/container-groessen-und-masse)); actual weights vary by manufacturer and fit-out, and a converted container is considerably heavier than an empty shipping container.
+
+| Container | Empty weight (approx.) | Usual transport | Placing on site |
+| --- | --- | --- | --- |
+| 10 ft | approx. 1,300 kg | Truck with loader crane, sometimes skip loader | Loader crane, usually straightforward at the pitch |
+| 20 ft (standard / high cube) | approx. 2,200–2,400 kg | Hook lift with frame, truck with loader crane or low loader | Roll-off, loader crane or separate crane |
+| 40 ft (standard / high cube) | approx. 3,700–4,000 kg | Semi-trailer / low loader | Usually mobile crane; roll-off only with special equipment |
+| Converted living or office container | higher than the empty shipping container, depending on fit-out | Truck with loader crane or low loader | Crane with sufficient reserve |
+
+For a crane, what counts is not the rated load but the **capacity at the required reach**: a crane that lifts a lot close to the vehicle manages much less over a hedge. Tell the provider the container's weight *and* the distance between vehicle position and standing area. How the container is slung is explained in [Lifting a container correctly](/en/ratgeber/container-richtig-anheben).
+
+**Width and load securing** also matter: standard containers are about 2.44 m wide on the outside and are secured on the vehicle at the corner castings with twistlocks. Oversize modules (e.g. 3 m) and several coupled units are subject to different transport rules, with permits and sometimes an escort vehicle; the cost implications are described in [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten).
+
 ## Requirements for access and standing area
 
 Most failed delivery appointments are not caused by the container but by the access route. Check these points in advance:
@@ -56,19 +71,22 @@ Most failed delivery appointments are not caused by the container but by the acc
 
 ## Delivery costs
 
-Delivery is already included in many offers but may be charged separately depending on the effort involved. The following figures are rough guide ranges and can vary significantly by region and provider.
+Delivery is included in some rental offers but is often itemised separately. The values below are guide ranges and match the guide [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten), which also contains detailed worked examples. Prices are given in euros for the German market.
 
 | Cost item | Approx. range | Note |
 | --- | --- | --- |
-| Delivery in the local area | approx. EUR 40 to 120 | Often included in rental or disposal price |
-| Additional distance | approx. EUR 1 to 3 per km | Beyond a certain radius |
-| Crane setup / crane use | approx. EUR 80 to 250 | Depending on duration and reach |
-| Waiting time / standing fee | approx. EUR 30 to 90 per started hour | If the standing area is not clear |
-| Wasted trip / failed delivery | approx. EUR 50 to 150 | If delivery was not possible |
+| Delivery in the local area (up to approx. 20–30 km) | approx. €120–300 per trip | most common pricing model |
+| Kilometres beyond the local area | approx. €1.80–4.50 per km | clarify beforehand whether single or return distance |
+| Crane hour | approx. €150–350 per hour | often with a minimum charge and call-out fee |
+| Waiting time | approx. €60–120 per hour started | usually after 15–30 minutes free |
+| Failed trip | often the full delivery charge | a second delivery comes on top |
+| Surcharge for Saturday or tight time window | approx. 20–50 % | avoidable with flexible scheduling |
 
-The main cost drivers are distance, crane requirement and lost time on site. Preparing the access well avoids the most expensive items: waiting time and failed deliveries. For an overview of total costs, see the article [What does a container cost?](/en/ratgeber/was-kostet-ein-container).
+**Worked example:** A 20 ft storage container is delivered 25 km away by hook lift to a level yard: delivery approx. €220, collection later approx. €220, together **approx. €440**. If the same container has to be set over a hedge with a loader crane, delivery alone can reach approx. €750 (base charge, extra kilometres and around 1.5 crane hours); with collection that would be **approx. €1,500**. The difference comes almost entirely from the crane, not the distance. Choosing a standing area where the truck can roll the container off therefore often saves several hundred euros.
 
-> Note: all price figures are non-binding approximate values for rough orientation and do not replace an individual quote. The conditions of the respective provider always apply.
+The main cost drivers are crane need, distance and time lost on site. For the overall costs, see [What does a container cost?](/en/ratgeber/was-kostet-ein-container); a quick estimate is provided by the [transport cost estimator](/en/rechner/transportkosten).
+
+> Note: all price figures are non-binding approximate values without guarantee and do not replace an individual quote. The conditions of the respective provider always apply.
 
 ## Permission for placement on public ground
 
