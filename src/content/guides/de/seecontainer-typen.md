@@ -4,9 +4,9 @@ description: "Die wichtigsten Seecontainer-Bauarten im Überblick: Standard, Hig
 lang: "de"
 category: "Containertypen"
 icon: "see"
-readingTime: 8
+readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-18
 lead: "Nicht jeder Seecontainer ist gleich. Welche ISO-Bauarten es gibt, wofür sie gedacht sind und woran Sie sie erkennen."
 order: 26
 draft: false
@@ -20,7 +20,7 @@ Seecontainer sind international standardisiert. Die Normenreihe ISO 668 und erg�
 
 Die Länge wird traditionell in Fuß angegeben. Am verbreitetsten sind der 20-Fuß-Container (6,058 m außen) und der 40-Fuß-Container (12,192 m außen). Die Breite beträgt bei praktisch allen Bauarten einheitlich 2,438 m (8 Fuß). Unterschiede gibt es vor allem bei der Höhe, der Dachkonstruktion, den Wänden und dem Boden – und genau daraus ergeben sich die verschiedenen Typen.
 
-Detaillierte Zahlen zu Längen, Breiten, Höhen und Gewichten finden Sie im Ratgeber [Container-Größen & Maße](/ratgeber/container-groessen-und-masse). Hier geht es um die Bauarten selbst.
+Detaillierte Zahlen zu Längen, Breiten, Höhen und Gewichten finden Sie im Ratgeber [Container-Größen & Maße](/ratgeber/container-groessen-und-masse). Hier geht es um die Bauarten selbst; die Typ-Seiten [Seecontainer](/container/seecontainer) und [High-Cube-Container](/container/high-cube-container) bieten die Produktsicht.
 
 ## Die wichtigsten Bauarten im Detail
 
@@ -35,6 +35,10 @@ Der Standardcontainer, auch Dry Van oder schlicht „Dry" genannt, ist der Klass
 Der High Cube ist im Grunde ein Standardcontainer mit mehr Höhe: Er ist rund 30 cm höher als die Standardvariante und misst außen 2,896 m (9 Fuß 6 Zoll). Länge und Breite bleiben identisch, sodass er auf derselben Infrastruktur bewegt werden kann. High Cubes tragen zur besseren Erkennbarkeit häufig einen gelb-schwarz gestreiften Warnhinweis an der Oberkante.
 
 **Einsatz:** voluminöse, aber leichte Ladung, die vom zusätzlichen Raumvolumen profitiert. An Land sind High Cubes wegen der größeren Innenhöhe für den Ausbau zu Büro-, Wohn- oder Technikräumen beliebt.
+
+### Open Side und Double Door
+
+Zwei Varianten betreffen den Zugang: Beim **Open Side** lässt sich eine Längsseite weit öffnen, sodass Sperriges seitlich eingebracht werden kann. Der **Double Door** (Doppeltür-Container) hat an beiden Stirnseiten Türen und erlaubt das Durchladen oder Durchgehen. Beide eignen sich an Land für Werkstatt, Verkauf oder Durchgangsräume. Details: [Open-Side-Container](/container/open-side-container) und [Double-Door-Container](/container/double-door-container).
 
 ### Open Top
 
@@ -84,12 +88,22 @@ Der belüftete Container („Ventilated", auch Coffee-Container genannt) ist ein
 | Tankcontainer | Edelstahltank im ISO-Rahmen | Flüssigkeiten, Gase, Chemikalien |
 | Bulk | Ladeluken im Dach, Auslauf an der Tür | Trockenes Schüttgut, Getreide, Granulat |
 | Ventilated | Passive Lüftungsöffnungen | Kaffee, Kakao, atmende Organik |
+| Open Side / Double Door | Seitliche Öffnung bzw. Türen an beiden Stirnseiten | Sperriges seitlich laden, Durchgang, Verkauf |
 
 ## Kennzeichnung und Codes
 
 Jeder Seecontainer trägt eine eindeutige Kennung. Der **BIC-Code** (vergeben vom Bureau International des Containers) besteht aus vier Buchstaben und sieben Ziffern: drei Buchstaben für den Eigentümer, ein Kategoriekennzeichen (meist „U" für Frachtcontainer), sechs Seriennummern und eine Prüfziffer. Über diesen Code lässt sich der Container weltweit eindeutig identifizieren und verfolgen.
 
-Zusätzlich gibt der **ISO-Größentyp-Code** (nach ISO 6346) Auskunft über Bauart und Maße. Er besteht aus vier Zeichen: Die ersten beiden codieren Länge und Höhe, die letzten beiden den Typ. So steht der Zusatz für einen 40-Fuß-High-Cube-Standardcontainer anders als für einen Open Top oder Reefer. Auf dem Container finden Sie außerdem das **CSC-Sicherheitsschild** (Convention for Safe Containers) mit Prüfdaten sowie Angaben zu Leergewicht (Tara), maximaler Zuladung und zulässigem Gesamtgewicht.
+Zusätzlich gibt der **ISO-Größentyp-Code** (nach ISO 6346) Auskunft über Bauart und Maße. Er besteht aus vier Zeichen: Die ersten beiden Zeichen nennen Länge und Höhe, die letzten beiden den Typ. Beispiele:
+
+| Code | Bedeutung |
+|---|---|
+| 22G1 | 20 Fuß, 8 Fuß 6 Zoll hoch, allgemeiner Stückgutcontainer (Standard) |
+| 42G1 | 40 Fuß, Standardhöhe, allgemeiner Stückgutcontainer |
+| 45G1 | 40 Fuß, High Cube (9 Fuß 6 Zoll), allgemeiner Stückgutcontainer |
+| 22R1 | 20 Fuß, Standardhöhe, Kühlcontainer |
+
+Die Codes stammen aus ISO 6346; im Zweifel zählt, was auf dem Container und in der Norm steht, nicht die Händlerbezeichnung. Auf dem Container finden Sie außerdem das **CSC-Sicherheitsschild** (Convention for Safe Containers) mit Prüfdaten sowie Angaben zu Leergewicht (Tara), maximaler Zuladung und zulässigem Gesamtgewicht.
 
 > Praxistipp: Wollen Sie einen gebrauchten Container kaufen, lohnt ein Blick auf das CSC-Schild und den ISO-Code. Sie verraten Alter, Bauart und ob der Container noch für den Seeverkehr zugelassen ist.
 
@@ -97,7 +111,23 @@ Zusätzlich gibt der **ISO-Größentyp-Code** (nach ISO 6346) Auskunft über Bau
 
 Für stationäre Zwecke – Lager, Werkstatt, Büro oder Wohnraum – sind vor allem **Standard- und High-Cube-Container** relevant. Der High Cube ist beim Ausbau meist die bessere Wahl, weil die zusätzlichen 30 cm Höhe nach dem Einbau von Boden, Dämmung und Decke einen spürbar angenehmeren Innenraum lassen. Für reine Lagerzwecke genügt oft der günstigere Standardcontainer.
 
-Sonderbauformen wie Open Top oder Flat Rack sind an Land nur in Nischen sinnvoll, etwa wenn sperriges Gut von oben eingebracht werden muss. Reefer werden gelegentlich als Kühlzelle weitergenutzt. Für den klassischen Umbau zu Wohn- oder Bürocontainern führt der Weg jedoch fast immer über den Standard- oder High-Cube-Typ.
+Die Innenmaße eines 20-Fuß-Containers im Vergleich (ca.-Werte, Details in [Container-Größen & Maße](/ratgeber/container-groessen-und-masse)):
+
+| Merkmal | Standard | High Cube |
+|---|---|---|
+| Innenmaß L × B × H | ca. 5,90 × 2,35 × 2,39 m | ca. 5,90 × 2,35 × 2,70 m |
+| Volumen | ca. 33 m³ | ca. 37 m³ |
+| Türöffnung B × H | ca. 2,34 × 2,28 m | ca. 2,34 × 2,58 m |
+
+| Nutzung an Land | Empfohlener Typ | Begründung |
+|---|---|---|
+| Lager, Materialcontainer | Standard | günstiger, Höhe meist ausreichend |
+| Büro, Wohnen | High Cube | Raumhöhe nach Dämmung und Bodenaufbau |
+| Werkstatt, Verkauf | Open Side oder Double Door | große Öffnung bzw. Durchgang |
+| Kühlzelle | Reefer (gebraucht) | Isolierung und Aggregat vorhanden; Stromkosten beachten |
+| Sperrige Teile von oben einbringen | Open Top | nur in Nischen sinnvoll |
+
+Sonderbauformen wie Open Top oder Flat Rack sind an Land nur in Nischen sinnvoll, etwa wenn sperriges Gut von oben eingebracht werden muss. Reefer werden gelegentlich als Kühlzelle weitergenutzt; was der Betrieb kostet, steht in [Kühlcontainer: Betrieb und Stromkosten](/ratgeber/kuehlcontainer-betrieb-stromkosten). Für den klassischen Umbau zu Wohn- oder Bürocontainern führt der Weg jedoch fast immer über den Standard- oder High-Cube-Typ; weiter geht es mit [Wohncontainer ausbauen](/ratgeber/wohncontainer-ausbauen). Beim Gebrauchtkauf helfen [Container-Nummer und CSC-Plakette](/ratgeber/container-nummer-csc-plakette) bei der Einordnung.
 
 ## Fazit
 

@@ -4,9 +4,9 @@ description: "The most important shipping container designs at a glance: Standar
 lang: "en"
 category: "Container types"
 icon: "see"
-readingTime: 8
+readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-18
 lead: "Not every shipping container is the same. Which ISO designs exist, what they are made for and how to recognise them."
 order: 26
 draft: false
@@ -20,7 +20,7 @@ Shipping containers are standardised internationally. The ISO 668 series and add
 
 Length is traditionally given in feet. The most common are the 20-foot container (6.058 m exterior) and the 40-foot container (12.192 m exterior). The width is a uniform 2.438 m (8 feet) for virtually all designs. Differences arise mainly in height, roof construction, walls and floor – and precisely from these the various types emerge.
 
-Detailed figures on lengths, widths, heights and weights can be found in the guide [Container sizes & dimensions](/en/ratgeber/container-groessen-und-masse). This guide is about the designs themselves.
+Detailed figures on lengths, widths, heights and weights can be found in the guide [Container sizes & dimensions](/en/ratgeber/container-groessen-und-masse). This guide is about the designs themselves; the type pages [sea container](/en/container/seecontainer) and [High Cube container](/en/container/high-cube-container) give the product view.
 
 ## The most important designs in detail
 
@@ -35,6 +35,10 @@ The standard container, also called a dry van or simply a "dry", is the classic 
 The High Cube is essentially a standard container with extra height: it is around 30 cm taller than the standard version, measuring 2.896 m (9 feet 6 inches) on the outside. Length and width remain identical, so it can be moved on the same infrastructure. For easier identification, High Cubes often carry a yellow-and-black striped warning marker along the top edge.
 
 **Use:** bulky but light cargo that benefits from the additional volume. On land, High Cubes are popular for conversion into office, living or technical rooms thanks to their greater interior height.
+
+### Open Side and Double Door
+
+Two variants concern access: with an **Open Side** container one long side can be opened wide so bulky items can be loaded from the side. The **Double Door** container has doors at both ends and allows loading or walking straight through. On land both suit workshops, retail or walk-through rooms. Details: [open-side container](/en/container/open-side-container) and [double-door container](/en/container/double-door-container).
 
 ### Open Top
 
@@ -84,20 +88,46 @@ The ventilated container (also called a coffee container) is a standard containe
 | Tank container | Stainless-steel tank in ISO frame | Liquids, gases, chemicals |
 | Bulk | Loading hatches in roof, discharge at door | Dry bulk material, grain, granulate |
 | Ventilated | Passive ventilation openings | Coffee, cocoa, breathing organics |
+| Open Side / Double Door | Side opening or doors at both ends | Side loading of bulky items, walk-through, retail |
 
 ## Marking and codes
 
 Every shipping container carries a unique identifier. The **BIC code** (issued by the Bureau International des Containers) consists of four letters and seven digits: three letters for the owner, a category identifier (usually "U" for freight containers), six serial numbers and a check digit. This code allows the container to be uniquely identified and tracked worldwide.
 
-In addition, the **ISO size-type code** (per ISO 6346) provides information on design and dimensions. It consists of four characters: the first two encode length and height, the last two the type. So the code for a 40-foot High Cube standard container differs from that of an open top or reefer. On the container you will also find the **CSC safety plate** (Convention for Safe Containers) with inspection data, as well as details of tare weight, maximum payload and permissible gross weight.
+In addition, the **ISO size-type code** (per ISO 6346) provides information on design and dimensions. It consists of four characters: the first two encode length and height, the last two the type. Examples:
+
+| Code | Meaning |
+|---|---|
+| 22G1 | 20 ft, 8 ft 6 in high, general-purpose container (standard) |
+| 42G1 | 40 ft, standard height, general-purpose container |
+| 45G1 | 40 ft, High Cube (9 ft 6 in), general-purpose container |
+| 22R1 | 20 ft, standard height, refrigerated container |
+
+The codes come from ISO 6346; when in doubt, what is on the container and in the standard counts, not the dealer's description. On the container you will also find the **CSC safety plate** (Convention for Safe Containers) with inspection data, as well as details of tare weight, maximum payload and permissible gross weight.
 
 > Practical tip: If you want to buy a used container, it is worth checking the CSC plate and the ISO code. They reveal age, design and whether the container is still approved for sea transport.
 
 ## Which type for use on land?
 
-For stationary purposes – storage, workshop, office or living space – **standard and High Cube containers** are the most relevant. The High Cube is usually the better choice for conversion, because the extra 30 cm of height leave a noticeably more comfortable interior after floor, insulation and ceiling are installed. For pure storage, the cheaper standard container is often enough.
+For stationary purposes – storage, workshop, office or living space – **standard and High Cube containers** are the most relevant. The High Cube is usually the better choice for conversion, because the extra 30 cm of height leaves a noticeably more pleasant interior once floor, insulation and ceiling are fitted. For pure storage the cheaper standard container is often enough.
 
-Special designs such as open top or flat rack only make sense on land in niche cases, for instance when bulky goods have to be introduced from above. Reefers are occasionally reused as cold rooms. For the classic conversion into living or office containers, however, the route almost always runs through the standard or High Cube type.
+Internal dimensions of a 20-foot container compared (approximate values, details in [container sizes & dimensions](/en/ratgeber/container-groessen-und-masse)):
+
+| Feature | Standard | High Cube |
+|---|---|---|
+| Internal L × W × H | approx. 5.90 × 2.35 × 2.39 m | approx. 5.90 × 2.35 × 2.70 m |
+| Volume | approx. 33 m³ | approx. 37 m³ |
+| Door opening W × H | approx. 2.34 × 2.28 m | approx. 2.34 × 2.58 m |
+
+| Use on land | Recommended type | Reason |
+|---|---|---|
+| Storage, material container | Standard | cheaper, height usually sufficient |
+| Office, living | High Cube | room height after insulation and floor build-up |
+| Workshop, retail | Open Side or Double Door | large opening or walk-through |
+| Cold room | Reefer (used) | insulation and unit already there; mind the power costs |
+| Bulky parts loaded from above | Open Top | only sensible in niche cases |
+
+Special designs such as open top or flat rack only make sense on land in niche cases, for instance when bulky goods have to be introduced from above. Reefers are occasionally reused as cold rooms; running costs are covered in [reefer containers: operation and power costs](/en/ratgeber/kuehlcontainer-betrieb-stromkosten). For the classic conversion into living or office containers the route almost always leads via the standard or High Cube type; continue with [fitting out a living container](/en/ratgeber/wohncontainer-ausbauen). When buying used, [container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette) help with classification.
 
 ## Conclusion
 
