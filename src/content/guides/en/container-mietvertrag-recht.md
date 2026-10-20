@@ -6,7 +6,7 @@ category: "Law"
 icon: "euro"
 readingTime: 10
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-20
 lead: "When renting, the contract decides your costs and your risk. Which clauses to check before you sign."
 order: 54
 draft: false
@@ -22,7 +22,7 @@ The three models get mixed up in everyday language but differ substantially.
 
 - **Rental**: you pay for temporary use. The container remains the lessor's property and the lessor normally bears maintenance and wear. Short terms are common.
 - **Leasing**: longer-term by design, often with a fixed minimum term, shifted obligations (maintenance, insurance) and tax treatment that mainly matters to businesses.
-- **Hire purchase**: instalments are credited wholly or partly against a later purchase price, and ownership passes at the end. Do the arithmetic carefully – the total is almost always higher than buying outright.
+- **Hire purchase**: instalments are credited wholly or partly against a later purchase price, and ownership passes at the end. Do the arithmetic carefully – the total is almost always higher than buying outright. Details: [Leasing](/en/kaufen-mieten/kauf/leasing) and [Hire purchase](/en/kaufen-mieten/kauf/mietkauf).
 
 If you are still weighing up the options, see [Renting a Container: Process](/en/ratgeber/container-mieten-ablauf); for the alternative scenario, see [Buying a Used Container](/en/ratgeber/gebrauchten-container-kaufen).
 
@@ -42,6 +42,18 @@ If you are still weighing up the options, see [Renting a Container: Process](/en
 
 Two points are underestimated most often: the **minimum term** and **automatic extension**. Either can turn a planned four-week rental into an invoice covering several months.
 
+### Worked example: what minimum term and extension cost
+
+Assumptions (guide values, as in the example in [Rent or buy a container](/en/rechner/kaufen-oder-mieten) and in [Rental prices and calculation](/en/ratgeber/container-mietpreise-kalkulation)): used 20 ft storage container, approx. €95 monthly rent, approx. €250 each for delivery and collection (one-off costs). The contract has a three-month minimum term and extends by a further three months if notice is missed. All amounts net.
+
+| Scenario | Calculation | approx. total cost |
+|---|---|---|
+| Use for approx. 1 month, minimum term 1 month | 1 × €95 + €500 transport | approx. €595 |
+| Use for approx. 1 month, minimum term 3 months | 3 × €95 + €500 transport | approx. €785 |
+| Notice missed, extension by 3 months | 6 × €95 + €500 transport | approx. €1,070 |
+
+In the example the minimum term costs approx. €190 more, and the missed notice a further approx. €285. Transport costs are the same in every case; they are why very short rentals are expensive per month of use. Whether buying beats renting depends on how long you need the container – the break-even calculation is in the calculator and the rental price guide.
+
 ## Liability and Insurance
 
 A renter has a **duty of care**: you must handle the container properly and protect it from avoidable damage. What applies beyond that is set by the contract – and contracts often impose more liability than renters expect.
@@ -56,7 +68,7 @@ A renter has a **duty of care**: you must handle the container properly and prot
 | Storm, flood, vandalism | Depends on the contract | Look for an express clause, otherwise ask |
 | Damage to the ground surface | Renter | Ground protection, mats, condition of the site |
 
-Many lessors offer a **liability reduction for an extra fee**, comparable to an excess arrangement. Check two things: the **amount of the excess** and the **exclusions** – gross negligence, theft without signs of forced entry and damage to contents are frequently excluded. The contents are generally **not** covered by a container rental; that requires a separate policy. Also check whether your existing household, business contents or construction insurance covers items stored away from your own premises.
+Many lessors offer a **liability reduction for an extra fee**, comparable to an excess arrangement. Check two things: the **amount of the excess** and the **exclusions** – gross negligence, theft without signs of forced entry and damage to contents are frequently excluded. The contents are generally **not** covered by a container rental; that requires a separate policy. Also check whether your existing household, business contents or construction insurance covers items stored away from your own premises. Which policies come into question for containers in general is covered in [Insuring a container](/en/ratgeber/container-versichern).
 
 ## Duties During the Rental Term
 
@@ -65,7 +77,7 @@ Many lessors offer a **liability reduction for an extra fee**, comparable to an 
 - **No structural changes without consent**: drilling, welding, fitting windows, bolting on shelving or repainting is normally prohibited without written approval. Fitting your own locks should also be agreed.
 - **Do not move the container on your own initiative**: relocation changes access, ground conditions and the insurance basis. Nearly all contracts make it subject to consent.
 - **Subletting**: usually only with express permission. If you plan to pass storage space to third parties, clarify it first.
-- **Permits and conditions**: placing a container on public land, and in some cases on private land, may trigger official requirements; responsibility for these normally lies with the renter.
+- **Permits and conditions**: whether a permit is needed depends on location, duration and use (state building codes; in the outskirts additionally section 35 of the Federal Building Code, BauGB; see [Do I need a building permit?](/en/ratgeber/container-baugenehmigung)). On public land a special-use permit may be required ([Containers on public land](/en/ratgeber/container-oeffentlicher-grund-sondernutzung)). Responsibility normally lies with the renter.
 
 ## The Return
 
@@ -105,6 +117,10 @@ The most effective safeguard takes five minutes: **photos at delivery**. Without
 - Is a handover record agreed and are photos planned?
 - Are the return-condition requirements in writing?
 - Did you actually receive the terms and conditions and the price list as annexes?
+
+## Consumer or business?
+
+For many clauses it matters whether you rent as a consumer or as a business. Courts review pre-formulated terms (standard terms and conditions) more strictly for consumers, and for contracts concluded online or by phone a statutory right of withdrawal may exist, the conditions and exceptions of which you should check in each case. For businesses there is more room for deviating agreements. Tell the lessor at the outset in which capacity you are acting and record it in the contract. This guide describes the legal position in Germany.
 
 ## Important Note
 

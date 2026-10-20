@@ -6,7 +6,7 @@ category: "Recht"
 icon: "euro"
 readingTime: 10
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-20
 lead: "Beim Mieten entscheidet der Vertrag über Kosten und Risiko. Welche Klauseln Sie prüfen sollten, bevor Sie unterschreiben."
 order: 54
 draft: false
@@ -22,7 +22,7 @@ Die drei Modelle werden umgangssprachlich vermischt, unterscheiden sich aber deu
 
 - **Miete**: Sie zahlen für die zeitweise Überlassung. Der Container bleibt Eigentum des Vermieters, dieser trägt in der Regel Instandhaltung und Verschleiß. Kurze Laufzeiten sind üblich.
 - **Leasing**: längerfristig angelegt, oft mit fester Grundmietzeit, verlagerten Pflichten (Wartung, Versicherung) und steuerlicher Behandlung, die vor allem für Unternehmen relevant ist.
-- **Mietkauf**: Die Raten werden ganz oder teilweise auf einen späteren Kaufpreis angerechnet. Am Ende geht das Eigentum über. Rechnen Sie hier genau nach – die Summe liegt fast immer über dem Direktkaufpreis.
+- **Mietkauf**: Die Raten werden ganz oder teilweise auf einen späteren Kaufpreis angerechnet. Am Ende geht das Eigentum über. Rechnen Sie hier genau nach – die Summe liegt in der Regel über dem Direktkaufpreis. Details: [Leasing](/kaufen-mieten/kauf/leasing) und [Mietkauf](/kaufen-mieten/kauf/mietkauf).
 
 Wer noch grundsätzlich schwankt, findet die Abwägung unter [Container mieten: Ablauf](/ratgeber/container-mieten-ablauf); zum Alternativszenario siehe [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
 
@@ -42,6 +42,18 @@ Wer noch grundsätzlich schwankt, findet die Abwägung unter [Container mieten: 
 
 Zwei Punkte werden am häufigsten unterschätzt: die **Mindestlaufzeit** und die **automatische Verlängerung**. Beide können aus einer geplanten Vier-Wochen-Miete eine Rechnung über mehrere Monate machen.
 
+### Rechenbeispiel: Was Mindestlaufzeit und Verlängerung kosten
+
+Annahmen (Orientierungswerte, wie im Beispiel in [Container mieten oder kaufen](/rechner/kaufen-oder-mieten) und in [Mietpreise und Kalkulation](/ratgeber/container-mietpreise-kalkulation)): gebrauchter 20-Fuß-Lagercontainer, ca. 95 € Monatsmiete, je ca. 250 € für Lieferung und Abholung (Einmalkosten). Der Vertrag sieht eine Mindestlaufzeit von drei Monaten vor und verlängert sich bei versäumter Kündigung um weitere drei Monate. Alle Beträge netto.
+
+| Szenario | Rechnung | ca. Gesamtkosten |
+|---|---|---|
+| Nutzung ca. 1 Monat, Mindestlaufzeit 1 Monat | 1 × 95 € + 500 € Transport | ca. 595 € |
+| Nutzung ca. 1 Monat, Mindestlaufzeit 3 Monate | 3 × 95 € + 500 € Transport | ca. 785 € |
+| Kündigung versäumt, Verlängerung um 3 Monate | 6 × 95 € + 500 € Transport | ca. 1.070 € |
+
+Die Mindestlaufzeit kostet im Beispiel ca. 190 € mehr, die versäumte Kündigung nochmals ca. 285 €. Die Transportkosten bleiben in allen Fällen gleich; sie sind der Grund, warum sehr kurze Mieten pro Nutzungsmonat teuer sind. Ob sich Kaufen statt Mieten lohnt, hängt von der Nutzungsdauer ab – die Break-even-Rechnung steht im Rechner und im Mietpreis-Artikel.
+
 ## Haftung und Versicherung
 
 Wer mietet, hat eine **Obhutspflicht**: Sie müssen mit dem Container sorgfältig umgehen und ihn vor vermeidbaren Schäden schützen. Was darüber hinaus gilt, regelt der Vertrag – und dort steht häufig mehr Haftung, als Mieter erwarten.
@@ -56,7 +68,7 @@ Wer mietet, hat eine **Obhutspflicht**: Sie müssen mit dem Container sorgfälti
 | Sturm, Hochwasser, Vandalismus | vertragsabhängig | Ausdrückliche Regelung suchen, sonst nachfragen |
 | Schäden am Untergrund | Mieter | Bodenschutz, Platten, Zustand der Aufstellfläche |
 
-Viele Vermieter bieten eine **Haftungsreduzierung gegen Aufpreis** an, vergleichbar einer Selbstbeteiligungsregelung. Prüfen Sie zwei Dinge: die **Höhe der Selbstbeteiligung** und die **Ausschlüsse** – häufig sind grobe Fahrlässigkeit, Diebstahl ohne Aufbruchspuren und Schäden am Inhalt ausgenommen. Der Inhalt ist über eine Container-Miete grundsätzlich **nicht** mitversichert; dafür braucht es eine eigene Police. Prüfen Sie auch, ob Ihre bestehende Hausrat-, Geschäftsinhalts- oder Bauleistungsversicherung eingelagerte Gegenstände außerhalb der eigenen Räume abdeckt.
+Viele Vermieter bieten eine **Haftungsreduzierung gegen Aufpreis** an, vergleichbar einer Selbstbeteiligungsregelung. Prüfen Sie zwei Dinge: die **Höhe der Selbstbeteiligung** und die **Ausschlüsse** – häufig sind grobe Fahrlässigkeit, Diebstahl ohne Aufbruchspuren und Schäden am Inhalt ausgenommen. Der Inhalt ist über eine Container-Miete grundsätzlich **nicht** mitversichert; dafür braucht es eine eigene Police. Prüfen Sie auch, ob Ihre bestehende Hausrat-, Geschäftsinhalts- oder Bauleistungsversicherung eingelagerte Gegenstände außerhalb der eigenen Räume abdeckt. Welche Policen bei Containern grundsätzlich infrage kommen, steht in [Container versichern](/ratgeber/container-versichern).
 
 ## Pflichten während der Mietzeit
 
@@ -65,7 +77,7 @@ Viele Vermieter bieten eine **Haftungsreduzierung gegen Aufpreis** an, vergleich
 - **Keine baulichen Veränderungen ohne Zustimmung**: Bohren, Schweißen, Fenster einsetzen, Regale anschrauben oder Lackieren ist ohne schriftliche Freigabe in der Regel untersagt. Auch das Anbringen eigener Schlösser sollte abgestimmt sein.
 - **Standort nicht eigenmächtig wechseln**: Ein Umsetzen ändert Zufahrt, Untergrund und Versicherungsgrundlage. In fast allen Verträgen ist es zustimmungspflichtig.
 - **Untervermietung**: meist nur mit ausdrücklicher Erlaubnis. Wer Lagerfläche an Dritte weitergibt, sollte das vorher klären.
-- **Genehmigungen und Auflagen**: Für die Aufstellung auf öffentlichem Grund oder in bestimmten Fällen auf Privatgrund können behördliche Anforderungen bestehen; dafür ist regelmäßig der Mieter verantwortlich.
+- **Genehmigungen und Auflagen**: Ob eine Genehmigung nötig ist, hängt von Standort, Dauer und Nutzung ab (Landesbauordnung, im Außenbereich zusätzlich § 35 BauGB; siehe [Brauche ich eine Baugenehmigung?](/ratgeber/container-baugenehmigung)). Auf öffentlichem Grund kommt eine Sondernutzungserlaubnis infrage ([Container auf öffentlichem Grund](/ratgeber/container-oeffentlicher-grund-sondernutzung)). Verantwortlich dafür ist regelmäßig der Mieter.
 
 ## Die Rückgabe
 
@@ -105,6 +117,10 @@ Der wirksamste Schutz kostet fünf Minuten: **Fotos bei Anlieferung**. Ohne Ausg
 - Übergabeprotokoll vereinbart und Fotos eingeplant?
 - Anforderungen an den Rückgabezustand schriftlich?
 - AGB und Preisliste als Anlage tatsächlich erhalten?
+
+## Verbraucher oder Unternehmer?
+
+Für viele Klauseln macht es einen Unterschied, ob Sie als Verbraucher oder als Unternehmer mieten. Bei Verbrauchern prüfen Gerichte vorformulierte Klauseln (AGB) strenger; zudem kann bei online oder telefonisch geschlossenen Verträgen ein gesetzliches Widerrufsrecht bestehen, dessen Voraussetzungen und Ausnahmen Sie im Einzelfall prüfen sollten. Bei Unternehmern ist der Spielraum für abweichende Vereinbarungen größer. Geben Sie dem Vermieter deshalb gleich zu Beginn an, in welcher Eigenschaft Sie handeln, und halten Sie es im Vertrag fest.
 
 ## Wichtiger Hinweis
 
