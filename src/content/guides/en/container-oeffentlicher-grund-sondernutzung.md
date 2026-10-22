@@ -7,7 +7,7 @@ icon: "permit"
 readingTime: 10
 published: 2026-08-01
 updated: 2026-10-22
-lead: "As soon as a container stands even partly on public land, the building authority is no longer in charge – the road traffic authority is. Without a permit you risk fines, removal costs and full liability."
+lead: "As soon as a container stands even partly on public land, the building authority is no longer in charge – depending on the case, the road authority, the public order office or the road traffic authority is. Without a permit you risk fines, removal costs and full liability."
 order: 57
 draft: false
 ---
@@ -76,7 +76,7 @@ Both examples are assumptions within the ranges above, not fee notices. The foot
 | Safety measures | approx. €100–500 |
 | **Total** | **approx. €231–1,060** |
 
-**Example 2: site container, three months, central location.** Assumption: 30 m² of special use area (container, barriers, securing the remaining pavement) over 90 days = 2,700 m²-days, i.e. approx. €540–5,400; plus traffic order, no-stopping zone and safety measures.
+**Example 2: site container, three months, central location.** Assumption: 30 m² of special use area (container, barriers, securing the remaining pavement) over 90 days = 2,700 m²-days, i.e. approx. €540–5,400 (in city-centre locations the rate may be higher still); plus traffic order, no-stopping zone and safety measures.
 
 | Item | Range |
 | --- | --- |
@@ -149,6 +149,6 @@ In addition: the skip must not be overfilled, protruding items must be secured, 
 
 ## Conclusion
 
-As soon as a container occupies public traffic space you generally need a special use permit – even for a short stay. Apply two to four weeks ahead, clarify explicitly whether the container service takes this on, and set up any required no-stopping zone early and with documentation. Follow the safety conditions to the letter: the fees are manageable, the liability after an accident is not.
+As soon as a container occupies public traffic space you generally need a special use permit – even for a short stay. Apply two to four weeks ahead, clarify explicitly whether the container service takes this on, and set up any required no-stopping zone early and with documentation. Follow the safety conditions to the letter: the fees can be calculated in advance, the liability after an accident cannot.
 
 Further reading: [Container building permit](/en/ratgeber/container-baugenehmigung), [Transporting a container](/en/ratgeber/container-transportieren), [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten) and [Insuring a container](/en/ratgeber/container-versichern).

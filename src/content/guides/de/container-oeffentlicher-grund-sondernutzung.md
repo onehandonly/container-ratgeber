@@ -7,7 +7,7 @@ icon: "permit"
 readingTime: 10
 published: 2026-08-01
 updated: 2026-10-22
-lead: "Sobald ein Container auch nur teilweise auf öffentlichem Grund steht, ist nicht mehr das Bauamt zuständig, sondern die Straßenverkehrsbehörde. Ohne Erlaubnis drohen Bußgeld, Abschleppkosten und volle Haftung."
+lead: "Sobald ein Container auch nur teilweise auf öffentlichem Grund steht, ist nicht mehr das Bauamt zuständig, sondern je nach Fall Straßenbaubehörde, Ordnungsamt oder Straßenverkehrsbehörde. Ohne Erlaubnis drohen Bußgeld, Abschleppkosten und volle Haftung."
 order: 57
 draft: false
 ---
@@ -76,7 +76,7 @@ Beide Beispiele sind Annahmen innerhalb der obigen Spannen, keine Gebührenbesch
 | Absicherung | ca. 100–500 € |
 | **Summe** | **ca. 231–1.060 €** |
 
-**Beispiel 2: Baustellencontainer, drei Monate, zentrale Lage.** Annahme: 30 m² Sondernutzungsfläche (Container, Absperrung, Restweg-Sicherung) über 90 Tage = 2.700 m²-Tage, also ca. 540–5.400 €; zusätzlich Verkehrsanordnung, Haltverbot und Absicherung.
+**Beispiel 2: Baustellencontainer, drei Monate, zentrale Lage.** Annahme: 30 m² Sondernutzungsfläche (Container, Absperrung, Restweg-Sicherung) über 90 Tage = 2.700 m²-Tage, also ca. 540–5.400 € (in Innenstadtlagen kann der Satz auch darüber liegen); zusätzlich Verkehrsanordnung, Haltverbot und Absicherung.
 
 | Position | Spanne |
 | --- | --- |
@@ -149,6 +149,6 @@ Zusätzlich gilt: Die Mulde darf nicht überfüllt werden, herausragende Teile s
 
 ## Fazit
 
-Sobald ein Container öffentlichen Verkehrsraum beansprucht, brauchen Sie in der Regel eine Sondernutzungserlaubnis – auch bei kurzer Standzeit. Beantragen Sie sie zwei bis vier Wochen vorher, klären Sie ausdrücklich, ob der Containerdienst das übernimmt, und stellen Sie ein nötiges Haltverbot rechtzeitig und dokumentiert auf. Halten Sie die Auflagen zur Absicherung wörtlich ein: Die Gebühren sind überschaubar, die Haftung bei einem Unfall ist es nicht.
+Sobald ein Container öffentlichen Verkehrsraum beansprucht, brauchen Sie in der Regel eine Sondernutzungserlaubnis – auch bei kurzer Standzeit. Beantragen Sie sie zwei bis vier Wochen vorher, klären Sie ausdrücklich, ob der Containerdienst das übernimmt, und stellen Sie ein nötiges Haltverbot rechtzeitig und dokumentiert auf. Halten Sie die Auflagen zur Absicherung wörtlich ein: Die Gebühren lassen sich vorab kalkulieren, die Haftung bei einem Unfall nicht.
 
 Weiterführend: [Container-Baugenehmigung](/ratgeber/container-baugenehmigung), [Container transportieren](/ratgeber/container-transportieren), [Transport und Lieferkosten](/ratgeber/container-transport-lieferkosten) und [Container versichern](/ratgeber/container-versichern).

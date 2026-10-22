@@ -66,7 +66,7 @@ The decision table says what fits. The examples below show why. All figures are 
 | Residual value after 10 years (approx. 55–75% and 40–60%) | approx. €1,320–1,800 | approx. €1,520–2,280 |
 | **Loss in value over ten years** | **approx. €600–1,080** | **approx. €1,520–2,280** |
 
-Over ten years the one-way container therefore costs roughly €900 to €1,200 more – for an appearance and a history that a tool store does not need.
+Depending on the actual residual value, the one-way container therefore costs roughly €450 to €1,700 more over ten years, around €1,000 at the middle of both ranges – for an appearance and a history that a tool store does not need.
 
 **Example 2: conversion to an office, 20 ft, without sanitary facilities.** We take a total budget of approx. €23,000 (the middle of the approx. €20,000–26,000 range in the article on fit-out costs). The price difference for the shell here is €3,800 − €2,400 = approx. €1,400, around 6% of the budget.
 
@@ -141,4 +141,4 @@ For businesses this means: a used purchase is often "bought as seen". All the mo
 
 New, one-way or used is not a question of quality but of purpose. For storage, workshops and construction sites a checked used container is almost always the best choice, not least because it hardly loses value any more. But as soon as you put a lot of money into an interior fit-out, the picture reverses: the shell is then only a small part of the cost but the greatest risk, and a one-way container or new build is the more prudent investment.
 
-Further reading: [Buy or rent?](/en/kaufen-mieten/kauf), [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen), [Reading the container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette) and [Comparing quotes and negotiating prices](/en/ratgeber/container-angebote-vergleichen).
+Further reading: [Buy or rent?](/en/ratgeber/container-kaufen-oder-mieten), [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen), [Reading the container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette) and [Comparing quotes and negotiating prices](/en/ratgeber/container-angebote-vergleichen).

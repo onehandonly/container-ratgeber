@@ -66,7 +66,7 @@ Die Entscheidungstabelle sagt, was passt. Die folgenden Beispiele zeigen, warum.
 | Restwert nach 10 Jahren (ca. 55–75 % bzw. 40–60 %) | ca. 1.320–1.800 € | ca. 1.520–2.280 € |
 | **Wertverlust über zehn Jahre** | **ca. 600–1.080 €** | **ca. 1.520–2.280 €** |
 
-Der One-Way-Container kostet über zehn Jahre also grob 900 bis 1.200 € mehr – für eine Optik und eine Vorgeschichte, die ein Werkzeuglager nicht braucht.
+Je nach tatsächlichem Restwert kostet der One-Way-Container über zehn Jahre also grob 450 bis 1.700 € mehr, in der Mitte beider Spannen rund 1.000 € – für eine Optik und eine Vorgeschichte, die ein Werkzeuglager nicht braucht.
 
 **Beispiel 2: Ausbau zum Büro, 20 Fuß, ohne Sanitär.** Als Gesamtbudget nehmen wir ca. 23.000 € (Mitte der Spanne von ca. 20.000–26.000 € aus dem Beitrag zu den Ausbaukosten). Der Preisunterschied beim Rohling beträgt hier 3.800 € − 2.400 € = ca. 1.400 €, das sind rund 6 % des Budgets.
 
@@ -95,7 +95,7 @@ Wenn Sie sich trotz Ausbau für einen gebrauchten Container entscheiden, gehen S
 - **Türen und Dichtungen:** leichtgängig, rundum anliegend, Verriegelung unverzogen.
 - **Unterlagen:** CSC-Plakette und Container-Nummer lesen, siehe [Container-Nummer und CSC-Plakette](/ratgeber/container-nummer-csc-plakette).
 
-Die ausführliche Prüfung beschreibt das [Prüfprotokoll zur Besichtigung](/ratgeber/container-besichtigung-pruefprotokoll), als Vorlage dient der [Besichtigungs-Checkliste-Rechner](/rechner/besichtigung-checkliste). Nach dem Kauf schützt [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz) die Hülle langfristig. Beim Händlerkauf vorab: [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug).
+Die ausführliche Prüfung beschreibt das [Prüfprotokoll zur Besichtigung](/ratgeber/container-besichtigung-pruefprotokoll), als Vorlage dient die interaktive [Besichtigungs-Checkliste](/rechner/besichtigung-checkliste). Nach dem Kauf schützt [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz) die Hülle langfristig. Beim Händlerkauf vorab: [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug).
 
 ## Was man einem gebrauchten Container nicht ansieht
 
@@ -141,4 +141,4 @@ Für Unternehmer bedeutet das: Beim Gebrauchtkauf gilt oft „gekauft wie gesehe
 
 Neu, One-Way oder gebraucht ist keine Qualitätsfrage, sondern eine Frage des Zwecks. Für Lager, Werkstatt und Baustelle ist ein geprüfter gebrauchter Container fast immer die beste Wahl, zumal er kaum noch an Wert verliert. Sobald Sie aber viel Geld in einen Innenausbau stecken, kehrt sich das um: Dann ist die Hülle nur ein kleiner Teil der Kosten, aber das größte Risiko, und ein One-Way-Container oder ein Neubau ist die vorsichtigere Investition.
 
-Weiterführend: [Kaufen oder mieten?](/kaufen-mieten/kauf), [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen), [Container-Nummer und CSC-Plakette lesen](/ratgeber/container-nummer-csc-plakette) und [Angebote vergleichen und Preise verhandeln](/ratgeber/container-angebote-vergleichen).
+Weiterführend: [Kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten), [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen), [Container-Nummer und CSC-Plakette lesen](/ratgeber/container-nummer-csc-plakette) und [Angebote vergleichen und Preise verhandeln](/ratgeber/container-angebote-vergleichen).
