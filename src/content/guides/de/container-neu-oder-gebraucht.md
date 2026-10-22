@@ -6,7 +6,7 @@ category: "Kaufberatung"
 icon: "checklist"
 readingTime: 10
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-22
 lead: "Die Frage ist nicht, was der bessere Container ist, sondern was er später tun soll. Für ein Materiallager ist ein neuer Container verschenktes Geld – für einen Ausbau zum Wohnraum kann ein billiger gebrauchter das teuerste Bauteil des ganzen Projekts werden."
 order: 41
 draft: false
@@ -39,7 +39,7 @@ Warum One-Way-Container so verbreitet sind, erklärt der Beitrag [Die Geschichte
 | Lieferzeit | Wochen bis Monate | meist ab Lager | meist ab Lager |
 | Wiederverkaufswert | hoch, bei Sonderanfertigung eingeschränkt | hoch | bleibt stabil, weil schon niedrig |
 
-Der letzte Punkt verdient einen zweiten Blick. Ein gebrauchter Container verliert kaum noch an Wert – der Wertverlust ist bereits beim Vorbesitzer angefallen. Wer ihn nach einigen Jahren wieder verkauft, bekommt oft einen großen Teil des Kaufpreises zurück. Die Zahlen dazu finden Sie im Beitrag [Laufende Kosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust).
+Der letzte Punkt verdient einen zweiten Blick. Ein gebrauchter Container verliert nur noch langsam an Wert – der größte Abschlag ist bereits beim Vorbesitzer angefallen. Als grober Richtwert bleiben nach fünf Jahren ca. 70–85 % des Kaufpreises, nach zehn Jahren ca. 55–75 %; bei neuwertig gekauften Containern sind es ca. 55–70 % bzw. 40–60 %. Die Zahlen dazu finden Sie im Beitrag [Laufende Kosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust).
 
 ## Die Entscheidung nach Verwendungszweck
 
@@ -54,6 +54,24 @@ Der letzte Punkt verdient einen zweiten Blick. Ein gebrauchter Container verlier
 | Isolierter Büro- oder Raumcontainer | **Neubau** oder gut erhaltener Mietrückläufer | Dämmung, Fenster und Elektrik altern mit |
 | Eigener Seetransport | **One-Way oder gebraucht mit gültiger CSC-Plakette** | Zulassung erforderlich |
 
+## Zwei Rechnungen: Lager und Ausbau
+
+Die Entscheidungstabelle sagt, was passt. Die folgenden Beispiele zeigen, warum. Alle Zahlen sind Annahmen innerhalb der Spannen aus [Was kostet ein Container?](/ratgeber/was-kostet-ein-container) und [Laufende Kosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust) – keine Angebote.
+
+**Beispiel 1: Lager, 20 Fuß, zehn Jahre Nutzung.** Angenommen, ein gebrauchter wind- und wasserdichter Container kostet ca. 2.400 €, ein One-Way-Container ca. 3.800 €. Lieferung, Unterbau und Pflege fallen bei beiden gleich an und bleiben außen vor.
+
+| | Gebraucht | One-Way |
+| --- | --- | --- |
+| Kaufpreis (Annahme) | ca. 2.400 € | ca. 3.800 € |
+| Restwert nach 10 Jahren (ca. 55–75 % bzw. 40–60 %) | ca. 1.320–1.800 € | ca. 1.520–2.280 € |
+| **Wertverlust über zehn Jahre** | **ca. 600–1.080 €** | **ca. 1.520–2.280 €** |
+
+Der One-Way-Container kostet über zehn Jahre also grob 900 bis 1.200 € mehr – für eine Optik und eine Vorgeschichte, die ein Werkzeuglager nicht braucht.
+
+**Beispiel 2: Ausbau zum Büro, 20 Fuß, ohne Sanitär.** Als Gesamtbudget nehmen wir ca. 23.000 € (Mitte der Spanne von ca. 20.000–26.000 € aus dem Beitrag zu den Ausbaukosten). Der Preisunterschied beim Rohling beträgt hier 3.800 € − 2.400 € = ca. 1.400 €, das sind rund 6 % des Budgets.
+
+Dagegen steht die Hülle: Dämmung und Innenverkleidung machen ca. 15–25 % der Ausbaukosten aus, in diesem Beispiel also ca. 3.450–5.750 €. Muss wegen eines versteckten Roststellen- oder Dachschadens auch nur ein Viertel davon zurückgebaut und neu hergestellt werden, sind das ca. 860–1.440 € – die Ersparnis vom Kauf wäre damit bereits aufgebraucht, noch ohne Stahlsanierung und Arbeitszeit. Das Beispiel sagt nicht, dass jeder gebrauchte Container Schäden hat, sondern dass sich die Wette nur lohnt, wenn Sie die Hülle vor dem Ausbau selbst sicher beurteilen können.
+
 ## Der wichtigste Denkfehler beim Ausbau
 
 Bei Ausbauprojekten wird der günstige gebrauchte Container regelmäßig zur teuersten Entscheidung.
@@ -64,7 +82,20 @@ Denn nach dem Ausbau ist die Stahlhülle hinter Dämmung und Verkleidung verschw
 
 Die Aufstellung der Ausbaukosten nach Gewerken finden Sie in [Ausbaukosten nach Gewerken](/ratgeber/container-ausbaukosten-gewerke).
 
-**Faustregel:** Je mehr Geld Sie in den Innenausbau stecken, desto besser sollte die Hülle sein. Für ein Lager reicht gebraucht, für einen Wohnraum ist One-Way die sichere Wahl.
+**Faustregel:** Je mehr Geld Sie in den Innenausbau stecken, desto besser sollte die Hülle sein. Für ein Lager reicht gebraucht, für einen Wohnraum ist One-Way die sichere Wahl. Auch One-Way ist kein Freibrief: Transport- und Umschlagschäden wie Dellen oder verzogene Türen kommen vor, prüfen Sie ihn deshalb ebenfalls vor Ort.
+
+## Checkliste: Hülle vor dem Ausbau
+
+Wenn Sie sich trotz Ausbau für einen gebrauchten Container entscheiden, gehen Sie diese Punkte vor dem Kauf durch, nicht danach:
+
+- **Dach:** Pfützenbildung, Dellen, Rostblasen und frühere Flicken prüfen; Dach möglichst bei Tageslicht von oben ansehen.
+- **Unterseite und Längsträger:** Rost an den unteren Längsträgern und den Querträgern kontrollieren, nicht nur die Seitenwände.
+- **Innenraum bei geschlossener Tür:** Lichteinfall durch Dichtungen, Ecken oder Wände zeigt Undichtigkeiten.
+- **Boden:** Plattenboden auf Feuchteflecken, Weichstellen und Geruch prüfen, siehe [Boden prüfen und sanieren](/ratgeber/container-boden-sanieren-austauschen).
+- **Türen und Dichtungen:** leichtgängig, rundum anliegend, Verriegelung unverzogen.
+- **Unterlagen:** CSC-Plakette und Container-Nummer lesen, siehe [Container-Nummer und CSC-Plakette](/ratgeber/container-nummer-csc-plakette).
+
+Die ausführliche Prüfung beschreibt das [Prüfprotokoll zur Besichtigung](/ratgeber/container-besichtigung-pruefprotokoll), als Vorlage dient der [Besichtigungs-Checkliste-Rechner](/rechner/besichtigung-checkliste). Nach dem Kauf schützt [Pflege und Rostschutz](/ratgeber/container-pflege-und-rostschutz) die Hülle langfristig. Beim Händlerkauf vorab: [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug).
 
 ## Was man einem gebrauchten Container nicht ansieht
 
@@ -72,7 +103,7 @@ Die sichtbaren Mängel – Dellen, Rost, verbogene Türen – lassen sich bei ei
 
 **Frühere Ladungen.** Ein Container, der jahrelang im Seeverkehr war, hat alles Mögliche transportiert. In aller Regel ist das unproblematisch. Wenn Sie den Container zum Aufenthaltsraum ausbauen oder Lebensmittel darin lagern wollen, fragen Sie nach der Vorgeschichte, und achten Sie auf Gerüche, Verfärbungen und Gefahrgutaufkleber oder deren Reste.
 
-**Behandelter Holzboden.** Die Bretterböden von Seecontainern werden üblicherweise mit Holzschutzmitteln gegen Insekten und Pilze behandelt – das gilt für neue wie gebrauchte Container. Für ein Lager spielt das keine Rolle. Für einen Aufenthaltsraum wird der Boden meist entfernt oder dauerhaft und dicht überbaut.
+**Behandelter Holzboden.** Die Böden von Seecontainern bestehen meist aus rund 28 mm starken Holzwerkstoffplatten (Sperrholz, teils Hartholz oder Bambus) und werden üblicherweise mit Holzschutzmitteln gegen Insekten und Pilze behandelt – das gilt für neue wie gebrauchte Container. Für ein Lager spielt das keine Rolle. Für einen Aufenthaltsraum wird der Boden meist entfernt oder dauerhaft und dicht überbaut.
 
 **Übermalter Rost.** Ein frischer Anstrich lässt einen Container gepflegt aussehen, kann aber Rost verdecken. Achten Sie auf Blasen im Lack, besonders an den unteren Längsträgern, an den Ecken und rund um die Tür.
 
@@ -110,4 +141,4 @@ Für Unternehmer bedeutet das: Beim Gebrauchtkauf gilt oft „gekauft wie gesehe
 
 Neu, One-Way oder gebraucht ist keine Qualitätsfrage, sondern eine Frage des Zwecks. Für Lager, Werkstatt und Baustelle ist ein geprüfter gebrauchter Container fast immer die beste Wahl, zumal er kaum noch an Wert verliert. Sobald Sie aber viel Geld in einen Innenausbau stecken, kehrt sich das um: Dann ist die Hülle nur ein kleiner Teil der Kosten, aber das größte Risiko, und ein One-Way-Container oder ein Neubau ist die vorsichtigere Investition.
 
-Weiterführend: [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen), [Container-Nummer und CSC-Plakette lesen](/ratgeber/container-nummer-csc-plakette) und [Angebote vergleichen und Preise verhandeln](/ratgeber/container-angebote-vergleichen).
+Weiterführend: [Kaufen oder mieten?](/kaufen-mieten/kauf), [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen), [Container-Nummer und CSC-Plakette lesen](/ratgeber/container-nummer-csc-plakette) und [Angebote vergleichen und Preise verhandeln](/ratgeber/container-angebote-vergleichen).
