@@ -71,15 +71,15 @@ Das Beispiel ist bewusst vereinfacht. Es zeigt die Methode, nicht einen verläss
 - Holzboden ca. 250–300 kg (grobe Schätzung aus ca. 28 mm Sperrholz auf rund 14 m² Grundfläche), er zählt nicht als Stahl
 - Stahlanteil damit ca. 1,9–2,0 t
 - angenommener Schrottpreis ca. 150–250 € je Tonne (reine Annahme, vor Ort erfragen)
-- Abtransport mit Kran und Lkw: Annahme ca. 250–400 € (Größenordnung wie beim [Container-Transport](/ratgeber/container-transport-lieferkosten), regional unterschiedlich)
+- Abholung im Nahbereich mit Abrollkipper (Hakenlift): ca. 180–350 €; muss mit Ladekran gehoben werden, ca. 350–800 € (Spannen aus [Transport und Lieferkosten](/ratgeber/container-transport-lieferkosten), regional unterschiedlich)
 
 | Position | Untergrenze | Obergrenze |
 | --- | --- | --- |
 | Erlös: 1,9 t × 150 € bzw. 2,0 t × 250 € | ca. 285 € | ca. 500 € |
-| Abtransport | ca. 250 € | ca. 400 € |
-| **Ergebnis (Erlös minus Transportkosten)** | **ca. – 115 €** | **ca. + 250 €** |
+| Abholung mit Hakenlift | ca. 180 € | ca. 350 € |
+| **Ergebnis (Erlös minus Transportkosten)** | **ca. – 65 €** | **ca. + 320 €** |
 
-Die Spanne ergibt sich, indem die kleinste Einnahme der höchsten Ausgabe gegenübergestellt wird und umgekehrt: 285 – 400 = – 115, 500 – 250 = + 250. Das Ergebnis liegt also im Bereich von einem kleinen Minus bis zu einem kleinen Plus. Nicht enthalten sind Kosten für den Holzboden, für Einbauten oder für das Entfernen eines Fundaments. Holt der Schrotthändler den Container selbst ab oder verrechnet er den Transport, verschiebt sich die Rechnung zu Ihren Gunsten, das ist aber eine Frage des Angebots.
+Die Spanne ergibt sich, indem die kleinste Einnahme der höchsten Ausgabe gegenübergestellt wird und umgekehrt: 285 – 350 = – 65, 500 – 180 = + 320. Das Ergebnis liegt also im Bereich von einem kleinen Minus bis zu einem kleinen Plus. Muss der Container mit Ladekran gehoben werden, verschiebt sich die Spanne auf ca. – 515 € (285 – 800) bis + 150 € (500 – 350). Nicht enthalten sind Kosten für den Holzboden, für Einbauten oder für das Entfernen eines Fundaments. Holt der Schrotthändler den Container selbst ab oder verrechnet er den Transport, verschiebt sich die Rechnung zu Ihren Gunsten, das ist aber eine Frage des Angebots.
 
 **Der Vergleich mit dem Verkauf:** Der fiktive Angebotspreis eines funktionsfähigen Containers in [Container gebraucht verkaufen](/ratgeber/container-gebraucht-verkaufen) liegt bei ca. 1.750 €. Ein Container mit tragfähigem Rahmen hat in aller Regel einen höheren Gebrauchtwert als sein Materialwert. Verschrotten ist daher nur dann die erste Wahl, wenn der Rahmen nicht mehr trägt. Zum Restwert über die Nutzungsdauer siehe [Betriebskosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust).
 
@@ -87,7 +87,7 @@ Die Spanne ergibt sich, indem die kleinste Einnahme der höchsten Ausgabe gegen�
 
 - **Baugenehmigung und Befristung.** Wurde der Container befristet oder mit Auflagen genehmigt, kann zum Ende der Frist ein Rückbau vorgesehen sein. Was für Ihren Fall gilt, hängt von Standort, Dauer und Nutzung ab; Grundlagen im Beitrag [Baugenehmigung für Container](/ratgeber/container-baugenehmigung) und, bei Streit um Rückbau, in [Bauantrag und Nutzungsänderung](/ratgeber/container-bauantrag-nutzungsaenderung).
 - **Pacht- und Mietgrundstück.** Prüfen Sie, ob Sie im Vertrag zur Wiederherstellung des Ursprungszustands verpflichtet sind. Das betrifft Fundamente, Leitungen und Bodenbefestigung.
-- **Öffentlicher Grund.** Bei Aufstellung auf öffentlichem Grund endet die Erlaubnis mit der Sondernutzung; Rückbau und Räumung regelt der Bescheid ([Sondernutzung öffentlicher Grund](/ratgeber/container-oeffentlicher-grund-sondernutzung)).
+- **Öffentlicher Grund.** Eine Sondernutzungserlaubnis ist befristet; Räumung und Wiederherstellung der Fläche regelt der Bescheid ([Sondernutzung öffentlicher Grund](/ratgeber/container-oeffentlicher-grund-sondernutzung)).
 - **Steuer.** Wird ein betrieblich genutzter Container verkauft oder entsorgt, hat das Folgen für Abschreibung und Restbuchwert. Besprechen Sie das mit Ihrer Steuerberatung ([Steuer und Abschreibung](/ratgeber/container-steuer-abschreibung)).
 - **Eigentum.** Bei fest verbundenen Containern ist vorab zu klären, wem sie gehören ([Eigentum und Scheinbestandteil](/ratgeber/container-eigentum-scheinbestandteil-grundbuch)).
 
@@ -110,4 +110,4 @@ Alle Angaben sind allgemeine Orientierungswerte ohne Gewähr, insbesondere die B
 
 ## Fazit
 
-Ein Container ist am Ende selten wertlos. Bevor Sie ihn zum Schrott geben, prüfen Sie, ob Weiternutzung, Umsetzen oder Verkauf mehr bringen; der reine Stahlwert gleicht die Transportkosten bestenfalls knapp aus. Wer rechtzeitig plant, Strom und Wasser sauber trennt, den Holzboden beim Entsorger klärt und rückbaubare Einbauten wählt, spart beim Ausmustern Zeit und Geld. Für den Fall, dass der Container noch gut ist, lesen Sie weiter in [Container gebraucht verkaufen](/ratgeber/container-gebraucht-verkaufen).
+Ein Container ist am Ende selten wertlos. Bevor Sie ihn zum Schrott geben, prüfen Sie, ob Weiternutzung, Umsetzen oder Verkauf mehr bringen; der reine Stahlwert deckt die Abholung oft nur knapp, mit Krankosten häufig gar nicht. Wer rechtzeitig plant, Strom und Wasser sauber trennt, den Holzboden beim Entsorger klärt und rückbaubare Einbauten wählt, spart beim Ausmustern Zeit und Geld. Für den Fall, dass der Container noch gut ist, lesen Sie weiter in [Container gebraucht verkaufen](/ratgeber/container-gebraucht-verkaufen).

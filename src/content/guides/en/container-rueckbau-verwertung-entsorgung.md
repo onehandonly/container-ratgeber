@@ -71,15 +71,15 @@ The example is deliberately simplified. It shows the method, not a reliable mark
 - timber floor approx. 250–300 kg (rough estimate from approx. 28 mm plywood over roughly 14 m² floor area); it does not count as steel
 - steel content therefore approx. 1.9–2.0 t
 - assumed scrap price approx. €150–250 per tonne (pure assumption; ask locally)
-- haulage by crane and lorry: assumption approx. €250–400 (order of magnitude as in [Container transport costs](/en/ratgeber/container-transport-lieferkosten), varies regionally)
+- local collection by hook-lift truck: approx. €180–350; if it has to be lifted with a loader crane, approx. €350–800 (ranges from [Container transport costs](/en/ratgeber/container-transport-lieferkosten), varies regionally)
 
 | Item | Lower bound | Upper bound |
 | --- | --- | --- |
 | Proceeds: 1.9 t × €150 or 2.0 t × €250 | approx. €285 | approx. €500 |
-| Haulage | approx. €250 | approx. €400 |
-| **Result (proceeds minus haulage)** | **approx. – €115** | **approx. + €250** |
+| Collection by hook-lift | approx. €180 | approx. €350 |
+| **Result (proceeds minus haulage)** | **approx. – €65** | **approx. + €320** |
 
-The range comes from setting the smallest income against the highest cost and vice versa: 285 – 400 = – 115 and 500 – 250 = + 250. The result therefore lies between a small loss and a small gain. Not included are costs for the timber floor, for fittings, or for removing a foundation. If the scrap dealer collects the container or offsets the haulage, the calculation shifts in your favour, but that depends on the quote.
+The range comes from setting the smallest income against the highest cost and vice versa: 285 – 350 = – 65 and 500 – 180 = + 320. The result therefore lies between a small loss and a small gain. If the container has to be lifted with a loader crane, the range shifts to approx. – €515 (285 – 800) to + €150 (500 – 350). Not included are costs for the timber floor, for fittings, or for removing a foundation. If the scrap dealer collects the container or offsets the haulage, the calculation shifts in your favour, but that depends on the quote.
 
 **Comparison with selling:** the fictional asking price of a working container in [Selling a used container](/en/ratgeber/container-gebraucht-verkaufen) is approx. €1,750. A container with a sound frame generally has a higher used value than its material value. Scrapping is therefore the first choice only when the frame no longer carries load. On residual value over the service life see [Running costs and depreciation](/en/ratgeber/container-betriebskosten-wertverlust).
 
@@ -87,7 +87,7 @@ The range comes from setting the smallest income against the highest cost and vi
 
 - **Planning permission and time limits.** If the container was approved for a limited period or with conditions, removal may be required at the end of that period. What applies to your case depends on location, duration and use; see the basics in [Planning permission for containers](/en/ratgeber/container-baugenehmigung) and, where removal is contested, [Building application and change of use](/en/ratgeber/container-bauantrag-nutzungsaenderung).
 - **Leased or rented land.** Check whether the contract obliges you to restore the original condition. This concerns foundations, cables and ground surfacing.
-- **Public land.** For a container on public land, the permit ends with the special-use permission; removal and clearance are set out in the notice ([Special use of public land](/en/ratgeber/container-oeffentlicher-grund-sondernutzung)).
+- **Public land.** A special use permit is time-limited; clearance and restoration of the area are set out in the notice ([Special use of public land](/en/ratgeber/container-oeffentlicher-grund-sondernutzung)).
 - **Tax.** If a container used for business is sold or disposed of, this affects depreciation and residual book value. Discuss it with your tax adviser ([Tax and depreciation](/en/ratgeber/container-steuer-abschreibung)).
 - **Ownership.** For permanently attached containers, clarify beforehand who owns them ([Ownership and component parts](/en/ratgeber/container-eigentum-scheinbestandteil-grundbuch)).
 
@@ -110,4 +110,4 @@ All figures are general guide values without guarantee, in particular the amount
 
 ## Conclusion
 
-A container is rarely worthless at the end. Before sending it for scrap, check whether continued use, relocation or sale yields more; the pure steel value at best just offsets the haulage. Anyone who plans early, disconnects power and water cleanly, clarifies the timber floor with the waste contractor and chooses removable fittings saves time and money when retiring a container. If the container is still in good shape, read on in [Selling a used container](/en/ratgeber/container-gebraucht-verkaufen).
+A container is rarely worthless at the end. Before sending it for scrap, check whether continued use, relocation or sale yields more; the pure steel value often only just covers collection, and frequently not at all once crane costs are involved. Anyone who plans early, disconnects power and water cleanly, clarifies the timber floor with the waste contractor and chooses removable fittings saves time and money when retiring a container. If the container is still in good shape, read on in [Selling a used container](/en/ratgeber/container-gebraucht-verkaufen).
