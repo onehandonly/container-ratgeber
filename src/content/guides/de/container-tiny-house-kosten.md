@@ -46,7 +46,7 @@ Diese Kalkulation unterstellt handwerklich versierte Bauherren, die Dämmung, Tr
 | Position | ca. Betrag |
 |---|---|
 | Gebrauchter 20-Fuß-Container | ca. 2.000–2.800 € |
-| Transport und Absetzen (Lkw mit Ladekran, eine Fahrt) | ca. 350–900 € |
+| Transport und Absetzen (Lkw mit Ladekran, eine Fahrt) | ca. 350–800 € |
 | Punktfundament in Eigenleistung | ca. 600–2.000 € |
 | Öffnungen schneiden, Fenster und Tür | ca. 2.500–4.000 € |
 | Dämmung und Trockenbau (Material) | ca. 3.500–6.000 € |
@@ -55,9 +55,9 @@ Diese Kalkulation unterstellt handwerklich versierte Bauherren, die Dämmung, Tr
 | Kleine Küchenzeile | ca. 2.000–3.500 € |
 | Infrarotheizung | ca. 1.000–2.000 € |
 | Boden, Farbe, Kleinteile | ca. 1.500–3.000 € |
-| **Summe (ohne Erschließung)** | **ca. 20.000–34.000 €** |
+| **Summe (ohne Erschließung)** | **ca. 19.500–34.000 €** |
 
-Die Tabelle summiert sich auf **ca. 20.000–34.000 €** (Summe der Einzelspannen, gerundet). Noch nicht enthalten sind Bauantrag und Nachweise (ca. 1.500–6.000 €, siehe unten); mit ihnen liegt der Selbstausbau eines 20-Fuß-Containers rechnerisch bei **ca. 21.500–40.000 €**. Sehr viel Eigenleistung, gebrauchte Bauteile und ein bereits erschlossener Stellplatz drücken die Kosten an den unteren Rand. Die Erschließung kommt bei nicht vorbereiteten Grundstücken mit ca. 3.000–15.000 € obendrauf. Planen Sie zusätzlich eine Reserve von etwa 10–20 % ein: Gerade beim Selbstausbau tauchen Positionen auf, die in keiner Tabelle stehen.
+Die Tabelle summiert sich auf **ca. 19.500–34.000 €** (Summe der Einzelspannen: 19.450–34.100 €, gerundet). Noch nicht enthalten sind Bauantrag und Nachweise (ca. 1.500–6.000 €, siehe unten); mit ihnen liegt der Selbstausbau eines 20-Fuß-Containers rechnerisch bei **ca. 21.000–40.000 €**. Sehr viel Eigenleistung, gebrauchte Bauteile und ein bereits erschlossener Stellplatz drücken die Kosten an den unteren Rand. Die Erschließung kommt bei nicht vorbereiteten Grundstücken mit ca. 3.000–15.000 € obendrauf. Planen Sie zusätzlich eine Reserve von etwa 10–20 % ein: Gerade beim Selbstausbau tauchen Positionen auf, die in keiner Tabelle stehen.
 
 ## Beispielkalkulation: schlüsselfertig 40 Fuß
 
@@ -84,7 +84,7 @@ Zur Einordnung hilft der Preis je nutzbarer Wohnfläche. Rechnung mit den Standa
 
 | Beispiel | Summe laut Tabelle | nutzbare Fläche (ca.) | ca. € je m² |
 |---|---|---|---|
-| Selbstausbau 20 Fuß (inkl. Fundament) | 20.000–34.000 € | 11,5–12,5 m² | ca. 1.600–3.000 € |
+| Selbstausbau 20 Fuß (inkl. Fundament) | 19.500–34.000 € | 11,5–12,5 m² | ca. 1.550–3.000 € |
 | Schlüsselfertig 40 Fuß (ohne Fundament) | 37.000–78.000 € | 24–26 m² | ca. 1.400–3.300 € |
 
 Die Spannen überlappen deutlich: Der Selbstausbau ist je Quadratmeter nicht zwingend günstiger, wenn er hochwertig ausgestattet wird, und ein schlüsselfertiger Container ist nicht zwingend teurer, wenn er schlicht bleibt. Der Preis je m² ist damit kein Argument für oder gegen den Container, sondern ein Prüfwert für Ihr Angebot. Das Bad ist bei 20 Fuß ein großer Anteil der Fläche – größere Formate verteilen die Haustechnik besser. Grundrissideen finden Sie unter [Container-Tiny-House: Grundrisse](/ratgeber/container-tiny-house-grundrisse).
@@ -140,6 +140,6 @@ Klassische Baufinanzierungen setzen in der Regel eine feste Verbindung mit dem G
 
 ## Fazit
 
-Ein Container-Tiny-House ist günstiger als ein konventionelles Haus, aber deutlich teurer als die kursierenden Schnäppchenrechnungen suggerieren. Realistisch liegen die Gesamtkosten bei **ca. 20.000–40.000 € im Selbstausbau** (inklusive Fundament, Bauantrag und Nachweisen) und **ca. 40.000–90.000 € schlüsselfertig** (inklusive Fundament), jeweils zuzüglich Erschließung von ca. 3.000–15.000 € und einer Reserve. Der Container selbst gehört zu den kleineren Positionen.
+Ein Container-Tiny-House ist günstiger als ein konventionelles Haus, aber deutlich teurer als die kursierenden Schnäppchenrechnungen suggerieren. Realistisch liegen die Gesamtkosten bei **ca. 21.000–40.000 € im Selbstausbau** (inklusive Fundament, Bauantrag und Nachweisen) und **ca. 40.000–90.000 € schlüsselfertig** (inklusive Fundament), jeweils zuzüglich Erschließung von ca. 3.000–15.000 € und einer Reserve. Der Container selbst gehört zu den kleineren Positionen.
 
 Entscheidend für ein belastbares Budget sind drei Schritte: die Erschließungskosten vor dem Kauf beim Versorger erfragen, die Genehmigungsfähigkeit mit der Bauaufsicht klären und mehrere Angebote mit identischem Leistungsumfang vergleichen. Alle genannten Werte sind Orientierungswerte (Stand 2026) und verschieben sich je nach Region, Ausstattung und Marktlage.

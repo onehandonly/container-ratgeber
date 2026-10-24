@@ -46,7 +46,7 @@ This calculation assumes reasonably skilled owners who handle insulation, interi
 | Item | approx. amount |
 |---|---|
 | Used 20-foot container | approx. €2,000–2,800 |
-| Transport and set-down (lorry with loader crane, one trip) | approx. €350–900 |
+| Transport and set-down (lorry with loader crane, one trip) | approx. €350–800 |
 | Pad foundation, self-built | approx. €600–2,000 |
 | Openings cut, window and door | approx. €2,500–4,000 |
 | Insulation and lining (materials) | approx. €3,500–6,000 |
@@ -55,9 +55,9 @@ This calculation assumes reasonably skilled owners who handle insulation, interi
 | Small kitchen run | approx. €2,000–3,500 |
 | Infrared heating | approx. €1,000–2,000 |
 | Flooring, paint, sundries | approx. €1,500–3,000 |
-| **Total (excluding site connections)** | **approx. €20,000–34,000** |
+| **Total (excluding site connections)** | **approx. €19,500–34,000** |
 
-The table adds up to **approx. €20,000–34,000** (sum of the individual ranges, rounded). Not yet included are the building application and supporting documents (approx. €1,500–6,000, see below); with them, a DIY fit-out of a 20-foot container comes to **approx. €21,500–40,000** arithmetically. A great deal of self-performed work, reclaimed components and an already serviced pitch push costs towards the lower end. On unprepared plots, site connections add roughly €3,000–15,000 on top. Also allow a reserve of around 10–20 %: a DIY build throws up items that appear in no table.
+The table adds up to **approx. €19,500–34,000** (sum of the individual ranges: €19,450–34,100, rounded). Not yet included are the building application and supporting documents (approx. €1,500–6,000, see below); with them, a DIY fit-out of a 20-foot container comes to **approx. €21,000–40,000** arithmetically. A great deal of self-performed work, reclaimed components and an already serviced pitch push costs towards the lower end. On unprepared plots, site connections add roughly €3,000–15,000 on top. Also allow a reserve of around 10–20 %: a DIY build throws up items that appear in no table.
 
 ## Sample calculation: turnkey, 40 ft
 
@@ -84,7 +84,7 @@ Cost per usable floor area helps put the figures in context. Calculation with st
 
 | Example | Total per table | usable area (approx.) | approx. € per m² |
 |---|---|---|---|
-| DIY fit-out, 20 ft (incl. foundation) | €20,000–34,000 | 11.5–12.5 m² | approx. €1,600–3,000 |
+| DIY fit-out, 20 ft (incl. foundation) | €19,500–34,000 | 11.5–12.5 m² | approx. €1,550–3,000 |
 | Turnkey, 40 ft (excl. foundation) | €37,000–78,000 | 24–26 m² | approx. €1,400–3,300 |
 
 The ranges overlap considerably: a DIY build is not necessarily cheaper per square metre if it is fitted out to a high standard, and a turnkey container is not necessarily dearer if it stays simple. Cost per m² is therefore no argument for or against the container as such, but a sanity check for your quotation. In a 20-foot unit the bathroom takes up a large share of the floor; larger formats spread the building services better. For layout ideas see [Container tiny house: floor plans](/en/ratgeber/container-tiny-house-grundrisse).
@@ -140,6 +140,6 @@ Conventional mortgage lending normally requires a permanent connection to the la
 
 ## Conclusion
 
-A container tiny house is cheaper than a conventional house, but distinctly more expensive than the bargain calculations circulating online suggest. Realistic total costs are **approx. €20,000–40,000 for a DIY fit-out** (including foundation, building application and supporting documents) and **approx. €40,000–90,000 turnkey** (including foundation), in each case plus site connections of approx. €3,000–15,000 and a reserve. The container itself is one of the smaller items.
+A container tiny house is cheaper than a conventional house, but distinctly more expensive than the bargain calculations circulating online suggest. Realistic total costs are **approx. €21,000–40,000 for a DIY fit-out** (including foundation, building application and supporting documents) and **approx. €40,000–90,000 turnkey** (including foundation), in each case plus site connections of approx. €3,000–15,000 and a reserve. The container itself is one of the smaller items.
 
 Three steps decide whether your budget holds: ask the utility about connection costs before buying, confirm approval prospects with the building authority, and compare several quotes covering an identical scope of work. All figures given are guide values (as of 2026) and shift with region, specification and market conditions.
