@@ -6,7 +6,7 @@ category: "Container types"
 icon: "wohn"
 readingTime: 11
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-24
 lead: "From the simple residential module to the fully designed tiny house: which living container variants exist and which requirements apply."
 order: 25
 draft: false
@@ -47,12 +47,12 @@ The gross area follows from the external dimensions; the usable living area afte
 
 | Size | External dim. approx. | Gross area approx. | Area after insulation approx. | Clear height approx. |
 | --- | --- | --- | --- | --- |
-| 20 ft standard | 6.06 × 2.44 m | 14–15 m² | 12–13 m² | 2.20–2.30 m |
-| 40 ft standard | 12.19 × 2.44 m | 29–30 m² | 26–27 m² | 2.20–2.30 m |
-| 40 ft high cube | 12.19 × 2.44 m | 29–30 m² | 26–27 m² | 2.45–2.55 m |
-| Two modules coupled | approx. 12.19 × 4.88 m | 58–60 m² | 52–55 m² | depends on type |
+| 20 ft standard | 6.06 × 2.44 m | 14–15 m² | 11.5–12.5 m² | 2.15–2.25 m |
+| 40 ft standard | 12.19 × 2.44 m | 29–30 m² | 24–26 m² | 2.15–2.25 m |
+| 40 ft high cube | 12.19 × 2.44 m | 29–30 m² | 24–26 m² | 2.45–2.55 m |
+| Two 40 ft modules coupled | approx. 12.19 × 4.88 m | 58–60 m² | approx. 50–54 m² | depends on type |
 
-Height is the most frequently underestimated point. In a standard container, floor and ceiling build-ups quickly leave only about two metres of clear height – too little for permanent living. Anyone planning to live in the unit should choose high cube dimensions or modules with adequate height. Detailed dimension tables can be found under [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
+Height is the most frequently underestimated point. A standard container is 2.39 m high internally; after floor and ceiling build-ups about 2.15–2.25 m remain, less with thicker build-ups – tight for permanent living. The high cube (2.70 m internal) reaches roughly 2.45–2.55 m. The areas above derive from the internal dimensions (e.g. 40 ft: 12.03 × 2.35 m ≈ 28.3 m²) less the wall build-up. Anyone planning to live in the unit should choose high cube dimensions or modules with adequate height. Detailed dimension tables can be found under [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## Fit-out and specification
 
@@ -72,14 +72,14 @@ For permanent living, three points matter most: controlled ventilation or at lea
 
 ## Energy standard and building law
 
-As soon as a living container is permanently heated and occupied, it usually counts as a building under planning law. The requirements of the German Building Energy Act (GEG) for thermal protection, building services and documentation then apply, as do requirements for acoustic, fire and moisture protection. Purely temporary installations – such as site accommodation – often benefit from relaxed rules, though these are time-limited and vary by federal state.
+As soon as a living container is permanently heated and occupied, it usually counts as a building under planning law. The requirements of the German Building Energy Act (GEG) for thermal protection, building services and documentation then apply (see [Building Energy Act and containers](/en/ratgeber/container-geg-energierecht)), as do requirements for acoustic, fire ([fire protection](/en/ratgeber/container-brandschutz-vorschriften)) and moisture protection. Purely temporary installations – such as site accommodation – often benefit from relaxed rules, though these are time-limited and vary by federal state.
 
 In practice this means:
 
-- **Plan for permission.** Siting, change of use and servicing are almost always subject to approval. Details under [Container planning permission](/en/ratgeber/container-baugenehmigung).
+- **Plan for permission.** Whether and under which procedure approval is needed depends on location, duration and use; for permanent living it is regularly required. Details under [Container planning permission](/en/ratgeber/container-baugenehmigung) and [Building application and change of use](/en/ratgeber/container-bauantrag-nutzungsaenderung).
 - **Clarify documentation early.** Thermal performance calculation, structural design and, where applicable, a fire safety concept should be agreed before ordering.
 - **Do not forget servicing.** Water, waste water, electricity and access decide feasibility more often than the module itself.
-- **Check the foundation type.** Pad, strip or slab foundations depend on ground conditions, frost depth and duration.
+- **Check the foundation type.** Pad, strip or slab foundations depend on ground conditions, frost depth and duration, see [Foundations for containers](/en/ratgeber/container-fundament).
 
 These notes do not replace a case-by-case assessment. Building regulations are state law, and interpretation differs noticeably between municipalities.
 
@@ -91,26 +91,42 @@ The following figures are rough guide values for the German-speaking market and 
 | --- | --- | --- |
 | Bare module / used container | €2,000–6,000 | €3,500–9,000 |
 | Partly fitted (insulated, windows, electrics) | €12,000–25,000 | €20,000–45,000 |
-| Turnkey with bathroom and kitchen | €25,000–50,000 | €45,000–95,000 |
+| Turnkey with bathroom and kitchen | €25,000–50,000 | €37,000–78,000 |
 | Tiny house level, higher specification | from approx. €45,000 | from approx. €80,000 |
 
 > Disclaimer: all prices are non-binding approximate ranges without warranty. Only a quotation based on your specific floor plan, location and specification is reliable.
 
-Transport and crane, foundations, utility connections as well as design and approval costs are added on top. For one-off projects these ancillary costs frequently reach 20 to 40 percent of the module price.
+Transport and crane, foundations, utility connections as well as design and approval costs are added on top. A worked example shows how much they weigh.
+
+### Worked example: partly fitted 20 ft module
+
+Assumptions: partly fitted module (insulated, windows, electrics) at approx. €12,000–25,000, local delivery, pad foundations, plot not serviced. The ancillary figures follow those in [Tiny house costs](/en/ratgeber/container-tiny-house-kosten) and [Container transport: delivery costs](/en/ratgeber/container-transport-lieferkosten).
+
+| Item | approx. amount |
+| --- | --- |
+| Partly fitted module, 20 ft | €12,000–25,000 |
+| Transport (lorry with loader crane, one trip) | €350–800 |
+| Pad foundations | €600–2,000 |
+| Water, waste water and power connections | €3,000–15,000 |
+| Building application and documentation | €1,500–6,000 |
+| **Ancillary costs combined** | **€5,450–23,800** |
+| **Total** | **€17,450–48,800** |
+
+The ancillary costs vary by more than a factor of four, and the connections are the main driver. Bathroom and kitchen fit-out is not yet included in this example; it appears in the "turnkey" row of the price table. A quotation should therefore always state what "excluding foundation and servicing" means in concrete terms.
 
 ## Buying, renting or leasing
 
 | Model | Suits | Advantage | Disadvantage |
 | --- | --- | --- | --- |
 | Purchase | Permanent use, own requirement | Full ownership, free design | High initial outlay, residual value risk |
-| Rental | Use under approx. 24 months | Predictable rate, return included | More expensive over long terms |
+| Rental | Limited-term need (work out the break-even yourself) | Predictable rate, return included | More expensive over long terms |
 | Leasing / hire purchase | Commercial use | Balance sheet and liquidity benefits | Commitment, credit check, total cost |
 
-As a rough threshold: from around two years of use, the accumulated rent approaches the purchase price. A more detailed comparison is available under [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten).
+Work out when buying pays off yourself, from purchase price, monthly rent and transport costs. As an illustration of the method (not a living module): a used 20 ft storage container bought for €2,400 with €250 each for delivery and collection, against €95 monthly rent, breaks even after about 23 months, or after about 8 months if resold (about €1,700). For living modules, rents and residual values are entirely different; ask for both specifically. The full comparison is under [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten); for financing models see [Leasing](/en/kaufen-mieten/kauf/leasing) and [Hire purchase](/en/kaufen-mieten/kauf/mietkauf).
 
 ## If it is to become a tiny house
 
-With a tiny house the focus shifts from pure floor area to living quality: floor plan, daylight, storage and the relationship to the outside decide whether permanent living on a small footprint works. The legal framework is also more demanding, because a permanent residence requires an admissible pitch and secured servicing. A deeper treatment is offered in [Tiny house from a container](/en/ratgeber/tiny-house-aus-container); for costs see [Tiny house costs](/en/ratgeber/container-tiny-house-kosten).
+With a tiny house the focus shifts from pure floor area to living quality: floor plan, daylight, storage and the relationship to the outside decide whether permanent living on a small footprint works. The legal framework is also more demanding, because a permanent residence requires an admissible pitch and secured servicing. A deeper treatment is offered in [Tiny house from a container](/en/ratgeber/tiny-house-aus-container); for costs see [Tiny house costs](/en/ratgeber/container-tiny-house-kosten) and for the legal framework [Pitch and legal rules](/en/ratgeber/tiny-house-stellplatz-und-recht). If you plan to host guests, see [Holiday accommodation in a container](/en/ratgeber/container-ferienunterkunft-vermieten); modular versus solid construction is covered in the [construction method comparison](/en/ratgeber/modulbau-fertighaus-massivbau-vergleich).
 
 ## Selection checklist
 
@@ -123,6 +139,10 @@ With a tiny house the focus shifts from pure floor area to living quality: floor
 - **Cost the servicing:** water, waste water, electricity, access road, crane standing area.
 - **Consider transport and placement:** access width, height, crane radius.
 - **Fix warranty, lead time and spare parts supply in writing.**
+
+## Important note
+
+This article is general guidance for the German market. Building regulations are state law (plus section 35 of the Federal Building Code in the outlying area), energy requirements follow from the GEG, and all prices are approximate ranges without warranty. It is no substitute for professional or legal advice on site.
 
 ## Conclusion
 
