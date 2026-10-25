@@ -4,9 +4,9 @@ description: "From the Ideal-X in 1956 to ships carrying 24,000 TEU: how the sta
 lang: "en"
 category: "Basics"
 icon: "container"
-readingTime: 9
+readingTime: 11
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-25
 lead: "The container is one of the most consequential inventions of the 20th century – and one of the least conspicuous. Its history explains why it is built the way it is, and why you can buy one today for relatively little money."
 order: 19
 draft: false
@@ -28,7 +28,7 @@ The man who changed this was not a shipowner but a haulier. **Malcom McLean** ra
 
 On **26 April 1956** the **Ideal-X** sailed from Newark, New Jersey – a converted Second World War tanker with a frame on deck holding 58 steel boxes. She sailed to Houston, where the boxes were lifted straight onto waiting lorries.
 
-The calculation McLean made afterwards is still quoted today: loading a conventional ship at the time cost roughly US$5.86 per ton; loading the Ideal-X cost about 16 cents. That is a difference of more than a factor of 30.
+The calculation McLean made afterwards is still quoted today: loading a conventional ship at the time cost roughly US$5.86 per ton; loading the Ideal-X cost about 16 cents. That is a difference of more than a factor of 30 (5.86 ÷ 0.16 ≈ 37). The figures come from the widely repeated version of this story; they are good for the order of magnitude, not as exact evidence.
 
 ## The real breakthrough: standardisation
 
@@ -36,21 +36,35 @@ The container alone was not yet a revolution. In the early years each shipping l
 
 The breakthrough came with **international standardisation** at the end of the 1960s. ISO fixed uniform external dimensions, above all the now-familiar lengths of 20 and 40 feet at a width of 8 feet, and – at least as important – uniform **corner castings**.
 
-These corner castings are the underrated heart of the system. They sit at all eight corners, carry the entire load, and are used to lift, stack and lock the container with so-called twistlocks. Because they are identical everywhere, every container fits every ship, crane, lorry and rail wagon in the world.
+These corner castings are the underrated heart of the system. There are eight of them, four at the top and four at the bottom. They are the nodes of the steel frame of corner posts and bottom and top side rails that carries the loads. The container is lifted, lashed, stacked and locked with so-called twistlocks via the corner castings. Because they are standardised worldwide, an ISO container can be handled with the same lifting gear, locks and securing points on ships, in terminals, on specialised lorries and on rail wagons – with limits for special formats and for the weight and length a vehicle permits.
 
-For you as a buyer this still has a practical consequence: the corner castings are the part of a used container that must not be damaged under any circumstances. They are why a 20-foot container can be moved with an ordinary lorry-mounted crane and stacked three high.
+For you as a buyer this still has a practical consequence: the corner castings are the part of a used container that must not be damaged under any circumstances. They are the reason a container can be lifted and stacked at the intended points at all. How many tiers are permissible on land depends on condition, load and ground; see [Stacking and coupling containers](/en/ratgeber/container-stapeln-und-koppeln) for details and [Lifting a container correctly](/en/ratgeber/container-richtig-anheben) for lifting.
 
 ## The TEU unit
 
 Standardisation also produced the unit container shipping still counts in: the **TEU**, twenty-foot equivalent unit. A 20-foot container is 1 TEU, a 40-foot container 2 TEU.
 
-Ships, ports and terminals are all rated in TEU. The Ideal-X carried the equivalent of a few dozen TEU. The largest container ships today hold **around 24,000 TEU** – placed end to end, that would make a chain more than 140 kilometres long.
+Ships, ports and terminals are all rated in TEU. The Ideal-X carried the equivalent of around 100 TEU. The largest container ships today hold **around 24,000 TEU** – placed end to end, that would make a chain more than 140 kilometres long.
+
+### Two worked examples
+
+- **Ideal-X:** 58 boxes of 35 feet make 58 × 35 = 2,030 feet; divided by 20 feet per TEU that is about 101 TEU. The Ideal-X's cargo was therefore equivalent to a good hundred 20-foot containers.
+- **Large container ship:** 24,000 TEU equal 24,000 containers of 20 feet (6.058 m external length each, about 145 km end to end) or 12,000 containers of 40 feet (12.192 m each, about 146 km). The figure is the same either way because TEU counts length – it says nothing about the weight or value of the cargo.
+
+| Dimension (ISO) | 20 ft | 40 ft |
+| --- | --- | --- |
+| External length | 6.058 m | 12.192 m |
+| External width | 2.438 m | 2.438 m |
+| External height standard / High Cube | 2.591 m / 2.896 m | 2.591 m / 2.896 m |
+| TEU | 1 | 2 |
+
+The full overview with internal dimensions, door opening, weights and volume is in [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## 1966: the container reaches Germany
 
 Containers arrived in Europe on scheduled services in the mid-1960s. The first full container ship to call at a German port is generally considered to be the **Fairland** of Sea-Land – McLean's company – which berthed in **Bremen on 6 May 1966**.
 
-Ports faced a fundamental decision at the time. Container traffic needed entirely different facilities: long straight quay walls, vast storage areas, gantry cranes instead of harbour cranes, and road and rail connections. Bremen and Hamburg built dedicated container terminals in the following years; Hamburg today handles in the order of eight million TEU a year.
+Ports faced a fundamental decision at the time. Container traffic needed entirely different facilities: long straight quay walls, vast storage areas, gantry cranes instead of harbour cranes, and road and rail connections. Bremen and Hamburg built dedicated container terminals in the following years; Hamburg today handles in the order of eight million TEU a year (a rough figure that varies from year to year).
 
 At the same time, work in the port changed fundamentally. Where gangs of dockworkers once moved break-bulk cargo, crane operators and straddle carrier drivers now work – and increasingly automated systems.
 
@@ -85,7 +99,21 @@ These two streams feed the used market from which tradespeople, farmers, constru
 | Retired, no longer seaworthy | used, tight | the standard for storage and workshops |
 | Heavily worn | rust, leaks | only with expertise and time |
 
-How to tell these conditions apart on site is described in [Reading the container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette).
+How to tell these conditions apart on site is described in [Reading the container number and CSC plate](/en/ratgeber/container-nummer-csc-plakette); for the inspection itself, use the [inspection and test record](/en/ratgeber/container-besichtigung-pruefprotokoll).
+
+## What the history means for your purchase
+
+A few practical conclusions follow from this development:
+
+| Insight from the history | Consequence when buying |
+| --- | --- |
+| Standardisation covers external dimensions and corner castings, not condition | The dimensions are reliable; you must check the condition yourself or have it checked |
+| Containers are built for sea transport, not for permanent occupation | Insulation, ventilation and thermal bridges are your job in a fit-out |
+| The used market follows world trade | Prices fluctuate; comparing quotes pays off ([What does a container cost?](/en/ratgeber/was-kostet-ein-container)) |
+| A market with many sellers also attracts dishonest ones | No advance payment without vetting the seller ([Fake container dealers](/en/ratgeber/fake-containerhaendler-vorkasse-betrug)) |
+| Containers have an end of use | Plan dismantling and recycling early ([Containers at end of life](/en/ratgeber/container-rueckbau-verwertung-entsorgung)) |
+
+The legal points in these articles refer to German law.
 
 ## From transport box to building block
 
@@ -95,6 +123,6 @@ Those same properties also bring the typical challenges once a container becomes
 
 ## Conclusion
 
-The container owes its success less to the idea of packing goods in boxes than to the standardisation that, at the end of the 1960s, made every container compatible with every ship, crane and lorry. That standardisation is still why a used shipping container is so easy to transport, stack and repurpose. And the cycle of ocean service, retirement and one-way voyages ensures a large market for containers that are finished at sea but remain useful on land for decades.
+The container owes its success less to the idea of packing goods in boxes than to the standardisation that, at the end of the 1960s, made every container compatible with every ship, crane and lorry. That standardisation is still why a used shipping container is so easy to transport, lift and repurpose. And the cycle of ocean service, retirement and one-way voyages ensures a large market for containers that are finished at sea but remain useful on land for decades.
 
-Further reading: [Shipping container types](/en/ratgeber/seecontainer-typen), [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse) and [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen).
+Further reading: [Shipping container types](/en/ratgeber/seecontainer-typen), [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse), [Buying a used container](/en/ratgeber/gebrauchten-container-kaufen) and the terms in the [glossary](/en/ratgeber/container-glossar-fachbegriffe).

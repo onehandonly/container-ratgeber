@@ -4,9 +4,9 @@ description: "TEU, CSC-Plakette, One-Trip, Corner Casting, WWT und mehr: die wic
 lang: "de"
 category: "Grundlagen"
 icon: "container"
-readingTime: 10
+readingTime: 12
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-25
 lead: "Wer Container kauft, mietet oder umbaut, stößt schnell auf Fachjargon aus Schifffahrt, Handel und Baurecht. Dieses Glossar erklärt die wichtigsten Begriffe kurz und ohne Vorwissen."
 order: 23
 draft: false
@@ -32,10 +32,10 @@ Metallschild am Container, das die Zulassung nach der internationalen CSC-Konven
 Vierstelliger Code neben der Container-Nummer, etwa 22G1 oder 45G1. Die erste Stelle steht für die Länge, die zweite für die Höhe, der Rest für die Bauart. Eine 5 an zweiter Stelle bedeutet High Cube. Erklärt in [Container-Nummer & CSC-Plakette](/ratgeber/container-nummer-csc-plakette).
 
 **Twistlock**
-Drehverschluss, der in die Öffnung eines Eckbeschlags greift und Container untereinander oder mit dem Fahrzeug verriegelt. Beim Stapeln an Land werden häufig einfache Stapelkonen oder Twistlocks verwendet.
+Drehverschluss, der in die Öffnung eines Eckbeschlags greift und per Vierteldrehung verriegelt. Beim Stapeln sitzt er zwischen dem oberen Eckbeschlag des unteren und dem unteren Eckbeschlag des oberen Containers; auf See wird jede Lage so verriegelt, ebenso der Container auf dem Fahrzeug. An Land werden häufig einfache Stapelkonen oder Twistlocks verwendet. Siehe [Container stapeln und koppeln](/ratgeber/container-stapeln-und-koppeln).
 
 **Corner Casting (Eckbeschlag)**
-Die acht verstärkten Eckelemente eines Containers – vier oben, vier unten. Sie nehmen beim Stapeln, Heben und Verzurren die gesamte Last auf und sind deshalb die wichtigste Stelle bei einer Zustandsprüfung.
+Die acht verstärkten Eckelemente eines Containers – vier oben, vier unten. Sie sind die Knotenpunkte des Stahlrahmens aus Eckpfosten sowie Boden- und Dachlängsträgern, der die Lasten trägt. Gehoben, verzurrt und gestapelt wird über sie; deshalb sind sie bei der Zustandsprüfung besonders wichtig. Siehe [Besichtigung und Prüfprotokoll](/ratgeber/container-besichtigung-pruefprotokoll).
 
 ## Zustand und Handel
 
@@ -92,7 +92,10 @@ Stelle in der Gebäudehülle, an der Wärme deutlich schneller nach außen entwe
 Polyurethan-Dämmstoff, der flüssig aufgesprüht wird und dabei aufschäumt. Er dichtet auch unregelmäßige Stahlflächen fugenlos ab und wird deshalb häufig beim Containerausbau eingesetzt. Details unter [Spritzschaum-Dämmung](/ratgeber/spruehschaum-daemmung-container).
 
 **Bodenbelastung / Traglast**
-Das Gewicht, das ein Container-Boden dauerhaft aufnehmen kann, ohne sich zu verformen. Relevant bei Lagernutzung mit schweren Gütern ebenso wie beim nachträglichen Einbau von Estrich oder Fliesen.
+Das Gewicht, das ein Container-Boden dauerhaft aufnehmen kann, ohne sich zu verformen. Relevant bei Lagernutzung mit schweren Gütern ebenso wie beim nachträglichen Einbau von Estrich oder Fliesen. Der Boden besteht typischerweise aus rund 28 mm Hartholz-Sperrholz auf Stahlquerträgern; zum Austausch siehe [Boden sanieren oder austauschen](/ratgeber/container-boden-sanieren-austauschen).
+
+**Tara, Nutzlast und Bruttogewicht**
+Tara ist das Leergewicht, das Bruttogewicht das höchstzulässige Gesamtgewicht, die Nutzlast die Differenz. Beispiel 20-Fuß-Standardcontainer mit 28.000 kg Bruttogewicht und 2.200–2.300 kg Tara: rechnerisch rund 25.700–25.800 kg Nutzlast. Auf der Straße und beim Kran begrenzen Fahrzeug und Hebezeug diesen Wert oft deutlich; Werte nach [Container-Größen und Maße](/ratgeber/container-groessen-und-masse).
 
 ## Recht und Genehmigung
 
@@ -102,8 +105,24 @@ Bauordnungsrechtlicher Begriff für den Wechsel der genehmigten Nutzung eines Ge
 **Sondernutzung**
 Nutzung von öffentlichem Straßen- oder Wegeland über den Gemeingebrauch hinaus, etwa das vorübergehende Aufstellen eines Containers auf dem Gehweg. Dafür ist in der Regel eine Sondernutzungserlaubnis der Gemeinde nötig. Details in [Container auf öffentlichem Grund](/ratgeber/container-oeffentlicher-grund-sondernutzung).
 
+**Scheinbestandteil**
+Sache, die nur zu einem vorübergehenden Zweck mit einem Grundstück verbunden ist (§ 95 BGB) und deshalb nicht wesentlicher Bestandteil des Grundstücks wird. Für Container relevant bei Eigentumsfragen und Grundbuch; ob das im Einzelfall zutrifft, hängt von Befestigung und Zweck ab. Siehe [Eigentum, Scheinbestandteil und Grundbuch](/ratgeber/container-eigentum-scheinbestandteil-grundbuch).
+
 **Gewährleistung**
 Gesetzliche Haftung des Verkäufers für Mängel, die bereits beim Kauf vorhanden waren. Bei privaten Verkäufen wird sie häufig vertraglich ausgeschlossen. Verkauft ein Händler an einen Verbraucher, kann er sie bei Gebrauchtware verkürzen, aber nicht ausschließen; zwischen Unternehmen ist ein Ausschluss dagegen möglich. Ausführlich in [Kaufvertrag & Gewährleistung](/ratgeber/container-kaufvertrag-gewaehrleistung).
+
+## Beispiel: ein Angebot lesen
+
+Angenommen, ein Angebot lautet: „20-Fuß-Standardcontainer, 22G1, WWT, ab Lager, Lieferung gegen Aufpreis." Mit dem Glossar lässt sich das so übersetzen:
+
+| Angabe | Bedeutung | Worauf Sie achten sollten |
+| --- | --- | --- |
+| 20-Fuß-Standard | 6,058 m Außenlänge, rund 2,39 m Innenhöhe | Passt die Innenhöhe zu Ihrem Vorhaben? Sonst High Cube prüfen |
+| 22G1 | 20 Fuß, 2,59 m Außenhöhe, Standardbauart | Abgleich mit der Nummer am Container |
+| WWT | wind- und wasserdicht, nicht mehr für den Seetransport zugelassen | Für Lager meist ausreichend, Nachweis per Besichtigung |
+| ab Lager | Preis ohne Transport | Liefer- und Abladekosten gesondert erfragen, siehe [Transportkosten](/ratgeber/container-transport-lieferkosten) |
+
+Die Angabe ersetzt keine Besichtigung; Betrugsmaschen beschreibt der Beitrag [Fake-Containerhändler](/ratgeber/fake-containerhaendler-vorkasse-betrug).
 
 ## Wichtiger Hinweis
 

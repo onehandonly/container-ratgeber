@@ -4,9 +4,9 @@ description: "TEU, CSC plate, one-trip, corner casting, WWT and more: the key te
 lang: "en"
 category: "Basics"
 icon: "container"
-readingTime: 10
+readingTime: 12
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-25
 lead: "Anyone buying, renting or converting a container quickly runs into jargon from shipping, trade and building law. This glossary explains the key terms briefly, with no prior knowledge required."
 order: 23
 draft: false
@@ -32,10 +32,10 @@ A metal plate on the container confirming approval under the international CSC C
 Four-character code next to the container number, such as 22G1 or 45G1. The first character stands for length, the second for height, the rest for the type. A 5 in second position means high cube. Explained in [Container number & CSC plate](/en/ratgeber/container-nummer-csc-plakette).
 
 **Twistlock**
-A rotating lock that engages the opening of a corner casting and locks containers to each other or to the vehicle. When stacking on land, simple stacking cones or twistlocks are often used.
+A rotating lock that engages the opening of a corner casting and locks with a quarter turn. When stacking it sits between the upper corner casting of the lower container and the lower corner casting of the upper one; at sea every tier is locked this way, as is the container on its vehicle. On land, simple stacking cones or twistlocks are often used. See [Stacking and coupling containers](/en/ratgeber/container-stapeln-und-koppeln).
 
 **Corner casting**
-The eight reinforced corner fittings of a container – four at the top, four at the bottom. They carry the entire load when stacking, lifting and lashing, which makes them the single most important spot to check when assessing condition.
+The eight reinforced corner fittings of a container – four at the top, four at the bottom. They are the nodes of the steel frame of corner posts and bottom and top side rails that carries the loads. Lifting, lashing and stacking all happen via them, which makes them especially important when assessing condition. See [Inspection and test record](/en/ratgeber/container-besichtigung-pruefprotokoll).
 
 ## Condition and trade
 
@@ -92,7 +92,10 @@ A point in the building envelope where heat escapes noticeably faster to the out
 Polyurethane insulation that is sprayed on as a liquid and then expands. It seals even uneven steel surfaces without gaps, which is why it is often used in container conversions. Details in [Spray foam insulation](/en/ratgeber/spruehschaum-daemmung-container).
 
 **Floor load / load-bearing capacity**
-The weight a container floor can carry permanently without deforming. Relevant both for storing heavy goods and for later adding screed or tiling.
+The weight a container floor can carry permanently without deforming. Relevant both for storing heavy goods and for later adding screed or tiling. The floor typically consists of about 28 mm hardwood plywood on steel cross members; for replacement see [Repairing or replacing the floor](/en/ratgeber/container-boden-sanieren-austauschen).
+
+**Tare, payload and gross weight**
+Tare is the empty weight, gross weight the maximum permitted total weight, payload the difference. Example for a 20-foot standard container with 28,000 kg gross weight and 2,200–2,300 kg tare: a calculated payload of roughly 25,700–25,800 kg. On the road and at the crane, the vehicle and lifting gear often limit this considerably; figures from [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## Law and permits
 
@@ -102,8 +105,26 @@ A building-law term for switching a building's or plot's approved use, for examp
 **Special use of public land**
 Use of public streets or paths beyond ordinary common use, for example temporarily placing a container on a pavement. This usually requires a special-use permit from the local authority. Details in [Containers on public land](/en/ratgeber/container-oeffentlicher-grund-sondernutzung).
 
+**Pseudo-component (Scheinbestandteil)**
+An item connected to land only for a temporary purpose (section 95 of the German Civil Code, BGB) and therefore not an essential part of the property. Relevant for containers in questions of ownership and the land register; whether it applies depends on how the container is fixed and why. See [Ownership, pseudo-component and land register](/en/ratgeber/container-eigentum-scheinbestandteil-grundbuch).
+
 **Warranty**
 A seller's statutory liability for defects that already existed at the time of sale. Private sellers frequently exclude it by contract. When a dealer sells used goods to a consumer, the warranty can be shortened but not excluded under German law; between businesses it can be excluded. Covered in detail in [Purchase contract & warranty](/en/ratgeber/container-kaufvertrag-gewaehrleistung).
+
+## Example: reading an offer
+
+Suppose an offer reads: "20-foot standard container, 22G1, WWT, ex stock, delivery at extra charge." With the glossary this translates as follows:
+
+| Item | Meaning | What to look out for |
+| --- | --- | --- |
+| 20-foot standard | 6.058 m external length, about 2.39 m internal height | Does the internal height suit your project? Otherwise consider a High Cube |
+| 22G1 | 20 ft, 2.59 m external height, standard design | Compare with the number on the container |
+| WWT | wind and watertight, no longer approved for sea transport | Usually sufficient for storage; confirm by inspection |
+| ex stock | price without transport | Ask separately about delivery and unloading costs, see [Transport costs](/en/ratgeber/container-transport-lieferkosten) |
+
+The listing does not replace an inspection; scams are described in [Fake container dealers](/en/ratgeber/fake-containerhaendler-vorkasse-betrug).
+
+The legal terms refer to German law.
 
 ## Important note
 
