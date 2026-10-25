@@ -95,7 +95,7 @@ Polyurethan-Dämmstoff, der flüssig aufgesprüht wird und dabei aufschäumt. Er
 Das Gewicht, das ein Container-Boden dauerhaft aufnehmen kann, ohne sich zu verformen. Relevant bei Lagernutzung mit schweren Gütern ebenso wie beim nachträglichen Einbau von Estrich oder Fliesen. Der Boden besteht typischerweise aus rund 28 mm Hartholz-Sperrholz auf Stahlquerträgern; zum Austausch siehe [Boden sanieren oder austauschen](/ratgeber/container-boden-sanieren-austauschen).
 
 **Tara, Nutzlast und Bruttogewicht**
-Tara ist das Leergewicht, das Bruttogewicht das höchstzulässige Gesamtgewicht, die Nutzlast die Differenz. Beispiel 20-Fuß-Standardcontainer mit 28.000 kg Bruttogewicht und 2.200–2.300 kg Tara: rechnerisch rund 25.700–25.800 kg Nutzlast. Auf der Straße und beim Kran begrenzen Fahrzeug und Hebezeug diesen Wert oft deutlich; Werte nach [Container-Größen und Maße](/ratgeber/container-groessen-und-masse).
+Tara ist das Leergewicht, das Bruttogewicht das höchstzulässige Gesamtgewicht, die Nutzlast die Differenz. Beispiel 20-Fuß-Standardcontainer mit ca. 30.480 kg Bruttogewicht und 2.200–2.300 kg Tara: rechnerisch rund 28.180–28.280 kg, also die ca. 28.000 kg Zuladung aus der Maßtabelle. Maßgeblich für den einzelnen Container sind die Angaben auf der CSC-Plakette und an der Tür. Auf der Straße und beim Kran begrenzen Fahrzeug und Hebezeug diesen Wert oft deutlich; Werte nach [Container-Größen und Maße](/ratgeber/container-groessen-und-masse).
 
 ## Recht und Genehmigung
 
@@ -119,7 +119,7 @@ Angenommen, ein Angebot lautet: „20-Fuß-Standardcontainer, 22G1, WWT, ab Lage
 | --- | --- | --- |
 | 20-Fuß-Standard | 6,058 m Außenlänge, rund 2,39 m Innenhöhe | Passt die Innenhöhe zu Ihrem Vorhaben? Sonst High Cube prüfen |
 | 22G1 | 20 Fuß, 2,59 m Außenhöhe, Standardbauart | Abgleich mit der Nummer am Container |
-| WWT | wind- und wasserdicht, nicht mehr für den Seetransport zugelassen | Für Lager meist ausreichend, Nachweis per Besichtigung |
+| WWT | wind- und wasserdicht, in der Regel nicht mehr für den Seetransport zertifiziert | Für Lager meist ausreichend, Nachweis per Besichtigung |
 | ab Lager | Preis ohne Transport | Liefer- und Abladekosten gesondert erfragen, siehe [Transportkosten](/ratgeber/container-transport-lieferkosten) |
 
 Die Angabe ersetzt keine Besichtigung; Betrugsmaschen beschreibt der Beitrag [Fake-Containerhändler](/ratgeber/fake-containerhaendler-vorkasse-betrug).

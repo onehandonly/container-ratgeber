@@ -95,7 +95,7 @@ Polyurethane insulation that is sprayed on as a liquid and then expands. It seal
 The weight a container floor can carry permanently without deforming. Relevant both for storing heavy goods and for later adding screed or tiling. The floor typically consists of about 28 mm hardwood plywood on steel cross members; for replacement see [Repairing or replacing the floor](/en/ratgeber/container-boden-sanieren-austauschen).
 
 **Tare, payload and gross weight**
-Tare is the empty weight, gross weight the maximum permitted total weight, payload the difference. Example for a 20-foot standard container with 28,000 kg gross weight and 2,200–2,300 kg tare: a calculated payload of roughly 25,700–25,800 kg. On the road and at the crane, the vehicle and lifting gear often limit this considerably; figures from [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
+Tare is the empty weight, gross weight the maximum permitted total weight, payload the difference. Example for a 20-foot standard container with approx. 30,480 kg gross weight and 2,200–2,300 kg tare: a calculated payload of roughly 28,180–28,280 kg, i.e. the approx. 28,000 kg payload from the dimensions table. For an individual container, the figures on the CSC plate and the door are decisive. On the road and at the crane, the vehicle and lifting gear often limit this considerably; figures from [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse).
 
 ## Law and permits
 
@@ -119,7 +119,7 @@ Suppose an offer reads: "20-foot standard container, 22G1, WWT, ex stock, delive
 | --- | --- | --- |
 | 20-foot standard | 6.058 m external length, about 2.39 m internal height | Does the internal height suit your project? Otherwise consider a High Cube |
 | 22G1 | 20 ft, 2.59 m external height, standard design | Compare with the number on the container |
-| WWT | wind and watertight, no longer approved for sea transport | Usually sufficient for storage; confirm by inspection |
+| WWT | wind and watertight, usually no longer certified for sea transport | Usually sufficient for storage; confirm by inspection |
 | ex stock | price without transport | Ask separately about delivery and unloading costs, see [Transport costs](/en/ratgeber/container-transport-lieferkosten) |
 
 The listing does not replace an inspection; scams are described in [Fake container dealers](/en/ratgeber/fake-containerhaendler-vorkasse-betrug).
