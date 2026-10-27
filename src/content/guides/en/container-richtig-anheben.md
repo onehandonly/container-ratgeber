@@ -7,7 +7,7 @@ icon: "bau"
 readingTime: 10
 published: 2026-09-25
 updated: 2026-10-27
-lead: "A container is lifted by its eight corner castings – nowhere else. Whether that goes safely depends on the sling angle, the weight including cargo and the reach of the crane – with a worked example on crane capacity."
+lead: "A container is lifted by its corner castings – the four top or the four bottom ones depending on the method, and nowhere else. Whether that goes safely depends on the sling angle, the weight including cargo and the reach of the crane – with a worked example on crane capacity."
 order: 72
 draft: false
 ---

@@ -7,7 +7,7 @@ icon: "bau"
 readingTime: 10
 published: 2026-09-25
 updated: 2026-10-27
-lead: "Ein Container wird an seinen acht Eckbeschlägen gehoben – nirgendwo sonst. Ob das sicher gelingt, entscheiden der Seilwinkel, das Gewicht samt Ladung und die Reichweite des Krans – mit Rechenbeispiel zur Krankapazität."
+lead: "Ein Container wird an seinen Eckbeschlägen gehoben – je nach Methode an den vier oberen oder den vier unteren, nirgendwo sonst. Ob das sicher gelingt, entscheiden der Seilwinkel, das Gewicht samt Ladung und die Reichweite des Krans – mit Rechenbeispiel zur Krankapazität."
 order: 72
 draft: false
 ---
