@@ -6,8 +6,8 @@ category: "Praxis"
 icon: "bau"
 readingTime: 10
 published: 2026-09-25
-updated: 2026-09-25
-lead: "Ein Container wird an seinen acht Eckbeschlägen gehoben – nirgendwo sonst. Ob das sicher gelingt, entscheiden der Seilwinkel, das Gewicht samt Ladung und die Reichweite des Krans."
+updated: 2026-10-27
+lead: "Ein Container wird an seinen acht Eckbeschlägen gehoben – nirgendwo sonst. Ob das sicher gelingt, entscheiden der Seilwinkel, das Gewicht samt Ladung und die Reichweite des Krans – mit Rechenbeispiel zur Krankapazität."
 order: 72
 draft: false
 ---
@@ -33,7 +33,7 @@ Für den Privat- und Gewerbekunden relevant sind fast nur zwei Fälle: der **Lkw
 
 Hängt ein Container an vier schrägen Strängen, zieht jeder Strang nicht nur nach oben, sondern auch nach innen. Je flacher der Winkel, desto größer die Kraft im Strang – und desto stärker werden die oberen Längsträger zusammengedrückt.
 
-| Winkel des Strangs zur Horizontalen | Kraftfaktor | Kraft je Strang bei 2.300 kg, gleichmäßig auf 4 Stränge verteilt |
+| Winkel des Strangs zur Horizontalen | Kraftfaktor | Kraft je Strang bei einem leeren 20-Fuß-Container (2.300 kg), gleichmäßig auf 4 Stränge verteilt |
 |---|---|---|
 | 90° (senkrecht, wie beim Spreader) | 1,00 | ca. 575 kg |
 | 60° | 1,15 | ca. 664 kg |
@@ -69,6 +69,18 @@ Die Werte sind eine vereinfachte Überschlagsrechnung; maßgeblich ist immer die
 
 Was das bedeutet: Ein leerer 20-Fuß-Container mit rund 2,3 Tonnen lässt sich mit einem mittleren Ladekran auch über einen Zaun oder eine Hecke setzen. Ein **beladener** Container oder ein Container, der weit vom Lkw entfernt stehen soll, übersteigt die Kapazität schnell. Geben Sie dem Transportunternehmen deshalb immer das tatsächliche Gewicht und die Entfernung vom Straßenrand zum Stellplatz an. Wie Sie das Gewicht beim Beladen im Griff behalten, steht in [Container richtig beladen](/ratgeber/container-richtig-beladen).
 
+## Rechenbeispiel: Reicht der Kran?
+
+Annahmen: Gehänge und Anschlagmittel pauschal 0,3 t; Leergewicht (Tara) 20 Fuß ca. 2,3 t, 40 Fuß ca. 3,75 t (Werte aus [Container-Größen & Maße](/ratgeber/container-groessen-und-masse)). Das benötigte Lastmoment ergibt sich aus (Last + Gehänge) × Ausladung.
+
+| Fall | Last inkl. Gehänge | Ausladung | Benötigtes Lastmoment | Einordnung |
+|---|---|---|---|---|
+| A: leerer 20-Fuß-Container | 2,6 t | 8 m | ca. 21 tm | 20-tm-Kran knapp zu klein, 30 tm reicht |
+| B: 20-Fuß-Container mit ca. 4 t Inhalt | 6,6 t | 6 m | ca. 40 tm | 40-tm-Kran an der Grenze, ohne Reserve; bei 8 m wären es ca. 53 tm |
+| C: leerer 40-Fuß-Container | 4,05 t | 10 m | ca. 41 tm | 40-tm-Kran nicht ausreichend |
+
+Die Rechnung ist ein Überschlag. Reale Lastkurven liegen häufig unter dem Näherungswert, außerdem braucht jeder Hub Reserve. Reicht der Kran nicht, helfen drei Wege: der Lkw fährt näher an den Stellplatz, ein größerer Kran wird eingesetzt, oder der Container wird leer abgesetzt und erst vor Ort beladen. Ein beladener Container sollte nach Möglichkeit gar nicht gehoben werden. Für den Lkw mit Ladekran nennt der Beitrag [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten) ca. 350–800 € je Fahrt im Nahbereich; ein zusätzlich bestellter Autokran wird in der Regel nach Einsatzzeit abgerechnet und sollte individuell angefragt werden.
+
 ## Mit dem Stapler heben
 
 Viele 10- und 20-Fuß-Container haben **Staplertaschen** im Bodenrahmen. Dabei gilt:
@@ -92,6 +104,16 @@ Gedämmte Raumcontainer sind anders gebaut als Seecontainer, werden aber ebenfal
 - **Standfläche des Krans.** Die Stützen brauchen tragfähigen Untergrund; auf weichem Boden werden Unterlegplatten verwendet.
 - **Qualifikation.** Kranführer und Anschläger müssen unterwiesen und befähigt sein. Die berufsgenossenschaftlichen Regeln zum Betreiben von Lastaufnahmeeinrichtungen geben dafür den Rahmen vor.
 
+## Checkliste vor der Anlieferung
+
+- Tatsächliches Gewicht (Tara plus Inhalt) und Entfernung vom Lkw-Standplatz bis zum Stellplatz in Metern bekannt und dem Fahrer mitgeteilt?
+- Container beim Absetzen leer?
+- Seitlicher Platz für die Stützen des Krans vorhanden (grob 1,5 bis 2,5 m je Seite)?
+- Keine Freileitungen oder tief hängenden Äste im Schwenkbereich?
+- Untergrund für Kranstützen und Stellfläche tragfähig und eben, [Fundament](/ratgeber/container-fundament) fertig?
+- Soll ein zweiter Container aufgesetzt werden? Dann ist meist ein Autokran nötig; Hinweise zu Statik und Verbindungstechnik stehen in [Container stapeln und koppeln](/ratgeber/container-stapeln-und-koppeln).
+- Ansprechpartner vor Ort erreichbar, Zufahrt für Lkw geprüft?
+
 ## Typische Fehler
 
 | Fehler | Folge |
@@ -112,4 +134,4 @@ Gedämmte Raumcontainer sind anders gebaut als Seecontainer, werden aber ebenfal
 
 Ein Container wird nur an seinen Eckbeschlägen gehoben, mit möglichst steilem Seilwinkel und einem Gehänge, das auch dann reicht, wenn nicht alle Stränge gleich tragen. Über Erfolg oder Scheitern entscheidet meist das Gewicht: Ein leerer 20-Füßer ist für einen Ladekran Routine, ein beladener oder weit entfernt abzusetzender Container schnell zu viel. Wer Gewicht und Entfernung vorher ehrlich angibt, vermeidet Fehlfahrten und gefährliche Situationen.
 
-Weiterführend: [Container richtig beladen](/ratgeber/container-richtig-beladen), [Container transportieren](/ratgeber/container-transportieren) und [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten).
+Weiterführend: [Container richtig beladen](/ratgeber/container-richtig-beladen), [Container stapeln und koppeln](/ratgeber/container-stapeln-und-koppeln), [Container-Fundament](/ratgeber/container-fundament), [Container transportieren](/ratgeber/container-transportieren) und [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten).

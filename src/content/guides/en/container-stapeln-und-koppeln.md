@@ -6,7 +6,7 @@ category: "Basics"
 icon: "ruler"
 readingTime: 10
 published: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-27
 lead: "Containers are built to be stacked – but not every stack is automatically safe. What the corner castings actually carry, when a structural engineer becomes mandatory, and what matters at the joint between coupled modules."
 order: 21
 draft: false
@@ -43,7 +43,33 @@ The permissible stacking height for a given project therefore always depends on:
 - **Foundation and load path.** The more storeys are stacked, the greater the point load under the four corner castings of the bottom container. Foundation details are covered in [Container foundations](/en/ratgeber/container-fundament).
 - **Alignment.** Only precisely corner-on-corner stacking transfers load the way it is designed to; any offset creates bending moments the frame was never built for.
 
-For one or two unmodified standard containers stacked without structural changes, the manufacturer's stacking rating may well be enough on its own. As soon as cut-outs, permanent occupation by people, or more than two storeys are involved, a **structural calculation by a qualified engineer** stops being optional – in most jurisdictions it is also a precondition for planning permission.
+For a single unmodified standard container placed on top of another (two storeys), the manufacturer's stacking rating may well be enough on its own. As soon as cut-outs, permanent occupation by people, or more than two storeys are involved, a **structural calculation by a qualified engineer** stops being optional – under German state building codes it is generally also a precondition for planning permission.
+
+## Worked example: load on the corner posts
+
+Suppose three 20 ft modules are stacked. Each module weighs about 3.8 t: roughly 2.3 t tare plus an assumed 1.5 t for fit-out and furnishings (the assumption is an example, not a guideline). With exact corner-on-corner stacking, the load from the storeys above is, in simplified terms, shared equally by the four corner posts:
+
+| Storey | Load from storeys above | Compression per corner post |
+|---|---|---|
+| 2nd floor | 0 t | 0 t |
+| 1st floor | 3.8 t | approx. 0.95 t |
+| Ground floor | 7.6 t | approx. 1.9 t |
+
+The foundation carries 3 × 3.8 t = 11.4 t in total, i.e. approx. 2.85 t per corner point – from dead weight alone. Live load, snow and wind suction come on top, and in practice the load is never shared perfectly evenly. That is exactly why a rough example like this never replaces the structural calculation.
+
+| Project | Structural calculation and building authority (guidance) |
+|---|---|
+| Single container used for storage | Calculation usually not needed; whether a permit is needed depends on location, duration and use |
+| Two storeys, unmodified, storage use only | Check manufacturer data, ask the building authority beforehand |
+| Two storeys with cut-outs or occupation by people | Calculation generally required |
+| More than two storeys | Calculation and permit generally required |
+| Side-by-side coupling with the dividing wall removed | Calculation for frame and cut-out generally required |
+
+The table is guidance only; the requirements are set by the German state building codes. More in [Planning permission for containers](/en/ratgeber/container-baugenehmigung).
+
+## Placing the upper container in practice
+
+The upper container is lifted into position exactly corner-on-corner by crane. A lorry-mounted loader crane often reaches its limits on reach and lifting height here, so a mobile crane is frequently ordered; how to check lifting points, sling angles and crane reach is covered in [Lifting a container properly](/en/ratgeber/container-richtig-anheben). The connecting hardware is then fitted and the stack secured against being lifted by wind. If the upper floor is intended for occupation, access, stairs and an escape route come into play – these too are governed by the state building code and belong in the discussion with the building authority.
 
 ## Coupling side by side: the joint is what decides it
 
@@ -67,8 +93,8 @@ Manufacturers typically supply coupling solutions – including corridors, stair
 
 ## Important note
 
-This is general information under German conditions, not a structural calculation or legal advice. Whether and how a particular stacking or coupling project can be approved depends on the relevant state building code, the number of storeys, the intended use and the specific site. Always obtain a checked structural calculation and the assessment of the relevant building authority before building.
+This is general information under German conditions, not a structural calculation or legal advice. Whether and how a particular stacking or coupling project can be approved depends on the relevant state building code, the number of storeys, the intended use and the specific site. Always obtain a checked structural calculation and the assessment of the relevant building authority before building (see also [Planning permission for containers](/en/ratgeber/container-baugenehmigung)).
 
 ## Conclusion
 
-Containers are, by construction, made for stacking – but manufacturer figures from sea transport are not a blank cheque for arbitrarily tall, permanent installations on land. Stacking one or two unmodified standard containers usually works fine with manufacturer data and careful alignment. As soon as cut-outs, occupation by people, or more than two storeys enter the picture, it is the structural calculation that decides – not a feeling that "it'll probably hold".
+Containers are, by construction, made for stacking – but manufacturer figures from sea transport are not a blank cheque for arbitrarily tall, permanent installations on land. Stacking one unmodified standard container on another (two storeys) usually works fine with manufacturer data and careful alignment. As soon as cut-outs, occupation by people, or more than two storeys enter the picture, it is the structural calculation that decides – not a feeling that "it'll probably hold".

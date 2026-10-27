@@ -6,8 +6,8 @@ category: "Practice"
 icon: "bau"
 readingTime: 10
 published: 2026-09-25
-updated: 2026-09-25
-lead: "A container is lifted by its eight corner castings – nowhere else. Whether that goes safely depends on the sling angle, the weight including cargo and the reach of the crane."
+updated: 2026-10-27
+lead: "A container is lifted by its eight corner castings – nowhere else. Whether that goes safely depends on the sling angle, the weight including cargo and the reach of the crane – with a worked example on crane capacity."
 order: 72
 draft: false
 ---
@@ -33,7 +33,7 @@ For private and business customers, almost only two cases matter: the **lorry wi
 
 When a container hangs from four angled legs, each leg pulls not only upwards but also inwards. The flatter the angle, the greater the force in the leg – and the more the top side rails are compressed.
 
-| Leg angle to the horizontal | Force factor | Force per leg at 2,300 kg, spread evenly over 4 legs |
+| Leg angle to the horizontal | Force factor | Force per leg for an empty 20 ft container (2,300 kg), spread evenly over 4 legs |
 |---|---|---|
 | 90° (vertical, as with a spreader) | 1.00 | approx. 575 kg |
 | 60° | 1.15 | approx. 664 kg |
@@ -69,6 +69,18 @@ These values are a simplified estimate; the load chart of the specific crane is 
 
 What that means: an empty 20 ft container of around 2.3 tonnes can be set over a fence or hedge by a medium loader crane. A **loaded** container, or one to be placed far from the lorry, quickly exceeds the capacity. So always give the haulier the actual weight and the distance from the roadside to the site. How to keep the weight under control when loading is covered in [Loading a container properly](/en/ratgeber/container-richtig-beladen).
 
+## Worked example: is the crane big enough?
+
+Assumptions: slings and lifting gear allowed at 0.3 t; tare weight of a 20 ft container about 2.3 t, of a 40 ft container about 3.75 t (figures from [Container sizes and dimensions](/en/ratgeber/container-groessen-und-masse)). The load moment required is (load + gear) × reach.
+
+| Case | Load incl. gear | Reach | Load moment required | Assessment |
+|---|---|---|---|---|
+| A: empty 20 ft container | 2.6 t | 8 m | approx. 21 tm | 20 tm crane marginally too small, 30 tm is enough |
+| B: 20 ft container with approx. 4 t contents | 6.6 t | 6 m | approx. 40 tm | 40 tm crane at its limit with no reserve; at 8 m it would be approx. 53 tm |
+| C: empty 40 ft container | 4.05 t | 10 m | approx. 41 tm | 40 tm crane not sufficient |
+
+This is a rough estimate. Real load charts are often below the approximate figure, and every lift needs a reserve. If the crane is not enough, there are three ways out: the lorry drives closer to the site, a larger crane is used, or the container is set down empty and only loaded on site. A loaded container should not be lifted at all if it can be avoided. For a lorry with a loader crane, [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten) gives approx. €350–800 per trip in the local area; a mobile crane ordered in addition is usually charged by time on site and should be quoted individually.
+
 ## Lifting with a forklift
 
 Many 10 and 20 ft containers have **forklift pockets** in the base frame. The rules:
@@ -92,6 +104,16 @@ Insulated room containers are built differently from shipping containers but are
 - **Crane footing.** The outriggers need load-bearing ground; on soft ground, spreader pads are used.
 - **Qualification.** Crane operators and slingers must be instructed and competent. The German statutory accident insurers' rules on operating lifting accessories provide the framework.
 
+## Checklist before delivery
+
+- Are the actual weight (tare plus contents) and the distance in metres from the lorry's standing position to the site known and passed on to the driver?
+- Is the container empty when it is set down?
+- Is there enough lateral room for the crane's outriggers (roughly 1.5 to 2.5 m on each side)?
+- Are there no overhead power lines or low branches in the slewing area?
+- Is the ground under the outriggers and the site firm and level, and is the [foundation](/en/ratgeber/container-fundament) finished?
+- Is a second container to be placed on top? A mobile crane is then usually needed; notes on structure and connecting hardware are in [Stacking and coupling containers](/en/ratgeber/container-stapeln-und-koppeln).
+- Is a contact on site reachable, and has lorry access been checked?
+
 ## Typical mistakes
 
 | Mistake | Consequence |
@@ -112,4 +134,4 @@ Insulated room containers are built differently from shipping containers but are
 
 A container is lifted only by its corner castings, with as steep a sling angle as possible and lifting gear that is sufficient even if not all legs share the load. Success or failure usually comes down to weight: an empty 20-footer is routine for a loader crane, a loaded one or one to be set down far away quickly becomes too much. Giving the actual weight and distance honestly in advance avoids wasted journeys and dangerous situations.
 
-Further reading: [Loading a container properly](/en/ratgeber/container-richtig-beladen), [Transporting a container](/en/ratgeber/container-transportieren) and [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten).
+Further reading: [Loading a container properly](/en/ratgeber/container-richtig-beladen), [Stacking and coupling containers](/en/ratgeber/container-stapeln-und-koppeln), [Container foundations](/en/ratgeber/container-fundament), [Transporting a container](/en/ratgeber/container-transportieren) and [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten).

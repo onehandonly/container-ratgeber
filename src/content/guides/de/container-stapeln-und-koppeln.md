@@ -6,7 +6,7 @@ category: "Grundlagen"
 icon: "ruler"
 readingTime: 10
 published: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-27
 lead: "Container sind fürs Stapeln gebaut – aber nicht jede Stapelung ist automatisch sicher. Was die Eckbeschläge leisten, wo eine Statik zwingend wird und worauf es bei der Fuge zwischen gekoppelten Modulen ankommt."
 order: 21
 draft: false
@@ -43,7 +43,33 @@ Entscheidend für die zulässige Stapelhöhe sind deshalb immer:
 - **Fundament und Lastabtrag.** Je mehr Geschosse gestapelt werden, desto größer die punktuelle Last unter den vier Eckbeschlägen des untersten Containers. Details zur Gründung stehen im Beitrag [Container-Fundament](/ratgeber/container-fundament).
 - **Ausrichtung.** Nur exakt eckdeckende Stapelung leitet die Last wie vorgesehen ab; jeder Versatz erzeugt Biegemomente, für die der Rahmen nicht konstruiert ist.
 
-Für mehr als ein bis zwei aufgesetzte Standardcontainer ohne bauliche Veränderung mag die Herstellerangabe zur Stapellast ausreichen. Sobald Ausschnitte, dauerhafte Nutzung durch Personen oder mehr als zwei Geschosse hinzukommen, ist eine **statische Berechnung durch einen Tragwerksplaner** keine Kür, sondern in aller Regel auch Voraussetzung für die Baugenehmigung.
+Für einen einzelnen aufgesetzten, baulich unveränderten Standardcontainer (also zwei Geschosse) mag die Herstellerangabe zur Stapellast ausreichen. Sobald Ausschnitte, dauerhafte Nutzung durch Personen oder mehr als zwei Geschosse hinzukommen, ist eine **statische Berechnung durch einen Tragwerksplaner** keine Kür, sondern in aller Regel auch Voraussetzung für die Baugenehmigung.
+
+## Rechenbeispiel: Last auf den Eckpfosten
+
+Angenommen, drei 20-Fuß-Module werden übereinandergestellt. Jedes Modul wiegt ca. 3,8 t: rund 2,3 t Tara plus angenommene 1,5 t für Ausbau und Einrichtung (die Annahme ist ein Beispiel, kein Richtwert). Bei exakt eckdeckender Stapelung verteilt sich die Last aus den darüberliegenden Geschossen vereinfacht gleichmäßig auf die vier Eckpfosten:
+
+| Geschoss | Last aus darüberliegenden Geschossen | Druck je Eckpfosten |
+|---|---|---|
+| 2. Obergeschoss | 0 t | 0 t |
+| 1. Obergeschoss | 3,8 t | ca. 0,95 t |
+| Erdgeschoss | 7,6 t | ca. 1,9 t |
+
+Auf das Fundament wirken insgesamt 3 × 3,8 t = 11,4 t, also ca. 2,85 t je Eckpunkt – allein aus Eigengewicht. Nutzlast, Schnee und Windsog kommen hinzu, und in der Praxis verteilt sich die Last nie ganz gleichmäßig. Genau deshalb ersetzt ein solches Überschlagsbeispiel nie die Statik.
+
+| Vorhaben | Statik und Bauaufsicht (Orientierung) |
+|---|---|
+| Einzelner Container als Lager | Statik meist nicht nötig; ob eine Genehmigung nötig ist, hängt von Standort, Dauer und Nutzung ab |
+| Zwei Geschosse, unverändert, nur Lagernutzung | Herstellerangaben prüfen, Bauaufsicht vorab fragen |
+| Zwei Geschosse mit Ausschnitten oder Personenaufenthalt | Statik in aller Regel erforderlich |
+| Mehr als zwei Geschosse | Statik und Genehmigung in aller Regel erforderlich |
+| Seitliche Kopplung mit entfernter Trennwand | Statik für Rahmen und Ausschnitt in aller Regel erforderlich |
+
+Die Tabelle ist eine Orientierung; die Anforderungen regeln die Landesbauordnungen. Mehr dazu im Beitrag [Container-Baugenehmigung](/ratgeber/container-baugenehmigung).
+
+## Aufsetzen in der Praxis
+
+Der obere Container wird mit einem Kran exakt eckdeckend aufgesetzt. Ein Lkw-Ladekran stößt dabei häufig an Grenzen bei Ausladung und Hubhöhe, deshalb wird oft ein Autokran bestellt; wie Sie Anschlagpunkte, Seilwinkel und Kranreichweite prüfen, steht in [Container richtig anheben](/ratgeber/container-richtig-anheben). Danach werden die Verbindungselemente gesetzt und der Stapel gegen Abheben bei Wind gesichert. Ist das Obergeschoss zum Aufenthalt gedacht, kommen Zugang, Treppe und Rettungsweg hinzu – auch das regelt die Landesbauordnung und gehört in die Abstimmung mit der Bauaufsicht.
 
 ## Koppeln in der Breite: die Fuge ist der Knackpunkt
 
@@ -67,8 +93,8 @@ Modulhersteller liefern Kopplungslösungen inklusive Flur, Treppen und Podesten 
 
 ## Wichtiger Hinweis
 
-Dieser Beitrag ersetzt keine statische Berechnung und keine Rechtsberatung. Ob und wie eine Stapelung oder Kopplung im Einzelfall genehmigungsfähig ist, hängt von Landesbauordnung, Anzahl der Geschosse, Nutzung und dem konkreten Standort ab. Holen Sie vor der Umsetzung immer eine geprüfte Statik und die Einschätzung der zuständigen Bauaufsicht ein.
+Dieser Beitrag ersetzt keine statische Berechnung und keine Rechtsberatung. Ob und wie eine Stapelung oder Kopplung im Einzelfall genehmigungsfähig ist, hängt von Landesbauordnung, Anzahl der Geschosse, Nutzung und dem konkreten Standort ab. Holen Sie vor der Umsetzung immer eine geprüfte Statik und die Einschätzung der zuständigen Bauaufsicht ein (siehe auch [Container-Baugenehmigung](/ratgeber/container-baugenehmigung)).
 
 ## Fazit
 
-Container sind konstruktiv fürs Stapeln gemacht – aber die Herstellerangaben aus dem Seetransport sind kein Freibrief für beliebig hohe, dauerhafte Landanlagen. Wer nur ein bis zwei unveränderte Standardcontainer aufeinanderstellt, kommt in der Regel mit Herstellerangaben und sorgfältiger Ausrichtung aus. Sobald Ausschnitte, Personenaufenthalt oder mehr als zwei Geschosse dazukommen, entscheidet die Statik – nicht das Gefühl, dass „das schon halten wird".
+Container sind konstruktiv fürs Stapeln gemacht – aber die Herstellerangaben aus dem Seetransport sind kein Freibrief für beliebig hohe, dauerhafte Landanlagen. Wer nur einen unveränderten Standardcontainer auf einen anderen setzt (zwei Geschosse), kommt in der Regel mit Herstellerangaben und sorgfältiger Ausrichtung aus. Sobald Ausschnitte, Personenaufenthalt oder mehr als zwei Geschosse dazukommen, entscheidet die Statik – nicht das Gefühl, dass „das schon halten wird".
