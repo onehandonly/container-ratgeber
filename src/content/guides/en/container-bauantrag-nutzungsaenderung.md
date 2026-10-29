@@ -69,7 +69,7 @@ What typically arises anew on a change of use is shown in the following overview
 | Site → permanent | Exemption from procedure ends with the construction work; reassess location and separation distances | [Building permit](/en/ratgeber/container-baugenehmigung), [Neighbour law](/en/ratgeber/container-nachbarrecht-grenzabstand) |
 | Office → residential | Residential use under planning law, ceiling height, sound insulation, second escape route | [Development plan and outer zone](/en/ratgeber/container-bebauungsplan-aussenbereich), [Tiny house: siting and law](/en/ratgeber/tiny-house-stellplatz-und-recht) |
 | Residential → holiday let | A separate type of use, often stricter admissibility under planning law | [Letting as holiday accommodation](/en/ratgeber/container-ferienunterkunft-vermieten) |
-| Private land → public space | Not a building permit but a special-use permit from the municipality | [Public land and special use](/en/ratgeber/container-oeffentlicher-grund-sondernutzung) |
+| Private land → public space | Usually a special-use permit under road law (issued, depending on the road, by the municipality or the road authority) rather than a building permit | [Public land and special use](/en/ratgeber/container-oeffentlicher-grund-sondernutzung) |
 
 ## Grandfathering: what it does and does not do
 

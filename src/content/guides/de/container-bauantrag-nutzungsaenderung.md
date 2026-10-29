@@ -69,7 +69,7 @@ Was sich bei einer Umnutzung typischerweise neu stellt, zeigt die folgende Über
 | Baustelle → dauerhaft | Verfahrensfreiheit entfällt mit Ende der Baumaßnahme; Standort und Abstandsflächen neu bewerten | [Baugenehmigung](/ratgeber/container-baugenehmigung), [Nachbarrecht](/ratgeber/container-nachbarrecht-grenzabstand) |
 | Büro → Wohnen | Wohnnutzung im Planungsrecht, Raumhöhe, Schallschutz, zweiter Rettungsweg | [Bebauungsplan und Außenbereich](/ratgeber/container-bebauungsplan-aussenbereich), [Tiny House: Stellplatz und Recht](/ratgeber/tiny-house-stellplatz-und-recht) |
 | Wohnen → Ferienunterkunft | Eigene Nutzungsart, oft strengere planungsrechtliche Zulässigkeit | [Ferienunterkunft vermieten](/ratgeber/container-ferienunterkunft-vermieten) |
-| Privatgrund → öffentliche Fläche | Keine Baugenehmigung, sondern Sondernutzungserlaubnis der Gemeinde | [Öffentlicher Grund und Sondernutzung](/ratgeber/container-oeffentlicher-grund-sondernutzung) |
+| Privatgrund → öffentliche Fläche | In der Regel straßenrechtliche Sondernutzungserlaubnis (zuständig je nach Straße, z. B. Gemeinde oder Straßenbaubehörde) statt Baugenehmigung | [Öffentlicher Grund und Sondernutzung](/ratgeber/container-oeffentlicher-grund-sondernutzung) |
 
 ## Bestandsschutz: was er leistet und was nicht
 

@@ -98,7 +98,7 @@ Short-term demand – season, harvest, event, failure of your own refrigeration 
 
 | Constellation | Used purchase | Transport (purchase) | Maintenance (purchase) | Rental | Transport (rental) | Break-even approx. |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cheap purchase, expensive rental | €8,000 | €300 | €300/year | €600/month | 2 × €300 | approx. 14 months |
+| Cheap purchase, expensive rental | €8,000 | €300 | €300/year | €600/month | 2 × €300 | approx. 13 months |
 | Mid assumption (freely chosen, within the ranges) | €12,000 | €600 | €500/year | €400/month | 2 × €600 | approx. 32 months |
 | Expensive purchase, cheap rental | €18,000 | €1,200 | €800/year | €250/month | 2 × €1,200 | approx. 92 months |
 

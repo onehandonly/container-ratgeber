@@ -98,7 +98,7 @@ Kurzfristiger Bedarf – Saison, Ernte, Veranstaltung, Ausfall der eigenen Kühl
 
 | Konstellation | Kauf gebraucht | Transport Kauf | Wartung Kauf | Miete | Transport Miete | Break-even ca. |
 | --- | --- | --- | --- | --- | --- | --- |
-| Günstiger Kauf, teure Miete | 8.000 € | 300 € | 300 €/Jahr | 600 €/Monat | 2 × 300 € | ca. 14 Monate |
+| Günstiger Kauf, teure Miete | 8.000 € | 300 € | 300 €/Jahr | 600 €/Monat | 2 × 300 € | ca. 13 Monate |
 | Mittlere Annahme (frei gewählt, innerhalb der Spannen) | 12.000 € | 600 € | 500 €/Jahr | 400 €/Monat | 2 × 600 € | ca. 32 Monate |
 | Teurer Kauf, günstige Miete | 18.000 € | 1.200 € | 800 €/Jahr | 250 €/Monat | 2 × 1.200 € | ca. 92 Monate |
 
