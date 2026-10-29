@@ -6,7 +6,7 @@ category: "Law"
 icon: "checklist"
 readingTime: 11
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-29
 lead: "Whether a container needs a permit is one question. How the procedure runs, which documents are required and what an unauthorised container leads to is another – and often the more important one in practice."
 order: 58
 draft: false
@@ -61,6 +61,16 @@ Typical cases with containers:
 
 Practically relevant: a change of use is often only discovered when a neighbour complains, an insurance claim arises or the plot is sold. Until then everything runs quietly – afterwards it does not.
 
+What typically arises anew on a change of use is shown in the following overview. It is orientation, not a complete checklist – the state building code and the building authority are decisive.
+
+| From → to | What needs fresh checking | Further reading |
+| --- | --- | --- |
+| Storage → office | Habitable room: daylight, ventilation, escape route, thermal insulation if heated | [Fire safety](/en/ratgeber/container-brandschutz-vorschriften), [Energy law (GEG)](/en/ratgeber/container-geg-energierecht) |
+| Site → permanent | Exemption from procedure ends with the construction work; reassess location and separation distances | [Building permit](/en/ratgeber/container-baugenehmigung), [Neighbour law](/en/ratgeber/container-nachbarrecht-grenzabstand) |
+| Office → residential | Residential use under planning law, ceiling height, sound insulation, second escape route | [Development plan and outer zone](/en/ratgeber/container-bebauungsplan-aussenbereich), [Tiny house: siting and law](/en/ratgeber/tiny-house-stellplatz-und-recht) |
+| Residential → holiday let | A separate type of use, often stricter admissibility under planning law | [Letting as holiday accommodation](/en/ratgeber/container-ferienunterkunft-vermieten) |
+| Private land → public space | Not a building permit but a special-use permit from the municipality | [Public land and special use](/en/ratgeber/container-oeffentlicher-grund-sondernutzung) |
+
 ## Grandfathering: what it does and does not do
 
 Grandfathering (*Bestandsschutz*) means, simplified: a structure lawfully erected once may remain even if the rules later changed. That is a valuable position, but it has narrow limits.
@@ -80,7 +90,7 @@ In practice the procedure for a formally or substantively unlawful structure usu
 5. **Removal order.** This comes into play where the project is **substantively** unlawful, meaning it cannot be approved even retrospectively – for instance in the outer zone without privileged status.
 6. **Penalty payments and substitute performance.** If the order is ignored, a penalty payment is imposed, repeatedly if necessary. The authority can then have the removal carried out itself and invoice the costs.
 
-On top of this comes a **fine procedure**. The state building codes treat building without a permit as an administrative offence with ceilings reaching into five figures; those ceilings are rarely exhausted, but the amounts actually imposed are noticeable.
+On top of this comes a **fine procedure**. The state building codes treat building without a permit as an administrative offence; the maximum fines differ between German states and can be high. They are rarely exhausted, and the amount in an individual case is set by the authority.
 
 The side effects should not be underestimated either: an unauthorised container can affect **building insurance**, surface as a defect when the plot is **sold**, and complicate **financing**, because banks assign no value to unapproved structures.
 
@@ -93,6 +103,21 @@ The **informal enquiry** to the building authority is free-form, usually free of
 The **pre-application enquiry** (*Bauvoranfrage*) is a formal procedure. It resolves individual questions bindingly, typically whether the project is admissible in principle at that location. The resulting preliminary decision binds the authority for a set period, often several years. The fee is roughly in the low hundreds of euros depending on municipality and project – cheap measured against the cost of a demolition.
 
 A pre-application enquiry is particularly worthwhile if you intend to buy a plot, if the site lies in the outer zone or at the edge of a settlement, or if you want to use a container for living. See also [Development plan and outer zone](/en/ratgeber/container-bebauungsplan-aussenbereich).
+
+## Questions for the conversation with the building authority
+
+An appointment or written enquiry is far more productive if you have the key data ready. Have these points to hand and raise them specifically:
+
+1. Parcel number, municipality and location (built-up area, development plan, outer zone) – clarify beforehand if in doubt.
+2. Dimensions and number of containers, intended use and intended duration of siting.
+3. Will the container only be stored in, used or lived in? Will it be heated?
+4. Which procedure does the project fall into under the state building code (exempt, notification, simplified)?
+5. Which separation distances and which distance to the plot boundary apply at the site?
+6. Are conditions known, such as townscape, heritage protection, flood or nature protection?
+7. Which documents does the authority require, and who has to sign them (authorisation to submit plans)?
+8. Can the information be confirmed in writing?
+
+Keep the answers in writing. If the use changes later, the assessment starts afresh for the new use.
 
 ## Realistic scheduling
 
@@ -115,4 +140,4 @@ The most common cause of delay is not the authority but incomplete paperwork. Re
 
 The permit system has three routes, and the most convenient one – procedure-free status – exempts you from the review, not from the rules. Anyone intending to use a container permanently should factor in the change of use from the start and not rely on grandfathering: that exists only for structures lawfully erected once. And because a prohibition of use applies on a missing permit alone, a pre-application enquiry is by far the cheapest investment in doubtful cases.
 
-Further reading: [Container building permit](/en/ratgeber/container-baugenehmigung), [Development plan and outer zone](/en/ratgeber/container-bebauungsplan-aussenbereich) and [Neighbour law and separation distances](/en/ratgeber/container-nachbarrecht-grenzabstand).
+Further reading: [Container building permit](/en/ratgeber/container-baugenehmigung), [Development plan and outer zone](/en/ratgeber/container-bebauungsplan-aussenbereich), [Neighbour law and separation distances](/en/ratgeber/container-nachbarrecht-grenzabstand), [Fire safety](/en/ratgeber/container-brandschutz-vorschriften) and [Container foundations](/en/ratgeber/container-fundament) (structural stability and anchoring).

@@ -6,7 +6,7 @@ category: "Container types"
 icon: "kuehl"
 readingTime: 11
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-10-29
 lead: "Whether catering, harvest or pharmaceuticals: reefer containers create cold storage where there is none. What the technology delivers – and what operation costs."
 order: 27
 draft: false
@@ -76,7 +76,7 @@ For sensitive goods, protection against power failure should be considered from 
 
 ## Siting
 
-- **Ground:** level, load-bearing and drained. Asphalt, concrete or compacted gravel with bearing points beneath the corner castings. A slight fall towards the door end helps defrost water run off.
+- **Ground:** level, load-bearing and drained. Asphalt, concrete or compacted gravel with bearing points beneath the corner castings. Defrost and condensate water must be able to drain in a controlled way; foundation options are described in [Container foundations](/en/ratgeber/container-fundament).
 - **Ventilation:** warm exhaust air must be able to escape freely in front of the unit. A clearance of about one metre from walls and neighbouring containers is a sensible guide value; tight recesses cause capacity loss and higher consumption.
 - **Shading:** a shaded location noticeably reduces consumption, particularly in frozen operation.
 - **Noise:** compressor and fans cycle, at night as well. Near residential development, location, operating hours and emission control requirements should be checked in advance.
@@ -89,12 +89,20 @@ For sensitive goods, protection against power failure should be considered from 
 | 20 ft | approx. €250–600/month | approx. €8,000–18,000 | approx. €25,000–40,000 |
 | 40 ft high cube | approx. €400–900/month | approx. €12,000–25,000 | approx. €35,000–55,000 |
 | Transport / placement | approx. €300–1,200 per leg | additional | additional |
-| Electricity (example €0.30/kWh) | approx. €35–550/month by case | identical | identical |
+| Electricity (example €0.30/kWh, 30 days) | approx. €36–540/month by case | identical | identical |
 | Maintenance | usually included in the rent | approx. €300–800/year | approx. €300–800/year |
 
 > Disclaimer: non-binding approximate ranges without warranty, strongly dependent on region, age, term and availability.
 
-Short-term demand – season, harvest, event, failure of your own refrigeration – clearly favours rental, not least because maintenance and breakdown service are usually included. For permanent demand beyond roughly two years, purchase pays off, provided maintenance and electricity costs are budgeted realistically. A general comparison is available under [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten).
+Short-term demand – season, harvest, event, failure of your own refrigeration – clearly favours rental, not least because maintenance and breakdown service are usually included. From which term purchase pays off depends strongly on the prices. The following worked example for a 20 ft reefer uses three constellations taken from the ranges in the table. Electricity is the same in both cases and is left out; no resale proceeds are included. One transport leg (delivery) is assumed for purchase and two (delivery and collection) for rental.
+
+| Constellation | Used purchase | Transport (purchase) | Maintenance (purchase) | Rental | Transport (rental) | Break-even approx. |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cheap purchase, expensive rental | €8,000 | €300 | €300/year | €600/month | 2 × €300 | approx. 14 months |
+| Mid assumption (freely chosen, within the ranges) | €12,000 | €600 | €500/year | €400/month | 2 × €600 | approx. 32 months |
+| Expensive purchase, cheap rental | €18,000 | €1,200 | €800/year | €250/month | 2 × €1,200 | approx. 92 months |
+
+Calculation for the mid assumption: purchase costs €12,000 + €600 = €12,600 once, rental €1,200 once for transport there and back. The difference of €11,400 is reduced by the monthly difference between rent and pro-rata maintenance (€400 − €500/12 ≈ €358): €11,400 ÷ €358 ≈ 32 months. The range therefore runs from just over a year to more than seven years. There is no blanket rule of thumb – recalculate with your own quotes and include resale value and financing. A general comparison is available under [Buying or renting a container](/en/ratgeber/container-kaufen-oder-mieten), and the rental page under [Buying & renting: rental](/en/kaufen-mieten/miete). Transport costs in detail: [Container transport and delivery costs](/en/ratgeber/container-transport-lieferkosten).
 
 ## Maintenance and hygiene
 
@@ -106,6 +114,17 @@ A reefer is a refrigeration machine in continuous operation and needs correspond
 - Have the refrigerant circuit checked by qualified contractors; depending on charge size and refrigerant, stationary systems are subject to leak-testing and documentation duties.
 - Clean the interior after every batch; for foodstuffs, a cleaning schedule, temperature records and traceability are part of in-house control.
 
+## Checklist before renting or buying
+
+1. **Define goods and set point:** which range is needed, do the goods need fresh air, are they delivered pre-cooled?
+2. **Check capacity:** pallet count based on the internal dimensions in the table above, not on a dry container.
+3. **Clarify the location:** ground, clearance for exhaust air, shade, forklift access.
+4. **Clarify the connection:** three-phase supply available, protection and residual current device, cable route; see [Power supply for containers](/en/ratgeber/container-stromanschluss).
+5. **Calculate running costs:** electricity at your own price and in both seasons, maintenance, transport.
+6. **Secure against failure:** alarms, emergency power connection, contingency plan, insurance cover for refrigerated goods; see [Insuring a container](/en/ratgeber/container-versichern).
+7. **Permits and neighbours:** whether siting needs a permit depends on location, duration and use, see [Containers and building permits](/en/ratgeber/container-baugenehmigung); with residential neighbours also [noise protection](/en/ratgeber/container-laermschutz-akustik).
+8. **Check condition:** for used units ask for the data sheet, service records, seals and a test run; the [inspection with test report](/en/ratgeber/container-besichtigung-pruefprotokoll) gives guidance.
+
 ## Typical mistakes
 
 - **Placing units too close together:** warm exhaust air is drawn back in and consumption rises markedly.
@@ -115,6 +134,10 @@ A reefer is a refrigeration machine in continuous operation and needs correspond
 - **Door discipline:** frequent or lengthy opening is the biggest avoidable cost factor in frozen operation.
 - **Underestimating the power supply:** undersized cable, missing protection or no alarm on failure.
 
+## Important note
+
+This article is general guidance based on the legal situation in Germany. Requirements for food hygiene, refrigerants (leak testing, documentation), electrical installations and emission control follow federal and state law and the requirements of your local authority. Electrical work belongs in the hands of a qualified electrician and work on the refrigerant circuit in those of a specialist firm. This article is not a substitute for professional or legal advice.
+
 ## Conclusion
 
-Refrigerated containers are a mature, quickly available solution for additional chilled or frozen storage. Technically decisive are the right set point for the goods, clean air circulation inside, and a location where the unit can breathe freely. Economically, two items dominate: electricity and maintenance. Anyone who budgets both realistically and has the connection installed professionally gets a mobile cold store that compares well with a purpose-built cold room – with an incomparably shorter lead time.
+Refrigerated containers are a mature, quickly available solution for additional chilled or frozen storage. Technically decisive are the right set point for the goods, clean air circulation inside, and a location where the unit can breathe freely. Economically, two items dominate: electricity and maintenance; whether purchase beats rental is decided by the price structure – in the worked example the break-even ranges from just over a year to more than seven years. Anyone who budgets both realistically and has the connection installed professionally gets a mobile cold store that compares well with a purpose-built cold room – with an incomparably shorter lead time.
