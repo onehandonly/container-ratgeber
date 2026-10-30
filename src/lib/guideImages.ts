@@ -104,6 +104,7 @@ const MAP: Record<string, string> = {
   'container-elektroplanung-innenausbau': PHOTO('type-technikcontainer'),
   'container-boden-sanieren-austauschen': PHOTO('type-open-side-container'),
   'container-dach-abdichten-dachlast': PHOTO('type-seecontainer'),
+  'container-als-serverraum-technikraum': PHOTO('type-technikcontainer'),
 
   // --- Tiny House ---
   'containerhaus-bauen-oder-kaufen': INSPO('haus-zwei-etagen'),
