@@ -7,7 +7,7 @@ icon: "container"
 readingTime: 10
 published: 2026-10-30
 updated: 2026-10-30
-lead: "Ein Container ist schnell aufgestellt, aber ein Technikraum steht und fällt mit der Wärmelast: Jedes Watt, das Ihre Geräte aufnehmen, muss als Wärme wieder hinaus. Im Rechenbeispiel (2 kW IT-Last, Dauerbetrieb) liegen die Stromkosten bei ca. 6.600–7.400 € pro Jahr – davon rund ein Fünftel bis knapp ein Drittel allein für die Kühlung."
+lead: "Ein Container ist schnell aufgestellt, aber ein Technikraum steht und fällt mit der Wärmelast: Jedes Watt, das Ihre Geräte aufnehmen, muss als Wärme wieder hinaus. Im Rechenbeispiel (2 kW IT-Last, Dauerbetrieb) liegen die Stromkosten bei ca. 6.600–7.400 € pro Jahr – davon rund 20 bis knapp 30 Prozent allein für die Kühlung."
 order: 97
 draft: false
 ---

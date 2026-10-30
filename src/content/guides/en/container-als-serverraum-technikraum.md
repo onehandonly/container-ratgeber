@@ -7,7 +7,7 @@ icon: "container"
 readingTime: 10
 published: 2026-10-30
 updated: 2026-10-30
-lead: "A container is quickly in place, but an equipment room stands or falls with its heat load: every watt your devices draw must leave again as heat. In the worked example (2 kW IT load, continuous operation) electricity costs about €6,600–7,400 a year – roughly a fifth to just under a third of it for cooling alone."
+lead: "A container is quickly in place, but an equipment room stands or falls with its heat load: every watt your devices draw must leave again as heat. In the worked example (2 kW IT load, continuous operation) electricity costs about €6,600–7,400 a year – roughly 20 to just under 30 per cent of it for cooling alone."
 order: 97
 draft: false
 ---
