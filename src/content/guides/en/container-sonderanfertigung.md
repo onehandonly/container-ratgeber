@@ -6,7 +6,7 @@ category: "Buying advice"
 icon: "ruler"
 readingTime: 10
 published: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-31
 lead: "Standard sizes are cheap, custom builds fit exactly – but they cost time, tie you more firmly by contract and run into fixed transport limits. How to decide and order properly (German legal situation)."
 order: 47
 draft: false
@@ -25,7 +25,7 @@ The market offers two routes to a container made to measure: the **standard cont
 | Stacking, shipping, resale | possible because standardised | limited, depending on the alteration | usually not tied to ISO logistics |
 | Contractual risk | low | medium | higher (deposits, no withdrawal) |
 
-Rule of thumb: if your project fits an interior of 5.90 × 2.35 m (20 ft) or the 12.03 m length (40 ft), a standard container with conversion is usually the more economical route. A custom build pays off when dimensions, structure, appearance or logistics genuinely cannot be met otherwise – for example widths ISO containers do not offer, or modules that must connect to a building. More on the quality of room modules: [Office containers: quality and kit](/en/ratgeber/buerocontainer-qualitaet-bausatz).
+Rule of thumb: if your project fits an interior of 5.90 × 2.35 m (20 ft) or the interior length of about 12.03 m (40 ft), a standard container with conversion is usually the more economical route. A custom build pays off when dimensions, structure, appearance or logistics genuinely cannot be met otherwise – for example widths ISO containers do not offer, or modules that must connect to a building. More on the quality of room modules: [Office containers: quality and kit](/en/ratgeber/buerocontainer-qualitaet-bausatz).
 
 ## Worked example: what is left inside?
 
@@ -40,6 +40,10 @@ A common planning mistake is to calculate with the **interior dimensions of the 
 | Floor area | approx. 13.9 m² | approx. 12.7 m² (5.75 × 2.20) |
 
 In this example the loss is around 9 % of the floor area – and the clear height in a standard container ends up well below 2.40 m. For habitable rooms the state building codes contain minimum heights that vary by state and use; check this before ordering. If you know exactly which interior dimension you need, calculate backwards: usable size plus build-up gives the raw size required. If that does not fit in a 20 ft container, a high cube ([high-cube container](/en/container/high-cube-container)) or a larger type often helps. For the insulation build-up see [Insulating a container](/en/ratgeber/container-daemmen).
+
+### Calculating backwards: do you need a custom build at all?
+
+Suppose you are planning a workshop and need a **usable interior width of 2.50 m** (an assumption chosen freely). With the build-up from the example (75 mm per side wall), the raw interior width must be 2.50 + 2 × 0.075 = **2.65 m**. An ISO container offers about 2.35 m inside – not enough. A custom build with at least 2.65 m interior width would, once wall thickness is added, have an external width well above 2.70 m and thus exceed the usual road width of 2.55 m: that makes transport a permit case. Alternatives are a lighter build-up (thinner insulation), two coupled containers ([stacking and coupling](/en/ratgeber/container-stapeln-und-koppeln)) or a module assembled on site. The calculation shows that the usable dimension decides the type – not the other way round.
 
 ## Transport limits: where custom builds hit boundaries
 
@@ -68,11 +72,23 @@ Specific numbers of weeks vary greatly with workload, materials and effort and c
 
 Legally, an item made to your specification is usually a contract for the **supply of goods to be manufactured**. In principle, sales law applies to it and – for non-fungible goods – individual rules of contract-for-work law in addition (section 650 of the German Civil Code, BGB). For you as a consumer this means, in brief:
 
-- **No right of withdrawal in distance selling** is possible for goods made to the customer's specification (section 312g(2) no. 1 BGB). Anyone ordering a custom build online or by phone therefore generally has no 14-day withdrawal period. More in [Warranty and purchase contract](/en/ratgeber/container-kaufvertrag-gewaehrleistung).
+- **Exclusion of the right of withdrawal:** for distance contracts on goods made to the customer's specification there is no right of withdrawal (section 312g(2) no. 1 BGB). Anyone ordering a custom build online or by phone therefore generally has no 14-day withdrawal period. More in [Warranty and purchase contract](/en/ratgeber/container-kaufvertrag-gewaehrleistung).
 - **Deposit and stage payments:** deposits are usual for custom builds because the manufacturer procures material. Agree payments by progress rather than high prepayment, and check the supplier carefully; warning signs are in [Fake dealers and prepayment fraud](/en/ratgeber/fake-containerhaendler-vorkasse-betrug).
 - **Specification:** dimensions with tolerances, materials, coating, doors/windows, fittings, scope of delivery (unloading? positioning?), documentation.
 - **Acceptance:** on handover check dimensions, door function, coating and welds, and record defects in writing; pointers in the [inspection checklist](/en/ratgeber/container-besichtigung-pruefprotokoll).
 - **Warranty:** it applies to a custom build too; its scope and duration depend on the contract type and your role (consumer or business).
+
+### Example: a payment schedule instead of a large advance
+
+Suppose a custom build costs €20,000 gross according to the quote (a pure assumption for illustration). A schedule tied to progress could look like this:
+
+| Stage | Share | Amount | Trigger |
+| --- | --- | --- | --- |
+| Deposit | 30% | €6,000 | Order confirmation with drawing and specification |
+| Interim payment | 40% | €8,000 | Shell complete (photo or factory evidence) |
+| Final payment | 30% | €6,000 | Delivery and acceptance without material defects |
+
+The total is €20,000. Risk is spread: if the manufacturer fails after the deposit, at most €6,000 is at stake rather than the full sum. Whether and in what amount security (such as a guarantee) is sensible or customary depends on the order; take advice if in doubt.
 
 ## Enquiry checklist for comparable quotes
 

@@ -1,13 +1,13 @@
 ---
 title: "Reefer Containers in Operation: Calculating and Cutting Power Costs"
-description: "What a refrigerated container costs in continuous operation: power use by temperature and season, a worked example for a farm shop, savings measures and failure protection."
+description: "What a refrigerated container costs in continuous operation: power use by temperature and season, worked examples for chilled and frozen operation, annual costs when renting, savings measures and failure protection."
 lang: "en"
 category: "Container types"
 icon: "kuehl"
 readingTime: 9
 published: 2026-10-02
-updated: 2026-10-02
-lead: "Rental or purchase price is only part of the sum – in continuous operation, electricity dominates. How to work out your reefer's running costs and find the biggest levers."
+updated: 2026-10-31
+lead: "Rental or purchase price is only part of the sum – in continuous operation, electricity comes on top and with frozen storage can become the largest item. How to work out your reefer's running costs and find the biggest levers."
 order: 29
 draft: false
 ---
@@ -50,7 +50,39 @@ Suppose a farm shop runs a 20-foot reefer for dairy products and vegetables at +
 
 Calculation: 7 × 30 × 6 = 1,260 kWh plus 5 × 30 × 14 = 2,100 kWh, together **3,360 kWh per year**. At €0.30/kWh that is **approx. €1,008**; at €0.40/kWh it would be approx. €1,344. That averages about €84 per month (at €0.30).
 
-For comparison: the reefer guide gives approx. €250–600 per month for a rented 20-foot unit. Even adding €84 of electricity per month, total running costs come to roughly €330–680 a month – here electricity is the smaller item; with frozen operation and ownership it can become the largest.
+For comparison: the reefer guide gives approx. €250–600 per month for a rented 20-foot unit. Even adding €84 of electricity per month, total running costs come to roughly €330–680 a month – here electricity is the smaller item; with frozen operation its share grows markedly (see below).
+
+## Cross-check: frozen operation and electricity price
+
+For comparison, the same farm-shop reefer in frozen operation (−18 °C); assumptions again freely chosen, within the ranges of the reefer guide:
+
+- 6 months (30 days each) moderate: 22 kWh/day
+- 6 months (30 days each) hot: 40 kWh/day
+
+Calculation: 6 × 30 × 22 = 3,960 kWh plus 6 × 30 × 40 = 7,200 kWh, together **11,160 kWh per year** – a little over three times the chilled example (3,360 kWh). The table shows how strongly the electricity price feeds through:
+
+| Electricity price | Chilled example (3,360 kWh) | Frozen example (11,160 kWh) |
+| --- | --- | --- |
+| €0.25/kWh | approx. €840 | approx. €2,790 |
+| €0.30/kWh | approx. €1,008 | approx. €3,348 |
+| €0.40/kWh | approx. €1,344 | approx. €4,464 |
+
+Per month, the frozen example at €0.30/kWh averages approx. €279. The difference between chilled and frozen at €0.30 is therefore about €2,340 a year (€3,348 − €1,008) – the amount the lower set temperature costs.
+
+### Annual costs when renting: electricity comes on top
+
+Taking the middle assumption from the reefer guide as the rent (€400/month, i.e. €4,800 a year, maintenance included) gives:
+
+| Operation | Rent | Electricity (€0.30/kWh) | Total per year |
+| --- | --- | --- | --- |
+| Chilled | €4,800 | approx. €1,008 | approx. €5,808 |
+| Frozen | €4,800 | approx. €3,348 | approx. €8,148 |
+
+Electricity thus makes up a good sixth (approx. 17%) of annual costs when chilled and around 41% when frozen. Transport costs for delivery and collection are not included, see [transport and delivery costs](/en/ratgeber/container-transport-lieferkosten).
+
+### What a saving is worth in practice
+
+For illustration only: if shade, clean fins and door discipline cut consumption by an assumed 10%, that is 336 kWh (approx. €101 at €0.30/kWh) in the chilled example and 1,116 kWh (approx. €335) in the frozen one. Whether 10% is realistic depends on the starting condition and the unit – measure rather than assume. An investment such as a sun canopy only pays off if the saving over the years covers the outlay; calculate that with your own consumption.
 
 ## The biggest levers for saving
 
@@ -63,6 +95,15 @@ For comparison: the reefer guide gives approx. €250–600 per month for a rent
 7. **Source power smartly:** a sub-meter makes consumption visible; own power from [photovoltaics](/en/ratgeber/photovoltaik-auf-dem-container) can cover part if generation and cooling demand coincide – cooling demand peaks in summer, which fits well.
 
 Measure before and after a change to see whether it works. A simple intermediate meter is enough.
+
+## Measuring consumption: how to proceed
+
+Generic values are no substitute for measurement. With a sub-meter (calibrated if you pass electricity on to others) proceed as follows:
+
+1. Note the meter reading and read it again after 7 days – ideally in a period without special influences (no restocking, no defrosting).
+2. Divide consumption by the number of days: kWh per day.
+3. Repeat the measurement in different weather; spring and midsummer give the end points for the annual calculation.
+4. Insert the results into the formula and compare them with the ranges above. If the figure is far higher, look at seals, condenser and siting – and with rented units, report it to the lessor.
 
 ## Protection: when the power fails
 
@@ -96,4 +137,4 @@ This article is general orientation. Electricity, food-hygiene and emissions req
 
 ## Conclusion
 
-In continuous operation, temperature, siting and door discipline decide the electricity bill. Calculate with your own price and both seasons, measure afterwards and protect the goods against failure. Only then does it become clear whether renting or buying is the better fit.
+In continuous operation, temperature, siting and door discipline decide the electricity bill. Calculate with your own price and both seasons, measure afterwards and protect the goods against failure. Only then does it become clear whether renting or buying is the better fit. A rule of thumb from the examples: frozen storage uses a little over three times as much as chilled storage – so choose the set temperature by need, not by habit. You can work through buy versus rent in the [guide to buying or renting](/en/ratgeber/container-kaufen-oder-mieten).
