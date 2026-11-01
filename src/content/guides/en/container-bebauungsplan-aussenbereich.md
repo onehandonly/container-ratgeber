@@ -6,7 +6,7 @@ category: "Law"
 icon: "permit"
 readingTime: 10
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-11-01
 lead: "The same container can be permissible on one plot and impermissible on another. What matters is which category the plot falls into."
 order: 52
 draft: false
@@ -22,7 +22,19 @@ Many container projects fail not because of the container's size but because of 
 | Unplanned inner area (§ 34 BauGB) | Whether the project fits the character of the immediate surroundings | Often possible if type and extent of use are locally customary | The assessment is evaluative and case-specific |
 | Outer area (§ 35 BauGB) | Whether the project is privileged and whether public interests are impaired | Far more restrictive; residential and leisure use usually impermissible | Procedure exemption under state law rarely helps here |
 
-This classification is the first step of any assessment. It says nothing about setback areas, fire safety or structural stability – for those, see our article on the [container building permit](/en/ratgeber/container-baugenehmigung).
+This classification is the first step of any assessment. It says nothing about setback areas, fire safety or structural stability – for those, see our article on the [container building permit](/en/ratgeber/container-baugenehmigung). Whether a procedure is needed depends on location, duration and use; see the next section for how the levels of assessment differ.
+
+## Three levels of assessment, three points of contact
+
+Location is only one of several levels. Keeping them apart avoids misunderstandings when talking to the authority:
+
+| Level | Question | Legal basis | Where to look | Further reading |
+| --- | --- | --- | --- | --- |
+| Planning law | May this use be built at this spot? | BauGB, BauNVO, development plan | Municipality, planning office, geoportal | this article |
+| Building regulations law | How must it be built, is a procedure needed? | State building code | Lower building supervisory authority | [Building permit](/en/ratgeber/container-baugenehmigung), [change of use](/en/ratgeber/container-bauantrag-nutzungsaenderung) |
+| Neighbour protection | Setbacks, building on the boundary, consideration | State building code, state neighbour law | Building authority, possibly neighbours | [Neighbour law & setbacks](/en/ratgeber/container-nachbarrecht-grenzabstand) |
+
+A container can be unproblematic on one level and impermissible on another. It makes sense to start with planning law, because a project that is impermissible under planning law does not become permissible through a tidy procedure.
 
 ## Reading a development plan
 
@@ -33,7 +45,24 @@ A development plan (Bebauungsplan) is a municipal statute consisting of a plan d
 - **Extent of use.** The **site occupancy index (Grundflächenzahl, GRZ)** states what share of the plot may be built on. A container normally counts towards it, so anyone who has already exhausted the GRZ has a problem.
 - **Ancillary structures and parking.** Many plans add textual stipulations on ancillary structures, heights, materials or roof shapes. Such design requirements can rule out a steel container in practice.
 
-You can inspect the plan at the municipality or planning office; many municipalities publish plans online in a geoportal. If your project does not match the stipulations, an **exception** (provided for in the plan itself) or an **exemption** (§ 31 BauGB, tied to narrow conditions) remain. Both are decisions of the authority, not entitlements.
+You can inspect the plan at the municipality or planning office; many municipalities publish plans online in a geoportal. 
+### Worked example: site occupancy index
+
+Assumption: a 600 m² plot, with a GRZ of 0.4 stipulated in the development plan. The permitted built-on area is then 600 m² × 0.4 = **240 m²**. A 20-foot container measures roughly 6.06 × 2.44 m on the outside, i.e. about **14.8 m²**. As an ancillary structure it is generally counted when calculating the built-on area under § 19(4) of the Land Use Ordinance (BauNVO), as are garages, parking spaces, access drives and paved terraces. These may normally exceed the permitted area by up to 50 % (here up to 360 m²), but no further than a GRZ of 0.8. The plan may deviate from this.
+
+| Item | Case A (area in m²) | Case B (area in m²) |
+| --- | --- | --- |
+| House | 150 | 220 |
+| Garage | 30 | 40 |
+| Access and terrace (paved) | 70 | 110 |
+| 20-foot container | 14.8 | 14.8 |
+| **Total** | **264.8** | **384.8** |
+| Limits in the example | House under 240; total under 360 | Total over 360 |
+| Result | Unproblematic on paper | Exceeds the upper limit – container not permissible as planned |
+
+The example is for orientation only: the stipulations of your plan and the authority's own calculation are decisive. Ask specifically how ancillary structures are counted in your case before ordering.
+
+If your project does not match the stipulations, an **exception** (provided for in the plan itself) or an **exemption** (§ 31 BauGB, tied to narrow conditions) remain. Both are decisions of the authority, not entitlements.
 
 ## Unplanned inner area
 
@@ -47,7 +76,7 @@ The distinction between **type of use** and **appearance** matters. Purely aesth
 
 The outer area (Außenbereich) is everything lying neither within a qualified development plan nor within a coherently built-up part of a settlement – typically open landscape, fields, forest and scattered locations. The legislature wants it kept **free of development** in principle, which is why § 35 BauGB is markedly more restrictive.
 
-A distinction is drawn between **privileged projects**, which exceptionally belong there, and **other projects**, permissible only if they do not impair public interests. Privileged projects include those serving an agricultural or forestry business as well as certain location-bound or supply-related installations.
+A distinction is drawn between **privileged projects**, which exceptionally belong there, and **other projects**, permissible only if they do not impair public interests. Privileged projects include those serving an agricultural or forestry business as well as certain location-bound or supply-related installations. Under § 35(2) BauGB, an other project may be admitted only in an individual case, if it does not impair public interests and access is secured. Typical impairments include the land-use plan's designations, the natural character of the landscape or the emergence of a scattered settlement. For how a working container is classified in agriculture, see [Containers in agriculture](/en/ratgeber/container-landwirtschaft); for letting as accommodation, see [holiday accommodation](/en/ratgeber/container-ferienunterkunft-vermieten).
 
 | Constellation | Classification (orientation) | What this means in practice |
 | --- | --- | --- |
@@ -64,7 +93,7 @@ Further requirements frequently apply in the outer area: nature conservation, la
 
 - **Site containers during construction.** Containers standing on a site for the duration of approved construction work are often treated differently from permanent structures. The relief is tied to the construction work and its duration; when the work ends, the basis falls away.
 - **Temporary placement.** "Only temporary" is not a legal free pass; what counts is how long and with what permanence the container stands. Anyone leaving it in the same spot year after year will struggle to invoke provisionality later. Some state codes provide for time-limited permits.
-- **Allotment gardens.** Sites governed by the **Federal Allotment Gardens Act (Bundeskleingartengesetz)** follow their own standards: the act limits garden sheds by size and fittings and rules out suitability for permanent living, and the association's statutes apply on top. A regular container is therefore often not permitted there.
+- **Allotment gardens.** Sites governed by the **Federal Allotment Gardens Act (Bundeskleingartengesetz)** follow their own standards: the act limits garden sheds to a maximum of 24 m² of floor area including a covered seating area and requires that, by fittings and construction, they are not suitable for permanent living, and the association's statutes apply on top. A regular container is therefore often not permitted there. For private gardens outside such sites, see [Container as a garden house](/en/ratgeber/container-als-gartenhaus).
 - **Containers that stay mobile.** Wheels or a tow hitch do not automatically turn a structure into a vehicle. What matters is the actual stationary use. For more on this, see [Tiny house: site and law](/en/ratgeber/tiny-house-stellplatz-und-recht).
 
 ## How to obtain clarity
@@ -73,7 +102,8 @@ Further requirements frequently apply in the outer area: nature conservation, la
 2. **Inspect the development plan.** Check the drawing and textual stipulations, online or at the planning office. Note the area type, the GRZ, building lines and rules on ancillary structures.
 3. **Contact the building authority.** A short, factual conversation with the lower building supervisory authority often clarifies more than lengthy research. Describe size, height, location and above all the intended use honestly.
 4. **File a preliminary building enquiry.** For larger investments, the Bauvoranfrage is the appropriate instrument. It leads to a **preliminary ruling (Bauvorbescheid)** on individual questions of permissibility – binding and usually valid for a limited period. Costs and procedure follow state law.
-5. **Document everything.** Record information in writing, with date and contact person; verbal assurances are worth little in case of doubt.
+5. **Plan the foundation and placement.** Even where the use is permissible, the container needs a stable base, see [Foundation](/en/ratgeber/container-fundament). A foundation may also seal additional surface and enter the GRZ calculation.
+6. **Document everything.** Record information in writing, with date and contact person; verbal assurances are worth little in case of doubt.
 
 ## Important note
 
@@ -81,4 +111,4 @@ This article contains **general information and does not constitute legal advice
 
 ## Conclusion
 
-Whether a container is permissible is decided first by the location, not by the product. In an area with a development plan, the stipulations set the frame; in the unplanned inner area, fitting into the immediate surroundings is what counts; in the outer area a considerably stricter standard applies that as a rule rules out residential and leisure use. Clarifying this classification at the outset – ideally with a look at the development plan and a conversation at the building authority – saves expensive detours. For larger projects, the preliminary building enquiry is the instrument of choice for obtaining binding clarity before the first container is delivered.
+Whether a container is permissible is decided first by the location, not by the product. In an area with a development plan, the stipulations set the frame; in the unplanned inner area, fitting into the immediate surroundings is what counts; in the outer area a considerably stricter standard applies that as a rule rules out residential and leisure use. Clarifying this classification at the outset – ideally with a look at the development plan and a conversation at the building authority – saves expensive detours. On planned plots, recalculate the GRZ including all ancillary structures before ordering. For larger projects, the preliminary building enquiry is the instrument of choice for obtaining binding clarity before the first container is delivered.
