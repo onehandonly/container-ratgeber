@@ -19,7 +19,7 @@ Sportvereine haben ein typisches Problem: Der Spielbetrieb wächst oder die alte
 | Baustein | Typische Ausführung | Entscheidende Frage |
 | --- | --- | --- |
 | Geräteraum (Tore, Linienwagen, Mäher) | Lagercontainer, ggf. mit Doppeltür | Zugang für Geräte, Diebstahlschutz, Lüftung |
-| Umkleide ohne Duschen | gedämmter Raummodul mit Bänken, Heizung | Platz je Mannschaft, Heizung, Lüftung |
+| Umkleide ohne Duschen | gedämmtes Raummodul mit Bänken, Heizung | Platz je Mannschaft, Heizung, Lüftung |
 | Umkleide mit Duschen | Umkleide-/Sanitärmodul mit Wasser- und Abwasseranschluss | Warmwasser, Anschlussleistung, Abwasser |
 | Aufenthaltsraum / Vereinsheim | gekoppelte, gedämmte Module | Baurecht, Brandschutz, Fluchtwege |
 
