@@ -79,7 +79,7 @@ How strong your rights are depends on who contracts with whom:
 |---|---|---|---|
 | Consumer buys from a business | 2 years from delivery | Yes, 12 months | Exclusion not possible; for used goods shortening to 1 year under narrow conditions |
 | Private to private | 2 years by statute | No | Exclusion possible (not for fraud or a guaranteed quality) |
-| Business to business | 2 years by statute | No | Shortening and exclusion widely possible; duty to inspect and give notice |
+| Business to business | 2 years by statute | No | Shortening and exclusion widely possible; between merchants, duty to inspect and give notice (section 377 German Commercial Code) |
 
 **Consumer sales** – a private individual buying from a business – enjoy special protection. In outline, and as of the state of this presentation:
 
@@ -102,7 +102,7 @@ If a defect is not remedied and the buyer keeps the container anyway, the price 
 | Value with defect (roof leaks, seller refuses repair) | €1,800 |
 | Reduction: €2,400 × (1 − €1,800 ÷ €2,400) | **€600** |
 
-The actual reduction in value is often disputed; the cost of a professional repair and an expert opinion serve as guidance. A benchmark for replacing the floor is given in [Repairing or Replacing the Container Floor](/en/ratgeber/container-boden-sanieren-austauschen).
+The actual reduction in value is often disputed; the cost of a professional repair and an expert opinion serve as guidance. Guidance on roof damage and repairs is given in [Container Roof: Load Capacity, Drainage and Waterproofing](/en/ratgeber/container-dach-abdichten-dachlast), and on the floor in [Repairing or Replacing the Container Floor](/en/ratgeber/container-boden-sanieren-austauschen).
 
 ## Notifying Defects Correctly
 

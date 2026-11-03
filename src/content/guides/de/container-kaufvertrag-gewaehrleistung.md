@@ -79,7 +79,7 @@ Wie stark die Rechte ausfallen, hängt davon ab, wer mit wem den Vertrag schlie�
 |---|---|---|---|
 | Verbraucher kauft bei Unternehmer | 2 Jahre ab Ablieferung | Ja, 12 Monate | Ausschluss nicht möglich; bei Gebrauchtware Verkürzung auf 1 Jahr unter engen Voraussetzungen |
 | Privat an privat | 2 Jahre gesetzlich | Nein | Ausschluss möglich (nicht bei Arglist oder zugesicherter Beschaffenheit) |
-| Unternehmer an Unternehmer | 2 Jahre gesetzlich | Nein | Verkürzung und Ausschluss in weitem Umfang möglich; Untersuchungs- und Rügepflicht |
+| Unternehmer an Unternehmer | 2 Jahre gesetzlich | Nein | Verkürzung und Ausschluss in weitem Umfang möglich; unter Kaufleuten Untersuchungs- und Rügepflicht (§ 377 HGB) |
 
 Der **Verbrauchsgüterkauf** – eine Privatperson kauft bei einem Unternehmer – ist besonders geschützt. In den Grundzügen und nach dem Stand dieser Darstellung gilt:
 
@@ -102,7 +102,7 @@ Wird ein Mangel nicht behoben und der Container trotzdem behalten, kann der Kauf
 | Wert mit Mangel (Dach undicht, Verkäufer verweigert Nachbesserung) | 1.800 € |
 | Minderung: 2.400 € × (1 − 1.800 € ÷ 2.400 €) | **600 €** |
 
-Wie hoch der Minderwert tatsächlich ist, ist oft streitig; als Anhaltspunkt dienen die Kosten einer fachgerechten Reparatur und ein Gutachten. Ein Richtwert für den Bodenaustausch steht im Beitrag [Container-Boden sanieren oder austauschen](/ratgeber/container-boden-sanieren-austauschen).
+Wie hoch der Minderwert tatsächlich ist, ist oft streitig; als Anhaltspunkt dienen die Kosten einer fachgerechten Reparatur und ein Gutachten. Hinweise zu Schäden und Reparaturen am Dach stehen im Beitrag [Containerdach: Dachlast und Abdichten](/ratgeber/container-dach-abdichten-dachlast), zum Boden in [Container-Boden sanieren oder austauschen](/ratgeber/container-boden-sanieren-austauschen).
 
 ## Mängel richtig rügen
 
