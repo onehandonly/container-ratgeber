@@ -6,8 +6,8 @@ category: "Law"
 icon: "checklist"
 readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
-lead: "Containers and their contents are rarely covered automatically. Which protection applies when – and which gaps are typical."
+updated: 2026-11-03
+lead: "Containers and their contents are rarely covered automatically. Which protection applies when, how underinsurance arises and which gaps are typical (German context)."
 order: 55
 draft: false
 ---
@@ -33,6 +33,20 @@ Three levels should be considered separately. A contract covering one level says
 | **Liability risks** (damage to third parties) | Tipping over, falling parts, injuries on the site, damage to neighbouring property or vehicles | Concerns owners and users alike, including duties to keep the site safe |
 
 > Remember: "the container is insured" is not a meaningful statement until it is clear **which of the three levels** is meant. In many claims the contents cost more than the shell.
+
+## Worked example: underinsurance of the contents
+
+A common mistake is a sum insured that is too low. If the sum is below the actual value of the insured items, the insurer may reduce the payout proportionately after a loss (underinsurance, § 75 German Insurance Contract Act, VVG). Whether and how this applies in your contract, for example through a waiver of the underinsurance deduction, is set out in its terms. A **purely fictitious illustration**:
+
+| Item | Amount |
+|---|---|
+| Actual value of the contents (tools, machinery, materials) | €20,000 |
+| Agreed sum insured | €12,000 |
+| Burglary loss | €5,000 |
+| Payout with proportionate reduction: €5,000 × €12,000 ÷ €20,000 | **€3,000** |
+| Uncovered part (before any excess) | €2,000 |
+
+An up-to-date inventory list with new or current values is therefore needed not only for the claim but already for choosing the right sum insured. Whether new-for-old or current value is paid depends on the terms.
 
 ## Possible policies at a glance
 
@@ -65,7 +79,7 @@ Most disputes arise not because no policy existed, but because of conditions in 
 
 Insurers reward demonstrable diligence – and often require it expressly:
 
-- **Proper securing:** High-quality locking, lock box, protected positioning (doors facing a wall), lighting or monitoring where appropriate. See [Securing a container](/en/ratgeber/container-sichern-diebstahlschutz).
+- **Proper securing:** High-quality locking, lock box, protected positioning (doors facing a wall), lighting or monitoring where appropriate. See [Securing a container](/en/ratgeber/container-sichern-diebstahlschutz). For fire protection requirements that insurers often consider as well, see [Fire protection in containers](/en/ratgeber/container-brandschutz-vorschriften).
 - **A documented inventory list:** What is in the container, in what quantity, at what value? Photos, invoices and serial numbers make claims handling far easier.
 - **A clear location statement:** Address or plot, siting situation, access protection. For changing locations the policy must expressly allow it.
 - **Maintenance and condition:** A watertight roof, working door seals and rust protection are also an argument in a claim.
@@ -79,7 +93,19 @@ With rented containers, responsibilities shift – but the risk does not shift a
 - **The contents** are practically never insured through the lessor. Tools, materials and equipment are the hirer's responsibility.
 - **Excess and liability waivers** are often set out in the contract – some providers offer a liability reduction for a surcharge.
 
-Which contract points to check is described in [Renting a container: the process](/en/ratgeber/container-mieten-ablauf). For sanitary and welfare units, operating and maintenance questions come on top, see [Sanitary containers](/en/ratgeber/sanitaercontainer-ratgeber).
+Which contract points to check is described in [Renting a container: the process](/en/ratgeber/container-mieten-ablauf); liability and return are covered in more depth in [Rental contract, liability and return](/en/ratgeber/container-mietvertrag-recht). For sanitary and welfare units, operating and maintenance questions come on top, see [Sanitary containers](/en/ratgeber/sanitaercontainer-ratgeber).
+
+## After a loss: the process
+
+| Step | What to do |
+|---|---|
+| 1. Secure | Limit further damage (e.g. lock the container, emergency closure) as far as safely possible |
+| 2. Report | Notify the insurer without delay; for burglary also report to the police |
+| 3. Document | Photograph the damage before anything is changed; record the container number and location |
+| 4. List | List stolen or damaged items with value, age and receipts |
+| 5. Agree | Arrange repair or disposal only after consulting the insurer |
+
+Deadlines and duties to cooperate are set out in your policy terms.
 
 ## Cost range – rough orders of magnitude
 
@@ -98,7 +124,7 @@ Premiums depend on the sum insured, location, use, security, excess and claims h
 
 1. **Review what exists:** Which contracts are already in place, and what is defined there as the insured location and list of perils?
 2. **Name the gaps:** Container, contents, liability – answer separately for each level whether cover exists.
-3. **Establish values:** Maintain an inventory list with purchase values, photos and receipts.
+3. **Establish values:** Maintain an inventory list with purchase values, photos and receipts – and base the sum insured on it (avoid underinsurance).
 4. **Select perils:** Fire, burglary, storm, vandalism, natural hazards – decide deliberately what is included.
 5. **Read the duties:** Clarify requirements on locking, security, location and notification before signing.
 6. **Calculate the excess:** A higher excess lowers the premium but increases exposure on small claims.

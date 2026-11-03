@@ -6,8 +6,8 @@ category: "Recht"
 icon: "checklist"
 readingTime: 9
 published: 2026-08-01
-updated: 2026-08-01
-lead: "Container und Inhalt sind selten automatisch mitversichert. Welche Absicherung wann greift – und welche Lücken typisch sind."
+updated: 2026-11-03
+lead: "Container und Inhalt sind selten automatisch mitversichert. Welche Absicherung wann greift, wie Unterversicherung entsteht und welche Lücken typisch sind."
 order: 55
 draft: false
 ---
@@ -33,6 +33,20 @@ Grundsätzlich lassen sich drei Ebenen unterscheiden, die getrennt zu betrachten
 | **Haftpflichtrisiken** (Schäden Dritter) | Umkippen, herabfallende Teile, Verletzungen am Stellplatz, Schäden an Nachbargrundstück oder Fahrzeugen | Betrifft Eigentümer wie Nutzer; auch Verkehrssicherungspflichten am Standort |
 
 > Merke: „Container versichert" ist keine sinnvolle Aussage, solange nicht geklärt ist, **welche der drei Ebenen** gemeint ist. In vielen Schadenfällen ist der Inhalt teurer als die Hülle.
+
+## Rechenbeispiel: Unterversicherung beim Inhalt
+
+Ein häufiger Fehler ist eine zu niedrige Versicherungssumme. Liegt die Summe unter dem tatsächlichen Wert der versicherten Sachen, kann der Versicherer im Schadenfall die Entschädigung anteilig kürzen (Unterversicherung, § 75 VVG). Ob und wie das in Ihrem Vertrag geregelt ist, etwa durch einen Unterversicherungsverzicht, steht in den Bedingungen. Ein **frei erfundenes Zahlenbeispiel zur Veranschaulichung**:
+
+| Position | Betrag |
+|---|---|
+| Tatsächlicher Wert des Inhalts (Werkzeug, Maschinen, Material) | 20.000 € |
+| Vereinbarte Versicherungssumme | 12.000 € |
+| Einbruchschaden | 5.000 € |
+| Entschädigung bei anteiliger Kürzung: 5.000 € × 12.000 € ÷ 20.000 € | **3.000 €** |
+| Ungedeckter Teil (ohne Selbstbeteiligung) | 2.000 € |
+
+Eine aktuelle Inventarliste mit Neu- oder Zeitwerten ist deshalb nicht nur für die Schadenmeldung, sondern schon für die richtige Wahl der Versicherungssumme nötig. Ob Neuwert oder Zeitwert ersetzt wird, regeln die Bedingungen.
 
 ## Mögliche Policen im Überblick
 
@@ -65,7 +79,7 @@ Die meisten Streitfälle entstehen nicht daran, dass gar keine Police vorhanden 
 
 Versicherer honorieren nachweisbare Sorgfalt – und verlangen sie oft ausdrücklich:
 
-- **Ordnungsgemäße Sicherung:** Hochwertige Verriegelung, Schlosskasten, geschützte Aufstellung (Türen zur Wand), gegebenenfalls Beleuchtung oder Überwachung. Praktische Hinweise dazu im Ratgeber [Container sichern](/ratgeber/container-sichern-diebstahlschutz).
+- **Ordnungsgemäße Sicherung:** Hochwertige Verriegelung, Schlosskasten, geschützte Aufstellung (Türen zur Wand), gegebenenfalls Beleuchtung oder Überwachung. Praktische Hinweise dazu im Ratgeber [Container sichern](/ratgeber/container-sichern-diebstahlschutz). Für Brandschutzanforderungen, die Versicherer oft zusätzlich beachten, siehe [Brandschutz im Container](/ratgeber/container-brandschutz-vorschriften).
 - **Dokumentierte Inventarliste:** Was liegt im Container, in welcher Menge, mit welchem Wert? Fotos, Rechnungen und Seriennummern erleichtern die Schadenregulierung erheblich.
 - **Klare Standortangabe:** Adresse bzw. Flurstück, Aufstellsituation, Zugangsschutz. Bei wechselnden Standorten muss die Police das ausdrücklich vorsehen.
 - **Wartung und Zustand:** Ein dichtes Dach, funktionierende Türdichtungen und Rostschutz sind nicht nur technisch sinnvoll, sondern auch im Schadenfall ein Argument.
@@ -79,7 +93,19 @@ Bei gemieteten Containern verschieben sich die Zuständigkeiten – aber nicht a
 - **Der Inhalt** ist praktisch nie über den Vermieter versichert. Werkzeug, Material und Technik im Mietcontainer sind Sache des Mieters.
 - **Selbstbeteiligung und Haftungsübernahme** sind oft vertraglich geregelt – manche Anbieter bieten eine Haftungsreduzierung gegen Aufpreis an.
 
-Welche Punkte im Mietvertrag konkret zu prüfen sind, beschreibt der Ratgeber [Container mieten: Ablauf](/ratgeber/container-mieten-ablauf). Bei Sanitär- und Aufenthaltseinheiten kommen zusätzlich Betriebs- und Wartungsfragen dazu, siehe [Sanitärcontainer](/ratgeber/sanitaercontainer-ratgeber).
+Welche Punkte im Mietvertrag konkret zu prüfen sind, beschreibt der Ratgeber [Container mieten: Ablauf](/ratgeber/container-mieten-ablauf); Haftung und Rückgabe vertieft [Container mieten: Mietvertrag, Haftung & Rückgabe](/ratgeber/container-mietvertrag-recht). Bei Sanitär- und Aufenthaltseinheiten kommen zusätzlich Betriebs- und Wartungsfragen dazu, siehe [Sanitärcontainer](/ratgeber/sanitaercontainer-ratgeber).
+
+## Im Schadenfall: Ablauf
+
+| Schritt | Vorgehen |
+|---|---|
+| 1. Sichern | Weiteren Schaden begrenzen (z. B. Container verschließen, Notverschluss), soweit gefahrlos möglich |
+| 2. Melden | Schaden unverzüglich dem Versicherer melden; bei Einbruch zusätzlich Anzeige bei der Polizei |
+| 3. Dokumentieren | Fotos vom Schadenbild, bevor etwas verändert wird; Containernummer und Standort erfassen |
+| 4. Liste erstellen | Entwendete oder beschädigte Sachen mit Wert, Alter und Belegen aufführen |
+| 5. Abstimmen | Reparatur oder Entsorgung erst nach Rücksprache mit dem Versicherer veranlassen |
+
+Welche Fristen und Mitwirkungspflichten gelten, steht in Ihren Versicherungsbedingungen.
 
 ## Kostenrahmen – grobe Größenordnungen
 
@@ -98,7 +124,7 @@ Prämien hängen von Versicherungssumme, Standort, Nutzung, Sicherung, Selbstbet
 
 1. **Bestand prüfen:** Welche Verträge existieren bereits, und was ist dort als Versicherungsort und Gefahrenkatalog definiert?
 2. **Lücken benennen:** Container, Inhalt, Haftpflicht – für jede Ebene getrennt beantworten, ob Schutz besteht.
-3. **Werte ermitteln:** Inventarliste mit Anschaffungswerten, Fotos und Belegen anlegen und aktuell halten.
+3. **Werte ermitteln:** Inventarliste mit Anschaffungswerten, Fotos und Belegen anlegen und aktuell halten – und die Versicherungssumme daran ausrichten (Unterversicherung vermeiden).
 4. **Gefahren auswählen:** Feuer, Einbruchdiebstahl, Sturm, Vandalismus, Elementargefahren – bewusst entscheiden, was eingeschlossen sein soll.
 5. **Obliegenheiten lesen:** Anforderungen an Verschluss, Sicherung, Standort und Meldepflichten vor Abschluss klären.
 6. **Selbstbeteiligung kalkulieren:** Höhere Selbstbeteiligung senkt die Prämie, erhöht aber das eigene Risiko im Kleinschaden.
