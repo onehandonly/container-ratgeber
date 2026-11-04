@@ -77,6 +77,7 @@ const MAP: Record<string, string> = {
   'container-schulraum-kita-interim': PHOTO('type-schul-und-kitacontainer'),
   'container-rueckbau-verwertung-entsorgung': PHOTO('type-flat-rack-container'),
   'container-fuer-vereine-sportanlagen': PHOTO('type-umkleidecontainer'),
+  'container-anlieferung-abnahmeprotokoll': PHOTO('type-double-door-container'),
 
   // --- Recht ---
   'container-baugenehmigung': INSPO('haus-wald'),
