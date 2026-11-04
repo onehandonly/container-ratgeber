@@ -103,7 +103,7 @@ Welche Fristen gelten, hängt von Ihrer Rolle und von der Konstellation ab. Die 
 | Konstellation | Grundzüge | Praktische Folge |
 |---|---|---|
 | Verbraucher kauft beim Händler | Keine gesetzliche Rügepflicht wie unter Kaufleuten; Mängelrechte nach Kaufrecht | Trotzdem sofort vermerken und zeitnah schriftlich anzeigen; sonst Beweisprobleme |
-| Unternehmer kauft bei Unternehmer | Untersuchungs- und Rügepflicht (§ 377 HGB): unverzüglich untersuchen, offene Mängel unverzüglich anzeigen | Bei Verspätung können Rechte verloren gehen |
+| Kaufmann kauft bei Kaufmann (beiderseitiges Handelsgeschäft) | Untersuchungs- und Rügepflicht (§ 377 HGB): unverzüglich untersuchen, offene Mängel unverzüglich anzeigen | Bei Verspätung können Rechte verloren gehen |
 | Schaden durch den Frachtführer | Für Transportschäden gelten besondere Anzeigefristen (§ 438 HGB): äußerlich erkennbare Schäden spätestens bei Ablieferung, nicht erkennbare innerhalb von sieben Tagen | Vermerk auf dem Lieferschein; verdeckte Schäden schnell nachmelden |
 | Privat an privat | Gesetzliche Mängelrechte, oft vertraglich ausgeschlossen | Zustand bei Übergabe gemeinsam protokollieren, auch zur eigenen Absicherung |
 

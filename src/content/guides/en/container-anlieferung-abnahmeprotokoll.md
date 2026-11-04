@@ -103,7 +103,7 @@ The deadlines depend on your role and the constellation. This summarises the bas
 | Constellation | Basics | Practical consequence |
 |---|---|---|
 | Consumer buys from a dealer | No statutory duty to give notice of defects like between merchants; warranty rights under sales law | Still note it immediately and notify in writing promptly; otherwise evidence problems |
-| Business buys from business | Duty to inspect and give notice of defects (section 377 German Commercial Code): inspect without undue delay, report apparent defects without undue delay | Rights can be lost if you are late |
+| Merchant buys from merchant (commercial transaction on both sides) | Duty to inspect and give notice of defects (section 377 German Commercial Code): inspect without undue delay, report apparent defects without undue delay | Rights can be lost if you are late |
 | Damage caused by the carrier | Special notification deadlines for transport damage (section 438 Commercial Code): damage apparent from outside no later than on delivery, damage not apparent within seven days | Note it on the delivery note; report concealed damage quickly |
 | Private to private | Statutory warranty rights, often excluded by contract | Record the condition together at handover, also for your own protection |
 
