@@ -92,6 +92,14 @@ const breadcrumbSchema = {
           <slot />
         </div>
 
+        <aside class="publisher" aria-label={lang === 'en' ? 'About the publisher' : 'Über den Herausgeber'}>
+          <p class="publisher__title">{lang === 'en' ? `Published by ${site.operator.name}` : `Herausgegeben von ${site.operator.name}`}</p>
+          <p>{lang === 'en'
+            ? 'Sold containers for many years – from storage to office containers – working in the north of Germany. Container-Ratgeber.de brings together what he once had to search for himself.'
+            : 'Hat viele Jahre Container verkauft – vom Lager- bis zum Bürocontainer – und war dabei im Norden Deutschlands tätig. Container-Ratgeber.de bündelt, was er selbst lange zusammensuchen musste.'}</p>
+          <a href={L('/ueber-uns')}>{lang === 'en' ? 'More about the publisher →' : 'Mehr über den Herausgeber →'}</a>
+        </aside>
+
         <AdSlot lang={lang} minHeight="120px" class="article__ad-end" />
 
         <a href={L('/ratgeber')} class="article__back">← {t('article.back')}</a>
@@ -149,6 +157,9 @@ const breadcrumbSchema = {
   .article__side { display: flex; flex-direction: column; gap: 1.5rem; position: sticky; top: 5.5rem; }
   .article__ad-side { margin: 0; }
   .article__back { display: inline-block; margin-top: 2rem; font-weight: 600; text-decoration: none; }
+  .publisher { margin-top: 2.5rem; padding: 1.1rem 1.3rem; border: 1px solid var(--color-border); border-left: 4px solid var(--color-signal); border-radius: var(--radius-md); background: var(--color-bg-alt); font-size: var(--text-sm); color: var(--color-ink-soft); }
+  .publisher__title { font-family: var(--font-head); font-weight: 700; color: var(--color-ink); margin-bottom: 0.35rem; }
+  .publisher a { display: inline-block; margin-top: 0.5rem; font-weight: 600; text-decoration: none; }
 
   @media (max-width: 900px) {
     .article__grid { grid-template-columns: 1fr; }
