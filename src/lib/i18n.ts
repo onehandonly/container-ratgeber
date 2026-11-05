@@ -53,7 +53,7 @@ export const ui = {
     'hero.cta.secondary': 'Container-Typen ansehen',
     'hero.stat.types': 'Container-Typen',
     'hero.stat.guides': 'Ratgeber-Artikel',
-    'hero.stat.free': 'Kostenlos & werbefinanziert',
+    'hero.stat.free': 'Kostenlos & unabhängig',
 
     'types.eyebrow': 'Überblick',
     'types.title': 'Alle Container-Typen auf einen Blick',
@@ -110,7 +110,7 @@ export const ui = {
     'hero.cta.secondary': 'Browse container types',
     'hero.stat.types': 'Container types',
     'hero.stat.guides': 'Guide articles',
-    'hero.stat.free': 'Free & ad-supported',
+    'hero.stat.free': 'Free & independent',
 
     'types.eyebrow': 'Overview',
     'types.title': 'Every container type at a glance',
