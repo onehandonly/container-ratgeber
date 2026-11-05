@@ -6,7 +6,7 @@ category: "Basics"
 icon: "checklist"
 readingTime: 11
 published: 2026-09-26
-updated: 2026-09-26
+updated: 2026-11-05
 lead: "Anyone considering a container house is, almost always, unconsciously comparing it with a prefab house and solid construction. This guide makes that comparison explicit, using the criteria that actually decide the choice."
 order: 22
 draft: false
@@ -48,6 +48,18 @@ A common misconception is that a container or modular building is easier to get 
 
 No building method is inherently better or worse on energy performance. A passive house can be built solid, in timber frame, or as a module – what decides the outcome is the quality of execution, not the underlying principle. Container-based modular building does add one building-physics quirk: the continuous steel shell is a thermal bridge, which makes careful insulation with a properly functioning vapour barrier essential. Background in [Insulating a container](/en/ratgeber/container-daemmen) and [Thermal bridges in containers](/en/ratgeber/waermebruecken-container).
 
+## Worked example: from decision to move-in
+
+The values below are **illustrative assumptions**, not market data. They only show how little prefabrication changes the overall project if planning and preparation take equally long on every route. Assumed: 6 months for design and permits and 2 months for services and foundation; factory production of the elements or modules runs in parallel with permitting and the foundation and does not extend the schedule.
+
+| Method | Design and permits | Services and foundation | On-site build (assumption) | Total to move-in |
+| --- | --- | --- | --- | --- |
+| Solid construction | 6 months | 2 months | 6 months | 14 months |
+| Prefab house | 6 months | 2 months | 2 months | 10 months |
+| Modular / container | 6 months | 2 months | 0.5 months | 8.5 months |
+
+In this example prefabrication saves 4 and 5.5 months respectively compared with solid construction – yet modular building still takes about 60% of the time of solid construction (8.5 of 14 months), because permitting and foundation work remain the same. If the permit is delayed by 3 months, move-in slips by exactly those 3 months on all three routes. The time advantage also only holds if the foundation is ready in time: a module due to be delivered onto a foundation that has not yet cured may end up waiting, at a cost, with the haulier. On foundations see [Container foundations](/en/ratgeber/container-fundament).
+
 ## Financing and resale
 
 One point rarely mentioned in sales material: banks assess the three methods differently. Solid-built houses are usually the most straightforward for a mortgage valuation, because surveyors and lenders have the most experience with this method. Prefab houses are, today, mostly financed through standard mortgages; in earlier decades lenders were considerably more cautious about them. With modular and container buildings, getting standard mortgage financing is often harder than with the other two methods and depends heavily on the individual case, the lender and the valuation – particularly for a heavily customised container conversion. Something similar applies to resale: a standardised building with a broad pool of potential buyers is generally easier to market than a highly individualised one-off solution. More on this in [Running costs and depreciation](/en/ratgeber/container-betriebskosten-wertverlust).
@@ -68,6 +80,14 @@ One structural advantage clearly sits with modular and container building: unlik
 | Resale value in standard configuration | stable | stable | highly dependent on customisation |
 | Dismantling / relocation | practically not possible | rarely designed for | generally possible |
 | Planning permission for permanent use | required | required | required, same standards |
+
+## Five questions before you decide
+
+1. **How long should the building stand?** Time-limited use or changing locations favours modular or container building; decades on the same plot favour solid or prefab construction. On who legally owns an installed container, see [Ownership, accessories and the land register](/en/ratgeber/container-eigentum-scheinbestandteil-grundbuch).
+2. **Does the site allow the method?** Within a development plan or in the outlying area (Außenbereich), the plan's provisions and section 35 of the German Building Code (BauGB) matter. See [Development plans and the outlying area](/en/ratgeber/container-bebauungsplan-aussenbereich).
+3. **Is financing clarified in advance?** Ask the bank before buying whether, and on what terms, a modular or container house can be used as loan security.
+4. **Are fire protection and the energy certificate planned?** Both apply to permanent residential use regardless of the building method. See [Fire protection](/en/ratgeber/container-brandschutz-vorschriften) and [Containers and the Building Energy Act](/en/ratgeber/container-geg-energierecht).
+5. **What happens at the end of use?** Dismantling, resale or recycling are easier to imagine with modular building, but not free. See [Dismantling, recycling and disposal](/en/ratgeber/container-rueckbau-verwertung-entsorgung).
 
 ## Which route suits whom
 
