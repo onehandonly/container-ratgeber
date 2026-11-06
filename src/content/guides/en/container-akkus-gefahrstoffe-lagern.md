@@ -8,7 +8,7 @@ readingTime: 9
 published: 2026-11-06
 updated: 2026-11-06
 lead: "A container is a closed steel room – ideal for tools and garden furniture, but tricky for batteries, solvents and gas cylinders. This overview sorts typical contents into three groups, works through a spill-containment example and shows when to ask specialists, the authority or your insurer."
-order: 121
+order: 123
 draft: false
 ---
 

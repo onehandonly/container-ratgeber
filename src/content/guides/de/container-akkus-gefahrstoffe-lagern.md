@@ -8,7 +8,7 @@ readingTime: 9
 published: 2026-11-06
 updated: 2026-11-06
 lead: "Ein Container ist ein geschlossener Stahlraum – genau das macht ihn für Werkzeug und Gartenmöbel ideal, für Akkus, Lösemittel und Gasflaschen aber heikel. Diese Übersicht sortiert das Lagergut in drei Gruppen, rechnet ein Beispiel zum Auffangvolumen durch und zeigt, wann Sie Fachleute, Behörde oder Versicherer fragen sollten."
-order: 121
+order: 123
 draft: false
 ---
 
