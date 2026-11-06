@@ -60,6 +60,7 @@ const MAP: Record<string, string> = {
   // --- Praxis ---
   'container-pflege-und-rostschutz': PHOTO('type-seecontainer'),
   'container-sichern-diebstahlschutz': PHOTO('type-lagercontainer'),
+  'container-akkus-gefahrstoffe-lagern': PHOTO('type-gefahrstoffcontainer'),
   'container-im-winter': INSPO('haus-wald'),
   'container-transportieren': PHOTO('type-abrollcontainer'),
   'container-richtig-beladen': PHOTO('type-open-side-container'),
