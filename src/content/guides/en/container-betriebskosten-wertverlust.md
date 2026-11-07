@@ -46,7 +46,7 @@ Only relevant for heated or cooled containers – but dominant there. The annual
 | Office container, insulated, split heat pump, year-round | approx. 1,500–3,000 kWh | approx. €450–900 |
 | Office container, poorly insulated, direct electric heating | approx. 4,000–8,000 kWh | approx. €1,200–2,400 |
 | Residential container 20 ft, good insulation, heat pump | approx. 2,000–4,000 kWh | approx. €600–1,200 |
-| Refrigerated container 20 ft, continuous operation | approx. 8,000–20,000 kWh | approx. €2,400–6,000 |
+| Refrigerated container 20 ft, continuous operation (chilled to frozen, see [Refrigerated containers: electricity costs](/en/ratgeber/kuehlcontainer-betrieb-stromkosten)) | approx. 1,500–22,000 kWh | approx. €450–6,600 |
 
 The difference between rows two and three is the strongest cost lever in this entire article. Because both rows are ranges, the difference is a range too: ten years poorly insulated with direct electric heating cost approx. €12,000–24,000, ten years well insulated with a heat pump approx. €4,500–9,000. The gap is therefore approx. €3,000–19,500 (12,000 − 9,000 to 24,000 − 4,500). In the example below we use approx. €6,500 against approx. €16,200, i.e. roughly €9,700 difference. That is a multiple of the extra cost of proper insulation. The building physics behind it are in [Thermal bridges in shipping containers](/en/ratgeber/waermebruecken-container).
 

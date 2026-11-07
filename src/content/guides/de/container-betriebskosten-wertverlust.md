@@ -46,7 +46,7 @@ Nur relevant bei beheizten oder gekühlten Containern – dort aber dominant. Di
 | Bürocontainer, gedämmt, Split-Wärmepumpe, Ganzjahresnutzung | ca. 1.500–3.000 kWh | ca. 450–900 € |
 | Bürocontainer, schlecht gedämmt, elektrische Direktheizung | ca. 4.000–8.000 kWh | ca. 1.200–2.400 € |
 | Wohncontainer 20 ft, guter Dämmstandard, Wärmepumpe | ca. 2.000–4.000 kWh | ca. 600–1.200 € |
-| Kühlcontainer 20 ft, Dauerbetrieb | ca. 8.000–20.000 kWh | ca. 2.400–6.000 € |
+| Kühlcontainer 20 ft, Dauerbetrieb (Plusgrade bis Tiefkühlung, siehe [Kühlcontainer: Stromkosten](/ratgeber/kuehlcontainer-betrieb-stromkosten)) | ca. 1.500–22.000 kWh | ca. 450–6.600 € |
 
 Der Unterschied zwischen Zeile zwei und drei ist der stärkste Kostenhebel im ganzen Artikel. Weil beide Zeilen Spannen sind, ergibt die Differenz ebenfalls eine Spanne: Zehn Jahre schlecht gedämmt mit Direktstrom kosten ca. 12.000–24.000 €, zehn Jahre gut gedämmt mit Wärmepumpe ca. 4.500–9.000 €. Der Unterschied liegt damit bei ca. 3.000–19.500 € (12.000 − 9.000 bis 24.000 − 4.500). Im Beispiel unten rechnen wir mit ca. 6.500 € gegenüber ca. 16.200 €, also rund 9.700 € Unterschied. Das ist ein Vielfaches der Mehrkosten für ordentliche Dämmung. Der bauphysikalische Hintergrund steht in [Wärmebrücken am Container](/ratgeber/waermebruecken-container).
 
