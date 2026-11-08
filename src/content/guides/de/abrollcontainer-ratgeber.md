@@ -6,7 +6,7 @@ category: "Containertypen"
 icon: "abroll"
 readingTime: 11
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-11-08
 lead: "Entrümpeln, sanieren, abreißen: Welche Muldengröße Sie wirklich brauchen, was hineindarf und wie sich der Preis zusammensetzt."
 order: 28
 draft: false
@@ -40,15 +40,29 @@ Die Maße variieren je nach Hersteller und Anbieter, die folgenden Werte sind pr
 | 3 m³ | ca. 2,6 × 1,7 × 0,8 m | Absetz | Erdaushub, Beton, schwerer Bauschutt |
 | 5 m³ | ca. 3,4 × 1,8 × 1,0 m | Absetz | Bauschutt, Fliesen, Mörtelreste |
 | 7 m³ | ca. 3,7 × 2,0 × 1,2 m | Absetz/Abroll | Bauschutt, Baumischabfall in kleinen Mengen |
-| 10 m³ | ca. 5,7 × 2,3 × 1,2 m | Abroll | Sperrmüll, Altholz, Renovierungsabfall |
-| 20 m³ | ca. 5,8 × 2,3 × 1,8 m | Abroll | Baumischabfall, Entrümpelung, Grünschnitt |
+| 10 m³ | ca. 4,0 × 2,0 × 1,3 m | Abroll | Sperrmüll, Altholz, Renovierungsabfall |
+| 20 m³ | ca. 5,0 × 2,3 × 1,7 m | Abroll | Baumischabfall, Entrümpelung, Grünschnitt |
 | 30–40 m³ | ca. 6,5–7,0 × 2,4 × 2,0–2,6 m | Abroll | leichte Volumenabfälle, Grünschnitt, Verpackungen |
 
 Wichtiger als das Volumen ist bei mineralischen Abfällen das Gewicht: Ein Kubikmeter Bauschutt wiegt je nach Zusammensetzung grob 1,3 bis 1,8 Tonnen, Erdaushub eher 1,5 bis 2,0 Tonnen. Deshalb gibt es Bauschutt- und Aushubmulden fast nur in kleinen Größen – die zulässige Gesamtmasse des Fahrzeugs setzt die Grenze, nicht der Muldenrand.
 
+## Rechenbeispiel: Gewicht statt Volumen
+
+Bei mineralischen Abfällen begrenzt das Gewicht die Befüllung. Mit den oben genannten Rohdichten (Bauschutt ca. 1,3–1,8 t/m³, Erdaushub ca. 1,5–2,0 t/m³) ergibt sich bei vollständig gefüllter Mulde:
+
+| Mulde | Füllung | Rechnung | Gewicht |
+| --- | --- | --- | --- |
+| 3 m³ | Bauschutt | 3 × 1,3 bis 3 × 1,8 | ca. 3,9–5,4 t |
+| 5 m³ | Bauschutt | 5 × 1,3 bis 5 × 1,8 | ca. 6,5–9,0 t |
+| 7 m³ | Bauschutt | 7 × 1,3 bis 7 × 1,8 | ca. 9,1–12,6 t |
+| 3 m³ | Erdaushub | 3 × 1,5 bis 3 × 2,0 | ca. 4,5–6,0 t |
+| 5 m³ | Erdaushub | 5 × 1,5 bis 5 × 2,0 | ca. 7,5–10,0 t |
+
+Die zulässige Nutzlast hängt vom Fahrzeug ab und ist beim Anbieter zu erfragen. Wer sie nicht kennt, füllt schwere Mulden nur teilweise – eine 5-m³-Mulde mit Aushub ist nach dieser Rechnung schnell an der Grenze, obwohl sie noch Luft hat. Abgerechnet wird ohnehin nach Wiegeschein: Jede Tonne Fehlwurf oder Überfüllung schlägt sich direkt im Preis nieder.
+
 ## Welche Größe für welches Projekt?
 
-Die folgenden Werte sind Erfahrungswerte für die Planung. Im Zweifel lieber eine Nummer größer als zweimal anfahren lassen – die zweite Anfahrt kostet meist mehr als der Volumenaufschlag.
+Die folgenden Werte sind grobe Planungswerte. Im Zweifel lieber eine Nummer größer als zweimal anfahren lassen – die zweite Anfahrt kostet meist mehr als der Volumenaufschlag.
 
 | Projekt | Typischer Abfall | Empfehlung |
 | --- | --- | --- |
@@ -100,6 +114,8 @@ Grobe Orientierungswerte für einen 7-m³-Container inklusive Transport und Ents
 
 Auf dem eigenen Grundstück ist die Aufstellung grundsätzlich frei möglich. Zu beachten sind Untergrund und Tragfähigkeit: Pflaster, Platten und Tiefgaragendecken können unter mehreren Tonnen Punktlast leiden. Unterlegbohlen sind billiger als eine neue Einfahrt.
 
+Das gilt für den Container selbst; ob zusätzlich eine Baugenehmigung nötig ist (z. B. bei einem Abbruch), hängt von Standort, Dauer und Nutzung ab – siehe [Baugenehmigung für Container](/ratgeber/container-baugenehmigung).
+
 Steht der Container auf öffentlichem Grund – Gehweg, Parkstreifen, Fahrbahn – ist eine **Sondernutzungserlaubnis** der Straßenverkehrsbehörde bzw. des Ordnungsamts erforderlich. Je nach Lage kommt eine verkehrsrechtliche Anordnung mit Absperrung, Beschilderung und gegebenenfalls Halteverbotszone hinzu. Die Gebühren dafür liegen häufig im Bereich von ca. 30–150 € plus Kosten für Beschilderung; viele Anbieter übernehmen die Beantragung gegen Aufpreis. Nachts müssen Container im Verkehrsraum durch Warnleuchten und retroreflektierende Markierungen erkennbar sein.
 
 ## Richtig befüllen
@@ -111,6 +127,8 @@ Steht der Container auf öffentlichem Grund – Gehweg, Parkstreifen, Fahrbahn �
 - Gewichtsgrenzen des Fahrzeugs beachten: eine randvolle Aushubmulde kann trotz freier Höhe zu schwer sein.
 - Keine Flüssigkeiten, keine Druckbehälter, keine Gefahrstoffe.
 
+Weiterführend: Wie Fahrzeug, Kran und Lieferung bei Containern allgemein kalkuliert werden, steht in [Transport und Lieferkosten](/ratgeber/container-transport-lieferkosten); den Umgang mit Abfällen beim Rückbau eines Containers beschreibt [Rückbau, Verwertung und Entsorgung](/ratgeber/container-rueckbau-verwertung-entsorgung).
+
 ## Spartipps
 
 1. **Sortenrein trennen** – Bauschutt und Erdaushub gehören nie in dieselbe Mulde wie Holz oder Folie.
@@ -120,6 +138,10 @@ Steht der Container auf öffentlichem Grund – Gehweg, Parkstreifen, Fahrbahn �
 5. **Vergleichsangebote einholen** – die Entsorgungspreise schwanken regional erheblich.
 6. **Kleinmengen prüfen** – für wenige Kubikmeter ist der Wertstoffhof oder ein Big Bag oft günstiger.
 
+## Wichtiger Hinweis
+
+Dieser Ratgeber gibt allgemeine Orientierung und ersetzt keine Beratung. Abfallrecht, Sondernutzungserlaubnis und Gebühren unterscheiden sich je nach Kommune und Entsorger; maßgeblich sind die Angaben Ihres Entsorgers und der zuständigen Behörde. Preise und Gewichte sind Richtwerte ohne Gewähr.
+
 ## Fazit
 
-Absetzcontainer sind die Wahl für schwere, mineralische Abfälle und enge Stellplätze, Abrollcontainer für große Volumen und leichtere Fraktionen. Den Preis bestimmen nicht die Kubikmeter, sondern Tonnage und Reinheit der Ladung: Wer konsequent trennt, die Größe realistisch plant und die Standzeit kurz hält, senkt die Gesamtkosten oft um ein Drittel. Und alles, was auch nur nach Asbest oder Gefahrstoff aussieht, gehört von Anfang an in die Hände eines Fachentsorgers – nachträgliche Korrekturen sind der teuerste Weg.
+Absetzcontainer sind die Wahl für schwere, mineralische Abfälle und enge Stellplätze, Abrollcontainer für große Volumen und leichtere Fraktionen. Den Preis bestimmen nicht die Kubikmeter, sondern Tonnage und Reinheit der Ladung: Wer konsequent trennt, die Größe realistisch plant und die Standzeit kurz hält, senkt die Gesamtkosten spürbar. Und alles, was auch nur nach Asbest oder Gefahrstoff aussieht, gehört von Anfang an in die Hände eines Fachentsorgers – nachträgliche Korrekturen sind der teuerste Weg.

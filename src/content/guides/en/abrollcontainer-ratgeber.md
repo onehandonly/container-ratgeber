@@ -6,7 +6,7 @@ category: "Container types"
 icon: "abroll"
 readingTime: 11
 published: 2026-08-01
-updated: 2026-08-01
+updated: 2026-11-08
 lead: "Clearing out, renovating, demolishing: which container size you actually need, what may go in and how the price adds up."
 order: 28
 draft: false
@@ -40,15 +40,29 @@ Dimensions vary by manufacturer and supplier; the values below are practical ave
 | 3 m³ | approx. 2.6 × 1.7 × 0.8 m | Skip | excavated soil, concrete, heavy rubble |
 | 5 m³ | approx. 3.4 × 1.8 × 1.0 m | Skip | rubble, tiles, mortar residue |
 | 7 m³ | approx. 3.7 × 2.0 × 1.2 m | Skip/Roll-off | rubble, small amounts of mixed site waste |
-| 10 m³ | approx. 5.7 × 2.3 × 1.2 m | Roll-off | bulky waste, waste wood, renovation debris |
-| 20 m³ | approx. 5.8 × 2.3 × 1.8 m | Roll-off | mixed site waste, house clearance, green waste |
+| 10 m³ | approx. 4.0 × 2.0 × 1.3 m | Roll-off | bulky waste, waste wood, renovation debris |
+| 20 m³ | approx. 5.0 × 2.3 × 1.7 m | Roll-off | mixed site waste, house clearance, green waste |
 | 30–40 m³ | approx. 6.5–7.0 × 2.4 × 2.0–2.6 m | Roll-off | light bulky waste, green waste, packaging |
 
 With mineral waste, weight matters more than volume: a cubic metre of rubble weighs roughly 1.3 to 1.8 tonnes depending on composition, excavated soil rather 1.5 to 2.0 tonnes. That is why rubble and soil containers are almost only offered in small sizes – the permitted gross vehicle weight sets the limit, not the rim of the container.
 
+## Worked example: weight, not volume
+
+With mineral waste, weight limits how far you can fill the container. Using the bulk densities above (rubble approx. 1.3–1.8 t/m³, excavated soil approx. 1.5–2.0 t/m³), a completely full container weighs:
+
+| Container | Filling | Calculation | Weight |
+| --- | --- | --- | --- |
+| 3 m³ | Rubble | 3 × 1.3 to 3 × 1.8 | approx. 3.9–5.4 t |
+| 5 m³ | Rubble | 5 × 1.3 to 5 × 1.8 | approx. 6.5–9.0 t |
+| 7 m³ | Rubble | 7 × 1.3 to 7 × 1.8 | approx. 9.1–12.6 t |
+| 3 m³ | Excavated soil | 3 × 1.5 to 3 × 2.0 | approx. 4.5–6.0 t |
+| 5 m³ | Excavated soil | 5 × 1.5 to 5 × 2.0 | approx. 7.5–10.0 t |
+
+The permitted payload depends on the vehicle, so ask the supplier. If you do not know it, fill heavy containers only partly – by this calculation a 5 m³ soil container is quickly at its limit even with headroom left. Billing is by weighbridge ticket anyway: every tonne of contamination or overloading shows up directly in the price.
+
 ## Which size for which project?
 
-The figures below are planning benchmarks. When in doubt, order one size up rather than paying for a second delivery – the extra trip usually costs more than the extra volume.
+The figures below are rough planning values. When in doubt, order one size up rather than paying for a second delivery – the extra trip usually costs more than the extra volume.
 
 | Project | Typical waste | Recommendation |
 | --- | --- | --- |
@@ -100,6 +114,8 @@ Rough orientation values for a 7 m³ container including transport and disposal:
 
 On your own property, placement is generally unrestricted. Watch the surface and its load-bearing capacity: paving, slabs and underground garage ceilings can suffer under several tonnes of point load. Timber bearers are cheaper than a new driveway.
 
+This applies to the container itself; whether a building permit is also needed (for a demolition, say) depends on location, duration and use – see [building permit for containers](/en/ratgeber/container-baugenehmigung). The rules described here are German.
+
 If the container stands on public ground – pavement, parking bay, carriageway – a **special use permit** from the road traffic authority or public order office is required. Depending on the location, a traffic order with barriers, signage and possibly a no-parking zone is added. Fees are often in the range of approx. €30–150 plus signage costs; many suppliers handle the application for a surcharge. At night, containers in the traffic area must be visible through warning lights and retroreflective markings.
 
 ## Loading it correctly
@@ -111,6 +127,8 @@ If the container stands on public ground – pavement, parking bay, carriageway 
 - Respect the vehicle's weight limits: a soil container can be too heavy even with headroom to spare.
 - No liquids, no pressurised containers, no hazardous substances.
 
+Further reading: how vehicle, crane and delivery are priced for containers in general is covered in [transport and delivery costs](/en/ratgeber/container-transport-lieferkosten); handling waste when a container is dismantled is covered in [dismantling, recycling and disposal](/en/ratgeber/container-rueckbau-verwertung-entsorgung).
+
 ## Money-saving tips
 
 1. **Separate by material** – rubble and soil never belong in the same body as wood or foil.
@@ -120,6 +138,10 @@ If the container stands on public ground – pavement, parking bay, carriageway 
 5. **Compare quotes** – disposal rates vary considerably by region.
 6. **Check small quantities** – for a few cubic metres, the recycling centre or a big bag is often cheaper.
 
+## Important note
+
+This guide offers general orientation and is not professional advice. Waste law, special-use permits and fees differ by municipality and disposal company (German rules described); rely on your disposal company and the competent authority. Prices and weights are guideline values without guarantee.
+
 ## Conclusion
 
-Skip containers are the choice for heavy mineral waste and tight sites, roll-off containers for large volumes and lighter fractions. The price is not set by cubic metres but by tonnage and the purity of the load: consistent separation, a realistic size and a short standing time often cut the total by a third. And anything that even looks like asbestos or hazardous material belongs in the hands of a specialist disposal company from the start – corrections after the fact are always the most expensive route.
+Skip containers are the choice for heavy mineral waste and tight sites, roll-off containers for large volumes and lighter fractions. The price is not set by cubic metres but by tonnage and the purity of the load: consistent separation, a realistic size and a short standing time noticeably reduce the total. And anything that even looks like asbestos or hazardous material belongs in the hands of a specialist disposal company from the start – corrections after the fact are always the most expensive route.
