@@ -6,8 +6,8 @@ category: "Technical"
 icon: "sanitaer"
 readingTime: 10
 published: 2026-09-28
-updated: 2026-09-28
-lead: "A power lead can be extended with a cable in a pinch; wastewater cannot. Which connection types exist, when a cesspit is the right call instead of a sewer, and how to keep pipework frost-free."
+updated: 2026-11-10
+lead: "A power lead can be extended with a cable in a pinch; wastewater cannot. Which connection types exist, what a tank and a cesspit cost in operation (with worked examples), and how to keep pipework frost-free."
 order: 92
 draft: false
 ---
@@ -38,9 +38,11 @@ Without a mains connection, supply relies on a **fresh water tank**. Common choi
 
 Tank sizing depends on actual demand. As a rough benchmark, average drinking water consumption in Germany runs around 120 to 130 litres per person per day for all purposes – a container fitted out sparingly (camping-style fittings, deliberate use) often sits well below that. Anyone living off-grid without a mains connection should adjust this figure to their own situation rather than applying it unchecked.
 
+**Worked example, tank demand (assumption):** two people use a frugal 50 litres each per day, 100 litres in total. A 1,000-litre IBC tote then lasts about 10 days, while a two-night weekend uses only some 200–300 litres. For continuous use that means a refill roughly every 10 days. The consumption figure is an assumption – you can read your own value off the tank level after a week or two.
+
 ## Wastewater: sewer connection, small treatment plant or sealed cesspit
 
-For wastewater, one distinction is often underestimated: it is not enough to let water drain away somewhere. In Germany, wastewater falls under water law, governed by the federal Water Resources Act (Wasserhaushaltsgesetz) and the state water acts, and enforced by the local water authority at district level – independent of any planning permission for the container itself. Three routes are common:
+For wastewater, one distinction is often underestimated: it is not enough to let water drain away somewhere. In Germany, wastewater falls under water law, governed by the federal Water Resources Act (Wasserhaushaltsgesetz) and the state water acts, and usually enforced by the local water authority at district level – independent of any planning permission for the container itself. Three routes are common:
 
 1. **Connection to the public sewer.** The standard case on a serviced plot; the municipality or wastewater association sets the connection obligation and technical requirements.
 2. **Small treatment plant (Kleinkläranlage).** Treats wastewater biologically on site and discharges it, treated, into a watercourse or the ground; needs a water-law permit and regular servicing by a specialist contractor.
@@ -48,7 +50,9 @@ For wastewater, one distinction is often underestimated: it is not enough to let
 
 Which option is permitted is decided by the local water authority – not by whoever sets up the container. For any permanent use with a toilet or shower, the wastewater question should be settled before purchase, much like planning permission. For more on the permission question in general, see [Container planning permission](/en/ratgeber/container-baugenehmigung).
 
-For short-term or mobile use without a sewer connection, a **dry composting toilet** or chemical toilet is often the more practical solution than a cesspit. A dry toilet produces no liquid black water at all; a chemical toilet produces only small amounts in its waste tank, which is emptied at approved disposal points or by a service provider.
+For short-term or mobile use without a sewer connection, a **dry composting toilet** or chemical toilet is often the more practical solution than a cesspit. A dry toilet produces hardly any liquid black water; a chemical toilet produces only small amounts in its waste tank, which is emptied at approved disposal points or by a service provider.
+
+**Worked example, cesspit (assumption):** two people, all year round, about 120 litres of wastewater per day in total. That is roughly 43.8 m³ a year (120 l × 365). With a 6 m³ cesspit, that means a little over 7 emptyings a year, so 7–8 collection runs. With the ranges in the cost table (€100–300 per run), that comes to approx. €700–2,400 per year for collection alone. With weekend use and only a few litres a day, by contrast, one emptying a year may be enough – so a cesspit pays off mainly for light use. This is a model calculation; haulage and volume prices vary by region. Whether a sealed cesspit is permitted at all for permanent use is for the authority to decide.
 
 ## Grey water and black water
 
@@ -70,11 +74,13 @@ Water-carrying pipes in or on a container are especially vulnerable in winter, b
 - For **tanks kept outdoors**: site or insulate the tank against frost, and place the pump inside the heated envelope wherever possible.
 - If the container is not used over winter, **drain the whole system** rather than simply switching it off – that is the most reliable protection.
 
-For how to avoid condensation and thermal bridges on the steel shell more generally, see [Thermal bridges in a container](/en/ratgeber/waermebruecken-container).
+For how to avoid condensation and thermal bridges on the steel shell more generally, see [Thermal bridges in a container](/en/ratgeber/waermebruecken-container); for winter operation as a whole see [Container in winter](/en/ratgeber/container-im-winter).
 
 ## Hot water: instantaneous heater or storage tank
 
-Two basic approaches exist for hot water. An **electric instantaneous water heater** heats water only as it is drawn, and needs a lot of electrical power for a short burst to do so – often 18 to 21 kW, which practically always requires a three-phase power connection (see [Power connection for a container](/en/ratgeber/container-stromanschluss)). A **storage water heater (cylinder)** heats a volume of water slowly and keeps it ready; it needs a much lower connected load, but takes up space and, following accepted technical practice, generally needs a storage temperature of at least around 60°C to guard against Legionella growth in standing hot water.
+Two basic approaches exist for hot water. An **electric instantaneous water heater** heats water only as it is drawn, and needs a lot of electrical power for a short burst to do so – often 18 to 21 kW, which practically always requires a three-phase power connection (see [Power connection for a container](/en/ratgeber/container-stromanschluss)). A **storage water heater (cylinder)** heats a volume of water slowly and keeps it ready; it needs a much lower connected load, but takes up space and, for larger systems under accepted technical practice, needs a storage temperature of at least around 60°C to guard against Legionella growth in standing hot water. Requirements for small cylinders in single installations are less strict; lower temperatures should still only be chosen if the water is used regularly, and agreed with the installer.
+
+**Energy for a shower (worked example):** heating 40 litres of shower water from 10°C to 38°C (28 K) takes about 1.3 kWh (40 l × 4.19 kJ/(kg·K) × 28 K ÷ 3,600). At €0.30–0.40 per kWh, that is roughly €0.40–0.50 per shower, before standing losses. The electricity price is an assumption.
 
 For a container in occasional use (workshop, office), a small instantaneous heater (about 3.5–6.5 kW, single-phase) or a small under-sink storage heater is often enough – sufficient for a hand basin, not for a shower. For permanent living with a shower, it is worth checking the available electrical supply before deciding.
 
@@ -101,10 +107,16 @@ The following figures are **rough guide ranges only, without guarantee** – act
 - **Planning an instantaneous heater without sizing the power connection for it.** The peak load often exceeds the existing supply.
 - **Treating a drinking water tank as a permanent solution** without cleaning it or checking water quality over longer periods.
 
+## Further reading
+
+- Total fit-out costs including plumbing: [Fit-out costs by trade](/en/ratgeber/container-ausbaukosten-gewerke)
+- Off-grid supply in context: [Off-grid living in a container](/en/ratgeber/autarkes-wohnen-im-container)
+- Siting in flood and heavy-rain areas (backflow, wastewater): [Containers in flood and heavy-rain areas](/en/ratgeber/container-hochwasser-starkregen)
+
 ## Important note
 
 This article is not a substitute for water-law or plumbing-engineering advice. Whether a fixed connection, a small treatment plant or a sealed cesspit is permitted is decided case by case by the responsible local water authority or the local water utility. Cost figures are guide values only, without guarantee.
 
 ## Conclusion
 
-For water and wastewater, how long the container stays in place decides the right solution: short-term, a tank or chemical toilet is enough; permanent use on a serviced plot leaves little alternative to a fixed connection. Where no sewer is available, the local water authority decides whether a small treatment plant or a sealed cesspit applies – settle that question before buying, not after. And anyone using or pausing the container over winter should route pipework reliably frost-free, or drain it in good time.
+For water and wastewater, how long the container stays in place decides the right solution: short-term, a tank or chemical toilet is enough; permanent use on a serviced plot leaves little alternative to a fixed connection. Where no sewer is available, the local water authority decides whether a small treatment plant or a sealed cesspit applies – settle that question before buying, not after. The running cost of a cesspit (every emptying) should be weighed against the one-off cost of a sewer connection. And anyone using or pausing the container over winter should route pipework reliably frost-free, or drain it in good time.
