@@ -75,6 +75,7 @@ const MAP: Record<string, string> = {
   'homeoffice-im-container': INSPO('innen-hell'),
   'container-streichen-beschichtungssystem': PHOTO('type-technikcontainer'),
   'container-als-pop-up-store': PHOTO('type-eventcontainer'),
+  'container-imbiss-kiosk-dauerbetrieb': PHOTO('type-pfoertnercontainer'),
   'container-schulraum-kita-interim': PHOTO('type-schul-und-kitacontainer'),
   'container-rueckbau-verwertung-entsorgung': PHOTO('type-flat-rack-container'),
   'container-fuer-vereine-sportanlagen': PHOTO('type-umkleidecontainer'),
