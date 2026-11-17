@@ -39,7 +39,7 @@ Zwischen „alles selbst" und „alles vom Anbieter" liegt ein Mittelweg, der in
 | Risiko bei Baumängeln | weitgehend bei Ihnen | Schnittstellenstreit möglich | beim Anbieter |
 | Finanzierbarkeit über Bank | schwierig | mittel | am ehesten möglich |
 
-**Was die Gesamtkosten enthalten:** Container bzw. Modul, Ausbau, Fundament, Transport mit Kran sowie Planung, Statik und Bauantrag. **Nicht enthalten** sind Grundstück, Erschließung (Hausanschlüsse, ca. 3.000–15.000 €) und Außenanlagen. Die Werte für den Selbstausbau und für schlüsselfertige Module entsprechen den Beispielrechnungen im Beitrag [Container-Tiny-House: Kosten](/ratgeber/container-tiny-house-kosten); die Stundenwerte des Selbstausbaus ergeben sich aus der Gewerketabelle weiter unten.
+**Was die Gesamtkosten enthalten:** Container bzw. Modul, Ausbau, Fundament, Transport mit Kran sowie Planung, Statik und Bauantrag. **Nicht enthalten** sind Grundstück, Erschließung (Hausanschlüsse, ca. 3.000–15.000 €) und Außenanlagen. Der Wert für den Selbstausbau mit 20 Fuß entspricht der Beispielrechnung im Beitrag [Container-Tiny-House: Kosten](/ratgeber/container-tiny-house-kosten); die übrigen Spannen sind daraus abgeleitete Orientierungswerte. Das schlüsselfertige 40-Fuß-Beispiel dort liegt inklusive Fundament bei ca. 38.000–86.000 € – je nach Ausstattung also auch unter der hier genannten Spanne. Die Stundenwerte des Selbstausbaus ergeben sich aus der Gewerketabelle weiter unten.
 
 Die Kostenspannen erklären sich weniger durch die Bauweise als durch den Ausstattungsstandard. Ein Selbstausbau mit hochwertiger Dämmung, dreifach verglasten Fenstern und Wärmepumpe landet schnell im Bereich eines einfachen schlüsselfertigen Moduls.
 

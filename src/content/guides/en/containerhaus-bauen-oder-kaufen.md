@@ -39,7 +39,7 @@ Between "do everything yourself" and "buy everything" sits a middle path that wo
 | Risk of defects | largely yours | interface disputes possible | with the supplier |
 | Bank financing | difficult | moderate | most feasible |
 
-**What the total cost includes:** container or module, fit-out, foundation, transport with crane, and design, structural engineering and the building application. **Not included** are the plot, utility connections (approx. €3,000–15,000) and external works. The self-build and turnkey figures match the worked examples in [Container tiny house: costs](/en/ratgeber/container-tiny-house-kosten); the self-build hours come from the trade table further down.
+**What the total cost includes:** container or module, fit-out, foundation, transport with crane, and design, structural engineering and the building application. **Not included** are the plot, utility connections (approx. €3,000–15,000) and external works. The 20 ft self-build figure matches the worked example in [Container tiny house: costs](/en/ratgeber/container-tiny-house-kosten); the other ranges are guide values derived from it. The turnkey 40 ft example there comes to approx. €38,000–86,000 including foundation – so depending on specification it can also fall below the range given here. The self-build hours come from the trade table further down.
 
 The spread is driven less by the construction method than by the specification. A self-build with high-grade insulation, triple glazing and a heat pump quickly reaches the price of a basic turnkey module.
 
