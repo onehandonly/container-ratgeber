@@ -73,7 +73,7 @@ Conversely, the bottom grade is almost always a trap for the inexperienced. Repa
 | Collection at the end of the hire | approx. €180–350 (hook-lift truck) or approx. €350–800 (lorry with loading crane) per trip | missing from the quote, present in the terms |
 | Minimum hire period | every month between actual use and the minimum term | "from €X / month" without a period |
 | Crane requirement | lorry with loading crane approx. €350–800 per trip instead of approx. €180–350 with a hook-lift truck | quote names no vehicle type |
-| Waiting time | approx. €80–150 per hour (lorry with driver) | no statement on included time on site |
+| Waiting time | approx. €60–120 per hour started, usually after 15–30 free minutes | no statement on included time on site |
 | Wasted journey | full delivery plus a second trip | no requirements stated for access |
 | Cleaning on return | approx. €100–400 | "to be returned swept clean" without definition |
 | Lock and lockbox | approx. €60–200 | "lock optional" |

@@ -73,7 +73,7 @@ Umgekehrt ist die unterste Klasse fast immer eine Falle für Ungeübte. Ein undi
 | Abholung am Ende der Mietzeit | ca. 180–350 € (Abrollkipper) bzw. ca. 350–800 € (Lkw mit Ladekran) je Fahrt | fehlt im Angebot, steht in den AGB |
 | Mindestmietdauer | jeder Monat zwischen tatsächlicher Nutzung und Mindestlaufzeit | „ab X € / Monat" ohne Zeitangabe |
 | Kranbedarf | Lkw mit Ladekran ca. 350–800 € je Fahrt statt ca. 180–350 € mit Abrollkipper | Angebot nennt keinen Fahrzeugtyp |
-| Wartezeit | ca. 80–150 € je Stunde (Lkw mit Fahrer) | keine Angabe zur enthaltenen Standzeit |
+| Wartezeit | ca. 60–120 € je angefangener Stunde, meist nach 15–30 Minuten Freizeit | keine Angabe zur enthaltenen Standzeit |
 | Fehlfahrt | volle Anfahrt plus zweite Fahrt | keine Anforderungen an die Zufahrt genannt |
 | Reinigung bei Rückgabe | ca. 100–400 € | „besenrein zurückzugeben" ohne Definition |
 | Schloss und Schließbügel | ca. 60–200 € | „Schloss optional" |
