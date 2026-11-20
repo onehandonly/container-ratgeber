@@ -1,13 +1,13 @@
 ---
 title: "Angebote vergleichen und Preise verhandeln"
-description: "Wie sich Container-Angebote wirklich vergleichen lassen: versteckte Posten, Zustandsklassen und ihr Preiseffekt, Saisonalität, Verhandlungshebel und eine Checkliste für die Anfrage."
+description: "Wie sich Container-Angebote wirklich vergleichen lassen: standardisierte Anfrage, versteckte Posten, durchgerechnete Beispiele für Miet- und Kaufangebote, Zustandsklassen, Verhandlungshebel und Checkliste."
 lang: "de"
 category: "Kosten"
 icon: "checklist"
-readingTime: 11
+readingTime: 13
 published: 2026-08-01
-updated: 2026-08-01
-lead: "Zwei Angebote für denselben Container können sich um 40 Prozent unterscheiden, ohne dass eines davon zu teuer wäre. Der Unterschied liegt fast immer in dem, was nicht drinsteht."
+updated: 2026-11-20
+lead: "Zwei Angebote für denselben Container lassen sich selten direkt vergleichen. Der Unterschied liegt meist in dem, was nicht drinsteht – im Rechenbeispiel unten ist das Angebot mit der niedrigsten Monatsmiete nach acht Monaten das teuerste."
 order: 35
 draft: false
 ---
@@ -70,17 +70,60 @@ Umgekehrt ist die unterste Klasse fast immer eine Falle für Ungeübte. Ein undi
 
 | Versteckter Posten | Typische Höhe | Woran Sie ihn erkennen |
 | --- | --- | --- |
-| Abholung am Ende der Mietzeit | ca. 150–400 € | fehlt im Angebot, steht in den AGB |
-| Mindestmietdauer | bis zu 2 Monatsmieten | „ab X € / Monat" ohne Zeitangabe |
-| Kranbedarf | 300–1.000 € | Angebot nennt keinen Fahrzeugtyp |
-| Wartezeit | 60–120 € je Stunde | keine Angabe zur enthaltenen Standzeit |
+| Abholung am Ende der Mietzeit | ca. 180–350 € (Abrollkipper) bzw. ca. 350–800 € (Lkw mit Ladekran) je Fahrt | fehlt im Angebot, steht in den AGB |
+| Mindestmietdauer | jeder Monat zwischen tatsächlicher Nutzung und Mindestlaufzeit | „ab X € / Monat" ohne Zeitangabe |
+| Kranbedarf | Lkw mit Ladekran ca. 350–800 € je Fahrt statt ca. 180–350 € mit Abrollkipper | Angebot nennt keinen Fahrzeugtyp |
+| Wartezeit | ca. 80–150 € je Stunde (Lkw mit Fahrer) | keine Angabe zur enthaltenen Standzeit |
 | Fehlfahrt | volle Anfahrt plus zweite Fahrt | keine Anforderungen an die Zufahrt genannt |
-| Reinigung bei Rückgabe | 100–400 € | „besenrein zurückzugeben" ohne Definition |
-| Schloss und Schließbügel | 60–200 € | „Schloss optional" |
-| Zustandsklasse ohne Definition | mehrere hundert bis 2.000 € | „guter Zustand", keine Fotos |
+| Reinigung bei Rückgabe | ca. 100–400 € | „besenrein zurückzugeben" ohne Definition |
+| Schloss und Schließbügel | ca. 60–200 € | „Schloss optional" |
+| Zustandsklasse ohne Definition | ca. mehrere hundert bis 2.000 € | „guter Zustand", keine Fotos |
 | Netto statt brutto | 19 % | Preis ohne Angabe von netto/brutto |
 
-Für den Vergleich hilft eine simple Tabelle, in der Sie alle Angebote auf **Gesamtkosten für Ihren konkreten Zeitraum** umrechnen: Container plus Anlieferung plus Abholung plus alle Zuschläge, bei Miete mal der tatsächlichen Monatszahl unter Berücksichtigung der Mindestlaufzeit. Erst diese Zahl ist vergleichbar. In gut der Hälfte der Fälle ändert sich dabei die Reihenfolge der Anbieter.
+Für den Vergleich hilft eine simple Tabelle, in der Sie alle Angebote auf **Gesamtkosten für Ihren konkreten Zeitraum** umrechnen: Container plus Anlieferung plus Abholung plus alle Zuschläge, bei Miete mal der tatsächlichen Monatszahl unter Berücksichtigung der Mindestlaufzeit. Erst diese Zahl ist vergleichbar – und sie kann die Reihenfolge der Anbieter umdrehen, wie die beiden folgenden Beispiele zeigen. Die Transportbeträge liegen innerhalb der Spannen aus dem Beitrag [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten); eigene Werte können Sie mit dem [Transportkosten-Rechner](/rechner/transportkosten) abschätzen.
+
+## Rechenbeispiel 1: drei Mietangebote für acht Monate
+
+Gesucht ist ein gebrauchter 20-Fuß-Lagercontainer für eine Baustelle, voraussichtlich acht Monate. Alle Beträge netto und frei gewählt; sie dienen nur der Veranschaulichung.
+
+| Position | Angebot A | Angebot B | Angebot C |
+| --- | --- | --- | --- |
+| Monatsmiete | 79 € | 95 € | 110 € |
+| Mindestmietdauer | 12 Monate | 3 Monate | 1 Monat |
+| Anlieferung | 450 € (Lkw mit Ladekran) | 250 € (Abrollkipper) | im Mietpreis enthalten |
+| Abholung | 450 € (Lkw mit Ladekran) | 250 € (Abrollkipper) | 220 € (Abrollkipper) |
+| Berechnete Monate bei 8 Monaten Nutzung | 12 | 8 | 8 |
+| **Gesamtkosten 8 Monate** | **1.848 €** | **1.260 €** | **1.100 €** |
+| Gesamtkosten 24 Monate | 2.796 € | 2.780 € | 2.860 € |
+
+Rechenweg für A: 12 × 79 € = 948 € Miete plus 900 € Transport = 1.848 €. Für B: 8 × 95 € = 760 € plus 500 € = 1.260 €. Für C: 8 × 110 € = 880 € plus 220 € = 1.100 €.
+
+Was das Beispiel zeigt:
+
+- **Die niedrigste Monatsmiete ist bei acht Monaten das teuerste Angebot.** Ursache sind die zwölf Monate Mindestlaufzeit und der teurere Kran-Lkw.
+- **Bei 24 Monaten liegen alle drei Angebote innerhalb von rund 80 € beieinander.** Dann entscheiden eher Kaution, Zustand und Flexibilität als der Preis.
+- **Bei zwei Jahren Nutzung stellt sich die Kauffrage.** Im Referenzbeispiel des Beitrags [Kaufen oder mieten?](/ratgeber/container-kaufen-oder-mieten) liegt der Break-even für einen gebrauchten 20-Fuß-Lagercontainer bei ca. 23 Monaten ohne und ca. 8 Monaten mit Wiederverkauf. Mit eigenen Zahlen rechnen Sie das im [Kaufen-oder-Mieten-Rechner](/rechner/kaufen-oder-mieten) nach.
+- **Die Kaution gehört in eine eigene Zeile.** Sie ist kein Kostenbestandteil, bindet aber Liquidität – bei gebrauchten Lagercontainern grob ca. 300–800 €, siehe [Mietpreise verstehen](/ratgeber/container-mietpreise-kalkulation).
+
+Prüfen Sie außerdem, ob „im Mietpreis enthalten" bei Angebot C an Bedingungen geknüpft ist, etwa an einen Nahbereich oder eine Mindestlaufzeit. Sonst wird aus der Pauschale nachträglich eine Einzelposition.
+
+## Rechenbeispiel 2: zwei Kaufangebote – netto, brutto, differenzbesteuert
+
+Beim Kauf ist die häufigste Verzerrung die Umsatzsteuer. Zwei Angebote für einen gebrauchten 20-Fuß-Container in vergleichbarem Zustand:
+
+| Position | Angebot X | Angebot Y |
+| --- | --- | --- |
+| Containerpreis | 2.300 € netto ab Lager | 2.990 € frei Haus, differenzbesteuert |
+| Anlieferung | 550 € netto (Lkw mit Ladekran) | enthalten (Abrollkipper) |
+| Summe netto | 2.850 € | keine Umsatzsteuer ausgewiesen |
+| 19 % Umsatzsteuer | 541,50 € | – |
+| **Zahlbetrag** | **3.391,50 €** | **2.990 €** |
+| Belastung mit Vorsteuerabzug | 2.850 € | 2.990 € |
+| Belastung ohne Vorsteuerabzug | 3.391,50 € | 2.990 € |
+
+Bei der Differenzbesteuerung (§ 25a UStG) wird keine Umsatzsteuer gesondert ausgewiesen, der Käufer kann deshalb keine Vorsteuer abziehen. Daraus folgt: Für ein vorsteuerabzugsberechtigtes Unternehmen ist X um 140 € günstiger, für eine Privatperson oder einen Verein ohne Vorsteuerabzug ist Y um 401,50 € günstiger. Dieselben zwei Angebote, zwei verschiedene Sieger.
+
+Zwei weitere Punkte gehören in diesen Vergleich: Ein Lkw mit Ladekran setzt den Container präzise ab, ein Abrollkipper braucht Rangierweg und lädt nach hinten ab. Ist die Zufahrt eng, ist Angebot Y womöglich gar nicht ausführbar. Und „vergleichbarer Zustand" ist nur belastbar, wenn Sie beide Container gesehen oder anhand von Fotos mit Containernummer geprüft haben – dafür eignet sich die [Besichtigungs-Checkliste](/rechner/besichtigung-checkliste).
 
 ## Wann Sie kaufen sollten: Saison und Marktlage
 
@@ -98,7 +141,7 @@ Praktisch heißt das: Wer flexibel ist und im Winter kauft, zahlt bei Lager- und
 
 Bei der Marge auf den Container selbst ist wenig Spielraum. An diesen Punkten dagegen schon:
 
-1. **Längere Mietbindung.** Der stärkste Hebel überhaupt, weil er dem Vermieter Leerstandsrisiko abnimmt. Aus drei Monaten zwölf zu machen ist oft 20 bis 30 Prozent wert.
+1. **Längere Mietbindung.** Der stärkste Hebel überhaupt, weil er dem Vermieter Leerstandsrisiko abnimmt. Wer statt drei Monaten zwölf zusagt, kann meist einen spürbar niedrigeren Monatssatz verhandeln – aber nur, wenn der Container tatsächlich so lange gebraucht wird. Rechenbeispiel 1 zeigt, was eine zu lange Bindung kostet.
 2. **Mehrere Einheiten.** Zwei Container in einer Anfahrt sind für den Anbieter deutlich günstiger als zwei einzelne Aufträge. Fordern Sie den Vorteil ein.
 3. **Flexibler Liefertermin.** Wer ein Fenster von einer Woche anbietet, kann in eine bestehende Tour eingeplant werden.
 4. **Selbstabholung prüfen.** Bei kurzen Distanzen und vorhandenem Gerät kann das mehrere hundert Euro sparen – nur mit korrekter Ladungssicherung, siehe [Container transportieren](/ratgeber/container-transportieren).
@@ -117,16 +160,17 @@ Was dagegen selten funktioniert: pauschale Rabattforderungen ohne Gegenleistung,
 | Vollständige Vorkasse verlangt, keine Firmenanschrift | erhebliches Zahlungsrisiko |
 | Preis deutlich unter Marktniveau | Zustandsklasse, versteckte Kosten oder Betrug |
 | Keine Angabe zu Anlieferung | der teuerste Posten bleibt offen |
-| „Gewährleistung ausgeschlossen" ohne weitere Angaben | bei Verkauf an Verbraucher rechtlich fragwürdig |
+| „Gewährleistung ausgeschlossen" ohne weitere Angaben | beim Verkauf eines Händlers an Verbraucher unwirksam; bei Gebrauchtware ist dort nur eine Verkürzung möglich |
 | Kein schriftliches Angebot, nur Telefon | im Streitfall nichts in der Hand |
 
-Verlangen Sie beim Gebrauchtkauf **Fotos des konkreten Containers mit Nummer**, mindestens von außen umlaufend, vom Dach, vom Innenraum und vom Boden. Ein Händler mit eigenem Bestand liefert das ohne Diskussion. Mehr zur Prüfung im Beitrag [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen).
+Verlangen Sie beim Gebrauchtkauf **Fotos des konkreten Containers mit Nummer**, mindestens von außen umlaufend, vom Dach, vom Innenraum und vom Boden. Ein Händler mit eigenem Bestand liefert das ohne Diskussion. Mehr zur Prüfung im Beitrag [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen) und im [Besichtigungs- und Prüfprotokoll](/ratgeber/container-besichtigung-pruefprotokoll).
 
 Wie Scheinfirmen mit kopierten Webseiten und Vorkasse arbeiten und wie Sie sich mit einer Bankbürgschaft schützen, steht in [Fake-Containerhändler erkennen](/ratgeber/fake-containerhaendler-vorkasse-betrug).
 
 ## Checkliste vor der Zusage
 
-- [ ] Alle Angebote auf Gesamtkosten für den tatsächlichen Zeitraum umgerechnet
+- [ ] Alle Angebote auf Gesamtkosten für den tatsächlichen Zeitraum umgerechnet, Mindestlaufzeit berücksichtigt
+- [ ] Vergleich auf der richtigen Steuerbasis: netto bei Vorsteuerabzug, sonst Zahlbetrag
 - [ ] Anlieferung **und** Abholung enthalten und beziffert
 - [ ] Fahrzeugtyp genannt, Kranbedarf geklärt
 - [ ] Mindestmietdauer und Abrechnungseinheit schriftlich
@@ -134,15 +178,15 @@ Wie Scheinfirmen mit kopierten Webseiten und Vorkasse arbeiten und wie Sie sich 
 - [ ] Zustandsklasse beschrieben, Fotos des konkreten Containers vorhanden
 - [ ] Anforderungen an Zufahrt und Untergrund benannt, Fotos geschickt
 - [ ] Netto und brutto eindeutig, Umsatzsteuer ausgewiesen oder Differenzbesteuerung genannt
-- [ ] Übergabeprotokoll vereinbart
+- [ ] Übergabeprotokoll vereinbart, siehe [Anlieferung und Abnahmeprotokoll](/ratgeber/container-anlieferung-abnahmeprotokoll)
 - [ ] Zahlungsbedingungen und Firmensitz geprüft
 
 ## Wichtiger Hinweis
 
-> Alle Preis- und Prozentangaben sind **grobe Orientierungswerte ohne Gewähr**. Zustandsbezeichnungen wie „Cargo Worthy" oder „wind- und wasserdicht" sind nicht gesetzlich definiert und werden von Anbietern unterschiedlich ausgelegt; maßgeblich ist immer die konkrete Beschreibung im Angebot. Dieser Beitrag stellt keine Rechtsberatung dar; zu Gewährleistung und Vertragsgestaltung siehe die Hinweise im verlinkten Rechtsbeitrag.
+> Alle Preis- und Prozentangaben sind **grobe Orientierungswerte ohne Gewähr**. Zustandsbezeichnungen wie „Cargo Worthy" oder „wind- und wasserdicht" sind nicht gesetzlich definiert und werden von Anbietern unterschiedlich ausgelegt; maßgeblich ist immer die konkrete Beschreibung im Angebot. Die Rechenbeispiele verwenden frei gewählte Beispielwerte. Dieser Beitrag stellt keine Rechts- oder Steuerberatung dar; ob Vorsteuerabzug oder Differenzbesteuerung im Einzelfall greifen, klären Sie mit Ihrer Steuerberatung. Zu Gewährleistung und Vertragsgestaltung siehe den Beitrag [Kaufvertrag und Gewährleistung](/ratgeber/container-kaufvertrag-gewaehrleistung) sowie [Mietvertrag und Recht](/ratgeber/container-mietvertrag-recht).
 
 ## Fazit
 
-Angebote werden erst vergleichbar, wenn Sie alle auf die Gesamtkosten für Ihren konkreten Zeitraum umrechnen – inklusive Abholung, Mindestmietdauer und Fahrzeugtyp. Schicken Sie dafür allen Anbietern dieselbe Anfrage mit denselben geforderten Positionen und Fotos der Zufahrt. Beim Zustand ist wind- und wasserdicht für die meisten Zwecke die wirtschaftlich richtige Klasse. Und verhandeln Sie nicht über den Containerpreis, sondern über Laufzeit, Bündelung, Termin und Zusatzleistungen – dort liegt der Spielraum.
+Angebote werden erst vergleichbar, wenn Sie alle auf die Gesamtkosten für Ihren konkreten Zeitraum umrechnen – inklusive Abholung, Mindestmietdauer und Fahrzeugtyp, beim Kauf auf der für Sie richtigen Steuerbasis. Wie stark sich die Reihenfolge dabei verschieben kann, zeigen die beiden Rechenbeispiele. Schicken Sie dafür allen Anbietern dieselbe Anfrage mit denselben geforderten Positionen und Fotos der Zufahrt. Beim Zustand ist wind- und wasserdicht für die meisten Zwecke die wirtschaftlich richtige Klasse. Und verhandeln Sie nicht über den Containerpreis, sondern über Laufzeit, Bündelung, Termin und Zusatzleistungen – dort liegt der Spielraum.
 
 Weiterführend: [Gebrauchten Container kaufen](/ratgeber/gebrauchten-container-kaufen), [Mietpreise verstehen](/ratgeber/container-mietpreise-kalkulation) und [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten).
