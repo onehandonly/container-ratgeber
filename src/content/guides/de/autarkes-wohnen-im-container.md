@@ -84,7 +84,7 @@ Annahme: 40-Fuß-Dach, realistisch 15.000 bis 18.000 Liter Regenwasser im Jahr (
 | 1 Person, 50 l/Tag | ca. 18.250 l | ca. 80 – 100 % |
 | 1 Person, 90 l/Tag | ca. 32.850 l | ca. 45 – 55 % |
 | 2 Personen, 50 l/Tag | ca. 36.500 l | ca. 40 – 50 % |
-| 2 Personen, 90 l/Tag | ca. 65.700 l | ca. 25 – 30 % |
+| 2 Personen, 90 l/Tag | ca. 65.700 l | ca. 23 – 27 % |
 
 Schon bei zwei Personen reicht das Dach eines einzelnen Containers also nur für einen Teil des Bedarfs. Zusätzliche Dachflächen (Carport, Schuppen), ein Brunnen oder regelmäßige Tankbefüllung schließen die Lücke. Zur Zisternengröße: 5.000 Liter reichen bei 140 Litern Tagesverbrauch (zwei Personen à 70 l) rund fünf Wochen ohne Niederschlag.
 

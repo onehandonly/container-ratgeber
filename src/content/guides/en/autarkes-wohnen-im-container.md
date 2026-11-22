@@ -84,7 +84,7 @@ Assumption: 40-foot roof, realistically 15,000 to 18,000 litres of rainwater per
 | 1 person, 50 l/day | approx. 18,250 l | approx. 80 – 100 % |
 | 1 person, 90 l/day | approx. 32,850 l | approx. 45 – 55 % |
 | 2 people, 50 l/day | approx. 36,500 l | approx. 40 – 50 % |
-| 2 people, 90 l/day | approx. 65,700 l | approx. 25 – 30 % |
+| 2 people, 90 l/day | approx. 65,700 l | approx. 23 – 27 % |
 
 Even for two people, the roof of a single container covers only part of the demand. Additional roof areas (carport, shed), a well or regular tank refills close the gap. On cistern size: 5,000 litres last about five weeks without rain at 140 litres a day (two people at 70 l each).
 
