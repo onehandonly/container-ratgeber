@@ -85,7 +85,7 @@ Auf Baustellen ist die Miete der Regelfall, weil Projektdauer und Bedarfsgröße
 | --- | --- | --- | --- |
 | Mannschaftscontainer 20 Fuß | 7.000 – 12.000 € | 3.000 – 6.500 € | 130 – 260 € |
 | Bürocontainer 20 Fuß | 8.000 – 16.000 € | 3.500 – 9.000 € | 150 – 350 € |
-| Sanitärcontainer 20 Fuß | 15.000 – 32.000 € | 7.000 – 16.000 € | 280 – 700 € |
+| Sanitärcontainer 20 Fuß | 13.000 – 20.000 € | 7.000 – 14.000 € | 300 – 700 € |
 | Umkleidecontainer 20 Fuß | 7.500 – 13.000 € | 3.200 – 7.000 € | 140 – 280 € |
 | Materialcontainer 20 Fuß (Lagercontainer) | 2.500 – 5.500 € | 1.500 – 3.200 € | 70 – 130 € |
 

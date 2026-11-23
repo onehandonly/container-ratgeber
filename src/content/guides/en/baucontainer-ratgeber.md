@@ -85,7 +85,7 @@ On sites, renting is the norm because project duration and requirements change. 
 | --- | --- | --- | --- |
 | Crew, 20 foot | €7,000 – €12,000 | €3,000 – €6,500 | €130 – €260 |
 | Office, 20 foot | €8,000 – €16,000 | €3,500 – €9,000 | €150 – €350 |
-| Sanitary, 20 foot | €15,000 – €32,000 | €7,000 – €16,000 | €280 – €700 |
+| Sanitary, 20 foot | €13,000 – €20,000 | €7,000 – €14,000 | €300 – €700 |
 | Changing, 20 foot | €7,500 – €13,000 | €3,200 – €7,000 | €140 – €280 |
 | Material, 20 foot (storage container) | €2,500 – €5,500 | €1,500 – €3,200 | €70 – €130 |
 
