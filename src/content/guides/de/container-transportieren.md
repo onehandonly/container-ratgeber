@@ -82,7 +82,7 @@ Die Anlieferung ist bei manchen Mietangeboten eingerechnet, wird aber häufig se
 | Fehlfahrt | häufig volle Anfahrt | Zweitanfahrt kommt hinzu |
 | Zuschlag für Samstag oder enges Zeitfenster | ca. 20–50 % | vermeidbar bei flexibler Planung |
 
-**Rechenbeispiel:** Ein 20-Fuß-Lagercontainer wird 25 km entfernt per Hakenlift auf einen ebenen Hof geliefert: Anlieferung ca. 220 €, später Abholung ca. 220 €, zusammen **ca. 440 €**. Muss derselbe Container mit Ladekran über eine Hecke gesetzt werden, kann die Anlieferung allein schon bei ca. 750 € liegen (Pauschale, zusätzliche Kilometer und rund 1,5 Kranstunden); mit Abholung wären es **ca. 1.500 €**. Der Unterschied kommt fast ausschließlich vom Kran, nicht von der Strecke. Wer den Stellplatz so wählt, dass der Lkw abrollen kann, spart also oft mehrere hundert Euro.
+**Rechenbeispiel:** Ein 20-Fuß-Lagercontainer wird 25 km entfernt per Hakenlift auf einen ebenen Hof geliefert: Anlieferung ca. 220 €, später Abholung ca. 220 €, zusammen **ca. 440 €**. Muss derselbe Container mit Ladekran über eine Hecke gesetzt werden, kann die Anlieferung allein schon bei ca. 750 € liegen (Pauschale, zusätzliche Kilometer und rund 1,5 Kranstunden); mit Abholung wären es **ca. 1.500 €**. Rund zwei Drittel des Mehrbetrags gehen auf Kranfahrzeug und Kranarbeit, nur etwa ein Drittel auf die zusätzliche Strecke. Wer den Stellplatz so wählt, dass der Lkw abrollen kann, spart also oft mehrere hundert Euro.
 
 Die Hauptkostentreiber sind Kranbedarf, Entfernung und verlorene Zeit vor Ort. Eine Einordnung der Gesamtkosten finden Sie im Beitrag [Was kostet ein Container?](/ratgeber/was-kostet-ein-container); eine schnelle Schätzung liefert der [Transportkosten-Schätzer](/rechner/transportkosten).
 

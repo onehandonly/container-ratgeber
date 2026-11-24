@@ -82,7 +82,7 @@ Delivery is included in some rental offers but is often itemised separately. The
 | Failed trip | often the full delivery charge | a second delivery comes on top |
 | Surcharge for Saturday or tight time window | approx. 20–50 % | avoidable with flexible scheduling |
 
-**Worked example:** A 20 ft storage container is delivered 25 km away by hook lift to a level yard: delivery approx. €220, collection later approx. €220, together **approx. €440**. If the same container has to be set over a hedge with a loader crane, delivery alone can reach approx. €750 (base charge, extra kilometres and around 1.5 crane hours); with collection that would be **approx. €1,500**. The difference comes almost entirely from the crane, not the distance. Choosing a standing area where the truck can roll the container off therefore often saves several hundred euros.
+**Worked example:** A 20 ft storage container is delivered 25 km away by hook lift to a level yard: delivery approx. €220, collection later approx. €220, together **approx. €440**. If the same container has to be set over a hedge with a loader crane, delivery alone can reach approx. €750 (base charge, extra kilometres and around 1.5 crane hours); with collection that would be **approx. €1,500**. Around two thirds of the extra cost is due to the crane vehicle and crane work, only about one third to the additional distance. Choosing a standing area where the truck can roll the container off therefore often saves several hundred euros.
 
 The main cost drivers are crane need, distance and time lost on site. For the overall costs, see [What does a container cost?](/en/ratgeber/was-kostet-ein-container); a quick estimate is provided by the [transport cost estimator](/en/rechner/transportkosten).
 
