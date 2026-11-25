@@ -84,15 +84,15 @@ The container itself is usually the smaller item – the fit-out accounts for mo
 
 | Cost block | approx. range | Note |
 |---|---|---|
-| Windows & doors (2 windows, 1 door) incl. cut-outs | €3,000–7,000 | incl. welding in frames |
+| Windows & doors (2 windows, 1 door) incl. cut-outs | €4,150–9,400 | incl. welding in frames, units and reveals |
 | Insulation and interior lining (walls, floor, roof) | €5,000–11,000 | depends on option; about 60–70 m² of surface |
-| Electrics | €1,800–4,000 | qualified firm, with sub-board and earthing |
+| Electrics | €1,500–4,000 | qualified firm, with sub-board and earthing |
 | Heating / AC split | €1,500–3,500 | infrared cheaper, heat pump pricier |
 | Floor and surfaces | €1,700–3,700 | incl. removing the old floor |
-| **Total without sanitary** | **approx. €13,000–29,200** | approx. €930–2,090 per m² of floor area |
+| **Total without sanitary** | **approx. €13,850–31,600** | approx. €990–2,260 per m² of floor area |
 | Sanitary (WC, basin) with connection | additional approx. €3,500–12,500 | heavily dependent on connection |
 
-Not included are container, transport, foundation and ventilation equipment. To put the totals in context: the office example in the trade-by-trade calculations comes to roughly €22,900 including the container; with sanitary facilities the total rises to about €30,000 to €40,000. The running-cost side of living (heating, power, depreciation) is covered in [running costs and depreciation](/en/ratgeber/container-betriebskosten-wertverlust).
+Not included are container, transport, foundation and ventilation equipment. To put the totals in context: the office example in the trade-by-trade calculations comes to roughly €23,700 including container, transport and foundation; with WC and kitchenette the example there rises to roughly €34,100, and depending on specification to roughly €30,000 to €40,000. The running-cost side of living (heating, power, depreciation) is covered in [running costs and depreciation](/en/ratgeber/container-betriebskosten-wertverlust).
 
 Doing a lot yourself can save money – but electrics, plumbing and load-bearing cut-outs should be left to specialist firms.
 

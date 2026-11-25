@@ -84,15 +84,15 @@ Der Container selbst ist meist der kleinere Posten – der Ausbau macht den Gro�
 
 | Kostenblock | ca.-Spanne | Anmerkung |
 |---|---|---|
-| Fenster & Türen (2 Fenster, 1 Tür) inkl. Einschnitt | 3.000–7.000 € | inkl. Rahmen einschweißen |
+| Fenster & Türen (2 Fenster, 1 Tür) inkl. Einschnitt | 4.150–9.400 € | inkl. Rahmen einschweißen, Bauteile und Laibungen |
 | Dämmung und Innenverkleidung (Wände, Boden, Dach) | 5.000–11.000 € | je nach Variante; rund 60–70 m² Bauteilfläche |
-| Elektrik | 1.800–4.000 € | Fachbetrieb, mit Unterverteilung und Erdung |
+| Elektrik | 1.500–4.000 € | Fachbetrieb, mit Unterverteilung und Erdung |
 | Heizung / Klimasplit | 1.500–3.500 € | Infrarot günstiger, Wärmepumpe teurer |
 | Boden und Oberflächen | 1.700–3.700 € | inkl. Entfernen des Altbodens |
-| **Summe ohne Sanitär** | **ca. 13.000–29.200 €** | ca. 930–2.090 € je m² Grundfläche |
+| **Summe ohne Sanitär** | **ca. 13.850–31.600 €** | ca. 990–2.260 € je m² Grundfläche |
 | Sanitär (WC, Waschbecken) mit Anschluss | zusätzlich ca. 3.500–12.500 € | stark abhängig von der Anschlusslage |
 
-Nicht enthalten sind Container, Transport, Fundament und Lüftungstechnik. Wer die Gesamtsumme ohne und mit Sanitär einordnen will: Für den Büro-Beispielfall in den Gewerke-Kalkulationen ergeben sich rund 22.900 € inklusive Container; mit Sanitär steigt die Summe auf etwa 30.000 bis 40.000 €. Die Kostenbilanz des Wohnens (Heizung, Strom, Wertverlust) betrachtet [Betriebskosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust).
+Nicht enthalten sind Container, Transport, Fundament und Lüftungstechnik. Wer die Gesamtsumme ohne und mit Sanitär einordnen will: Für den Büro-Beispielfall in den Gewerke-Kalkulationen ergeben sich rund 23.700 € inklusive Container, Transport und Fundament; mit WC und Küchenzeile steigt die Summe im dortigen Beispiel auf rund 34.100 €, je nach Ausstattung grob 30.000 bis 40.000 €. Die Kostenbilanz des Wohnens (Heizung, Strom, Wertverlust) betrachtet [Betriebskosten und Wertverlust](/ratgeber/container-betriebskosten-wertverlust).
 
 Wer viel selbst macht, kann sparen – Elektrik, Sanitär und tragende Einschnitte sollten jedoch Fachbetriebe übernehmen.
 
