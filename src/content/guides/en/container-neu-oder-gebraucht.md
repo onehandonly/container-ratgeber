@@ -68,15 +68,15 @@ The decision table says what fits. The examples below show why. All figures are 
 
 Depending on the actual residual value, the one-way container therefore costs roughly €450 to €1,700 more over ten years, around €1,000 at the middle of both ranges – for an appearance and a history that a tool store does not need.
 
-**Example 2: conversion to an office, 20 ft, without sanitary facilities.** We take a total budget of approx. €23,000 (the middle of the approx. €20,000–26,000 range in the article on fit-out costs). The price difference for the shell here is €3,800 − €2,400 = approx. €1,400, around 6% of the budget.
+**Example 2: conversion to an office, 20 ft, without sanitary facilities.** We take a total budget of approx. €23,700 (example 1 in the article on fit-out costs, including container, transport and foundation). The price difference for the shell here is €3,800 − €2,400 = approx. €1,400, around 6% of the budget.
 
-Against that stands the shell: insulation and interior lining make up approx. 15–25% of fit-out costs, in this example approx. €3,450–5,750. If, because of hidden rust or roof damage, even a quarter of that has to be removed and rebuilt, that is approx. €860–1,440 – the saving on the purchase is already used up, before any steel repair or labour. The example does not say that every used container is damaged, but that the gamble only pays off if you can assess the shell yourself with confidence before the conversion.
+Against that stands the shell: insulation and interior lining of walls and ceiling come to approx. €6,500 in this example, a good quarter of the budget. If, because of hidden rust or roof damage, even a quarter of that has to be removed and rebuilt, that is approx. €1,600 – the saving on the purchase is already used up, before any steel repair or labour. The example does not say that every used container is damaged, but that the gamble only pays off if you can assess the shell yourself with confidence before the conversion.
 
 ## The biggest mistake with conversions
 
 In conversion projects, the cheap used container regularly turns out to be the most expensive decision.
 
-The arithmetic behind it: in a full conversion to an office or living space, the container itself accounts for only around 15 to 25 per cent of total cost; the rest is spread across insulation, windows, electrics, plumbing and interior fit-out. Saving €1,000 on the container therefore saves only a small fraction of the budget – but takes on a considerable risk.
+The arithmetic behind it: in a full conversion to an office or living space, the used container accounts for only around 8 to 11 per cent of total cost in the worked examples of [fit-out costs by trade](/en/ratgeber/container-ausbaukosten-gewerke); the rest is spread across insulation, windows, electrics, plumbing and interior fit-out. Saving €1,000 on the container therefore saves only a small fraction of the budget – but takes on a considerable risk.
 
 Because once the conversion is complete, the steel shell has disappeared behind insulation and lining. A rust spot that looks harmless today keeps working unseen. A leak in the roof soaks the insulation before anyone notices. The repair then means: lining off, insulation out, steel repaired, everything redone. That costs many times the original saving.
 

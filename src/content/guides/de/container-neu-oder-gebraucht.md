@@ -68,15 +68,15 @@ Die Entscheidungstabelle sagt, was passt. Die folgenden Beispiele zeigen, warum.
 
 Je nach tatsächlichem Restwert kostet der One-Way-Container über zehn Jahre also grob 450 bis 1.700 € mehr, in der Mitte beider Spannen rund 1.000 € – für eine Optik und eine Vorgeschichte, die ein Werkzeuglager nicht braucht.
 
-**Beispiel 2: Ausbau zum Büro, 20 Fuß, ohne Sanitär.** Als Gesamtbudget nehmen wir ca. 23.000 € (Mitte der Spanne von ca. 20.000–26.000 € aus dem Beitrag zu den Ausbaukosten). Der Preisunterschied beim Rohling beträgt hier 3.800 € − 2.400 € = ca. 1.400 €, das sind rund 6 % des Budgets.
+**Beispiel 2: Ausbau zum Büro, 20 Fuß, ohne Sanitär.** Als Gesamtbudget nehmen wir ca. 23.700 € (Beispiel 1 im Beitrag zu den Ausbaukosten, inklusive Container, Transport und Fundament). Der Preisunterschied beim Rohling beträgt hier 3.800 € − 2.400 € = ca. 1.400 €, das sind rund 6 % des Budgets.
 
-Dagegen steht die Hülle: Dämmung und Innenverkleidung machen ca. 15–25 % der Ausbaukosten aus, in diesem Beispiel also ca. 3.450–5.750 €. Muss wegen eines versteckten Roststellen- oder Dachschadens auch nur ein Viertel davon zurückgebaut und neu hergestellt werden, sind das ca. 860–1.440 € – die Ersparnis vom Kauf wäre damit bereits aufgebraucht, noch ohne Stahlsanierung und Arbeitszeit. Das Beispiel sagt nicht, dass jeder gebrauchte Container Schäden hat, sondern dass sich die Wette nur lohnt, wenn Sie die Hülle vor dem Ausbau selbst sicher beurteilen können.
+Dagegen steht die Hülle: Dämmung und Innenverkleidung von Wänden und Decke machen in diesem Beispiel ca. 6.500 € aus, gut ein Viertel des Budgets. Muss wegen eines versteckten Roststellen- oder Dachschadens auch nur ein Viertel davon zurückgebaut und neu hergestellt werden, sind das ca. 1.600 € – die Ersparnis vom Kauf wäre damit bereits aufgebraucht, noch ohne Stahlsanierung und Arbeitszeit. Das Beispiel sagt nicht, dass jeder gebrauchte Container Schäden hat, sondern dass sich die Wette nur lohnt, wenn Sie die Hülle vor dem Ausbau selbst sicher beurteilen können.
 
 ## Der wichtigste Denkfehler beim Ausbau
 
 Bei Ausbauprojekten wird der günstige gebrauchte Container regelmäßig zur teuersten Entscheidung.
 
-Die Rechnung dahinter: Beim vollwertigen Ausbau zu einem Büro oder Wohnraum macht der Container selbst nur etwa 15 bis 25 Prozent der Gesamtkosten aus; der Rest verteilt sich auf Dämmung, Fenster, Elektro, Sanitär und Innenausbau. Wer beim Container 1.000 Euro spart, spart also nur einen kleinen Bruchteil des Budgets – geht aber ein erhebliches Risiko ein.
+Die Rechnung dahinter: Beim vollwertigen Ausbau zu einem Büro oder Wohnraum macht der gebrauchte Container in den Beispielkalkulationen von [Ausbaukosten nach Gewerken](/ratgeber/container-ausbaukosten-gewerke) nur rund 8 bis 11 Prozent der Gesamtkosten aus; der Rest verteilt sich auf Dämmung, Fenster, Elektro, Sanitär und Innenausbau. Wer beim Container 1.000 Euro spart, spart also nur einen kleinen Bruchteil des Budgets – geht aber ein erhebliches Risiko ein.
 
 Denn nach dem Ausbau ist die Stahlhülle hinter Dämmung und Verkleidung verschwunden. Eine Roststelle, die heute noch harmlos aussieht, arbeitet dann unsichtbar weiter. Eine undichte Stelle im Dach durchfeuchtet die Dämmung, bevor sie jemand bemerkt. Die Reparatur heißt dann: Verkleidung ab, Dämmung raus, Stahl sanieren, alles neu. Das kostet ein Vielfaches der ursprünglichen Ersparnis.
 
