@@ -34,14 +34,14 @@ Bürocontainer folgen einem Modulraster mit ca. 2,44 m Außenbreite. Über Läng
 
 | Modul | Außenmaß ca. | Nutzfläche ca. | Dauerhafte Arbeitsplätze ca. | Typische Nutzung |
 | --- | --- | --- | --- | --- |
-| 10 Fuß | 3,00 × 2,44 m | 6,5 – 7 m² | 1 (eher kurzzeitig) | Pförtner, Kassenhäuschen, Einzelplatz |
-| 15 Fuß | 4,50 × 2,44 m | 10 – 11 m² | 1 | Einzelbüro, kleines Baustellenbüro |
-| 20 Fuß | 6,06 × 2,44 m | 13,5 – 14,5 m² | 1 – 2 | Standardbüro, Bauleitung |
-| 2 × 20 Fuß | 6,06 × 4,88 m | 27 – 29 m² | 3 | Teambüro mit Besprechungsecke |
-| 4 × 20 Fuß | 6,06 × 9,76 m | 55 – 58 m² | 5 – 6 | Verwaltungseinheit mit Flur |
-| 8 × 20 Fuß, 2 Geschosse | je Geschoss 6,06 × 9,76 m | 110 – 116 m² | 10 – 13 | Bürogebäude auf Zeit |
+| 10 Fuß | 3,00 × 2,44 m | 6,2 m² | 1 (eher kurzzeitig) | Pförtner, Kassenhäuschen, Einzelplatz |
+| 15 Fuß | 4,55 × 2,44 m | 9,7 m² | 1 | Einzelbüro, kleines Baustellenbüro |
+| 20 Fuß | 6,06 × 2,44 m | 13,0 m² | 1 – 2 | Standardbüro, Bauleitung |
+| 2 × 20 Fuß | 6,06 × 4,87 m | 26 – 27 m² | 2 – 3 | Teambüro mit Besprechungsecke |
+| 4 × 20 Fuß | 6,06 × 9,74 m | 52 – 55 m² | 5 – 6 | Verwaltungseinheit mit Flur |
+| 8 × 20 Fuß, 2 Geschosse | je Geschoss 6,06 × 9,74 m | 104 – 110 m² | 10 – 13 | Bürogebäude auf Zeit |
 
-Die Arbeitsplatzzahlen sind mit **8 bis 10 m² je Arbeitsplatz einschließlich Möblierung und anteiliger Verkehrsfläche** gerechnet – diese Spanne nennt die Technische Regel für Arbeitsstätten ASR A1.2 als Orientierung für Büro- und Bildschirmarbeitsplätze. Ein 20-Fuß-Modul mit 13,5 bis 14,5 m² ergibt damit rechnerisch 1,35 bis 1,8 Plätze: Ein Arbeitsplatz ist komfortabel, zwei sind möglich, aber eng. Bei Anlagen gehen Flur, Treppe und Technik zusätzlich von der Fläche ab, deshalb liegen die Werte für 4 und 8 Module unter der reinen Division. In vielen Angeboten stehen höhere Zahlen; sie beziehen sich meist auf kurzzeitige Baustellennutzung. Für eine dauerhafte Büronutzung gelten die arbeitsstättenrechtlichen Anforderungen an Fläche, lichte Raumhöhe, Sichtverbindung nach außen und Lüftung vollständig – lassen Sie sich die lichte Innenhöhe des Moduls schriftlich bestätigen und klären Sie Grenzfälle mit der Fachkraft für Arbeitssicherheit.
+Die Arbeitsplatzzahlen sind mit **8 bis 10 m² je Arbeitsplatz einschließlich Möblierung und anteiliger Verkehrsfläche** gerechnet – diese Spanne nennt die Technische Regel für Arbeitsstätten ASR A1.2 als Orientierung für Büro- und Bildschirmarbeitsplätze. Ein 20-Fuß-Modul mit ca. 13,0 m² Nutzfläche (innen ca. 5,85 × 2,23 m, siehe [Container-Größen und Maße](/ratgeber/container-groessen-und-masse)) ergibt damit rechnerisch 1,3 bis 1,6 Plätze: Ein Arbeitsplatz ist komfortabel, zwei sind möglich, aber eng. Bei Anlagen gehen Flur, Treppe und Technik zusätzlich von der Fläche ab, deshalb liegen die Werte für 4 und 8 Module unter der reinen Division. In vielen Angeboten stehen höhere Zahlen; sie beziehen sich meist auf kurzzeitige Baustellennutzung. Für eine dauerhafte Büronutzung gelten die arbeitsstättenrechtlichen Anforderungen an Fläche, lichte Raumhöhe, Sichtverbindung nach außen und Lüftung vollständig – lassen Sie sich die lichte Innenhöhe des Moduls schriftlich bestätigen und klären Sie Grenzfälle mit der Fachkraft für Arbeitssicherheit.
 
 ### Planungsbeispiel: Team mit sechs Arbeitsplätzen
 
@@ -50,10 +50,10 @@ Ein Planungsbüro braucht für zwei Jahre sechs Bildschirmarbeitsplätze und ein
 | Bedarf | Fläche ca. |
 | --- | --- |
 | 6 Arbeitsplätze × 8–10 m² | 48 – 60 m² |
-| Besprechungsraum (ein 20-Fuß-Modul) | 13,5 – 14,5 m² |
-| **Summe** | **ca. 61,5 – 74,5 m²** |
+| Besprechungsraum (ein 20-Fuß-Modul) | ca. 13 m² |
+| **Summe** | **ca. 61 – 73 m²** |
 
-Fünf gekoppelte 20-Fuß-Module bieten zusammen ca. 67,5 bis 72,5 m² – das deckt den Bedarf bei mittlerer Flächenannahme, bei großzügiger Planung wird ein sechstes Modul nötig. Bei einer Monatsmiete von ca. 200 – 350 € je Standardmodul ergeben fünf Module ca. 1.000 – 1.750 € im Monat, zuzüglich Transport, Kran, Kopplung und Fundament. Nicht enthalten sind Toiletten: Für dauerhafte Arbeitsplätze müssen Toiletten zur Verfügung stehen – ist kein Gebäude mit WC in erreichbarer Nähe, kommt ein [Sanitärcontainer](/ratgeber/sanitaercontainer-ratgeber) hinzu (20 Fuß Miete ca. 300 – 700 € im Monat). Wie Sie die Module innen sinnvoll aufteilen, zeigt [Bürocontainer einrichten](/ratgeber/buerocontainer-einrichten).
+Fünf gekoppelte 20-Fuß-Module bieten zusammen ca. 65 bis 68 m² – das deckt den Bedarf bei mittlerer Flächenannahme, bei großzügiger Planung wird ein sechstes Modul nötig. Bei einer Monatsmiete von ca. 200 – 350 € je Standardmodul ergeben fünf Module ca. 1.000 – 1.750 € im Monat, zuzüglich Transport, Kran, Kopplung und Fundament. Nicht enthalten sind Toiletten: Für dauerhafte Arbeitsplätze müssen Toiletten zur Verfügung stehen – ist kein Gebäude mit WC in erreichbarer Nähe, kommt ein [Sanitärcontainer](/ratgeber/sanitaercontainer-ratgeber) hinzu (20 Fuß Miete ca. 300 – 700 € im Monat). Wie Sie die Module innen sinnvoll aufteilen, zeigt [Bürocontainer einrichten](/ratgeber/buerocontainer-einrichten).
 
 ## Ausstattungsvarianten
 
@@ -75,7 +75,7 @@ Die Basisstufe ist für kurze Bauprojekte in der warmen Jahreszeit ausreichend. 
 
 **Elektro und Netzwerk:** Rechnen Sie pro Arbeitsplatz mit mindestens sechs Steckdosen, ein Teil davon auf Tischhöhe, und mindestens einer Netzwerkdose. Wichtiger als die Anzahl ist die Verteilung: Steckdosenleisten in Bodennähe an einer einzigen Wand führen fast zwangsläufig zu Kabelsalat. Ein umlaufender Brüstungskanal ist die deutlich bessere Lösung. Der Außenanschluss erfolgt über CEE-Stecker (16 A oder 32 A); bei mehreren Modulen ist eine gemeinsame Hauptverteilung sinnvoll. Wie Sie den Leistungsbedarf abschätzen und welche Absicherung nötig ist, steht in [Stromanschluss für Container](/ratgeber/container-stromanschluss) und [Elektroplanung im Innenausbau](/ratgeber/container-elektroplanung-innenausbau).
 
-**Heizung:** Elektrische Konvektoren sind Standard, weil sie keinerlei Infrastruktur brauchen. Als Faustwert gilt ca. 60 bis 100 W je Quadratmeter, abhängig von Dämmung und Fensterfläche – für ein 20-Fuß-Modul mit ca. 14 m² also grob 0,8 bis 1,4 kW, was ein 2-kW-Konvektor abdeckt. Bei Dauerbetrieb und hohen Strompreisen sind Klimasplitgeräte mit Wärmepumpenfunktion wirtschaftlicher, weil sie aus einer Kilowattstunde Strom ein Mehrfaches an Wärme erzeugen.
+**Heizung:** Elektrische Konvektoren sind Standard, weil sie keinerlei Infrastruktur brauchen. Als Faustwert gilt ca. 60 bis 100 W je Quadratmeter, abhängig von Dämmung und Fensterfläche – für ein 20-Fuß-Modul mit ca. 13 m² also grob 0,8 bis 1,3 kW, was ein 2-kW-Konvektor abdeckt. Bei Dauerbetrieb und hohen Strompreisen sind Klimasplitgeräte mit Wärmepumpenfunktion wirtschaftlicher, weil sie aus einer Kilowattstunde Strom ein Mehrfaches an Wärme erzeugen.
 
 **Klima und Lüftung:** Container haben ein ungünstiges Verhältnis von Hüllfläche zu Volumen und heizen sich im Sommer schnell auf. Außenliegender Sonnenschutz, helle Dachbeschichtung und ein Splitgerät sind die wirksamen Hebel. Für die Lüftung gilt: Fensterlüftung reicht bei zwei Personen, ab etwa vier Personen im Raum wird eine mechanische Lüftung oder ein Lüftungsgerät mit Wärmerückgewinnung spürbar angenehmer.
 
@@ -131,7 +131,7 @@ Ob sich der Kauf lohnt, entscheidet vor allem die Nutzungsdauer – und die Frag
 | Annahme | Kauf | Miete |
 | --- | --- | --- |
 | Anschaffung (gebraucht, Standard) | ca. 7.000 € | – |
-| Lieferung mit Ladekran-Lkw (Mittelwert ca. 550 € je Fahrt) | ca. 550 € | ca. 1.100 € (Lieferung und Abholung, einmalig) |
+| Lieferung mit Ladekran-Lkw (angenommen ca. 550 € je Fahrt) | ca. 550 € | ca. 1.100 € (Lieferung und Abholung, einmalig) |
 | Monatsmiete | – | ca. 275 € |
 | Instandhaltung und Versicherung beim Eigentümer | ca. 25 € im Monat | im Mietpreis bzw. beim Vermieter |
 

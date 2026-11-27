@@ -34,14 +34,14 @@ Office containers follow a module grid roughly 2.44 m wide. Length and coupling 
 
 | Module | Exterior approx. | Usable area approx. | Permanent workplaces approx. | Typical use |
 | --- | --- | --- | --- | --- |
-| 10 foot | 3.00 × 2.44 m | 6.5 – 7 m² | 1 (rather short-term) | Gatehouse, kiosk, single desk |
-| 15 foot | 4.50 × 2.44 m | 10 – 11 m² | 1 | Single or small site office |
-| 20 foot | 6.06 × 2.44 m | 13.5 – 14.5 m² | 1 – 2 | Standard office, site management |
-| 2 × 20 foot | 6.06 × 4.88 m | 27 – 29 m² | 3 | Team office, meeting corner |
-| 4 × 20 foot | 6.06 × 9.76 m | 55 – 58 m² | 5 – 6 | Administration unit, corridor |
-| 8 × 20 foot, 2 storeys | 6.06 × 9.76 m per storey | 110 – 116 m² | 10 – 13 | Temporary office building |
+| 10 foot | 3.00 × 2.44 m | 6.2 m² | 1 (rather short-term) | Gatehouse, kiosk, single desk |
+| 15 foot | 4.55 × 2.44 m | 9.7 m² | 1 | Single or small site office |
+| 20 foot | 6.06 × 2.44 m | 13.0 m² | 1 – 2 | Standard office, site management |
+| 2 × 20 foot | 6.06 × 4.87 m | 26 – 27 m² | 2 – 3 | Team office, meeting corner |
+| 4 × 20 foot | 6.06 × 9.74 m | 52 – 55 m² | 5 – 6 | Administration unit, corridor |
+| 8 × 20 foot, 2 storeys | 6.06 × 9.74 m per storey | 104 – 110 m² | 10 – 13 | Temporary office building |
 
-The workplace figures assume **8 to 10 m² per workplace including furniture and a share of circulation space** – the range the German Technical Rule for Workplaces ASR A1.2 gives as guidance for office and screen workplaces. A 20-foot module with 13.5 to 14.5 m² therefore yields 1.35 to 1.8 places in arithmetic terms: one workplace is comfortable, two are possible but tight. In larger units, corridor, stairs and technical space take further area, which is why the values for 4 and 8 modules sit below simple division. Many quotations state higher numbers; these usually refer to short-term site use. For permanent office use, the German workplace rules on floor area, clear room height, visual contact with the outside and ventilation apply in full – get the module's clear internal height confirmed in writing and clarify borderline cases with your occupational safety specialist.
+The workplace figures assume **8 to 10 m² per workplace including furniture and a share of circulation space** – the range the German Technical Rule for Workplaces ASR A1.2 gives as guidance for office and screen workplaces. A 20-foot module with approx. 13.0 m² of usable area (internal approx. 5.85 × 2.23 m, see [container sizes and dimensions](/en/ratgeber/container-groessen-und-masse)) therefore yields 1.3 to 1.6 places in arithmetic terms: one workplace is comfortable, two are possible but tight. In larger units, corridor, stairs and technical space take further area, which is why the values for 4 and 8 modules sit below simple division. Many quotations state higher numbers; these usually refer to short-term site use. For permanent office use, the German workplace rules on floor area, clear room height, visual contact with the outside and ventilation apply in full – get the module's clear internal height confirmed in writing and clarify borderline cases with your occupational safety specialist.
 
 ### Planning example: a team with six workplaces
 
@@ -50,10 +50,10 @@ A design office needs six screen workplaces and a meeting room for six people fo
 | Requirement | Area approx. |
 | --- | --- |
 | 6 workplaces × 8–10 m² | 48 – 60 m² |
-| Meeting room (one 20-foot module) | 13.5 – 14.5 m² |
-| **Total** | **approx. 61.5 – 74.5 m²** |
+| Meeting room (one 20-foot module) | approx. 13 m² |
+| **Total** | **approx. 61 – 73 m²** |
 
-Five coupled 20-foot modules provide approx. 67.5 to 72.5 m² together – enough at a mid-range area assumption; with generous planning a sixth module becomes necessary. At a monthly rent of approx. €200 – €350 per standard module, five modules come to approx. €1,000 – €1,750 a month, plus transport, crane, coupling and foundations. Toilets are not included: permanent workplaces must have access to toilets – if there is no building with toilets within reasonable reach, a [sanitary container](/en/ratgeber/sanitaercontainer-ratgeber) is added (20 foot rent approx. €300 – €700 a month). How to divide the modules sensibly inside is shown in [Furnishing an office container](/en/ratgeber/buerocontainer-einrichten).
+Five coupled 20-foot modules provide approx. 65 to 68 m² together – enough at a mid-range area assumption; with generous planning a sixth module becomes necessary. At a monthly rent of approx. €200 – €350 per standard module, five modules come to approx. €1,000 – €1,750 a month, plus transport, crane, coupling and foundations. Toilets are not included: permanent workplaces must have access to toilets – if there is no building with toilets within reasonable reach, a [sanitary container](/en/ratgeber/sanitaercontainer-ratgeber) is added (20 foot rent approx. €300 – €700 a month). How to divide the modules sensibly inside is shown in [Furnishing an office container](/en/ratgeber/buerocontainer-einrichten).
 
 ## Equipment levels
 
@@ -75,7 +75,7 @@ The basic level suffices for short projects in the warm season. Once work runs y
 
 **Electrics and network:** allow at least six sockets per workplace, some of them at desk height, and at least one network outlet. More important than the number is the distribution: socket strips near the floor on one wall lead to cable clutter; continuous dado trunking is far better. The external connection uses a CEE plug (16 A or 32 A); with several modules a shared main distribution board is sensible. How to estimate the power demand and which protection is needed is explained in [Power connection for a container](/en/ratgeber/container-stromanschluss) and [Electrical planning for a container fit-out](/en/ratgeber/container-elektroplanung-innenausbau).
 
-**Heating:** electric convectors are standard because they need no infrastructure. Allow roughly 60 to 100 W per square metre, depending on insulation and window area – for a 20-foot module of approx. 14 m², that is roughly 0.8 to 1.4 kW, which a 2 kW convector covers. In continuous operation with high electricity prices, split units with a heat pump function are cheaper to run, since one kilowatt hour yields several times as much heat.
+**Heating:** electric convectors are standard because they need no infrastructure. Allow roughly 60 to 100 W per square metre, depending on insulation and window area – for a 20-foot module of approx. 13 m², that is roughly 0.8 to 1.3 kW, which a 2 kW convector covers. In continuous operation with high electricity prices, split units with a heat pump function are cheaper to run, since one kilowatt hour yields several times as much heat.
 
 **Air conditioning and ventilation:** containers have an unfavourable envelope-to-volume ratio and heat up quickly in summer. External solar shading, a light roof coating and a split unit are the effective levers. Window ventilation suffices for two people; from about four, mechanical ventilation with heat recovery is clearly better.
 
@@ -131,7 +131,7 @@ Whether buying pays depends above all on the period of use – and on what the m
 | Assumption | Buy | Rent |
 | --- | --- | --- |
 | Purchase (used, standard) | approx. €7,000 | – |
-| Delivery by loader-crane lorry (mid value approx. €550 per trip) | approx. €550 | approx. €1,100 (delivery and collection, one-off) |
+| Delivery by loader-crane lorry (assumed approx. €550 per trip) | approx. €550 | approx. €1,100 (delivery and collection, one-off) |
 | Monthly rent | – | approx. €275 |
 | Maintenance and insurance borne by the owner | approx. €25 a month | in the rent or with the hire company |
 
