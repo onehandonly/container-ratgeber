@@ -153,6 +153,6 @@ Not in the formula, but real: when you buy, **you** carry the downtime risk, the
 
 ## Conclusion
 
-Comparing on the monthly rate is almost always misleading over short hire periods, because delivery and collection decide the outcome. Always ask for an itemised quote, clarify the minimum hire period and billing unit explicitly, and get the deposit and its repayment conditions in writing. On the fundamental question: for simple storage containers buying pays off from roughly one to one and a half years, for technically complex containers considerably later – and for refrigerated containers usually not at all.
+Comparing on the monthly rate is almost always misleading over short hire periods, because delivery and collection decide the outcome. Always ask for an itemised quote, clarify the minimum hire period and billing unit explicitly, and get the deposit and its repayment conditions in writing. On the fundamental question: for simple storage containers buying pays off after roughly six months to two years, depending on resale, for technically complex containers considerably later – and for refrigerated containers usually not at all.
 
 Further reading: [What does a container cost?](/en/ratgeber/was-kostet-ein-container), [Transport and delivery costs](/en/ratgeber/container-transport-lieferkosten) and [Hiring a container: the process](/en/ratgeber/container-mieten-ablauf).

@@ -153,6 +153,6 @@ Nicht in der Formel enthalten, aber real: Beim Kauf tragen **Sie** das Ausfallri
 
 ## Fazit
 
-Der Vergleich über die Monatsmiete führt bei kurzen Mietzeiten fast immer in die Irre, weil Anlieferung und Abholung den Ausschlag geben. Fragen Sie deshalb immer nach einem Angebot mit Einzelposten, klären Sie Mindestmietdauer und Abrechnungseinheit ausdrücklich und lassen Sie sich die Kaution samt Rückzahlungsbedingungen schriftlich geben. Für die Grundsatzfrage gilt: Bei einfachen Lagercontainern rechnet sich der Kauf grob ab einem bis eineinhalb Jahren, bei technisch aufwendigen Containern deutlich später – und beim Kühlcontainer meist gar nicht.
+Der Vergleich über die Monatsmiete führt bei kurzen Mietzeiten fast immer in die Irre, weil Anlieferung und Abholung den Ausschlag geben. Fragen Sie deshalb immer nach einem Angebot mit Einzelposten, klären Sie Mindestmietdauer und Abrechnungseinheit ausdrücklich und lassen Sie sich die Kaution samt Rückzahlungsbedingungen schriftlich geben. Für die Grundsatzfrage gilt: Bei einfachen Lagercontainern rechnet sich der Kauf je nach Wiederverkauf grob nach einem halben bis zwei Jahren, bei technisch aufwendigen Containern deutlich später – und beim Kühlcontainer meist gar nicht.
 
 Weiterführend: [Was kostet ein Container?](/ratgeber/was-kostet-ein-container), [Transport- und Lieferkosten](/ratgeber/container-transport-lieferkosten) und [Container mieten: Ablauf](/ratgeber/container-mieten-ablauf).
